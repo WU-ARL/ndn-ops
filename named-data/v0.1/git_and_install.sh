@@ -14,7 +14,7 @@ git checkout tags/v0.1
 ./configure
 make
 make test
-#make install
+sudo make install
 popd
 
 git clone http://github.com/named-data/OSPFN3.0
@@ -33,5 +33,5 @@ popd
 pushd OSPFN3.0
 ./configure --enable-opaque-lsa --disable-ipv6 --disable-ripd --disable-ripngd --disable-ospf6d --disable-bgpd --disable-bgp-announce --sysconfdir=/usr/local/etc/quagga --localstatedir=/var/run/quagga-state
 make
-#make install
+sudo make install
 
