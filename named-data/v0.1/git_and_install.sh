@@ -15,6 +15,8 @@ git checkout tags/v0.1
 make
 make test
 sudo make install
+# need to run ldconfig to get install libraries known
+sudo ldconfig
 popd
 
 git clone http://github.com/named-data/OSPFN3.0
@@ -34,4 +36,7 @@ pushd OSPFN3.0
 ./configure --enable-opaque-lsa --disable-ipv6 --disable-ripd --disable-ripngd --disable-ospf6d --disable-bgpd --disable-bgp-announce --sysconfdir=/usr/local/etc/quagga --localstatedir=/var/run/quagga-state
 make
 sudo make install
+
+# need to run ldconfig to get install libraries known
+sudo ldconfig
 
