@@ -36,8 +36,8 @@ test -f /usr/local/etc/ndnx/ndnd.conf && ndndc -f /usr/local/etc/ndnx/ndnd.conf
 #echo " Give ospfn.conf file path with name";
 #read ospfnconf
 echo "starting ospfn.....";
-ospfnconf=/usr/local/etc/ospfn.conf
-ospfn -d -f $ospfnconf
+ospfnconf=/usr/local/etc/quagga/ospfn.conf
+sudo ospfn -d -f $ospfnconf
 echo "Done";
 
 
