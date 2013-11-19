@@ -1,0 +1,18 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+auto eth0
+iface eth0 inet static
+	address 128.252.153.194
+	netmask 255.255.255.0
+	network 128.252.153.0
+	broadcast 128.252.153.255
+	gateway 128.252.153.249
+	# dns-* options are implemented by the resolvconf package, if installed
+	dns-nameservers 128.252.19.53 128.252.21.53
+	dns-search arl.wustl.edu
