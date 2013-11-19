@@ -31,6 +31,13 @@ sudo mkdir quagga-state
 sudo chown quagga:quagga quagga-state
 sudo chmod g+w quagga-state
 popd
+pushd /var/log
+sudo mkdir quagga
+sudo chown quagga:quagga quagga
+sudo chmod g+w quagga
+
+sudo mkdir ospfnlog
+popd
 
 pushd OSPFN3.0
 ./configure --enable-opaque-lsa --disable-ipv6 --disable-ripd --disable-ripngd --disable-ospf6d --disable-bgpd --disable-bgp-announce --sysconfdir=/usr/local/etc/quagga --localstatedir=/var/run/quagga-state
