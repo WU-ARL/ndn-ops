@@ -17,10 +17,12 @@ make test
 sudo make install
 # need to run ldconfig to get install libraries known
 sudo ldconfig
+sudo mkdir -p /usr/local/etc/ndnx
+sudo mkdir -p /var/log/ndnx
 popd
 
 git clone http://github.com/named-data/OSPFN3.0
-sudo addusr quagga
+sudo adduser --disabled-login --gecos "" quagga
 pushd /usr/local/etc/
 sudo mkdir quagga
 sudo chown quagga:quagga quagga
