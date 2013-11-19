@@ -18,6 +18,7 @@ sudo make install
 # need to run ldconfig to get install libraries known
 sudo ldconfig
 sudo mkdir -p /usr/local/etc/ndnx
+sudo mkdir -p /var/log/ndnx
 popd
 
 git clone http://github.com/named-data/OSPFN3.0
