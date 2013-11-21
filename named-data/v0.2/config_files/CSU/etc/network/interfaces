@@ -27,38 +27,38 @@ iface mccoytohobo inet static
 	up ifconfig mccoytohobo
 
 # GRE Tunnel to spurs.cs.ucla.edu (UCLA)
-auto mccoytospurs
-iface mccoytospurs inet static
+auto mccoytoucla
+iface mccoytoucla inet static
 	address 10.0.3.2
 	netmask 255.255.255.252
-	pre-up iptunnel add mccoytospurs mode gre local 129.82.138.48 remote 131.179.196.46 ttl 255 
+	pre-up iptunnel add mccoytoucla mode gre local 129.82.138.48 remote 131.179.196.46 ttl 255 
 	pointopoint 10.0.3.1
-	up ifconfig mccoytospurs
+	up ifconfig mccoytoucla
 
 # GRE Tunnel to aleph.ndn.ucla.edu (REMAP)
-auto mccoytospurs
-iface mccoytospurs inet static
+auto mccoytoremap
+iface mccoytoremap inet static
 	address 10.0.4.5
 	netmask 255.255.255.252
-	pre-up iptunnel add mccoytospurs mode gre local 129.82.138.48 remote 164.67.204.133 ttl 255 
+	pre-up iptunnel add mccoytoremap mode gre local 129.82.138.48 remote 164.67.204.133 ttl 255 
 	pointopoint 10.0.4.6
 	up ifconfig mccoytoremap
 
 # GRE Tunnel to ndn0.eecs.umich.edu (MICHIGAN)
-auto mccoytospurs
-iface mccoytospurs inet static
+auto mccoytomich
+iface mccoytomich inet static
 	address 10.0.4.9
 	netmask 255.255.255.252
-	pre-up iptunnel add mccoytospurs mode gre local 129.82.138.48 remote 141.212.108.18 ttl 255 
+	pre-up iptunnel add mccoytomich mode gre local 129.82.138.48 remote 141.212.108.18 ttl 255 
 	pointopoint 10.0.4.10
 	up ifconfig mccoytomich
 
 # GRE Tunnel to ndn.cs.illinois.edu (UIUC)
-auto mccoytospurs
-iface mccoytospurs inet static
+auto mccoytouiuc
+iface mccoytouiuc inet static
 	address 10.0.4.1
 	netmask 255.255.255.252
-	pre-up iptunnel add mccoytospurs mode gre local 129.82.138.48 remote 72.36.112.81 ttl 255 
+	pre-up iptunnel add mccoytouiuc mode gre local 129.82.138.48 remote 72.36.112.81 ttl 255 
 	pointopoint 10.0.4.2
 	up ifconfig mccoytouiuc
 
