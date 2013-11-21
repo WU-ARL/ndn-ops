@@ -1,0 +1,64 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+auto eth0
+iface eth0 inet static
+	address 129.82.138.48
+	netmask 255.255.255.0
+	network 129.82.138.0
+	broadcast 129.82.138.255
+	gateway 129.82.138.1
+	# dns-* options are implemented by the resolvconf package, if installed
+	dns-nameservers 129.82.138.3 129.82.138.2
+	dns-search netsec.colostate.edu
+
+# GRE Tunnel to hobo.cs.arizona.edu (ARIZONA)
+auto mccoytohobo 
+iface mccoytohobo inet static
+	address 10.0.1.6
+	netmask 255.255.255.252
+	pre-up iptunnel add mccoytohobo mode gre local 129.82.138.48 remote 150.135.82.77 ttl 255 
+	pointopoint 10.0.1.5
+	up ifconfig mccoytohobo
+
+# GRE Tunnel to spurs.cs.ucla.edu (UCLA)
+auto mccoytoucla
+iface mccoytoucla inet static
+	address 10.0.3.2
+	netmask 255.255.255.252
+	pre-up iptunnel add mccoytoucla mode gre local 129.82.138.48 remote 131.179.196.46 ttl 255 
+	pointopoint 10.0.3.1
+	up ifconfig mccoytoucla
+
+# GRE Tunnel to aleph.ndn.ucla.edu (REMAP)
+auto mccoytoremap
+iface mccoytoremap inet static
+	address 10.0.4.5
+	netmask 255.255.255.252
+	pre-up iptunnel add mccoytoremap mode gre local 129.82.138.48 remote 164.67.204.133 ttl 255 
+	pointopoint 10.0.4.6
+	up ifconfig mccoytoremap
+
+# GRE Tunnel to ndn0.eecs.umich.edu (MICHIGAN)
+auto mccoytomich
+iface mccoytomich inet static
+	address 10.0.4.9
+	netmask 255.255.255.252
+	pre-up iptunnel add mccoytomich mode gre local 129.82.138.48 remote 141.212.108.18 ttl 255 
+	pointopoint 10.0.4.10
+	up ifconfig mccoytomich
+
+# GRE Tunnel to ndn.cs.illinois.edu (UIUC)
+auto mccoytouiuc
+iface mccoytouiuc inet static
+	address 10.0.4.1
+	netmask 255.255.255.252
+	pre-up iptunnel add mccoytouiuc mode gre local 129.82.138.48 remote 72.36.112.81 ttl 255 
+	pointopoint 10.0.4.2
+	up ifconfig mccoytouiuc
+
