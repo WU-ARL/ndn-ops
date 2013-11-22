@@ -25,17 +25,17 @@ git clone http://github.com/named-data/OSPFN3.0
 sudo adduser --disabled-login --gecos "" quagga
 pushd /usr/local/etc/
 sudo mkdir quagga
-sudo chown quagga:quagga quagga
+sudo chown quagga.quagga quagga
 sudo chmod g+w quagga
 popd
 pushd /var/run
 sudo mkdir quagga-state
-sudo chown quagga:quagga quagga-state
+sudo chown quagga.quagga quagga-state
 sudo chmod g+w quagga-state
 popd
 pushd /var/log
 sudo mkdir quagga
-sudo chown quagga:quagga quagga
+sudo chown quagga.quagga quagga
 sudo chmod g+w quagga
 
 sudo mkdir ospfnlog
