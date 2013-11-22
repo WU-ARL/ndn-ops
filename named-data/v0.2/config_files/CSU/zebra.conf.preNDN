@@ -1,0 +1,27 @@
+! -*- zebra -*-
+!
+! zebra configuration file
+!
+!
+hostname mccoy.netsec.colostate.edu
+password 2bornot2b
+enable password 2bornot2b
+!
+! Interface's description. 
+!
+!interface lo
+! description test of desc.
+!
+!interface sit0
+! multicast
+
+!
+! Static default route sample.
+!
+!ip route 0.0.0.0/0 203.181.89.241
+!
+
+log file /home2/ndn/ndn-quagga/zebra.log
+
+!configuration file end here
+
