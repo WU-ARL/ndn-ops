@@ -48,4 +48,10 @@ sudo make install
 
 # need to run ldconfig to get install libraries known
 sudo ldconfig
+popd
+
+# install operator ndnsec tools:
+git clone http://github.com/cawka/ndn-testbed-operator-tools
+pushd ndn-testbed-operator-tools
+sudo cp ndnop-process-requests /usr/local/bin
 
