@@ -8,7 +8,7 @@
 ##################
 #
 export NDND_LOG=/var/log/ndnx/ndnd.log
-export NDND_DEBUG=0
+export NDND_DEBUG=1
 # NDND_DEBUG=0
 #   0 - no messages
 #   1 - basic messages (any non-zero value gets these)
