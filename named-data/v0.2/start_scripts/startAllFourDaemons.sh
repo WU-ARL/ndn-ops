@@ -23,7 +23,7 @@ test -f /usr/local/etc/ndnx/ndndrc && . /usr/local/etc/ndnx/ndndrc
 
 #Starting ndnd
 echo "Starting ndnd.....";
-ndndstart
+sudo -E ndndstart
 sleep 2
 echo "Done";
 
