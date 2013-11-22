@@ -1,0 +1,99 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+auto eth0
+iface eth0 inet static
+	address 129.82.138.48
+	netmask 255.255.255.0
+	network 129.82.138.0
+	broadcast 129.82.138.255
+	gateway 129.82.138.1
+	# dns-* options are implemented by the resolvconf package, if installed
+	dns-nameservers 129.82.138.3 129.82.138.2
+	dns-search netsec.colostate.edu
+
+# GRE Tunnel to hobo.cs.arizona.edu
+auto mccoytohobo 
+iface mccoytohobo inet static
+	address 10.0.4.5
+	netmask 255.255.255.252
+	pre-up iptunnel add mccoytohobo mode gre local 129.82.138.48 remote 150.135.82.77 ttl 255 
+	pointopoint 10.0.4.6
+	up ifconfig mccoytohobo
+
+# GRE Tunnel to spurs.cs.ucla.edu
+auto mccoytospurs
+iface mccoytospurs inet static
+	address 10.0.4.1
+	netmask 255.255.255.252
+	pre-up iptunnel add mccoytospurs mode gre local 129.82.138.48 remote 131.179.196.46 ttl 255 
+	pointopoint 10.0.4.2
+	up ifconfig mccoytospurs
+
+# GRE Tunnel to netlogic.cs.memphis.edu
+auto mccoytonetlogic
+iface mccoytonetlogic inet static
+	address 10.0.4.9
+	netmask 255.255.255.252
+	pre-up iptunnel add mccoytonetlogic mode gre local 129.82.138.48 remote 141.225.11.150 ttl 255 
+	pointopoint 10.0.4.10
+	up ifconfig mccoytonetlogic
+
+# GRE Tunnel to WashU
+auto mccoytowashu
+iface mccoytowashu inet static
+	address 10.0.4.37
+	netmask 255.255.255.252
+	pre-up iptunnel add mccoytowashu mode gre local 129.82.138.48 remote 128.252.153.193 ttl 255 
+	pointopoint 10.0.4.38
+	up ifconfig mccoytowashu
+
+# GRE Tunnel to ndnlx1.parc.xerox.com
+auto mccoytondnlx1
+iface mccoytondnlx1 inet static
+	address 10.0.4.21
+	netmask 255.255.255.252
+	pre-up iptunnel add mccoytondnlx1 mode gre local 129.82.138.48 remote 13.7.64.24 ttl 255 
+	pointopoint 10.0.4.22
+	up ifconfig mccoytondnlx1
+
+# GRE Tunnel to ndn.njnet.edu.cn
+auto mccoytoseu
+iface mccoytoseu inet static
+	address 10.0.4.27
+	netmask 255.255.255.252
+	pre-up iptunnel add mccoytoseu mode gre local 129.82.138.48 remote 211.65.193.74 ttl 255 
+	pointopoint 10.0.4.28
+	up ifconfig mccoytoseu
+
+# GRE Tunnel to sppsalt1
+auto mccoytosppsalt1
+iface mccoytosppsalt1 inet static
+	address 10.0.9.30
+	netmask 255.255.255.252
+	pre-up iptunnel add mccoytosppsalt1 mode gre local 129.82.138.48 remote 64.57.23.210 ttl 255 
+	pointopoint 10.0.9.29
+	up ifconfig mccoytosppsalt1
+
+# GRE Tunnel to gana(local)
+auto mccoytogana
+iface mccoytogana inet static
+	address 10.0.4.66
+	netmask 255.255.255.252
+	pre-up iptunnel add mccoytogana mode gre local 129.82.138.48 remote 129.82.138.7 ttl 255 
+	pointopoint 10.0.4.65
+	up ifconfig mccoytogana
+
+# GRE Tunnel to ndn1(local)
+#auto mccoytocsu
+#iface mccoytocsu inet static
+#	address 10.0.4.58
+#	netmask 255.255.255.252
+#	pre-up iptunnel add mccoytocsu mode gre local 129.82.138.48 remote 129.82.138.5 ttl 255 
+#	pointopoint 10.0.4.57
+#	up ifconfig mccoytocsu
