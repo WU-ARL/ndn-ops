@@ -18,13 +18,13 @@ iface eth0 inet static
 	dns-search netsec.colostate.edu
 
 # GRE Tunnel to hobo.cs.arizona.edu (ARIZONA)
-auto csutohobo 
-iface csutohobo inet static
+auto csutoarizona 
+iface csutoarizona inet static
 	address 10.0.1.6
 	netmask 255.255.255.252
-	pre-up iptunnel add csutohobo mode gre local 129.82.138.48 remote 150.135.82.77 ttl 255 
+	pre-up iptunnel add csutoarizona mode gre local 129.82.138.48 remote 150.135.82.77 ttl 255 
 	pointopoint 10.0.1.5
-	up ifconfig csutohobo
+	up ifconfig csutoarizona
 
 # GRE Tunnel to spurs.cs.ucla.edu (UCLA)
 auto csutoucla
