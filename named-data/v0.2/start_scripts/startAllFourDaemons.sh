@@ -3,6 +3,12 @@
 # Author Hoque  - Nov/18/2011
 # Updated by John DeHart Nov/2013
 
+# /var/run is now linked to /run which is a tmpfs (in memory) filesystem
+# that gets blown away on each reboot.
+sudo mkdir -p /var/run/quagga-state
+sudo chown quagga.quagga /var/run/quagga-state
+sudo chmod g+w /var/run/quagga-state
+
 # Starting zebra
 echo "Starting Zebra.....";
 sudo zebra -d 
