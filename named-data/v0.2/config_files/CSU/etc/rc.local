@@ -11,12 +11,7 @@
 #
 # By default this script does nothing.
 
-ls -l /home/ndnops/ndn-ops/named-data/running_version/start_scripts/startAllFourDaemons.sh > /tmp/rc.local.ls
-
-echo "/etc/rc.local test" > /tmp/rc.local.test
-
 # start ndnx and OSPFN
 /home/ndnops/ndn-ops/named-data/running_version/start_scripts/startAllFourDaemons.sh > /tmp/ndnx.start.log
-
 
 exit 0
