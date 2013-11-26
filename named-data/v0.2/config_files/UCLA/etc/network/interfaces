@@ -1,0 +1,10 @@
+
+auto uclatopku
+iface uclatopku inet static
+address 10.0.3.13
+netmask 255.255.255.252
+pre-up iptunnel add uclatopku  mode gre local 131.179.196.46 remote 162.105.146.26 ttl 255
+pointopoint 10.0.3.14
+up ifconfig uclatopku multicast
+
+
