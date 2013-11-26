@@ -1,0 +1,9 @@
+
+auto neutomemphis
+iface neutomemphis inet static
+address 10.0.2.10
+netmask 255.255.255.252
+pre-up iptunnel add neutomemphis  mode gre local 129.10.53.143 remote 141.225.11.173 ttl 255
+pointopoint 10.0.2.10
+up ifconfig neutomemphis multicast
+

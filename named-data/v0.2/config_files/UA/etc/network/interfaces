@@ -1,0 +1,9 @@
+
+auto arizonatomemphis
+iface arizonatomemphis inet static
+address 10.0.1.1
+netmask 255.255.255.252
+pre-up iptunnel add arizonatomemphis  mode gre local 150.135.82.77 remote 141.225.11.173 ttl 255
+pointopoint 10.0.1.2
+up ifconfig arizonatomemphis multicast
+
