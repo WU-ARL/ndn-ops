@@ -3,6 +3,11 @@
 # Author Hoque  - Nov/18/2011
 # Updated by John DeHart Nov/2013
 
+
+# We don't know what state PATH is in at this point in boot process.
+
+export PATH="$PATH:/usr/local/sbin:/usr/local/bin"
+
 # /var/run is now linked to /run which is a tmpfs (in memory) filesystem
 # that gets blown away on each reboot.
 sudo mkdir -p /var/run/quagga-state
@@ -14,6 +19,7 @@ echo "Starting Zebra.....";
 sudo zebra -d 
 sleep 2
 echo "Done";
+
 
 
 # starting ospfd
@@ -29,7 +35,7 @@ test -f /usr/local/etc/ndnx/ndndrc && . /usr/local/etc/ndnx/ndndrc
 
 #Starting ndnd
 echo "Starting ndnd.....";
-sudo -E ndndstart
+sudo -E ndndstart 
 sleep 2
 echo "Done";
 
@@ -43,7 +49,7 @@ test -f /usr/local/etc/ndnx/ndnd.conf && ndndc -f /usr/local/etc/ndnx/ndnd.conf
 #read ospfnconf
 echo "starting ospfn.....";
 ospfnconf=/usr/local/etc/quagga/ospfn.conf
-sudo ospfn -d -f $ospfnconf
+sudo ospfn -d -f $ospfnconf 
 echo "Done";
 
 
