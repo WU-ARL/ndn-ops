@@ -12,13 +12,13 @@ address 141.225.11.173
 netmask 255.255.252.0
 gateway 141.225.8.1
 
-auto memphistoarizona
-iface memphistoarizona inet static
+auto memphistoariz
+iface memphistoariz inet static
 address 10.0.1.2
 netmask 255.255.255.252
-pre-up iptunnel add memphistoarizona  mode gre local 141.225.11.173 remote 150.135.82.77 ttl 255
+pre-up iptunnel add memphistoariz  mode gre local 141.225.11.173 remote 150.135.82.77 ttl 255
 pointopoint 10.0.1.1
-up ifconfig memphistoarizona multicast
+up ifconfig memphistoariz multicast
 
 auto memphistowu
 iface memphistowu inet static
@@ -28,13 +28,13 @@ pre-up iptunnel add memphistowu  mode gre local 141.225.11.173 remote 128.252.15
 pointopoint 10.0.1.1
 up ifconfig memphistowu multicast
 
-auto memphistomichigan
-iface memphistomichigan inet static
+auto memphistomich
+iface memphistomich inet static
 address 10.0.1.2
 netmask 255.255.255.252
-pre-up iptunnel add memphistomichigan  mode gre local 141.225.11.173 remote 141.212.108.18 ttl 255
+pre-up iptunnel add memphistomich  mode gre local 141.225.11.173 remote 141.212.108.18 ttl 255
 pointopoint 10.0.1.1
-up ifconfig memphistomichigan multicast
+up ifconfig memphistomich multicast
 
 auto memphistoneu
 iface memphistoneu inet static
