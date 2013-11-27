@@ -7,6 +7,19 @@
 # We don't know what state PATH is in at this point in boot process.
 
 export PATH="$PATH:/usr/local/sbin:/usr/local/bin"
+# for the purposes of starting the router daemons point home to where
+# the config files are stored. This will make ndndstart work from those files
+export HOME=/usr/local/etc
+
+# make sure /usr/local/etc/.ndnx exists
+if [ ! -f /usr/local/etc/.ndnx ]
+then
+  if [ ! -L /usr/local/etc/.ndnx ]
+  then
+     sudo ln -s /usr/local/etc/ndnx /usr/local/etc/.ndnx
+  fi
+fi
+
 
 # /var/run is now linked to /run which is a tmpfs (in memory) filesystem
 # that gets blown away on each reboot.
@@ -30,6 +43,7 @@ echo "Done";
 
 
 # Initialize ndnd environment variables if rc file exists
+# ndndstart will probably do this also
 test -f /usr/local/etc/ndnx/ndndrc && . /usr/local/etc/ndnx/ndndrc
 
 
