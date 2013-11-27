@@ -15,7 +15,7 @@
 # python-ndn-exp
 sudo add-apt-repository -y ppa:named-data/ppa
 sudo apt-get update
-sudo apt-get install ndn.cxx-dev ndn.cxx-security-tools python-ndn-exp
+sudo apt-get -y install ndn.cxx-dev ndn.cxx-security-tools python-ndn-exp
 
 
 
