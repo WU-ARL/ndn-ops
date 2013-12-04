@@ -19,7 +19,7 @@ iface eth0 inet static
 
 # GRE Tunnel to hobo.cs.arizona.edu (ARIZONA)
 auto csutoarizona 
-iface csutoarizona inet static
+	iface csutoarizona inet static
 	address 10.0.1.6
 	netmask 255.255.255.252
 	pre-up iptunnel add csutoarizona mode gre local 129.82.138.48 remote 150.135.82.77 ttl 255 
@@ -28,7 +28,7 @@ iface csutoarizona inet static
 
 # GRE Tunnel to spurs.cs.ucla.edu (UCLA)
 auto csutoucla
-iface csutoucla inet static
+	iface csutoucla inet static
 	address 10.0.3.2
 	netmask 255.255.255.252
 	pre-up iptunnel add csutoucla mode gre local 129.82.138.48 remote 131.179.196.46 ttl 255 
@@ -37,7 +37,7 @@ iface csutoucla inet static
 
 # GRE Tunnel to aleph.ndn.ucla.edu (REMAP)
 auto csutoremap
-iface csutoremap inet static
+	iface csutoremap inet static
 	address 10.0.4.5
 	netmask 255.255.255.252
 	pre-up iptunnel add csutoremap mode gre local 129.82.138.48 remote 164.67.204.133 ttl 255 
@@ -46,7 +46,7 @@ iface csutoremap inet static
 
 # GRE Tunnel to ndn0.eecs.umich.edu (MICHIGAN)
 auto csutomich
-iface csutomich inet static
+	iface csutomich inet static
 	address 10.0.4.9
 	netmask 255.255.255.252
 	pre-up iptunnel add csutomich mode gre local 129.82.138.48 remote 141.212.108.18 ttl 255 
@@ -55,7 +55,7 @@ iface csutomich inet static
 
 # GRE Tunnel to ndn.cs.illinois.edu (UIUC)
 auto csutouiuc
-iface csutouiuc inet static
+	iface csutouiuc inet static
 	address 10.0.4.1
 	netmask 255.255.255.252
 	pre-up iptunnel add csutouiuc mode gre local 129.82.138.48 remote 72.36.112.81 ttl 255 

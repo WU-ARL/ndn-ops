@@ -1,9 +1,25 @@
 
 auto remaptoarizona
-iface remaptoarizona inet static
-address 10.0.1.18
-netmask 255.255.255.252
-pre-up iptunnel add remaptoarizona  mode gre local 164.67.204.133 remote 150.135.82.77 ttl 255
-pointopoint 10.0.1.17
-up ifconfig remaptoarizona multicast
+	iface remaptoarizona inet static
+	address 10.0.1.18
+	netmask 255.255.255.252
+	pre-up iptunnel add remaptoarizona  mode gre local 164.67.204.133 remote 150.135.82.77 ttl 255
+	pointopoint 10.0.1.17
+	up ifconfig remaptoarizona multicast
+
+auto remaptoucla
+	iface remaptoucla inet static
+	address 10.0.3.10
+	netmask 255.255.255.252
+	pre-up iptunnel add remaptoucla  mode gre local 164.67.204.133 remote 131.179.196.46 ttl 255
+	pointopoint 10.0.3.9
+	up ifconfig remaptoucla multicast
+
+auto remaptocsu
+	iface remaptocsu inet static
+	address 10.0.4.6
+	netmask 255.255.255.252
+	pre-up iptunnel add remaptocsu  mode gre local 164.67.204.133 remote 129.82.138.48 ttl 255
+	pointopoint 10.0.4.5
+	up ifconfig remaptocsu multicast
 

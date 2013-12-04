@@ -17,27 +17,36 @@ iface eth0 inet static
 	dns-nameservers 128.252.19.53 128.252.21.53
 	dns-search arl.wustl.edu
 
+# This one to UCLA goes away when we get the whole testbed up.
 auto wutoucla
-iface wutoucla inet static
-address 10.0.3.46
-netmask 255.255.255.252
-pre-up iptunnel add wutoucla  mode gre local 128.252.153.194 remote 131.179.196.46 ttl 255
-pointopoint 10.0.3.45
-up ifconfig wutoucla multicast
+	iface wutoucla inet static
+	address 10.0.3.46
+	netmask 255.255.255.252
+	pre-up iptunnel add wutoucla  mode gre local 128.252.153.194 remote 131.179.196.46 ttl 255
+	pointopoint 10.0.3.45
+	up ifconfig wutoucla multicast
 
 auto wutomemphis
-iface wutomemphis inet static
-address 10.0.2.2
-netmask 255.255.255.252
-pre-up iptunnel add wutomemphis  mode gre local 128.252.153.194 remote 141.225.11.173 ttl 255
-pointopoint 10.0.2.1
-up ifconfig wutomemphis multicast
+	iface wutomemphis inet static
+	address 10.0.2.2
+	netmask 255.255.255.252
+	pre-up iptunnel add wutomemphis  mode gre local 128.252.153.194 remote 141.225.11.173 ttl 255
+	pointopoint 10.0.2.1
+	up ifconfig wutomemphis multicast
 
 auto wutoarizona
-iface wutoarizona inet static
-address 10.0.1.14
-netmask 255.255.255.252
-pre-up iptunnel add wutoarizona  mode gre local 128.252.153.194 remote 150.135.82.77 ttl 255
-pointopoint 10.0.1.13
-up ifconfig wutoarizona multicast
+	iface wutoarizona inet static
+	address 10.0.1.14
+	netmask 255.255.255.252
+	pre-up iptunnel add wutoarizona  mode gre local 128.252.153.194 remote 150.135.82.77 ttl 255
+	pointopoint 10.0.1.13
+	up ifconfig wutoarizona multicast
+
+auto wutouiuc
+	iface wutouiuc inet static
+	address 10.0.8.2
+	netmask 255.255.255.252
+	pre-up iptunnel add wutouiuc  mode gre local 128.252.153.194 remote 72.36.112.81 ttl 255
+	pointopoint 10.0.8.1
+	up ifconfig wutouiuc multicast
 

@@ -1,0 +1,17 @@
+
+auto pkutoneu
+	iface pkutoneu inet static
+	address 10.0.10.6
+	netmask 255.255.255.252
+	pre-up iptunnel add pkutoneu  mode gre local 162.105.146.26 remote 129.10.53.143 ttl 255
+	pointopoint 10.0.10.5
+	up ifconfig pkutoneu multicast
+
+auto pkutoucla
+	iface pkutoucla inet static
+	address 10.0.3.14
+	netmask 255.255.255.252
+	pre-up iptunnel add pkutoucla  mode gre local 162.105.146.26 remote 131.179.196.46 ttl 255
+	pointopoint 10.0.3.13
+	up ifconfig pkutoucla multicast
+
