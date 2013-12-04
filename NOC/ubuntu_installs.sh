@@ -7,3 +7,5 @@ sudo apt-get -y install gawk texinfo asciidoc finger
 
 sudo apt-get -y install python-software-properties
 
+sudo apt-get -y install ntp
+
