@@ -1,4 +1,23 @@
 
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+auto eth0
+iface eth0 inet static
+	address 164.67.204.133
+	netmask 255.255.255.128
+#	network 164.67.204.0
+	broadcast 164.67.134.255
+	gateway 164.67.204.254
+	# dns-* options are implemented by the resolvconf package, if installed
+	dns-nameservers 164.67.134.3
+	dns-search ucla.edu
+
 auto remaptoarizona
 	iface remaptoarizona inet static
 	address 10.0.1.18
