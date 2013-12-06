@@ -14,7 +14,6 @@ iface eth0 inet static
   gateway 192.172.226.1
 
 # This is an autoconfigured IPv6 interface
-iface eth0 inet6 auto
 auto ucsdtoarizona
 	iface ucsdtoarizona inet static
 	address 10.0.1.10
