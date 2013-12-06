@@ -21,4 +21,5 @@ verify that /etc/rc.local is unmodified from installation. If not, verify it is 
 ~/ndn-ops/named-data/running_version/config_files/<name>/etc/rc.local
 
 cd ~/ndn-ops/named-data/running_version/config_files/<name>
-sudo cp -R * /
+sudo cp -R etc/* /etc
+sudo cp -R usr/* /usr
