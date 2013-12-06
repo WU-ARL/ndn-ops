@@ -10,9 +10,6 @@ To use this repo on a freshly installed node, do this:
 > cd ../named-data/running_versions/
 > ./git_and_install.sh
 
-> sudo mkdir -p /usr/local/etc/ndnx:
-> sudo mkdir -p /usr/local/etc/quagga
-
 > cd ~/ndn-ops/named-data/running_version/config_files/<name>
 > cp /etc/network/interfaces interfaces.preNDN
 
