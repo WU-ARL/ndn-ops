@@ -1,4 +1,20 @@
 
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+auto eth0
+iface eth0 inet static
+  address 192.172.226.248
+  netmask 255.255.255.0
+  gateway 192.172.226.1
+
+# This is an autoconfigured IPv6 interface
+iface eth0 inet6 auto
 auto ucsdtoarizona
 	iface ucsdtoarizona inet static
 	address 10.0.1.10
