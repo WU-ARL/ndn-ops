@@ -11,7 +11,7 @@ auto ariztoucsd
 	iface ariztoucsd inet static
 	address 10.0.1.9
 	netmask 255.255.255.252
-	pre-up iptunnel add ariztoucsd  mode gre local 150.135.82.77 remote 192.172.226.159 ttl 255
+	pre-up iptunnel add ariztoucsd  mode gre local 150.135.82.77 remote 192.172.226.248 ttl 255
 	pointopoint 10.0.1.10
 	up ifconfig ariztoucsd multicast
 

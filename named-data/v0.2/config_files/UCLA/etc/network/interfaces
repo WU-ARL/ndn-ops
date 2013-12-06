@@ -27,7 +27,7 @@ auto uclatoucsd
 	iface uclatoucsd inet static
 	address 10.0.3.5
 	netmask 255.255.255.252
-	pre-up iptunnel add uclatoucsd  mode gre local 131.179.196.46 remote 192.172.226.159 ttl 255
+	pre-up iptunnel add uclatoucsd  mode gre local 131.179.196.46 remote 192.172.226.248 ttl 255
 	pointopoint 10.0.3.6
 	up ifconfig uclatoucsd multicast
 
