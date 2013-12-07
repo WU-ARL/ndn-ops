@@ -1,3 +1,15 @@
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+    address 131.179.196.46
+    netmask 255.255.255.0
+    gateway 131.179.196.1
+
+iface eth0 inet6 static
+        address 2607:f010:3f9::11:0
+        netmask 64
 
 auto uclatopku
 	iface uclatopku inet static

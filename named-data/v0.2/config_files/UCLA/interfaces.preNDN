@@ -1,0 +1,144 @@
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+    address 131.179.196.46
+    netmask 255.255.255.0
+    gateway 131.179.196.1
+
+iface eth0 inet6 static
+	address 2607:f010:3f9::11:0
+	netmask 64
+
+# ARIZONA
+# hobo.cs.arizona.edu
+auto tun0
+iface tun0 inet static
+    address 10.0.1.14
+    netmask 255.255.255.252
+    pre-up iptunnel add tun0 mode gre local 131.179.196.46 remote 150.135.82.77 ttl 255
+    up ifconfig tun0 multicast
+    pointopoint 10.0.1.13
+    post-down iptunnel del tun0
+
+# CSU
+# ndn.netsec.colostate.edu
+auto tun1
+iface tun1 inet static
+    address 10.0.4.2
+    netmask 255.255.255.252
+    pre-up iptunnel add tun1 mode gre local 131.179.196.46 remote 129.82.138.48 ttl 255
+    up ifconfig tun1 multicast
+    pointopoint 10.0.4.1
+    post-down iptunnel del tun1
+
+# PARC
+# ccngw.parc.xerox.com
+auto tun2
+iface tun2 inet static
+    address 10.0.3.21
+    netmask 255.255.255.252
+#old config
+#    pre-up iptunnel add tun2 mode gre local 131.179.196.46 remote 13.7.9.129 ttl 255
+    pre-up iptunnel add tun2 mode gre local 131.179.196.46 remote 13.7.64.24 ttl 255
+    up ifconfig tun2 multicast
+    pointopoint 10.0.3.22
+    post-down iptunnel del tun2
+
+# UCI
+# ndnhub.ics.uci.edu
+auto tun3
+iface tun3 inet static
+    address 10.0.3.25
+    netmask 255.255.255.252
+    pre-up iptunnel add tun3 mode gre local 131.179.196.46 remote 128.195.4.36 ttl 255
+    up ifconfig tun3 multicast
+    pointopoint 10.0.3.26
+    post-down iptunnel del tun3
+
+# CAIDA
+# ccnhub.caida.org
+auto tun4
+iface tun4 inet static
+    address 10.0.3.29
+    netmask 255.255.255.252
+    pre-up iptunnel add tun4 mode gre local 131.179.196.46 remote 192.172.226.159 ttl 255
+    up ifconfig tun4 multicast
+    pointopoint 10.0.3.30
+    post-down iptunnel del tun4
+
+# # REMAP
+# # borges.metwi.ucla.edu
+# auto tun5
+# iface tun5 inet static
+#     address 10.0.3.1
+#     netmask 255.255.255.252
+#     pre-up iptunnel add tun5 mode gre local 131.179.196.46 remote 131.179.141.15 ttl 255
+#     up ifconfig tun5 multicast
+#     pointopoint 10.0.3.2
+#     post-down iptunnel del tun5
+
+# REMAP (ndnx)
+# aleph.ndn.ucla.edu
+auto tun5
+iface tun5 inet static
+    address 10.0.3.41
+    netmask 255.255.255.252
+    pre-up iptunnel add tun5 mode gre local 131.179.196.46 remote 164.67.204.133 ttl 255
+    up ifconfig tun5 multicast
+    pointopoint 10.0.3.42
+    post-down iptunnel del tun5
+
+# SPPSALT1
+# sppsalt1.arl.wustl.edu
+auto tun6
+iface tun6 inet static
+    address 10.0.9.34
+    netmask 255.255.255.252
+    pre-up iptunnel add tun6 mode gre local 131.179.196.46 remote 64.57.23.210 ttl 255
+    up ifconfig tun6 multicast
+    pointopoint 10.0.9.33
+    post-down iptunnel del tun6
+
+# PKU
+# no host name yet
+auto tun7
+iface tun7 inet static
+	address 10.0.3.33
+	netmask 255.255.255.252
+	pre-up iptunnel add tun7 mode gre local 131.179.196.46 remote 162.105.146.26 ttl 255
+	up ifconfig tun7 multicast
+	pointopoint 10.0.3.34
+	post-down iptunnel del tun7
+
+# VeriSign
+auto tun8
+iface tun8 inet static
+	address 10.0.3.37
+	netmask 255.255.255.252
+	pre-up iptunnel add tun8 mode gre local 131.179.196.46 remote 23.20.20.93 ttl 255
+	up ifconfig tun8 multicast
+	pointopoint 10.0.3.38
+	post-down iptunnel del tun8
+
+# Memphis (ndnx)
+auto tun9
+iface tun9 inet static
+	address 10.0.10.2
+	netmask 255.255.255.252
+	pre-up iptunnel add tun9 mode gre local 131.179.196.46 remote 141.225.11.107 ttl 255
+	up ifconfig tun9 multicast
+	pointopoint 10.0.10.1
+	post-down iptunnel del tun9
+
+# WashU (ndnx)
+auto tun10
+iface tun10 inet static
+    address 10.0.3.45
+    netmask 255.255.255.252
+    pre-up iptunnel add tun10 mode gre local 131.179.196.46 remote 128.252.153.194 ttl 255
+    up ifconfig tun10 multicast
+    pointopoint 10.0.3.46
+    post-down iptunnel del tun10
+
