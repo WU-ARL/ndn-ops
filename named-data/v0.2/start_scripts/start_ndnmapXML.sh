@@ -33,4 +33,9 @@ then
   # UCLA
   sudo bash -c '/usr/local/bin/ndnxmlstat_c -i 131.179.196.46  >& /var/log/ndnxmlstat_c.log &'
 fi
+if [ $HOSTNAME = "ndn-remap-p05" ]
+then
+  # REMAP
+  sudo bash -c '/usr/local/bin/ndnxmlstat_c -i 164.67.204.133  >& /var/log/ndnxmlstat_c.log &'
+fi
 
