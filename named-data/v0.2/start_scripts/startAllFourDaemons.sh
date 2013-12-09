@@ -76,6 +76,11 @@ then
 fi
 if [ $HOSTNAME = "titan" ]
 then
-  # WU
+  # Memphis
   sudo bash -c '/usr/local/bin/ndnxmlstat_c -i 141.225.11.173  >& /var/log/ndnxmlstat_c.log &'
+fi
+if [ $HOSTNAME = "mccoy" ]
+then
+  # CSU
+  sudo bash -c '/usr/local/bin/ndnxmlstat_c -i 129.82.138.48  >& /var/log/ndnxmlstat_c.log &'
 fi
