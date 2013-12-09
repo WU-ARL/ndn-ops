@@ -38,4 +38,9 @@ then
   # REMAP
   sudo bash -c '/usr/local/bin/ndnxmlstat_c -i 164.67.204.133  >& /var/log/ndnxmlstat_c.log &'
 fi
+if [ $HOSTNAME = "click" ]
+then
+  # UCSD/CAIDA
+  sudo bash -c '/usr/local/bin/ndnxmlstat_c -i 192.172.226.248  >& /var/log/ndnxmlstat_c.log &'
+fi
 
