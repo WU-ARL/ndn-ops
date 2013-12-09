@@ -24,5 +24,5 @@ sleep 1
 #killing ccnd
 echo "Killing ndnd.....";
 #kill `ps aux | grep ccnd | awk -F" " '{ print $2}'` 2> /dev/null
-ndndstop
+sudo ndndstop
 echo "Done";

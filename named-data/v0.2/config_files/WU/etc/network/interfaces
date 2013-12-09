@@ -18,13 +18,13 @@ iface eth0 inet static
 	dns-search arl.wustl.edu
 
 # This one to UCLA goes away when we get the whole testbed up.
-auto wutoucla
-	iface wutoucla inet static
-	address 10.0.3.46
-	netmask 255.255.255.252
-	pre-up iptunnel add wutoucla  mode gre local 128.252.153.194 remote 131.179.196.46 ttl 255
-	pointopoint 10.0.3.45
-	up ifconfig wutoucla multicast
+#auto wutoucla
+#	iface wutoucla inet static
+#	address 10.0.3.46
+#	netmask 255.255.255.252
+#	pre-up iptunnel add wutoucla  mode gre local 128.252.153.194 remote 131.179.196.46 ttl 255
+#	pointopoint 10.0.3.45
+#	up ifconfig wutoucla multicast
 
 auto wutomemphis
 	iface wutomemphis inet static
