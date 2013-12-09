@@ -89,3 +89,8 @@ then
   # Michigan
   sudo bash -c '/usr/local/bin/ndnxmlstat_c -i 141.212.108.18  >& /var/log/ndnxmlstat_c.log &'
 fi
+if [ $HOSTNAME = "spurs" ]
+then
+  # UCLA
+  sudo bash -c '/usr/local/bin/ndnxmlstat_c -i 131.179.196.46  >& /var/log/ndnxmlstat_c.log &'
+fi
