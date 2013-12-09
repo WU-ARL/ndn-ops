@@ -74,3 +74,8 @@ then
   # WU
   sudo bash -c '/usr/local/bin/ndnxmlstat_c -i 128.252.153.194 >& /var/log/ndnxmlstat_c.log &'
 fi
+if [ $HOSTNAME = "titan" ]
+then
+  # WU
+  sudo bash -c '/usr/local/bin/ndnxmlstat_c -i 141.225.11.173  >& /var/log/ndnxmlstat_c.log &'
+fi
