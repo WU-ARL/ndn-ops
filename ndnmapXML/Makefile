@@ -50,5 +50,8 @@ $(SRVR_EXEC) : ./% : ${OBJS}
 	cc -o $@ ${SRVR_OBJS} ${LIBS}
 	chmod 0755 $@
 
+install: $(CLIENT_EXEC) $(SRVR_EXEC)
+	cp $(CLIENT_EXEC) $(SRVR_EXEC)  /usr/local/bin
+
 clean:
 	rm -f ${SRVR_OBJS} ${CLIENT_OBJS} ${SRVR_EXEC} ${CLIENT_EXEC}
