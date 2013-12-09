@@ -84,3 +84,8 @@ then
   # CSU
   sudo bash -c '/usr/local/bin/ndnxmlstat_c -i 129.82.138.48  >& /var/log/ndnxmlstat_c.log &'
 fi
+if [ $HOSTNAME = "ndn0" ]
+then
+  # Michigan
+  sudo bash -c '/usr/local/bin/ndnxmlstat_c -i 141.212.108.18  >& /var/log/ndnxmlstat_c.log &'
+fi
