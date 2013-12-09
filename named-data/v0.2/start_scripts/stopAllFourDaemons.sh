@@ -21,6 +21,10 @@ sudo kill `ps aux | grep zebra | awk -F" " '{ print $2}'` 2> /dev/null
 echo "Done";
 sleep 1
 
+# killing ndnxmlstat_c
+echo "killing ndnxmlstat_c"
+sudo killall ndnxmlstat_c
+
 #killing ccnd
 echo "Killing ndnd.....";
 #kill `ps aux | grep ccnd | awk -F" " '{ print $2}'` 2> /dev/null
