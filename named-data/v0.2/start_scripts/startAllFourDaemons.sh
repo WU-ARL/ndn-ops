@@ -54,8 +54,7 @@ sleep 2
 echo "Done";
 
 # Run ndndc if a static config file is present.
-test -f /usr/local/etc/ndnx/ndnd.conf && ndndc -f /usr/local/etc/ndnx/ndnd.conf
-
+test -f /usr/local/etc/ndnx/ndnd.conf && sudo ndndc -f /usr/local/etc/ndnx/ndnd.conf
 
 
 #Starting ospfn
@@ -67,4 +66,11 @@ sudo ospfn -d -f $ospfnconf
 echo "Done";
 
 
-
+# Start the ndnmap XML data collection
+echo "starting /usr/local/bin/ndnxmlstat_c"
+HOSTNAME=`hostname`
+if [ $HOSTNAME = "wundngw" ]
+then
+  # WU
+  sudo bash -c '/usr/local/bin/ndnxmlstat_c -i 128.252.153.194 >& /var/log/ndnxmlstat_c.log &'
+fi
