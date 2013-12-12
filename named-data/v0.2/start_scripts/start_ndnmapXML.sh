@@ -43,4 +43,8 @@ then
   # UCSD/CAIDA
   sudo bash -c '/usr/local/bin/ndnxmlstat_c -i 192.172.226.248  >& /var/log/ndnxmlstat_c.log &'
 fi
-
+if [ $HOSTNAME = "pkuhub" ]
+then
+  # PKU
+  sudo bash -c '/usr/local/bin/ndnxmlstat_c -i 162.105.146.26  >& /var/log/ndnxmlstat_c.log &'
+fi
