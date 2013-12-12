@@ -52,6 +52,9 @@ $(SRVR_EXEC) : ./% : ${OBJS}
 
 install: $(CLIENT_EXEC) $(SRVR_EXEC)
 	cp $(CLIENT_EXEC) $(SRVR_EXEC)  /usr/local/bin
+	cp linkids.txt /usr/local/etc
+	cp startNDNxmlServer.sh  stopNDNxmlServer.sh /usr/local/bin
+
 
 clean:
 	rm -f ${SRVR_OBJS} ${CLIENT_OBJS} ${SRVR_EXEC} ${CLIENT_EXEC}
