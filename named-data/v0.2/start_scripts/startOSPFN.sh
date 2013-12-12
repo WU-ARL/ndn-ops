@@ -1,5 +1,5 @@
 #!/bin/sh
-# Script for starting ospfd,zebra, ospfn and ccnd
+# Script for starting ospfd,zebra, ospfn and ndnd
 # Author Hoque  - Nov/18/2011
 
 export LD_LIBRARY_PATH="/usr/local/lib"
@@ -19,7 +19,7 @@ sleep 10
 echo "Done";
 
 
-##Starting ccnd
+##Starting ndnd
 #echo "Starting ndnd.....";
 #ndndstart
 #sleep 2

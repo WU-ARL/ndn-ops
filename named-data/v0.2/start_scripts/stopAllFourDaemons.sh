@@ -1,5 +1,5 @@
 #!/bin/sh
-# Script for killing/stopping ospfd,zebra, ospfn and ccnd
+# Script for killing/stopping ospfd,zebra, ospfn and ndnd
 # Author Hoque  - Nov/18/2011
 
 # killing ospfn
@@ -25,8 +25,8 @@ sleep 1
 echo "killing ndnxmlstat_c"
 sudo killall ndnxmlstat_c
 
-#killing ccnd
+#killing ndnd
 echo "Killing ndnd.....";
-#kill `ps aux | grep ccnd | awk -F" " '{ print $2}'` 2> /dev/null
+#kill `ps aux | grep ndnd | awk -F" " '{ print $2}'` 2> /dev/null
 sudo ndndstop
 echo "Done";
