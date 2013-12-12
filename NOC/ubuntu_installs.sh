@@ -11,5 +11,5 @@ sudo apt-get -y install ntp
 
 sudo apt-get -y install python-pip python-apscheduler
 sudo pip install requests
-sudo pip install requests --upgrade
+#sudo pip install requests --upgrade
 sudo apt-get install autoconf libtool
