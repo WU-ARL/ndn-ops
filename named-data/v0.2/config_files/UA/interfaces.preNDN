@@ -1,0 +1,69 @@
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+	address 128.196.203.36
+	netmask 255.255.255.240
+	gateway 128.196.203.33
+	broadcast 128.196.203.255
+	dns-nameservers 192.12.69.231 192.12.69.232
+	dns-search cs.arizona.edu
+	
+
+auto mem
+iface mem inet static
+        address 10.0.1.9
+        netmask 255.255.255.252
+        pre-up iptunnel add mem mode gre local 150.135.82.77 remote 141.225.11.150 ttl 255
+        pointopoint 10.0.1.10
+        post-down iptunnel del mem
+
+auto tes
+iface tes inet static
+        address 10.0.1.1
+        netmask 255.255.255.252
+        pre-up iptunnel add tes mode gre local 150.135.82.77 remote 150.135.82.103 ttl 255
+        pointopoint 10.0.1.2
+        post-down iptunnel del tes
+
+auto ser
+iface ser inet static
+        address 10.0.1.5
+        netmask 255.255.255.252
+        pre-up iptunnel add ser mode gre local 150.135.82.77 remote 150.135.82.104 ttl 255
+        pointopoint 10.0.1.6
+        post-down iptunnel del ser
+
+auto ucla
+iface ucla inet static
+        address 10.0.1.13
+        netmask 255.255.255.252
+        pre-up iptunnel add ucla mode gre local 150.135.82.77 remote 131.179.196.46 ttl 255
+        pointopoint 10.0.1.14
+        post-down iptunnel del ucla
+
+auto csu
+iface csu inet static
+        address 10.0.4.6
+        netmask 255.255.255.252
+        pre-up iptunnel add csu mode gre local 150.135.82.77 remote 129.82.138.48 ttl 255
+        pointopoint 10.0.4.5
+        post-down iptunnel del csu
+
+auto ucsd
+iface ucsd inet static
+        address 10.0.1.29
+        netmask 255.255.255.252
+        pre-up iptunnel add ucsd mode gre local 150.135.82.77 remote 192.172.226.159 ttl 255
+        pointopoint 10.0.1.30
+        post-down iptunnel del ucsd
+
+auto hous
+iface hous inet static
+        address 10.0.9.42
+        netmask 255.255.255.252
+        pre-up iptunnel add hous mode gre local 150.135.82.77 remote 64.57.19.194 ttl 255
+        pointopoint 10.0.9.41
+        post-down iptunnel del hous
+
