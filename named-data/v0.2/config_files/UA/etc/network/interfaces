@@ -15,7 +15,7 @@ auto ariztomemphis
 	iface ariztomemphis inet static
 	address 10.0.1.1
 	netmask 255.255.255.252
-	pre-up iptunnel add ariztomemphis  mode gre local 150.135.82.77 remote 141.225.11.173 ttl 255
+	pre-up iptunnel add ariztomemphis  mode gre local 128.196.203.36 remote 141.225.11.173 ttl 255
 	pointopoint 10.0.1.2
 	up ifconfig ariztomemphis multicast
 
@@ -23,7 +23,7 @@ auto ariztoucsd
 	iface ariztoucsd inet static
 	address 10.0.1.9
 	netmask 255.255.255.252
-	pre-up iptunnel add ariztoucsd  mode gre local 150.135.82.77 remote 192.172.226.248 ttl 255
+	pre-up iptunnel add ariztoucsd  mode gre local 128.196.203.36 remote 192.172.226.248 ttl 255
 	pointopoint 10.0.1.10
 	up ifconfig ariztoucsd multicast
 
@@ -31,7 +31,7 @@ auto ariztoremap
 	iface ariztoremap inet static
 	address 10.0.1.17
 	netmask 255.255.255.252
-	pre-up iptunnel add ariztoremap  mode gre local 150.135.82.77 remote 164.67.204.133 ttl 255
+	pre-up iptunnel add ariztoremap  mode gre local 128.196.203.36 remote 164.67.204.133 ttl 255
 	pointopoint 10.0.1.18
 	up ifconfig ariztoremap multicast
 
@@ -39,7 +39,7 @@ auto ariztocsu
 	iface ariztocsu inet static
 	address 10.0.1.5
 	netmask 255.255.255.252
-	pre-up iptunnel add ariztocsu  mode gre local 150.135.82.77 remote 129.82.138.48 ttl 255
+	pre-up iptunnel add ariztocsu  mode gre local 128.196.203.36 remote 129.82.138.48 ttl 255
 	pointopoint 10.0.1.6
 	up ifconfig ariztocsu multicast
 
@@ -47,7 +47,7 @@ auto ariztowu
 	iface ariztowu inet static
 	address 10.0.1.13
 	netmask 255.255.255.252
-	pre-up iptunnel add ariztowu  mode gre local 150.135.82.77 remote 128.252.153.194 ttl 255
+	pre-up iptunnel add ariztowu  mode gre local 128.196.203.36 remote 128.252.153.194 ttl 255
 	pointopoint 10.0.1.14
 	up ifconfig ariztowu multicast
 

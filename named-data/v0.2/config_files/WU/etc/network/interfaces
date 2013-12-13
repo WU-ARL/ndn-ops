@@ -38,7 +38,7 @@ auto wutoarizona
 	iface wutoarizona inet static
 	address 10.0.1.14
 	netmask 255.255.255.252
-	pre-up iptunnel add wutoarizona  mode gre local 128.252.153.194 remote 150.135.82.77 ttl 255
+	pre-up iptunnel add wutoarizona  mode gre local 128.252.153.194 remote 128.196.203.36 ttl 255
 	pointopoint 10.0.1.13
 	up ifconfig wutoarizona multicast
 

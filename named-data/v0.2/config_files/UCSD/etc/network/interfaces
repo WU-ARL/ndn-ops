@@ -18,7 +18,7 @@ auto ucsdtoarizona
 	iface ucsdtoarizona inet static
 	address 10.0.1.10
 	netmask 255.255.255.252
-	pre-up iptunnel add ucsdtoarizona  mode gre local 192.172.226.248 remote 150.135.82.77 ttl 255
+	pre-up iptunnel add ucsdtoarizona  mode gre local 192.172.226.248 remote 128.196.203.36 ttl 255
 	pointopoint 10.0.1.9
 	up ifconfig ucsdtoarizona multicast
 
