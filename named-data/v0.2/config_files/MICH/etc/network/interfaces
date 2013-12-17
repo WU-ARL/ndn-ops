@@ -31,7 +31,7 @@ auto michtoneu
 	iface michtoneu inet static
 	address 10.0.10.2
 	netmask 255.255.255.252
-	pre-up iptunnel add michtoneu  mode gre local 141.212.108.18 remote 129.10.53.143 ttl 255
+	pre-up iptunnel add michtoneu  mode gre local 141.212.108.18 remote 129.10.53.148 ttl 255
 	pointopoint 10.0.10.1
 	up ifconfig michtoneu multicast
 
