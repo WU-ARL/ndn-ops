@@ -9,7 +9,7 @@
 #
 export NDND_LOG=/var/log/ndnx/ndnd.log
 export NDND_DEBUG=1
-export NDND_AUTOREG=/ndn/broadcast
+export NDND_AUTOREG="/ndn/broadcast,/ndn/org/caida"
 # NDND_DEBUG=0
 #   0 - no messages
 #   1 - basic messages (any non-zero value gets these)
