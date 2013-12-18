@@ -48,4 +48,9 @@ then
   # PKU
   sudo bash -c '/usr/local/bin/ndnpingserver -d ndn:/ndn/cn/edu/pku  >& /var/log/ndnpingserver.log &'
 fi
+if [ $HOSTNAME = "hobo" ]
+then
+  # PKU
+  sudo bash -c '/usr/local/bin/ndnpingserver -d ndn:/ndn/edu/arizona  >& /var/log/ndnpingserver.log &'
+fi
 

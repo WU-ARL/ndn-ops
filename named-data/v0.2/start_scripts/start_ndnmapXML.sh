@@ -48,3 +48,8 @@ then
   # PKU
   sudo bash -c '/usr/local/bin/ndnxmlstat_c -i 162.105.146.26  >& /var/log/ndnxmlstat_c.log &'
 fi
+if [ $HOSTNAME = "hobo" ]
+then
+  # Arizona
+  sudo bash -c '/usr/local/bin/ndnxmlstat_c -i 128.196.203.36  >& /var/log/ndnxmlstat_c.log &'
+fi
