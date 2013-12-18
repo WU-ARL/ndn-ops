@@ -53,4 +53,9 @@ then
   # PKU
   sudo bash -c '/usr/local/bin/ndnpingserver -d ndn:/ndn/edu/arizona  >& /var/log/ndnpingserver.log &'
 fi
+if [ $HOSTNAME = "dyn-148-53" ]
+then
+  # NEU
+  sudo bash -c '/usr/local/bin/ndnpingserver -d ndn:/ndn/edu/neu  >& /var/log/ndnpingserver.log &'
+fi
 
