@@ -34,7 +34,7 @@ auto ucsdtouci
 	iface ucsdtouci inet static
 	address 10.0.6.1
 	netmask 255.255.255.252
-	pre-up iptunnel add ucsdtouci  mode gre local 141.225.11.173 remote 129.195.4.36 ttl 255
+	pre-up iptunnel add ucsdtouci  mode gre local 192.172.226.248 remote 129.195.4.36 ttl 255
 	pointopoint 10.0.6.2
 	up ifconfig ucsdtouci multicast
 
