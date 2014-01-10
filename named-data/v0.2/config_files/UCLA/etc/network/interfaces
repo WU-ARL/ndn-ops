@@ -45,10 +45,10 @@ auto uclatoucsd
 
 auto uclatouci
 	iface uclatouci inet static
-	address 10.0.1.13
+	address 10.0.3.17
 	netmask 255.255.255.252
 	pre-up iptunnel add uclatouci  mode gre local 128.196.203.36 remote 129.195.4.36 ttl 255
-	pointopoint 10.0.1.14
+	pointopoint 10.0.3.18
 	up ifconfig uclatouci multicast
 
 

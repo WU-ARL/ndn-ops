@@ -16,25 +16,25 @@ gateway 128.195.4.1
 dns-nameservers 8.8.8.8 8.8.4.4
 auto ucitoucsd
 	iface ucitoucsd inet static
-	address 10.0.2.2
+	address 10.0.6.1
 	netmask 255.255.255.252
 	pre-up iptunnel add ucitoucsd  mode gre local 129.195.4.36 remote 141.225.11.173 ttl 255
-	pointopoint 10.0.2.1
+	pointopoint 10.0.6.2
 	up ifconfig ucitoucsd multicast
 
 auto ucitoucla
 	iface ucitoucla inet static
-	address 10.0.1.14
+	address 10.0.3.18
 	netmask 255.255.255.252
 	pre-up iptunnel add ucitoucla  mode gre local 129.195.4.36 remote 128.196.203.36 ttl 255
-	pointopoint 10.0.1.13
+	pointopoint 10.0.3.17
 	up ifconfig ucitoucla multicast
 
 auto ucitoremap
 	iface ucitoremap inet static
-	address 10.0.8.2
+	address 10.0.6.5
 	netmask 255.255.255.252
 	pre-up iptunnel add ucitoremap  mode gre local 129.195.4.36 remote 72.36.112.81 ttl 255
-	pointopoint 10.0.8.1
+	pointopoint 10.0.6.6
 	up ifconfig ucitoremap multicast
 

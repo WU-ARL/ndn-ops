@@ -44,10 +44,10 @@ auto remaptocsu
 
 auto remaptouci
 	iface remaptouci inet static
-	address 10.0.8.1
+	address 10.0.6.6
 	netmask 255.255.255.252
 	pre-up iptunnel add remaptouci  mode gre local 72.36.112.81 remote 129.195.4.36 ttl 255
-	pointopoint 10.0.8.2
+	pointopoint 10.0.6.5
 	up ifconfig remaptouci multicast
 
 
