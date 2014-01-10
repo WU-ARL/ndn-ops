@@ -30,3 +30,12 @@ auto ucsdtoucla
 	pointopoint 10.0.3.5
 	up ifconfig ucsdtoucla multicast
 
+auto ucsdtouci
+	iface ucsdtouci inet static
+	address 10.0.2.1
+	netmask 255.255.255.252
+	pre-up iptunnel add ucsdtouci  mode gre local 141.225.11.173 remote 129.195.4.36 ttl 255
+	pointopoint 10.0.2.2
+	up ifconfig ucsdtouci multicast
+
+
