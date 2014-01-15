@@ -13,3 +13,6 @@ sudo apt-get -y install python-pip python-apscheduler
 sudo pip install requests
 #sudo pip install requests --upgrade
 sudo apt-get -y install autoconf libtool
+
+sudo apt-get -y install python-dev
+

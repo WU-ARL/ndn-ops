@@ -21,6 +21,8 @@ sudo mkdir -p /usr/local/etc/ndnx
 sudo mkdir -p /var/log/ndnx
 popd
 
+git clone http://github.com/named-data/PyNDN
+
 git clone http://github.com/named-data/OSPFN3.0
 sudo adduser --disabled-login --gecos "" quagga
 
@@ -63,6 +65,16 @@ pushd ndnping
 ./bootstrap.sh 
 ./configure
 make
+sudo make install
+popd
+
+# install PyNDN (used for Memphis route status web page)
+git clone http://github.com/named-data/PyNDN
+pushd PyNDN
+./bootstrap 
+./configure --with-ndn="/usr/local"
+make
+make check
 sudo make install
 popd
 
