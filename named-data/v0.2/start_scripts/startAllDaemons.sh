@@ -20,6 +20,9 @@ then
   fi
 fi
 
+# make sure /var/log/ndnx exists
+sudo mkdir -p /var/log/ndnx
+
 
 # /var/run is now linked to /run which is a tmpfs (in memory) filesystem
 # that gets blown away on each reboot.
@@ -52,6 +55,8 @@ echo "Starting ndnd.....";
 sudo -E ndndstart 
 sleep 2
 echo "Done";
+
+start 10
 
 # Run ndndc if a static config file is present.
 test -f /usr/local/etc/ndnx/ndnd.conf && sudo ndndc -f /usr/local/etc/ndnx/ndnd.conf
