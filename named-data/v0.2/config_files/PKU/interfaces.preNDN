@@ -1,0 +1,31 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+# This is an autoconfigured IPv6 interface
+auto eth0
+iface eth0 inet static 
+address 162.105.146.26
+netmask 255.255.255.0
+gateway 162.105.146.1
+#pre-up iptables-restore < /etc/iptables.up.rules
+
+auto pkutospurs
+iface pkutospurs inet static
+address 10.0.3.14
+netmask 255.255.255.252
+pre-up iptunnel add pkutospurs mode gre local 162.105.146.26 remote 131.179.196.46 ttl 255
+pointopoint 10.0.3.13
+up ifconfig pkutospurs multicast
+
+auto pkutotokyo
+iface pkutotokyo inet static
+address 10.0.9.130
+netmask 255.255.255.252
+pre-up iptunnel add pkutotokyo mode gre local 162.105.146.26 remote 54.249.242.209 ttl 255
+pointopoint 10.0.9.129
+up ifconfig pkutotokyo multicast
