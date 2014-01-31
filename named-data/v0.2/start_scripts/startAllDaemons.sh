@@ -32,7 +32,7 @@ sudo chmod g+w /var/run/quagga-state
 
 # Starting zebra
 echo "Starting Zebra.....";
-sudo zebra -d 
+sudo zebra -d  -f /usr/local/etc/quagga/zebra.conf
 sleep 2
 echo "Done";
 
@@ -40,7 +40,7 @@ echo "Done";
 
 # starting ospfd
 echo "starting ospfd.....";
-sudo ospfd -d -a
+sudo ospfd -d -a -f /usr/local/etc/quagga/ospfd.conf
 sleep 10 
 echo "Done";
 
