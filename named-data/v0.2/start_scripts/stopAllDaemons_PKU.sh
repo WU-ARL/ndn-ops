@@ -21,8 +21,17 @@ sudo kill `ps aux | grep zebra | awk -F" " '{ print $2}'` 2> /dev/null
 echo "Done";
 sleep 1
 
-##killing ndnd
-#echo "Killing ndnd.....";
-##kill `ps aux | grep ndnd | awk -F" " '{ print $2}'` 2> /dev/null
-#ndndstop
-#echo "Done";
+# killing ndnxmlstat_c
+echo "killing ndnxmlstat_c"
+sudo killall ndnxmlstat_c
+
+# killing ndnpingserver
+echo "killing ndnpingserver"
+sudo killall ndnpingserver
+
+#killing ndnd
+echo "Killing ndnd.....";
+#kill `ps aux | grep ndnd | awk -F" " '{ print $2}'` 2> /dev/null
+#sudo ndndstop
+sudo service ndnx stop
+echo "Done";

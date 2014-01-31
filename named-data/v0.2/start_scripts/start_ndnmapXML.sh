@@ -58,3 +58,8 @@ then
   # NEU
   sudo bash -c '/usr/local/bin/ndnxmlstat_c -i 129.10.52.193  >& /var/log/ndnxmlstat_c.log &'
 fi
+if [ $HOSTNAME = "ndnhub" ]
+then
+  # UCI
+  sudo bash -c '/usr/local/bin/ndnxmlstat_c -i 128.195.4.36  >& /var/log/ndnxmlstat_c.log &'
+fi
