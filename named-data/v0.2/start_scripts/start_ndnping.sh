@@ -59,3 +59,9 @@ then
   sudo bash -c '/usr/local/bin/ndnpingserver -d ndn:/ndn/edu/neu  >& /var/log/ndnpingserver.log &'
 fi
 
+if [ $HOSTNAME = "ndnhub" ]
+then
+  # UCI
+  sudo bash -c '/usr/local/bin/ndnpingserver -d ndn:/ndn/edu/uci  >& /var/log/ndnpingserver.log &'
+fi
+
