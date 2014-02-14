@@ -1,0 +1,47 @@
+! -*- ospf -*-
+!
+! OSPF configuration for NDN testbed
+!
+!
+hostname spurs.cs.ucla.edu
+password pwd
+enable password pwd
+log file /var/log/ospfnlog/quaggaospf.log
+!
+!
+!
+interface gre0
+! description link to hobo.cs.arizona.edu
+ ip ospf cost 1
+ ip ospf priority 1
+!
+!
+interface gre1
+! description link to ndn.netsec.colostate.edu
+ ip ospf cost 1
+ ip ospf priority 1
+!
+
+interface gre3
+! description link to uci
+ ip ospf cost 1
+ ip ospf priority 1
+!
+access-list ospfn permit 10.0.0.0/8
+access-list ospfn deny any
+!
+router ospf
+ ospf router-id 131.179.196.46
+ redistribute connected
+ distribute-list ospfn out connected
+ network 10.0.0.0/16 area 0.0.0.0
+ capability opaque
+!
+!network 10.0.1.12/30 area 0.0.0.0
+!network 10.0.4.0/30 area 0.0.0.0
+!
+line vty
+!
+!  network 192.168.1.0/24 area 0
+!
+!log stdout

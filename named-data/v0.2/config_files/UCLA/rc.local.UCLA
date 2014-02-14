@@ -1,0 +1,49 @@
+#!/bin/sh -e
+#
+# rc.local
+#
+# This script is executed at the end of each multiuser runlevel.
+# Make sure that the script will "exit 0" on success or any other
+# value on error.
+#
+# In order to enable or disable this script just change the execution
+# bits.
+#
+# By default this script does nothing.
+
+# echo Starting ping server
+# /usr/local/bin/ccnpingserver ccnx:/ndn/ucla.edu/irl &
+
+echo Starting OSPFN
+
+mkdir /var/run/quagga-state || true
+chown quagga /var/run/quagga-state  || true
+
+/bin/sleep 60
+su -c '/usr/local/sbin/zebra -d'
+/bin/sleep 2
+su -c '/usr/local/sbin/ospfd -d -a'
+/bin/sleep 60
+su -c '/usr/local/sbin/ospfn -d -f /etc/quagga/ospfn.conf'
+
+echo Starting ndnr
+export NDNR_DIRECTORY=/var/tmp/ndnr_repo
+export NDNR_STATUS_PORT=7376
+mkdir /var/tmp/ndnr_repo || true
+chown ccnx /var/tmp/ndnr_repo || true
+/bin/sleep 5
+su -c '/usr/local/bin/ndnr &'
+
+# echo Starting ccn_traced
+# su -c '/usr/local/bin/ccn_traced >/dev/null 2>/dev/null &'
+
+echo "starting ndnxmlstat_c"
+/usr/local/bin/ndnxmlstat_c -i 131.179.196.46
+
+# Start the ndnping server
+/usr/local/bin/start_ndnping.sh
+
+echo Done
+
+exit 0
+

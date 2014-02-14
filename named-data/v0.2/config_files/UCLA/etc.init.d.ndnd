@@ -1,0 +1,48 @@
+#! /bin/sh 
+
+### BEGIN INIT INFO
+# Provides:          ndnd
+# Default-Start:     2 3 4 5
+# Default-Stop:      
+### END INIT INFO
+
+set -e
+
+# /etc/init.d/ndnd: start and stop the ndnd daemon
+
+NDND_DEFAULTS_FILE="/etc/default/ndnd"
+NAME=ndnd
+DAEMON=/usr/local/bin/ndnd
+
+. /lib/lsb/init-functions
+
+if [ -f $NDND_DEFAULTS_FILE ]; then
+    . $NDND_DEFAULTS_FILE
+fi
+
+export PATH="${NDND_DIR}/bin:${PATH:+$PATH:}/usr/sbin:/sbin"
+
+case "$1" in
+  start)
+	log_daemon_msg "Starting ndnd daemon"
+	su -c "$DAEMON 2>> $NDND_LOG &"
+	su -c "ndndc -f $NDND_CONFIG"
+	log_end_msg $?
+	;;
+  stop)
+	log_daemon_msg "Stopping ndnd daemon"
+	su -c ndndstop
+	log_end_msg $?
+	;;
+
+  status)
+	su -c ndndstatus
+	log_end_msg $?
+	;;
+  *)
+	echo "Usage: /etc/init.d/ndnd {start|stop|restart|status}"
+	exit 1
+esac
+
+exit 0
+
