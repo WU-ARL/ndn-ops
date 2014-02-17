@@ -39,7 +39,7 @@ auto michtouiuc
 	iface michtouiuc inet static
 	address 10.0.8.6
 	netmask 255.255.255.252
-	pre-up iptunnel add michtouiuc  mode gre local 141.212.108.18 remote 72.36.112.81 ttl 255
+	pre-up iptunnel add michtouiuc  mode gre local 141.212.108.18 remote 128.174.246.9 ttl 255
 	pointopoint 10.0.8.5
 	up ifconfig michtouiuc multicast
 

@@ -46,7 +46,7 @@ auto wutouiuc
 	iface wutouiuc inet static
 	address 10.0.8.2
 	netmask 255.255.255.252
-	pre-up iptunnel add wutouiuc  mode gre local 128.252.153.194 remote 72.36.112.81 ttl 255
+	pre-up iptunnel add wutouiuc  mode gre local 128.252.153.194 remote 128.174.246.9 ttl 255
 	pointopoint 10.0.8.1
 	up ifconfig wutouiuc multicast
 
