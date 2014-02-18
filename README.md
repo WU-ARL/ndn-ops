@@ -10,6 +10,10 @@ To use this repo on a freshly installed node, do this:
 > cd ../named-data/running_versions/
 > ./git_and_install.sh
 
+> cd ../../ndnx-tlv
+> ./ubuntu_installs.sh
+> ./git_and_install.sh
+
 > cd ~/ndn-ops/named-data/running_version/config_files/<name>
 > cp /etc/network/interfaces interfaces.preNDN
 
