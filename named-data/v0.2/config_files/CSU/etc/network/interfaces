@@ -53,7 +53,7 @@ auto csutomich
 	pointopoint 10.0.4.10
 	up ifconfig csutomich
 
-# GRE Tunnel to ndn.cs.illinois.edu (UIUC)
+# GRE Tunnel to UIUC
 auto csutouiuc
 	iface csutouiuc inet static
 	address 10.0.4.1
