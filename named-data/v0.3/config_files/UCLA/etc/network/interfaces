@@ -1,0 +1,55 @@
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+    address 131.179.196.46
+    netmask 255.255.255.0
+    gateway 131.179.196.1
+
+iface eth0 inet6 static
+        address 2607:f010:3f9::11:0
+        netmask 64
+
+auto uclatopku
+	iface uclatopku inet static
+	address 10.0.3.13
+	netmask 255.255.255.252
+	pre-up iptunnel add uclatopku  mode gre local 131.179.196.46 remote 162.105.146.26 ttl 255
+	pointopoint 10.0.3.14
+	up ifconfig uclatopku multicast
+
+auto uclatoremap
+	iface uclatoremap inet static
+	address 10.0.3.9
+	netmask 255.255.255.252
+	pre-up iptunnel add uclatoremap  mode gre local 131.179.196.46 remote 164.67.204.133 ttl 255
+	pointopoint 10.0.3.10
+	up ifconfig uclatoremap multicast
+
+auto uclatocsu
+	iface uclatocsu inet static
+	address 10.0.3.1
+	netmask 255.255.255.252
+	pre-up iptunnel add uclatocsu  mode gre local 131.179.196.46 remote 129.82.138.48 ttl 255
+	pointopoint 10.0.3.2
+	up ifconfig uclatocsu multicast
+
+auto uclatoucsd
+	iface uclatoucsd inet static
+	address 10.0.3.5
+	netmask 255.255.255.252
+	pre-up iptunnel add uclatoucsd  mode gre local 131.179.196.46 remote 192.172.226.248 ttl 255
+	pointopoint 10.0.3.6
+	up ifconfig uclatoucsd multicast
+
+auto uclatouci
+	iface uclatouci inet static
+	address 10.0.3.17
+	netmask 255.255.255.252
+	pre-up iptunnel add uclatouci  mode gre local 131.179.196.46 remote 128.195.4.36 ttl 255
+	pointopoint 10.0.3.18
+	up ifconfig uclatouci multicast
+
+
+

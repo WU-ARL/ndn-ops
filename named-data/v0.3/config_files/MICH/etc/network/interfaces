@@ -1,0 +1,46 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+auto eth0
+iface eth0 inet dhcp
+
+
+# GRE Tunnel to mccoy.netsec.colostate.edu (CSU)
+auto michtocsu
+	iface michtocsu inet static
+	address 10.0.4.10
+	netmask 255.255.255.252
+	pre-up iptunnel add michtocsu mode gre local 141.212.108.18 remote 129.82.138.48 ttl 255 
+	pointopoint 10.0.4.9
+	up ifconfig michtocsu
+
+auto michtomemphis
+	iface michtomemphis inet static
+	address 10.0.2.6
+	netmask 255.255.255.252
+	pre-up iptunnel add michtomemphis  mode gre local 141.212.108.18 remote 141.225.11.173 ttl 255
+	pointopoint 10.0.2.5
+	up ifconfig michtomemphis multicast
+
+auto michtoneu
+	iface michtoneu inet static
+	address 10.0.10.2
+	netmask 255.255.255.252
+	pre-up iptunnel add michtoneu  mode gre local 141.212.108.18 remote 129.10.52.193 ttl 255
+	pointopoint 10.0.10.1
+	up ifconfig michtoneu multicast
+
+auto michtouiuc
+	iface michtouiuc inet static
+	address 10.0.8.6
+	netmask 255.255.255.252
+	pre-up iptunnel add michtouiuc  mode gre local 141.212.108.18 remote 128.174.239.4 ttl 255
+	pointopoint 10.0.8.5
+	up ifconfig michtouiuc multicast
+
+

@@ -1,0 +1,41 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+auto eth0
+iface eth0 inet static
+  address 192.172.226.248
+  netmask 255.255.255.0
+  gateway 192.172.226.1
+# This is an autoconfigured IPv6 interface
+iface eth0 inet6 auto
+
+auto ucsdtoarizona
+	iface ucsdtoarizona inet static
+	address 10.0.1.10
+	netmask 255.255.255.252
+	pre-up iptunnel add ucsdtoarizona  mode gre local 192.172.226.248 remote 128.196.203.36 ttl 255
+	pointopoint 10.0.1.9
+	up ifconfig ucsdtoarizona multicast
+
+auto ucsdtoucla
+	iface ucsdtoucla inet static
+	address 10.0.3.6
+	netmask 255.255.255.252
+	pre-up iptunnel add ucsdtoucla  mode gre local 192.172.226.248 remote 131.179.196.46 ttl 255
+	pointopoint 10.0.3.5
+	up ifconfig ucsdtoucla multicast
+
+auto ucsdtouci
+	iface ucsdtouci inet static
+	address 10.0.6.2
+	netmask 255.255.255.252
+	pre-up iptunnel add ucsdtouci  mode gre local 192.172.226.248 remote 128.195.4.36 ttl 255
+	pointopoint 10.0.6.1
+	up ifconfig ucsdtouci multicast
+
+

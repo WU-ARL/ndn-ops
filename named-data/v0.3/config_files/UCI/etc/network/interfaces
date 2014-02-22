@@ -1,0 +1,40 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+auto eth0
+iface eth0 inet static
+address 128.195.4.36
+netmask 255.255.255.0
+network 128.195.4.0
+broadcast 128.195.4.255
+gateway 128.195.4.1
+dns-nameservers 8.8.8.8 8.8.4.4
+auto ucitoucsd
+	iface ucitoucsd inet static
+	address 10.0.6.1
+	netmask 255.255.255.252
+	pre-up iptunnel add ucitoucsd  mode gre local 129.195.4.36 remote 131.179.196.46 ttl 255
+	pointopoint 10.0.6.2
+	up ifconfig ucitoucsd multicast
+
+auto ucitoucla
+	iface ucitoucla inet static
+	address 10.0.3.18
+	netmask 255.255.255.252
+	pre-up iptunnel add ucitoucla  mode gre local 129.195.4.36 remote 131.179.196.46 ttl 255
+	pointopoint 10.0.3.17
+	up ifconfig ucitoucla multicast
+
+auto ucitoremap
+	iface ucitoremap inet static
+	address 10.0.6.5
+	netmask 255.255.255.252
+	pre-up iptunnel add ucitoremap  mode gre local 129.195.4.36 remote 131.179.196.46 ttl 255
+	pointopoint 10.0.6.6
+	up ifconfig ucitoremap multicast
+

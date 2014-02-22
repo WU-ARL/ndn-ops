@@ -1,0 +1,64 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+auto eth0
+iface eth0 inet static
+	address 129.82.138.48
+	netmask 255.255.255.0
+	network 129.82.138.0
+	broadcast 129.82.138.255
+	gateway 129.82.138.1
+	# dns-* options are implemented by the resolvconf package, if installed
+	dns-nameservers 129.82.138.3 129.82.138.2
+	dns-search netsec.colostate.edu
+
+# GRE Tunnel to hobo.cs.arizona.edu (ARIZONA)
+auto csutoarizona 
+	iface csutoarizona inet static
+	address 10.0.1.6
+	netmask 255.255.255.252
+	pre-up iptunnel add csutoarizona mode gre local 129.82.138.48 remote 128.196.203.36 ttl 255 
+	pointopoint 10.0.1.5
+	up ifconfig csutoarizona
+
+# GRE Tunnel to spurs.cs.ucla.edu (UCLA)
+auto csutoucla
+	iface csutoucla inet static
+	address 10.0.3.2
+	netmask 255.255.255.252
+	pre-up iptunnel add csutoucla mode gre local 129.82.138.48 remote 131.179.196.46 ttl 255 
+	pointopoint 10.0.3.1
+	up ifconfig csutoucla
+
+# GRE Tunnel to aleph.ndn.ucla.edu (REMAP)
+auto csutoremap
+	iface csutoremap inet static
+	address 10.0.4.5
+	netmask 255.255.255.252
+	pre-up iptunnel add csutoremap mode gre local 129.82.138.48 remote 164.67.204.133 ttl 255 
+	pointopoint 10.0.4.6
+	up ifconfig csutoremap
+
+# GRE Tunnel to ndn0.eecs.umich.edu (MICHIGAN)
+auto csutomich
+	iface csutomich inet static
+	address 10.0.4.9
+	netmask 255.255.255.252
+	pre-up iptunnel add csutomich mode gre local 129.82.138.48 remote 141.212.108.18 ttl 255 
+	pointopoint 10.0.4.10
+	up ifconfig csutomich
+
+# GRE Tunnel to UIUC
+auto csutouiuc
+	iface csutouiuc inet static
+	address 10.0.4.1
+	netmask 255.255.255.252
+	pre-up iptunnel add csutouiuc mode gre local 129.82.138.48 remote 128.174.239.4 ttl 255 
+	pointopoint 10.0.4.2
+	up ifconfig csutouiuc
+

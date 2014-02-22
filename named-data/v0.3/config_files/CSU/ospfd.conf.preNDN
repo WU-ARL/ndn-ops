@@ -1,0 +1,45 @@
+hostname mccoy.netsec.colostate.edu
+password 2bornot2b
+enable password 2bornot2b 
+log file /home2/ndn/ndn-quagga/quaggaospfd.log
+!
+!
+!
+interface mccoytohobo
+ description link to hobo.cs.arizona.edu
+interface mccoytospurs
+ description link to spurs.cs.ucla.edu
+interface mccoytonetlogic
+ description link to netlogic.cs.memphis.edu
+interface mccoytoccngw
+ description link to ccngw.parc.xerox.com
+interface mccoytosppsalt1
+ description link to sppsalt1.arl.wustl.edu
+interface mccoytowashu
+ description link to washu
+interface mccoytogana
+ description link to gana
+interface mccoytocsu
+ description link to ndn1
+!
+!
+access-list ospfn permit 10.0.0.0/8
+access-list ospfn deny any
+!
+router ospf
+ ospf router-id 129.82.138.48
+ redistribute connected
+ distribute-list ospfn out connected   
+ network 10.0.4.4/30 area 0.0.0.0 
+ network 10.0.4.8/30 area 0.0.0.0
+ network 10.0.4.0/30 area 0.0.0.0
+ network 10.0.4.20/30 area 0.0.0.0
+ network 10.0.4.36/30 area 0.0.0.0
+ network 10.0.4.64/30 area 0.0.0.0
+ network 10.0.4.56/30 area 0.0.0.0
+ network 10.0.9.28/30 area 0.0.0.0
+ capability opaque
+!
+line vty
+!
+!end of configuration file here

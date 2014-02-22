@@ -1,0 +1,48 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+auto eth0
+    iface eth0 inet static
+    address 141.225.11.173
+    netmask 255.255.252.0
+    gateway 141.225.8.1
+    dns-nameservers 141.225.253.21 141.225.253.22
+    dns-search cs.memphis.edu
+
+auto memphistoariz
+    iface memphistoariz inet static
+    address 10.0.1.2
+    netmask 255.255.255.252
+    pre-up iptunnel add memphistoariz  mode gre local 141.225.11.173 remote 128.196.203.36 ttl 255
+    pointopoint 10.0.1.1
+    up ifconfig memphistoariz multicast
+
+auto memphistowu
+    iface memphistowu inet static
+    address 10.0.2.1
+    netmask 255.255.255.252
+    pre-up iptunnel add memphistowu  mode gre local 141.225.11.173 remote 128.252.153.194 ttl 255
+    pointopoint 10.0.2.2
+    up ifconfig memphistowu multicast
+
+auto memphistomich
+    iface memphistomich inet static
+    address 10.0.2.5
+    netmask 255.255.255.252
+    pre-up iptunnel add memphistomich  mode gre local 141.225.11.173 remote 141.212.108.18 ttl 255
+    pointopoint 10.0.2.6
+    up ifconfig memphistomich multicast
+
+auto memphistoneu
+    iface memphistoneu inet static
+    address 10.0.2.9
+    netmask 255.255.255.252
+    pre-up iptunnel add memphistoneu  mode gre local 141.225.11.173 remote 129.10.52.193 ttl 255
+    pointopoint 10.0.2.10
+    up ifconfig memphistoneu multicast
+

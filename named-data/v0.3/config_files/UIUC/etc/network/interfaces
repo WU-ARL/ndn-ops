@@ -1,0 +1,36 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+auto eth0
+iface eth0 inet dhcp
+
+
+auto uiuctomich
+	iface uiuctomich inet static
+	address 10.0.8.5
+	netmask 255.255.255.252
+	pre-up iptunnel add uiuctomich  mode gre local 128.174.239.4 remote 141.212.108.18 ttl 255
+	pointopoint 10.0.8.6
+	up ifconfig uiuctomich multicast
+
+auto uiuctocsu
+	iface uiuctocsu inet static
+	address 10.0.4.2
+	netmask 255.255.255.252
+	pre-up iptunnel add uiuctocsu  mode gre local 128.174.239.4 remote 129.82.138.48 ttl 255
+	pointopoint 10.0.4.1
+	up ifconfig uiuctocsu multicast
+
+auto uiuctowu
+	iface uiuctowu inet static
+	address 10.0.8.1
+	netmask 255.255.255.252
+	pre-up iptunnel add uiuctowu  mode gre local 128.174.239.4 remote 128.252.153.194 ttl 255
+	pointopoint 10.0.8.2
+	up ifconfig uiuctowu multicast
+
