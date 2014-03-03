@@ -16,3 +16,4 @@ sudo apt-get -y install autoconf libtool
 
 sudo apt-get -y install python-dev
 
+sudo apt-get install g++ autotools-dev libicu-dev libbz2-dev 

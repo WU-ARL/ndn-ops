@@ -78,3 +78,22 @@ make check
 sudo make install
 popd
 
+# install boost 1.55
+wget http://downloads.sourceforge.net/project/boost/boost/1.55.0/boost_1_55_0.tar.gz
+tar -xzf boost_1_55_0.tar.gz 
+pushd boost_1_55_0/
+./bootstrap.sh
+./b2 
+
+popd
+
+#
+git clone http://github.com/named-data/wsproxy-cpp
+pushd wsproxy-cpp
+git submodule init
+git submodule update
+./waf configure
+./waf
+popd
+#
+
