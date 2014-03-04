@@ -56,7 +56,7 @@ sudo -E ndndstart
 sleep 2
 echo "Done";
 
-start 10
+sleep 10
 
 # Run ndndc if a static config file is present.
 test -f /usr/local/etc/ndnx/ndnd.conf && sudo ndndc -f /usr/local/etc/ndnx/ndnd.conf
@@ -76,4 +76,8 @@ echo "Done";
 
 # Start the ndnping server
 /usr/local/bin/start_ndnping.sh
+
+
+# start ws_proxy
+/usr/local/bin/ws_proxy >& /tmp/ws_proxy.log &
 

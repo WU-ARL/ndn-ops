@@ -2,6 +2,10 @@
 # Script for killing/stopping ospfd,zebra, ospfn and ndnd
 # Author Hoque  - Nov/18/2011
 
+# killing ws_proxy
+echo "killing ws_proxy"
+sudo killall ws_proxy
+
 # killing ospfn
 echo "Killing ospfn.....";
 #kill `ps aux | grep ospfn | awk -F" " '{ print $2}'` 2> /dev/null;
