@@ -15,7 +15,8 @@
 #/home/ndnops/ndn-ops/named-data/running_version/start_scripts/startAllDaemons.sh > /tmp/ndnx.start.log
 
 ## start ndnx-tlv and OSPFN
-/home/ndnops/ndn-ops/ndnx-tlv/start_scripts/startAllDaemons.sh > /tmp/ndnx-tlv.start.log
+#/home/ndnops/ndn-ops/ndnx-tlv/start_scripts/startAllDaemons.sh > /tmp/ndnx-tlv.start.log
+/home/ndnops/ndn-ops/named-data/running_version/start_scripts/startAllDaemons.sh > /tmp/ndnx-tlv.start.log
 
 
 exit 0
