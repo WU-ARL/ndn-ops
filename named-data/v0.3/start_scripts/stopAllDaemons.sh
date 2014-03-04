@@ -36,5 +36,5 @@ sudo killall ndnpingserver
 #killing ndnd
 echo "Killing ndnd.....";
 #kill `ps aux | grep ndnd | awk -F" " '{ print $2}'` 2> /dev/null
-sudo ndndstop
+sudo ndnd-tlv-stop
 echo "Done";
