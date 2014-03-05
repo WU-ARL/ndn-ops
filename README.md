@@ -14,13 +14,12 @@ To use this repo on a freshly installed node, do this:
 > cp /etc/network/interfaces interfaces.preNDN
 
 
-Then we need to set up the configuration files.
+Then we need to set up the configuration files in ~/ndn-ops/named-data/running_version/config_files.
+Merge interfaces.preNDN with ~/ndn-ops/named-data/running_version/config_files/<name>/etc/network/interfaces
 
-merge interfaces.preNDN with ~/ndn-ops/named-data/running_version/config_files/<name>/etc/network/interfaces
+Verify that ~/ndn-ops/named-data/running_version/config_files/<name>/usr/local/etc/quagga/*.conf look ok.
 
-verify that ~/ndn-ops/named-data/running_version/config_files/<name>/usr/local/etc/quagga/*.conf look ok.
-
-verify that /etc/rc.local is unmodified from installation. If not, verify it is ok and merge with
+Verify that /etc/rc.local is unmodified from installation. If not, verify it is ok and merge with
 ~/ndn-ops/named-data/running_version/config_files/<name>/etc/rc.local
 
 cd ~/ndn-ops/named-data/running_version/config_files/<name>
