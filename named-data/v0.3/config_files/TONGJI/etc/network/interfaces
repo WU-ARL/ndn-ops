@@ -1,0 +1,32 @@
+auto lo
+iface lo inet loopback
+
+#auto eth0
+#iface eth0 inet dhcp
+#iface eth0 inet static
+#address 10.60.100.100
+#netmask 255.255.255.192
+#gateway 10.60.148.190
+
+#auto eth1
+#iface eth1 inet dhcp
+#iface eth1 inet static
+#address 10.60.101.101
+#netmask 255.255.255.192
+
+auto eth2
+#iface eth2 inet dhcp
+iface eth2 inet static
+address 10.60.148.139
+netmask 255.255.255.192
+gateway 10.60.148.190
+
+# NDN Interface to PKU
+auto tongjitopku
+	iface tongjitopku inet static
+	address 10.0.13.2
+	netmask 255.255.255.252
+	pre-up iptunnel add tongjitopku  mode gre local 10.60.148.139 remote 162.105.146.26 ttl 255
+	pointopoint 10.0.13.1
+	up ifconfig tongjitopku multicast
+
