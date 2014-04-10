@@ -58,8 +58,8 @@ echo "Done";
 
 sleep 10
 
-# Run ndndc if a static config file is present.
-test -f /usr/local/etc/ndnx/ndnd.conf && sudo ndndc -f /usr/local/etc/ndnx/ndnd.conf
+# Run ndnd2c if a static config file is present.
+test -f /usr/local/etc/ndnx/ndnd.conf && sudo ndnd2c -f /usr/local/etc/ndnx/ndnd.conf
 
 
 #Starting ospfn
