@@ -30,12 +30,12 @@ auto pkutoucla
 	pointopoint 10.0.3.13
 	up ifconfig pkutoucla multicast
 
-# NDN Interface to PKU
-auto tongjitopku
+# NDN Interface to Tongji
+auto pkutotongji
         iface pkutotongji inet static
         address 10.0.13.1
         netmask 255.255.255.252
-        pre-up iptunnel add pkutotongji mode gre local 162.105.146.26 remote 10.60.148.139 ttl 255
+        pre-up iptunnel add pkutotongji mode gre local 162.105.146.26 remote 202.120.188.176 ttl 255
         pointopoint 10.0.13.2
         up ifconfig pkutotongji multicast
 
