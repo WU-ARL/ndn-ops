@@ -64,4 +64,9 @@ then
   # UCI
   sudo bash -c '/usr/local/bin/ndnpingserver -d ndn:/ndn/edu/uci  >& /var/log/ndnpingserver.log &'
 fi
+if [ $HOSTNAME = "ndnops" ]
+then
+  # TONGJI
+  sudo bash -c '/usr/local/bin/ndnpingserver -d ndn:/ndn/cn/edu/tongji  >& /var/log/ndnpingserver.log &'
+fi
 
