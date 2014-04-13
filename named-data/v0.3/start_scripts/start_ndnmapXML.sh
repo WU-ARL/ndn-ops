@@ -63,3 +63,8 @@ then
   # UCI
   sudo bash -c '/usr/local/bin/ndnxmlstat_c -i 128.195.4.36  >& /var/log/ndnxmlstat_c.log &'
 fi
+if [ $HOSTNAME = "ndnops" ]
+then
+  # TONGJI
+  sudo bash -c '/usr/local/bin/ndnxmlstat_c -i 202.120.188.176  >& /var/log/ndnxmlstat_c.log &'
+fi
