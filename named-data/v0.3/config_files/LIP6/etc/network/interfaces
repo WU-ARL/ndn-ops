@@ -1,0 +1,27 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+auto eth0
+iface eth0 inet static
+        address 132.227.62.163
+        netmask 255.255.255.248
+        network 132.227.62.160
+        broadcast 132.227.62.167
+        gateway 132.227.62.161
+        # dns-* options are implemented by the resolvconf package, if installed
+        dns-nameservers 132.227.74.2 132.227.74.34
+        dns-search ipv6.lip6.fr
+
+# GRE Tunnel to MICH: ndn0.eecs.umich.edu
+auto lip6tomich
+	iface lip6tomich inet static
+	address 10.0.12.2
+	netmask 255.255.255.252
+	pre-up iptunnel add lip6tomich mode gre local 132.227.62.163 remote 141.212.108.18 ttl 255 
+	pointopoint 10.0.12.1
+	up ifconfig lip6tomich

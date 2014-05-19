@@ -43,4 +43,12 @@ auto michtouiuc
 	pointopoint 10.0.8.5
 	up ifconfig michtouiuc multicast
 
+# GRE Tunnel to LIP6
+auto michtolip6
+        iface michtolip6 inet static
+        address 10.0.12.1
+        netmask 255.255.255.252
+        pre-up iptunnel add michtolip6 mode gre local 141.212.108.18 remote 132.227.62.163 ttl 255
+        pointopoint 10.0.12.2
+        up ifconfig michtolip6
 
