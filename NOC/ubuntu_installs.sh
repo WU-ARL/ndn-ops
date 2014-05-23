@@ -17,3 +17,9 @@ sudo apt-get -y install autoconf libtool
 sudo apt-get -y install python-dev
 
 sudo apt-get -y install g++ autotools-dev libicu-dev libbz2-dev  sqlite3
+
+
+sudo apt-get -y install pkg-config
+sudo apt-get -y install libssl-dev libsqlite3-dev libcrypto++-dev
+#sudo apt-get -y install libboost1.48-all-dev 
+
