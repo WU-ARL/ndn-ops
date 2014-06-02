@@ -40,7 +40,8 @@ auto csutoremap
 	iface csutoremap inet static
 	address 10.0.4.5
 	netmask 255.255.255.252
-	pre-up iptunnel add csutoremap mode gre local 129.82.138.48 remote 164.67.204.133 ttl 255 
+	#pre-up iptunnel add csutoremap mode gre local 129.82.138.48 remote 164.67.204.133 ttl 255 
+	pre-up iptunnel add csutoremap mode gre local 129.82.138.48 remote 128.97.98.7 ttl 255 
 	pointopoint 10.0.4.6
 	up ifconfig csutoremap
 

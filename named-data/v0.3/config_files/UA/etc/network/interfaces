@@ -31,7 +31,8 @@ auto ariztoremap
 	iface ariztoremap inet static
 	address 10.0.1.17
 	netmask 255.255.255.252
-	pre-up iptunnel add ariztoremap  mode gre local 128.196.203.36 remote 164.67.204.133 ttl 255
+	#pre-up iptunnel add ariztoremap  mode gre local 128.196.203.36 remote 164.67.204.133 ttl 255
+	pre-up iptunnel add ariztoremap  mode gre local 128.196.203.36 remote 128.97.98.7 ttl 255
 	pointopoint 10.0.1.18
 	up ifconfig ariztoremap multicast
 

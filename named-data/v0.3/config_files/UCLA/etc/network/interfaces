@@ -23,7 +23,8 @@ auto uclatoremap
 	iface uclatoremap inet static
 	address 10.0.3.9
 	netmask 255.255.255.252
-	pre-up iptunnel add uclatoremap  mode gre local 131.179.196.46 remote 164.67.204.133 ttl 255
+	#pre-up iptunnel add uclatoremap  mode gre local 131.179.196.46 remote 164.67.204.133  ttl 255
+	pre-up iptunnel add uclatoremap  mode gre local 131.179.196.46 remote 128.97.98.7  ttl 255
 	pointopoint 10.0.3.10
 	up ifconfig uclatoremap multicast
 

@@ -18,7 +18,7 @@ auto ucitoucsd
 	iface ucitoucsd inet static
 	address 10.0.6.1
 	netmask 255.255.255.252
-	pre-up iptunnel add ucitoucsd  mode gre local 129.195.4.36 remote 131.179.196.46 ttl 255
+	pre-up iptunnel add ucitoucsd  mode gre local 129.195.4.36 remote 192.172.226.248 ttl 255
 	pointopoint 10.0.6.2
 	up ifconfig ucitoucsd multicast
 
@@ -34,7 +34,8 @@ auto ucitoremap
 	iface ucitoremap inet static
 	address 10.0.6.5
 	netmask 255.255.255.252
-	pre-up iptunnel add ucitoremap  mode gre local 129.195.4.36 remote 131.179.196.46 ttl 255
+	#pre-up iptunnel add ucitoremap  mode gre local 129.195.4.36 remote 164.67.204.133  ttl 255
+	pre-up iptunnel add ucitoremap  mode gre local 129.195.4.36 remote 128.97.98.7 ttl 255
 	pointopoint 10.0.6.6
 	up ifconfig ucitoremap multicast
 
