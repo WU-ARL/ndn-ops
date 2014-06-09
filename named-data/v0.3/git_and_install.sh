@@ -21,8 +21,19 @@ sudo mkdir -p /usr/local/etc/ndnx
 sudo mkdir -p /var/log/ndnx
 popd
 
-git clone http://github.com/named-data/ndn-cpp-dev
-pushd ndn-cpp-dev
+#git clone http://github.com/named-data/ndn-cpp-dev
+#pushd ndn-cpp-dev
+#./waf configure
+#./waf
+#sudo ./waf install
+#sudo ldconfig
+#popd
+#
+
+# We now use ndn-cxx
+git clone http://github.com/named-data/ndn-cxx
+pushd ndn-cxx
+git checkout ndn-cxx-0.1.0
 ./waf configure
 ./waf
 sudo ./waf install

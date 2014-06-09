@@ -61,8 +61,15 @@ fi
 
 if [ $HOSTNAME = "ndnhub" ]
 then
-  # UCI
-  sudo bash -c '/usr/local/bin/ndnpingserver -d ndn:/ndn/edu/uci  >& /var/log/ndnpingserver.log &'
+  DOMAINNAME=`dnsdomainname`
+  if [ $DOMAINNAME = "ipv6.lip6.fr" ]
+  then
+    # LIP6
+    sudo bash -c '/usr/local/bin/ndnpingserver -d ndn:/ndn/fr/lip6  >& /var/log/ndnpingserver.log &'
+  else
+    # UCI
+    sudo bash -c '/usr/local/bin/ndnpingserver -d ndn:/ndn/edu/uci  >& /var/log/ndnpingserver.log &'
+  fi
 fi
 if [ $HOSTNAME = "ndnops" ]
 then
