@@ -25,3 +25,13 @@ auto lip6tomich
 	pre-up iptunnel add lip6tomich mode gre local 132.227.62.163 remote 141.212.108.18 ttl 255 
 	pointopoint 10.0.12.1
 	up ifconfig lip6tomich
+
+# GRE Tunnel to LIP6: 
+auto lip6toor1
+        iface lip6toor1 inet static
+        address 10.0.15.1
+        netmask 255.255.255.252
+        pre-up iptunnel add lip6toor1 mode gre local 132.227.62.163 remote 161.105.194.154 ttl 255 
+        pointopoint 10.0.15.2
+        up ifconfig lip6toor1
+
