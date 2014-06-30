@@ -50,7 +50,8 @@ auto memphistoor1
     iface memphistoor1 inet static
     address 10.0.2.13
     netmask 255.255.255.252
-    pre-up iptunnel add memphistoor1  mode gre local 141.225.11.173 remote 161.105.194.154 ttl 255
+    #pre-up iptunnel add memphistoor1  mode gre local 141.225.11.173 remote 161.105.194.154 ttl 255
+    pre-up iptunnel add memphistoor1  mode gre local 141.225.11.173 remote 161.105.195.18 ttl 255
     pointopoint 10.0.2.14
     up ifconfig memphistoor1 multicast
 

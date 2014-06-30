@@ -31,7 +31,8 @@ auto lip6toor1
         iface lip6toor1 inet static
         address 10.0.15.1
         netmask 255.255.255.252
-        pre-up iptunnel add lip6toor1 mode gre local 132.227.62.163 remote 161.105.194.154 ttl 255 
+        #pre-up iptunnel add lip6toor1 mode gre local 132.227.62.163 remote 161.105.194.154 ttl 255 
+        pre-up iptunnel add lip6toor1 mode gre local 132.227.62.163 remote 161.105.195.18 ttl 255 
         pointopoint 10.0.15.2
         up ifconfig lip6toor1
 
