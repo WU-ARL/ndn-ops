@@ -24,3 +24,6 @@ sudo apt-get install ndn-tlv-ping
 
 sudo mkdir -p /etc/ndn/nlsr/keys
 sudo mkdir -p /var/lib/ndn/nlsr
+sudo mkdir -p /var/log/ndn/nlsr
+sudo chown ndn.ndn /var/lib/ndn/nlsr /var/log/ndn/nlsr 
+
