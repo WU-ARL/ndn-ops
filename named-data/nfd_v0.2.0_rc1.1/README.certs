@@ -44,6 +44,7 @@ For a typical (not UCLA) site, we will need to do this:
       arizona# ndnsec-key-gen -n /ndn/edu/arizona/%C1.Router/hobo > unsigned_router.cert
 6. sign the unsigned_router.cert with local operator key. e.g.:
       arizona# ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "ARIZONA Router hobo" -s /ndn/edu/arizona/%C1.Operator/ndnops -p /ndn/edu/arizona/%C1.Router/hobo -r unsigned_router.cert > router.cert
+7. It also appears that right now we need a copy of the root cert on each node. Why this and not retrieve it from UCLA?
 
 Then the site.cert, operator.cert and router.cert should be stored in /etc/ndn/nlsr/keys.
 Note that arizona_site.cert should be stored as /etc/ndn/nlsr/keys/site.cert locally.
