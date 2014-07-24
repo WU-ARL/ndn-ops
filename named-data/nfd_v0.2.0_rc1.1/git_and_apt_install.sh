@@ -23,3 +23,4 @@ sudo apt-get install ndn-tlv-ping
 # when a new node is brought up.
 
 sudo mkdir -p /etc/ndn/nlsr/keys
+sudo mkdir -p /var/lib/ndn/nlsr
