@@ -22,8 +22,17 @@ sudo apt-get install ndn-tlv-ping
 # The above two steps will be done manually by network installer
 # when a new node is brought up.
 
+# Need to adduser for nlsr
+if [ ! -d /home/nlsr ]
+then
+  echo "Need to add user nlsr first."
+  echo "try again after running:"
+  echo "> adduser nlsr"
+  exit 0
+fi
+
 sudo mkdir -p /etc/ndn/nlsr/keys
 sudo mkdir -p /var/lib/ndn/nlsr
 sudo mkdir -p /var/log/ndn/nlsr
-sudo chown -R ndn.ndn /var/lib/ndn/nlsr /var/log/ndn/nlsr 
+sudo chown -R nlsr.nlsr /var/lib/ndn/nlsr /var/log/ndn/nlsr  /etc/ndn/nlsr
 
