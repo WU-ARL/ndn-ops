@@ -32,12 +32,12 @@
 #popd
 #
 sudo add-apt-repository ppa:named-data/ppa
-sudo apt-get update
-sudo apt-get install ndn-cxx nfd nlsr
-sudo apt-get install ndn-cxx-dev
-sudo apt-get install ndndump
-sudo apt-get install ndn-tlv-ping
-# sudo apt-get install repo-ng
+sudo apt-get -y update
+sudo apt-get -y install ndn-cxx nfd nlsr
+sudo apt-get -y install ndn-cxx-dev
+sudo apt-get -y install ndndump
+sudo apt-get -y install ndn-tlv-ping
+sudo apt-get -y install repo-ng
 
 # set stuff up for NLSR
 # We need 
