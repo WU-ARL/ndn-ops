@@ -37,6 +37,7 @@ sudo apt-get install ndn-cxx nfd nlsr
 sudo apt-get install ndn-cxx-dev
 sudo apt-get install ndndump
 sudo apt-get install ndn-tlv-ping
+# sudo apt-get install repo-ng
 
 # set stuff up for NLSR
 # We need 
