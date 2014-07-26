@@ -1,13 +1,11 @@
- 2021  sudo rm /usr/local/bin/ndn*
- 2024  sudo rm /usr/local/bin/start_ndn*
- 2028  sudo rm /usr/local/lib/libndn*
- 2031  sudo rm /usr/local/lib/ndn*
- 2035  sudo rm -rf /usr/local/etc/ndnx
- 2036  sudo rm -rf /usr/local/etc/quagga
- 2040  sudo rm -rf /usr/local/include/ndn*
- 2041  sudo rm -rf /usr/local/include/quagga
- 2047  sudo rm /usr/local/sbin/*
- 2051  sudo rm /usr/local/share/man/man1/ndn*
- 2069  sudo rm /etc/ndnd.conf
- 2070  history | grep "sudo rm"
- 2071  history | grep "sudo rm" >& spurs.rms
+sudo rm /usr/local/bin/ndn*
+sudo rm /usr/local/bin/start_ndn*
+sudo rm /usr/local/lib/libndn*
+sudo rm /usr/local/lib/ndn*
+sudo rm -rf /usr/local/etc/ndnx
+sudo rm -rf /usr/local/etc/quagga
+sudo rm -rf /usr/local/include/ndn*
+sudo rm -rf /usr/local/include/quagga
+sudo rm /usr/local/sbin/*
+sudo rm /usr/local/share/man/man1/ndn*
+sudo rm /etc/ndnd.conf
