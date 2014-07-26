@@ -1,11 +1,19 @@
 sudo rm /usr/local/bin/ndn*
 sudo rm /usr/local/bin/start_ndn*
+sudo rm /usr/local/bin/tlvdump
 sudo rm /usr/local/lib/libndn*
 sudo rm /usr/local/lib/ndn*
+sudo rm /usr/local/lib/libospf*
+sudo rm /usr/local/lib/libzebra*
 sudo rm -rf /usr/local/etc/ndnx
+sudo rm -rf /usr/local/etc/ndn
 sudo rm -rf /usr/local/etc/quagga
 sudo rm -rf /usr/local/include/ndn*
 sudo rm -rf /usr/local/include/quagga
-sudo rm /usr/local/sbin/*
+sudo rm /usr/local/sbin/ospf*
+sudo rm /usr/local/sbin/zebra*
+sudo rm /usr/local/sbin/*quagga*
 sudo rm /usr/local/share/man/man1/ndn*
+sudo rm /usr/local/share/man/man8/zebra*
+sudo rm /usr/local/share/man/man8/ospf*
 sudo rm /etc/ndnd.conf
