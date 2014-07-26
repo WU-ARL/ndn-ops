@@ -1,7 +1,11 @@
 #!/bin/bash
-ndnsec-key-gen -n /ndn/org/caida > unsigned_site.cert
-ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "CAIDA" -s /ndn -p /ndn/org/caida -r unsigned_site.cert > site.cert
-ndnsec-key-gen -n /ndn/org/caida/%C1.Operator/ndnops > unsigned_operator.cert
-ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "CAIDA Operator" -s /ndn/org/caida -p /ndn/org/caida/%C1.Operator/ndnops -r unsigned_operator.cert > operator.cert
-ndnsec-key-gen -n /ndn/org/caida/%C1.Router/click > unsigned_router.cert
-ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "CAIDA Router click" -s /ndn/org/caida/%C1.Operator/ndnops -p /ndn/org/caida/%C1.Router/click -r unsigned_router.cert > router.cert
+# point home to /var/lib/ndn/nlsr so keys will be stored there.
+sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/org/caida > ~nlsr/unsigned_site.cert'
+
+# this next step must take place on UCLA where the root cert is.
+# sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "CAIDA" -s /ndn -p /ndn/org/caida -r caida_unsigned_site.cert > /home/nlsr/site.cert'
+
+sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/org/caida/%C1.Operator/ndnops > ~nlsr/unsigned_operator.cert'
+sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "CAIDA Operator" -s /ndn/org/caida -p /ndn/org/caida/%C1.Operator/ndnops -r ~nlsr/unsigned_operator.cert > ~nlsr/operator.cert'
+sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/org/caida/%C1.Router/click > ~nlsr/unsigned_router.cert'
+sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "CAIDA Router click" -s /ndn/org/caida/%C1.Operator/ndnops -p /ndn/org/caida/%C1.Router/click -r ~nlsr/unsigned_router.cert > ~nlsr/router.cert'

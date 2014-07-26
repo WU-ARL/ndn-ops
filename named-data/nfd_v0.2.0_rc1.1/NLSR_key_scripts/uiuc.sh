@@ -1,7 +1,11 @@
 #!/bin/bash
-ndnsec-key-gen -n /ndn/edu/uiuc > unsigned_site.cert
-ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "UIUC" -s /ndn -p /ndn/edu/uiuc -r unsigned_site.cert > site.cert
-ndnsec-key-gen -n /ndn/edu/uiuc/%C1.Operator/ndnops > unsigned_operator.cert
-ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "UIUC Operator" -s /ndn/edu/uiuc -p /ndn/edu/uiuc/%C1.Operator/ndnops -r unsigned_operator.cert > operator.cert
-ndnsec-key-gen -n /ndn/edu/uiuc/%C1.Router/ndnx > unsigned_router.cert
-ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "UIUC Router ndnx" -s /ndn/edu/uiuc/%C1.Operator/ndnops -p /ndn/edu/uiuc/%C1.Router/ndnx -r unsigned_router.cert > router.cert
+# point home to /var/lib/ndn/nlsr so keys will be stored there.
+sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/edu/uiuc > ~nlsr/unsigned_site.cert'
+
+# this next step must take place on UCLA where the root cert is.
+# sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "UIUC" -s /ndn -p /ndn/edu/uiuc -r uiuc_unsigned_site.cert > /home/nlsr/site.cert'
+
+sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/edu/uiuc/%C1.Operator/ndnops > ~nlsr/unsigned_operator.cert'
+sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "UIUC Operator" -s /ndn/edu/uiuc -p /ndn/edu/uiuc/%C1.Operator/ndnops -r ~nlsr/unsigned_operator.cert > ~nlsr/operator.cert'
+sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/edu/uiuc/%C1.Router/ndnx > ~nlsr/unsigned_router.cert'
+sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "UIUC Router ndnx" -s /ndn/edu/uiuc/%C1.Operator/ndnops -p /ndn/edu/uiuc/%C1.Router/ndnx -r ~nlsr/unsigned_router.cert > ~nlsr/router.cert'
