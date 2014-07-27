@@ -1,0 +1,39 @@
+cd ../running_version/start_scripts/
+./stopAllDaemons.sh
+sudo vi /etc/rc.local
+and comment out the startAllDaemons.sh line
+
+Then go into nfd_* and go through the spurs.rms
+
+Then  > sudo adduser nlsr
+
+Then ./git_and_apt_install.sh 
+
+sudo initctl stop nfd
+
+cd etc_default/
+sudo cp ndn-tlv-ping.caida /etc/default/ndn-tlv-ping 
+sudo cp nfd-autoreg.caida  /etc/default/nfd-autoreg
+sudo cp nfd-status-http-server /etc/default/
+cd ..
+cd NFD_conf_files/
+sudo cp nfd.conf /etc/ndn/
+sudo cp nfdInit.sh /var/lib/ndn/nfd
+cd ..
+cd NLSR_conf_files/
+sudo cp nlsr_caida.conf /etc/ndn/nlsr/nlsr.conf
+cd Upstart/
+sudo cp ndn-tlv-ping.conf.caida /etc/init/ndn-tlv-ping.conf 
+sudo cp nfd-autoreg.conf /etc/init/
+sudo cp nfd.conf /etc/init/nfd.conf 
+sudo cp nfd-status-http-server.conf /etc/init/
+sudo cp nlsr.conf /etc/init/
+
+
+Then do the NLSR_key_scripts stuff
+
+Copy root.cert from spurs to /etc/ndn/nlsr/keys
+
+
+chown anything that needs it.
+
