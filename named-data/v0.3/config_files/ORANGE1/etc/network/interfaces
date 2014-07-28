@@ -5,19 +5,20 @@
 auto lo
 iface lo inet loopback
 
-iface eth0 inet static
-address 161.105.194.154
-netmask 255.255.255.248
-gateway 161.105.194.153
-dns-nameservers 161.106.104.254
 
+auto eth0
+	iface eth0 inet static
+	address 161.105.195.18
+	netmask 255.255.255.248
+	gateway 161.105.195.17
+	dns-nameservers 161.106.104.254 217.108.152.8
 
 # GRE Tunnel to Memphis: 
 auto or1tomemphis
         iface or1tomemphis inet static
         address 10.0.2.14
         netmask 255.255.255.252
-        pre-up iptunnel add or1tomemphis mode gre local 161.105.194.154 remote 141.225.11.173 ttl 255
+        pre-up iptunnel add or1tomemphis mode gre local 161.105.195.18 remote 141.225.11.173 ttl 255
         pointopoint 10.0.2.13
         up ifconfig or1tomemphis
 
@@ -26,7 +27,7 @@ auto or1tolip6
         iface or1tolip6 inet static
         address 10.0.15.2
         netmask 255.255.255.252
-        pre-up iptunnel add or1tolip6 mode gre local 161.105.194.154 remote 132.227.62.163 ttl 255
+        pre-up iptunnel add or1tolip6 mode gre local 161.105.195.18 remote 132.227.62.163 ttl 255
         pointopoint 10.0.15.1
         up ifconfig or1tolip6
 
