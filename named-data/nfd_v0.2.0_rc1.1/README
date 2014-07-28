@@ -37,3 +37,10 @@ Copy root.cert from spurs to /etc/ndn/nlsr/keys
 
 chown anything that needs it.
 
+Then start nfd:
+sudo initctl start nfd
+
+Then wait a few seconds and check the upstart log directory to make sure nothing is going crazy:
+ls -l /var/log/upstart
+
+
