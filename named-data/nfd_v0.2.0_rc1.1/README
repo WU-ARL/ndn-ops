@@ -18,7 +18,7 @@ sudo cp nfd-status-http-server /etc/default/
 cd ..
 cd NFD_conf_files/
 sudo cp nfd.conf /etc/ndn/
-sudo cp nfdInit.sh /var/lib/ndn/nfd
+sudo cp nfd-init.sh /etc/ndn/
 cd ..
 cd NLSR_conf_files/
 sudo cp nlsr_caida.conf /etc/ndn/nlsr/nlsr.conf
