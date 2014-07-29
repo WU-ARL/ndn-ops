@@ -7,5 +7,5 @@ sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/edu/co
 
 sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/edu/colostate/%C1.Operator/ndnops > ~nlsr/unsigned_operator.cert'
 sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "CSU Operator" -s /ndn/edu/colostate -p /ndn/edu/colostate/%C1.Operator/ndnops -r ~nlsr/unsigned_operator.cert > ~nlsr/operator.cert'
-sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/edu/colostate/%C1.Router/colostatehub > ~nlsr/unsigned_router.cert'
+sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/edu/colostate/%C1.Router/mccoy > ~nlsr/unsigned_router.cert'
 sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "CSU Router mccoy" -s /ndn/edu/colostate/%C1.Operator/ndnops -p /ndn/edu/colostate/%C1.Router/mccoy -r ~nlsr/unsigned_router.cert > ~nlsr/router.cert'
