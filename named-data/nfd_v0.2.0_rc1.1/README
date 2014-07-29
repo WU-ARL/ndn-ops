@@ -3,6 +3,15 @@ cd ../running_version/start_scripts/
 sudo vi /etc/rc.local
 and comment out the startAllDaemons.sh line
 
+Check for any ndn packages:
+dpkg -l | grep ndn
+
+Remove them if they exist
+sudo apt-get remove ndn-cxx
+
+Then purge them
+sudo apt-get purge ndn-cxx
+
 Then go into nfd_* and go through the spurs.rms
 
 
@@ -32,7 +41,7 @@ sudo cp nfd-status-http-server /etc/default/
 cd ..
 cd NFD_conf_files/
 sudo cp nfd.conf /etc/ndn/
-sudo cp nfdInit.sh /var/lib/ndn/nfd
+sudo cp nfd-init.sh /etc/ndn/
 cd ..
 cd NLSR_conf_files/
 sudo cp nlsr_caida.conf /etc/ndn/nlsr/nlsr.conf
@@ -50,4 +59,11 @@ Copy root.cert from spurs to /etc/ndn/nlsr/keys
 
 
 chown anything that needs it.
+
+Then start nfd:
+sudo initctl start nfd
+
+Then wait a few seconds and check the upstart log directory to make sure nothing is going crazy:
+ls -ltr /var/log/upstart
+
 
