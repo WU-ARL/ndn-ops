@@ -5,6 +5,20 @@ and comment out the startAllDaemons.sh line
 
 Then go into nfd_* and go through the spurs.rms
 
+
+Check for any ndn related packages and remove them:
+> dpkg -l | grep ndn
+ii  ndn.cxx                              0.2.1-1ppa1~1precise1               C++ API for NDN (dev branch)
+ii  ndn.cxx-dev                          0.2.1-1ppa1~1precise1               C++ API for NDN (dev branch)
+ii  ndn.cxx-security-tools               0.2~rc2-ppa1~precise1               Tools to work with public, private keys and NDN certificates
+ii  python-ndn-exp                       0.2~rc1-ppa1~precise1               Python bindings for NDN (experimental branch)
+> sudo apt-get remove ndn.cxx ndn.cxx-dev ndn.cxx-security-tools python-ndn-exp
+
+Then Check again for any ndn related packages and purge what is left
+> dpkg -l | grep ndn
+> sudo apt-get purge ndn.cxx 
+
+
 Then  > sudo adduser nlsr
 
 Then ./git_and_apt_install.sh 
