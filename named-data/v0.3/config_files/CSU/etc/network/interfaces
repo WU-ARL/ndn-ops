@@ -36,14 +36,14 @@ auto csutoucla
 	up ifconfig csutoucla
 
 # GRE Tunnel to aleph.ndn.ucla.edu (REMAP)
-auto csutoremap
-	iface csutoremap inet static
+auto csutoremap2
+	iface csutoremap2 inet static
 	address 10.0.4.5
 	netmask 255.255.255.252
-	#pre-up iptunnel add csutoremap mode gre local 129.82.138.48 remote 164.67.204.133 ttl 255 
-	pre-up iptunnel add csutoremap mode gre local 129.82.138.48 remote 128.97.98.7 ttl 255 
+	#pre-up iptunnel add csutoremap2 mode gre local 129.82.138.48 remote 164.67.204.133 ttl 255 
+	pre-up iptunnel add csutoremap2 mode gre local 129.82.138.48 remote 128.97.98.7 ttl 255 
 	pointopoint 10.0.4.6
-	up ifconfig csutoremap
+	up ifconfig csutoremap2
 
 # GRE Tunnel to ndn0.eecs.umich.edu (MICHIGAN)
 auto csutomich
@@ -55,11 +55,12 @@ auto csutomich
 	up ifconfig csutomich
 
 # GRE Tunnel to UIUC
-auto csutouiuc
-	iface csutouiuc inet static
+auto csutouiuc2
+	iface csutouiuc2 inet static
 	address 10.0.4.1
 	netmask 255.255.255.252
-	pre-up iptunnel add csutouiuc mode gre local 129.82.138.48 remote 128.174.239.4 ttl 255 
+	#pre-up iptunnel add csutouiuc2 mode gre local 129.82.138.48 remote 128.174.239.4 ttl 255 
+	pre-up iptunnel add csutouiuc2 mode gre local 129.82.138.48 remote 72.36.112.82 ttl 255 
 	pointopoint 10.0.4.2
-	up ifconfig csutouiuc
+	up ifconfig csutouiuc2
 
