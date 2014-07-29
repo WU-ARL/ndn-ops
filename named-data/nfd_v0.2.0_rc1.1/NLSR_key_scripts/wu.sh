@@ -3,7 +3,7 @@
 sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/edu/wustl > ~nlsr/unsigned_site.cert'
 
 # this next step must take place on UCLA where the root cert is.
-# sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "WU" -s /ndn -p /ndn/edu/wustl -r wustl_unsigned_site.cert > /home/nlsr/site.cert'
+# sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "WU" -s /ndn -p /ndn/edu/wustl -r /home/nlsr/wu_unsigned_site.cert > /home/nlsr/wu_site.cert'
 
 sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/edu/wustl/%C1.Operator/ndnops > ~nlsr/unsigned_operator.cert'
 sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "WU Operator" -s /ndn/edu/wustl -p /ndn/edu/wustl/%C1.Operator/ndnops -r ~nlsr/unsigned_operator.cert > ~nlsr/operator.cert'

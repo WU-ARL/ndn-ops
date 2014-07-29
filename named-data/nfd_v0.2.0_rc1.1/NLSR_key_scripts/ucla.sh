@@ -1,8 +1,8 @@
 #!/bin/bash
-sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/edu/ucla > /home/nlsr/unsigned_site.cert'
+sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/edu/ucla > /home/nlsr/ucla_unsigned_site.cert'
 
 # this next step must take place on UCLA where the root cert is.
-sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "UCLA" -s /ndn -p /ndn/edu/ucla -r /home/nlsr/unsigned_site.cert > /etc/ndn/nlsr/keys/site.cert'
+sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "UCLA" -s /ndn -p /ndn/edu/ucla -r /home/nlsr/ucla_unsigned_site.cert > /etc/ndn/nlsr/keys/site.cert'
 
 sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/edu/ucla/%C1.Operator/ndnops > /home/nlsr/unsigned_operator.cert'
 sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "UCLA Operator" -s /ndn/edu/ucla -p /ndn/edu/ucla/%C1.Operator/ndnops -r /home/nlsr/unsigned_operator.cert > /etc/ndn/nlsr/keys/operator.cert'

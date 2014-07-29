@@ -3,7 +3,7 @@
 sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/edu/uci > ~nlsr/unsigned_site.cert'
 
 # this next step must take place on UCLA where the root cert is.
-# sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "UCI" -s /ndn -p /ndn/edu/uci -r uci_unsigned_site.cert > /home/nlsr/site.cert'
+# sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "UCI" -s /ndn -p /ndn/edu/uci -r /home/nlsr/uci_unsigned_site.cert > /home/nlsr/uci_site.cert'
 
 sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/edu/uci/%C1.Operator/ndnops > ~nlsr/unsigned_operator.cert'
 sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "UCI Operator" -s /ndn/edu/uci -p /ndn/edu/uci/%C1.Operator/ndnops -r ~nlsr/unsigned_operator.cert > ~nlsr/operator.cert'
