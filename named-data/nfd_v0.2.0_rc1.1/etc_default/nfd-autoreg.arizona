@@ -1,14 +1,16 @@
 # nfd-autoreg defaults
 
 # Blacklisted networks
-BLACKLIST="141.225.11.173/32 128.252.153.194/32 192.172.226.248/32 128.97.98.7/32 129.82.138.48/32"
-
+BLACKLIST="141.225.11.173 128.252.153.194 192.172.226.248 128.97.98.7 129.82.138.48"
 
 # Whitelisted networks
 WHITELIST=""
 
-# Prefixes to register
-PREFIXES="/ndn/guest /ndn/broadcast /ndn/edu/arizona"
+# Prefixes to register on All faces:
+ALL_FACES_PREFIXES="/ndn/broadcast"
+
+# Prefixes to register just on on-demand faces:
+ON_DEMAND_FACES_PREFIXES="/ndn/edu/arizona"
 
 # Flags
 FLAGS=""
