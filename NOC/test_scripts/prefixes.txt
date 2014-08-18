@@ -1,0 +1,16 @@
+ndn:/ndn/edu/colostate
+ndn:/ndn/edu/wustl
+ndn:/ndn/edu/uiuc
+ndn:/ndn/org/caida
+ndn:/ndn/edu/ucla
+ndn:/ndn/edu/uci
+ndn:/ndn/edu/neu
+ndn:/ndn/cn/edu/pku
+ndn:/ndn/cn/edu/bupt
+ndn:/ndn/edu/umich
+ndn:/ndn/edu/arizona
+ndn:/ndn/edu/memphis
+ndn:/ndn/edu/ucla/remap
+ndn:/ndn/cn/edu/tongji
+ndn:/ndn/fr/lip6
+ndn:/ndn/fr/orange1
