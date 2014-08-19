@@ -1,0 +1,4 @@
+sudo cp 50unattended-updates /etc/apt/apt.conf.d/50unattended-upgrades
+sudo dpkg-reconfigure unattended-upgrades
+
+select yes
