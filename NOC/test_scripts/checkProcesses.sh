@@ -14,11 +14,11 @@
 #ndnops   20634  0.0  0.0   9392   900 pts/8    S+   07:40   0:00 grep --color=auto nfd
 
 
-NLSR_PID=`ps auxwww | grep -v grep | grep "/usr/bin/nlsr" | cut -d' ' -f 6`
-NFD_PID=`ps auxwww | grep -v grep | grep -v autoreg | grep -v http | grep "/usr/bin/nfd" | cut -d' ' -f 6`
-NRD_PID=`ps auxwww | grep -v grep | grep "/usr/bin/nrd" | cut -d' ' -f 7`
-NFD_AUTOREG_PID=`ps auxwww | grep -v grep | grep "/usr/bin/nfd-autoreg" | cut -d' ' -f 7`
-NFD_STATUS_HTTP_SERVER_PID=`ps auxwww | grep -v grep | grep "/usr/bin/nfd-status-http-server" | cut -d' ' -f 6`
+NLSR_PID=`ps auxwww | grep -v grep | grep "/usr/bin/nlsr" | sed -e 's/nlsr */nlsr /' | cut -d' ' -f 2`
+NFD_PID=`ps auxwww | grep -v grep | grep -v autoreg | grep -v http | grep "/usr/bin/nfd" | sed -e 's/root */root /' | cut -d' ' -f 2`
+NRD_PID=`ps auxwww | grep -v grep | grep "/usr/bin/nrd" | sed -e 's/ndn */ndn /' | cut -d' ' -f 2`
+NFD_AUTOREG_PID=`ps auxwww | grep -v grep | grep "/usr/bin/nfd-autoreg" | sed -e 's/ndn */ndn /' | cut -d' ' -f 2`
+NFD_STATUS_HTTP_SERVER_PID=`ps auxwww | grep -v grep | grep "/usr/bin/nfd-status-http-server" | sed -e 's/root */root /' | cut -d' ' -f 2`
 
 echo "NLSR_PID=$NLSR_PID"
 echo "NFD_PID=$NFD_PID"
