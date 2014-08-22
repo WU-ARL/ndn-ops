@@ -1,0 +1,6 @@
+# defaults for ndnxmlstat_c client
+
+# Local IP for Interests
+LOCAL_IP="161.105.195.18"
+
+FLAGS=""

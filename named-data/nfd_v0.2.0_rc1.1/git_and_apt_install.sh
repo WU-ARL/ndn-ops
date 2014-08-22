@@ -6,31 +6,11 @@
 #    ndn-tlv-ping
 #    nlsr
 #      configuration files for nlsr
+#    repo-ng
+#    ndn-autoconfig-server
 #
+#    nfd-all covers a bunch of the above, just have to verify what exactly.
 
-## install boost 1.55
-#wget http://downloads.sourceforge.net/project/boost/boost/1.55.0/boost_1_55_0.tar.gz
-#tar -xzf boost_1_55_0.tar.gz
-#pushd boost_1_55_0/
-#./bootstrap.sh
-#./b2
-#sudo ./b2 install
-#sudo ldconfig
-#popd
-#
-#git clone http://github.com/named-data/wsproxy-cpp
-#pushd wsproxy-cpp
-#git submodule init
-#git submodule update
-### boost.py.update gives a different order of paths for libs and includes
-### boost lib installed above is going into /usr/local so we want that first
-##mv waf-tools/boost.py waf-tools/boost.py.ORIG
-##cp -p ../boost.py.updated waf-tools/boost.py
-#./waf configure
-#./waf
-#sudo ./waf install
-#popd
-#
 sudo add-apt-repository ppa:named-data/ppa
 sudo apt-get -y update
 sudo apt-get -y install ndn-cxx nfd nlsr
@@ -38,6 +18,16 @@ sudo apt-get -y install ndn-cxx-dev
 sudo apt-get -y install ndndump
 sudo apt-get -y install ndn-tlv-ping
 sudo apt-get -y install repo-ng
+sudo apt-get -y install ndn-autoconfig-server
+
+git clone http://github.com/WU-ARL/ndnmap
+pushd ndnmap/DataCollection
+./waf configure
+./waf
+sudo ./waf install
+popd
+sudo mkdir -p /var/lib/ndn/ndnxmlstat_c
+sudo chown ndn.ndn /var/lib/ndn/ndnxmlstat_c
 
 # set stuff up for NLSR
 # We need 
