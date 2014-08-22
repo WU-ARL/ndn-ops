@@ -1,0 +1,21 @@
+description "NDN XML Status client"
+author      "John DeHart <jdd@wustl.edu>"
+
+start on started  nrd
+stop  on stopping nrd
+
+respawn
+respawn limit unlimited
+
+setuid ndn
+setgid ndn
+
+script
+    FLAGS=""
+    LOCAL_IP="114.247.165.44"
+    if [ -f /etc/default/ndnxmlstat_c.bupt ]; then
+        . /etc/default/ndnxmlstat_c.bupt
+    fi
+    export HOME=/var/lib/ndn/ndnxmlstat_c
+    exec /usr/local/bin/xmlstat_c $FLAGS -i $LOCAL_IP
+end script
