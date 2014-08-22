@@ -13,8 +13,8 @@ setgid ndn
 script
     FLAGS=""
     LOCAL_IP="129.82.138.48"
-    if [ -f /etc/default/ndnxmlstat_c.csu ]; then
-        . /etc/default/ndnxmlstat_c.csu
+    if [ -f /etc/default/ndnxmlstat_c ]; then
+        . /etc/default/ndnxmlstat_c
     fi
     export HOME=/var/lib/ndn/ndnxmlstat_c
     exec /usr/local/bin/xmlstat_c $FLAGS -i $LOCAL_IP
