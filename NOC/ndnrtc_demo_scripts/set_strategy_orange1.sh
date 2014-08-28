@@ -14,5 +14,5 @@ nfdc set-strategy ndn:/ndn/edu/uiuc/ndnrtc ndn:/localhost/nfd/strategy/best-rout
 nfdc set-strategy ndn:/ndn/edu/umich/ndnrtc ndn:/localhost/nfd/strategy/best-route
 nfdc set-strategy ndn:/ndn/edu/wustl/ndnrtc ndn:/localhost/nfd/strategy/best-route
 nfdc set-strategy ndn:/ndn/fr/lip6/ndnrtc ndn:/localhost/nfd/strategy/best-route
-#nfdc set-strategy ndn:/ndn/fr/orange1/ndnrtc ndn:/localhost/nfd/strategy/best-route
+nfdc set-strategy ndn:/ndn/fr/orange1/ndnrtc ndn:/localhost/nfd/strategy/best-route
 nfdc set-strategy ndn:/ndn/org/caida/ndnrtc ndn:/localhost/nfd/strategy/best-route
