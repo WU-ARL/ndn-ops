@@ -10,7 +10,7 @@ nfdc set-strategy ndn:/ndn/edu/neu/ndnrtc ndn:/localhost/nfd/strategy/best-route
 nfdc set-strategy ndn:/ndn/edu/uci/ndnrtc ndn:/localhost/nfd/strategy/best-route
 nfdc set-strategy ndn:/ndn/edu/ucla/ndnrtc ndn:/localhost/nfd/strategy/best-route
 nfdc set-strategy ndn:/ndn/edu/ucla/remap/ndnrtc ndn:/localhost/nfd/strategy/best-route
-#nfdc set-strategy ndn:/ndn/edu/uiuc/ndnrtc ndn:/localhost/nfd/strategy/best-route
+nfdc set-strategy ndn:/ndn/edu/uiuc/ndnrtc ndn:/localhost/nfd/strategy/best-route
 nfdc set-strategy ndn:/ndn/edu/umich/ndnrtc ndn:/localhost/nfd/strategy/best-route
 nfdc set-strategy ndn:/ndn/edu/wustl/ndnrtc ndn:/localhost/nfd/strategy/best-route
 nfdc set-strategy ndn:/ndn/fr/lip6/ndnrtc ndn:/localhost/nfd/strategy/best-route

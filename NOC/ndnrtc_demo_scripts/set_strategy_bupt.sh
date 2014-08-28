@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#nfdc set-strategy ndn:/ndn/cn/edu/bupt/ndnrtc ndn:/localhost/nfd/strategy/best-route
+nfdc set-strategy ndn:/ndn/cn/edu/bupt/ndnrtc ndn:/localhost/nfd/strategy/best-route
 nfdc set-strategy ndn:/ndn/cn/edu/pku/ndnrtc ndn:/localhost/nfd/strategy/best-route
 nfdc set-strategy ndn:/ndn/cn/edu/tongji/ndnrtc ndn:/localhost/nfd/strategy/best-route
 nfdc set-strategy ndn:/ndn/edu/arizona/ndnrtc ndn:/localhost/nfd/strategy/best-route
