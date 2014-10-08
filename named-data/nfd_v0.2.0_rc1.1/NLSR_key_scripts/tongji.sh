@@ -3,7 +3,7 @@
 sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/cn/edu/tongji > ~nlsr/unsigned_site.cert'
 
 # this next step must take place on UCLA where the root cert is.
-# sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "TONGJI" -s /ndn -p /ndn/cn/edu/tongji -r tongji_unsigned_site.cert > /home/nlsr/site.cert'
+# sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "TONGJI" -s /ndn -p /ndn/cn/edu/tongji -r tongji_unsigned_site.cert > /home/nlsr/tongji_site.cert'
 
 sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/cn/edu/tongji/%C1.Operator/ndnops > ~nlsr/unsigned_operator.cert'
 sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-cert-gen -S 201407080000 -E 201507080000 -N "TONGJI Operator" -s /ndn/cn/edu/tongji -p /ndn/cn/edu/tongji/%C1.Operator/ndnops -r ~nlsr/unsigned_operator.cert > /etc/ndn/nlsr/keys/operator.cert'
