@@ -52,3 +52,16 @@ sudo mkdir -p /var/lib/ndn/nfd-autoreg
 sudo chown -R nlsr.nlsr /var/lib/ndn/nlsr /var/log/ndn/nlsr  /etc/ndn/nlsr
 sudo chown -R ndn.ndn /var/lib/ndn/nfd-autoreg
 
+sudo pip install requests
+
+git clone https://github.com/cawka/PyNDN2
+cd PyNDN2
+sudo python setup.py install
+
+curl -O https://raw.githubusercontent.com/named-data/ndncert/master/ndnop-process-requests
+chmod 755 ndnop-process-requests
+
+# Optionally copy to a folder within $PATH. For example:
+sudo mv ndnop-process-requests /usr/local/bin/
+
+
