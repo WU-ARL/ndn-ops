@@ -1,11 +1,11 @@
 basel:      Urs Schnurrenberger       urs.schnurrenberger@unibas.ch
-bupt:       Junfu Zhou                zhoujunfuv5@163.com (email does not match ndn name: /ndn/cn/edu/bupt)
+bupt:       Junfu Zhou                zhoujunfuv5@bupt.edu.cn
 pku:        Chaoyi                    bcy@pku.edu.cn
 tongji:     Jianpeng Wang             wangjianpeng4321@163.com  (email does not match ndn name: /ndn/cn/edu/tongji)
 arizona:    Junxiao Shi               shijunxiao@email.arizona.edu 
 csu:        Steve DiBenedetto         dibenede@cs.colostate.edu
 memphis:    Vince Lehman              vslehman@memphis.edu
-neu:        Ran Liu                   liuranapply@gmail.com (email does not match ndn name: /ndn/edu/neu)
+neu:        Ran Liu                   liuranapply@husky.neu.edu
 uci:        Cesar Ghali               cghali@uci.edu
 ucla:       Alex Afanasyev            alexander.afanasyev@ucla.edu
 remap:      Alex Horn                 nano@remap.ucla.edu
@@ -14,8 +14,6 @@ michigan:   Alex Halderman            jhalderm@eecs.umich.edu
 wu:         John DeHart               jdd@wustl.edu
 urjc:       Pedro d-las-Heras-Quiros  pedro.delasheras@urjc.es
 lip6:       Davide Pesavento          davide.pesavento@lip6.fr
-orange1:    Luca Muscariello          luca.muscariello@orange.com  (email does not match ndn name: /ndn/fr/orange1)
-caida:      Josh Polterock            josh@caida.org
-OR
+orange1:    Luca Muscariello          luca.muscariello@orange.com
 caida:     Dan Anderson               dea@caida.org
 
