@@ -52,6 +52,8 @@ sudo mkdir -p /var/lib/ndn/nfd-autoreg
 sudo chown -R nlsr.nlsr /var/lib/ndn/nlsr /var/log/ndn/nlsr  /etc/ndn/nlsr
 sudo chown -R ndn.ndn /var/lib/ndn/nfd-autoreg
 
+sudo apt-get -y install python-pip 
+
 sudo pip install requests
 
 git clone https://github.com/cawka/PyNDN2
