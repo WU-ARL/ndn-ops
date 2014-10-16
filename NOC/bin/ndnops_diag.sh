@@ -23,6 +23,7 @@ NFD_VSIZE=`ps alx | sed -n '/\/usr\/bin\/nfd /s/ \+/ /gp' | cut -d ' ' -f 7`
 NFD_PID=`ps alx | sed -n '/\/usr\/bin\/nfd /s/ \+/ /gp' | cut -d ' ' -f 3`
 NFD_LOGFILE_SIZE=`du -sh /var/log/ndn/nfd.log | cut -d '	' -f 1`
 read ROOT_DISK_SIZE ROOT_DISK_USED ROOT_DISK_AVAIL <<< $(df -h / | grep -v Filesystem | sed -n '/ /s/ \+/ /gp' | cut -d ' ' -f 2,3,4)
+read BOOT_DISK_SIZE BOOT_DISK_USED BOOT_DISK_AVAIL <<< $(df -h /boot | grep -v Filesystem | sed -n '/ /s/ \+/ /gp' | cut -d ' ' -f 2,3,4)
 
 #echo "NFD_PID=$NFD_PID" >> $OUTPUT_FILE
 #echo "NFD_VSIZE=$NFD_VSIZE" >> $OUTPUT_FILE
@@ -40,4 +41,7 @@ echo "<td>$NFD_LOGFILE_SIZE</td>" >> $OUTPUT_FILE
 echo "<td>$ROOT_DISK_SIZE</td>" >> $OUTPUT_FILE
 echo "<td>$ROOT_DISK_USED</td>" >> $OUTPUT_FILE
 echo "<td>$ROOT_DISK_AVAIL</td>" >> $OUTPUT_FILE
+echo "<td>$BOOT_DISK_SIZE</td>" >> $OUTPUT_FILE
+echo "<td>$BOOT_DISK_USED</td>" >> $OUTPUT_FILE
+echo "<td>$BOOT_DISK_AVAIL</td>" >> $OUTPUT_FILE
 echo "</tr>" >> $OUTPUT_FILE
