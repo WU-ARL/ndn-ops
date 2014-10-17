@@ -1,69 +1,104 @@
-cd ../running_version/start_scripts/
-./stopAllDaemons.sh
-sudo vi /etc/rc.local
-and comment out the startAllDaemons.sh line
+Section 1:
+ This section is for cleaning up an old version of ndnx. Skip this section if you
+ are installing nfd/nlsr on a new machine.
+    cd ../running_version/start_scripts/
+    ./stopAllDaemons.sh
+    sudo vi /etc/rc.local
+    and comment out the startAllDaemons.sh line
 
-Check for any ndn packages:
-dpkg -l | grep ndn
+    Check for any ndn packages:
+    dpkg -l | grep ndn
+    
+    Remove them if they exist
+    sudo apt-get remove ndn-cxx
 
-Remove them if they exist
-sudo apt-get remove ndn-cxx
+    Then purge them
+    sudo apt-get purge ndn-cxx
 
-Then purge them
-sudo apt-get purge ndn-cxx
-
-Then go into nfd_* and go through the spurs.rms
-
-
-Check for any ndn related packages and remove them:
-> dpkg -l | grep ndn
-ii  ndn.cxx                              0.2.1-1ppa1~1precise1               C++ API for NDN (dev branch)
-ii  ndn.cxx-dev                          0.2.1-1ppa1~1precise1               C++ API for NDN (dev branch)
-ii  ndn.cxx-security-tools               0.2~rc2-ppa1~precise1               Tools to work with public, private keys and NDN certificates
-ii  python-ndn-exp                       0.2~rc1-ppa1~precise1               Python bindings for NDN (experimental branch)
-> sudo apt-get remove ndn.cxx ndn.cxx-dev ndn.cxx-security-tools python-ndn-exp
-
-Then Check again for any ndn related packages and purge what is left
-> dpkg -l | grep ndn
-> sudo apt-get purge ndn.cxx 
+    Then go into ndn-ops/named-data/nfd_v0.2.0_rc1.1 and go through the spurs.rms
 
 
-Then  > sudo adduser nlsr
+    Check for any ndn related packages and remove them:
+    > dpkg -l | grep ndn
+    ii  ndn.cxx                              0.2.1-1ppa1~1precise1               C++ API for NDN (dev branch)
+    ii  ndn.cxx-dev                          0.2.1-1ppa1~1precise1               C++ API for NDN (dev branch)
+    ii  ndn.cxx-security-tools               0.2~rc2-ppa1~precise1               Tools to work with public, private keys and NDN certificates
+    ii  python-ndn-exp                       0.2~rc1-ppa1~precise1               Python bindings for NDN (experimental branch)
+    > sudo apt-get remove ndn.cxx ndn.cxx-dev ndn.cxx-security-tools python-ndn-exp
 
-Then ./git_and_apt_install.sh 
+    Then Check again for any ndn related packages and purge what is left
+    > dpkg -l | grep ndn
+    > sudo apt-get purge ndn.cxx 
 
-sudo initctl stop nfd
+Section 2:
+ Now add the new stuff for nfd and nlsr
+  Some configuration files are customized to the individual nodes. The names of these
+  files below have a <name> in them. This <name> should be replace with the name associated
+  with the individual node. e.g. wu for Washington University, caida for CAIDA, ucla for UCLA, remap for REMAP, ...
+  Right now (10/17/14), there are 7 such files. Here are the caida files:
+      NFD_conf_files/nfd-init.sh.caida
+      NLSR_key_scripts/caida.sh
+      etc_default/ndn-tlv-ping.caida
+      etc_default/nfd-autoreg.caida
+      NLSR_conf_files/nlsr_caida.conf
+      REPO_NG_conf_files/repo-ng.conf.caida
+      etc_default/ndnxmlstat_c.caida
+  If you are adding a new node, these files will have to be replicated and modified as needed for that new node.
 
-cd etc_default/
-sudo cp ndn-tlv-ping.caida /etc/default/ndn-tlv-ping 
-sudo cp nfd-autoreg.caida  /etc/default/nfd-autoreg
-sudo cp nfd-status-http-server /etc/default/
-cd ..
-cd NFD_conf_files/
-sudo cp nfd.conf /etc/ndn/
-sudo cp nfd-init.sh /etc/ndn/
-cd ..
-cd NLSR_conf_files/
-sudo cp nlsr_caida.conf /etc/ndn/nlsr/nlsr.conf
-cd Upstart/
-sudo cp ndn-tlv-ping.conf.caida /etc/init/ndn-tlv-ping.conf 
-sudo cp nfd-autoreg.conf /etc/init/
-sudo cp nfd.conf /etc/init/nfd.conf 
-sudo cp nfd-status-http-server.conf /etc/init/
-sudo cp nlsr.conf /etc/init/
+  cd ndn-ops/named-data/nfd_v0.2.0_rc1.1
+
+  Add an nlsr user
+  > sudo adduser nlsr
+
+  Add all the packages we need:
+  > ./git_and_apt_install.sh 
+
+  # the above will install nfd an automatically start it. stop it so we can reconfigure.
+  > sudo initctl stop nfd
+
+  > pushd etc_default/
+  > sudo cp ndn-tlv-ping.<name> /etc/default/ndn-tlv-ping 
+  > sudo cp nfd-autoreg.<name>  /etc/default/nfd-autoreg
+  > sudo cp nfdxmlstat_c.<name>  /etc/default/nfdxmlstat_c
+  > sudo cp nfd-status-http-server /etc/default/
+  > popd
+
+  > pushd NFD_conf_files/
+  > sudo cp nfd.conf /etc/ndn/
+  > sudo cp nfd-init.sh.<name>/etc/ndn/
+  > popd
+
+  > pushd REPO_NG_conf_files/
+  > sudo cp repo-ng.conf.<name> /etc/ndn/repo-ng.conf
+  > popd
+
+  > pushd NLSR_conf_files/
+  > sudo cp nlsr_<name>.conf /etc/ndn/nlsr/nlsr.conf
+  > popd
+
+  > pushd Upstart/
+  > sudo cp ndn-tlv-ping.conf /etc/init/ndn-tlv-ping.conf 
+  > sudo cp nfd-autoreg.conf /etc/init/
+  > sudo cp nfd.conf /etc/init/nfd.conf 
+  > sudo cp nfd-status-http-server.conf /etc/init/
+  > sudo cp nlsr.conf /etc/init/
+  > popd
 
 
-Then do the NLSR_key_scripts stuff
+  Then do the NLSR_key_scripts stuff
+  > pushd NLSR_key_scripts
+  Follow directions in <name>.sh. Some commands are executed on the local machine and one has to be
+  executed on the root node, UCLA (spurs).
 
-Copy root.cert from spurs to /etc/ndn/nlsr/keys
+  Copy root.cert from UCLA (spurs) to /etc/ndn/nlsr/keys
 
 
-chown anything that needs it.
+  chown anything that needs it.
 
-Then start nfd:
-sudo initctl start nfd
+  Then start nfd:
+  sudo initctl start nfd
 
-Then wait a few seconds and check the upstart log directory to make sure nothing is going crazy:
-ls -ltr /var/log/upstart
+  Then wait a few seconds and check the upstart log directory to make sure nothing is going crazy:
+  ls -ltr /var/log/upstart
 
 
