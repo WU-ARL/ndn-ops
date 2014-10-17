@@ -11,7 +11,6 @@ sleep 15
 /usr/bin/nfdc set-strategy /ndn/broadcast /localhost/nfd/strategy/broadcast
 
 
-
 nfdc set-strategy ndn:/ndn/edu/arizona/ndnrtc  ndn:/localhost/nfd/strategy/broadcast
 
 nfdc set-strategy ndn:/ndn/cn/edu/bupt/ndnrtc ndn:/localhost/nfd/strategy/best-route
@@ -31,3 +30,4 @@ nfdc set-strategy ndn:/ndn/com/orange/ndnrtc ndn:/localhost/nfd/strategy/best-ro
 nfdc set-strategy ndn:/ndn/org/caida/ndnrtc ndn:/localhost/nfd/strategy/best-route
 nfdc set-strategy ndn:/ndn/ch/unibas/ndnrtc ndn:/localhost/nfd/strategy/best-route
 nfdc set-strategy ndn:/ndn/es/urjc/ndnrtc ndn:/localhost/nfd/strategy/best-route
+nfdc set-strategy ndn:/ndn/jp/waseda/ndnrtc ndn:/localhost/nfd/strategy/best-route
