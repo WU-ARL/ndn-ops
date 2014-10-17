@@ -30,3 +30,4 @@ nfdc set-strategy ndn:/ndn/fr/lip6/ndnrtc ndn:/localhost/nfd/strategy/best-route
 nfdc set-strategy ndn:/ndn/com/orange/ndnrtc ndn:/localhost/nfd/strategy/best-route
 nfdc set-strategy ndn:/ndn/org/caida/ndnrtc ndn:/localhost/nfd/strategy/best-route
 nfdc set-strategy ndn:/ndn/ch/unibas/ndnrtc ndn:/localhost/nfd/strategy/best-route
+nfdc set-strategy ndn:/ndn/jp/waseda/ndnrtc ndn:/localhost/nfd/strategy/best-route
