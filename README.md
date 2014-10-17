@@ -4,7 +4,9 @@ scripts and files for the NDN Testbed Router nodes.
 To use this repo on a freshly installed node, do this:
 
 > sudo apt-get update
+
 > sudo apt-get upgrade
+
 > sudo apt-get -y install git
 
 > git clone https://github.com/WU-ARL/ndn-ops.git
