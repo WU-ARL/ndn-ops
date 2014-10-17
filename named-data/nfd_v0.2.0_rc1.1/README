@@ -65,7 +65,7 @@ Section 2:
 
   > pushd NFD_conf_files/
   > sudo cp nfd.conf /etc/ndn/
-  > sudo cp nfd-init.sh.<name>/etc/ndn/
+  > sudo cp nfd-init.sh.<name> /etc/ndn/nfd-init.sh
   > popd
 
   > pushd REPO_NG_conf_files/
@@ -94,6 +94,7 @@ Section 2:
 
 
   chown anything that needs it.
+  > sudo chown -R nlsr.nlsr  /etc/ndn/nlsr/keys
 
   Then start nfd:
   sudo initctl start nfd
@@ -101,4 +102,29 @@ Section 2:
   Then wait a few seconds and check the upstart log directory to make sure nothing is going crazy:
   ls -ltr /var/log/upstart
 
+  Then restart nfd on new nodes neighbors
+
+  Verify that the new node has faces and routes:
+  > nfd-status
+
+  Add it to the NDN Testbed Status page (http://www.arl.wustl.edu/~jdd/ndnstatus/ndn_prefix/tbs_ndnx.html)
+
+  Add it to ndnmap (http://ndnmap.arl.wustl.edu/)
+
+  Add it to ndndiag status page (http://www.arl.wustl.edu/~jdd/ndnstatus/ndn_diag/diag.html)
+
+  Notify the folks at Memphis so they can add it to their routing status page (http://netlab.cs.memphis.edu/script/htm/ndn-status/status.htm)
+
+  Generate a node key and cert.
+    > sudo adduser ndnsec
+    > sudo su - ndnsec
+    ndnsec> ndnsec-key-gen -n <site-prefix>
+    go to http://ndncert.named-data.net and submit key with special email address:
+         <site-prefix>@operators.named-data.net
+
+    Alex@UCLA will do his thing and I'll get email back with a cert to install with ndnsec-cert-install (as ndnsec user!)
+
+    Then the operator of the new site and users at that site can begin requesting certs.
+    The site operator approves user certs with email address in the sites domain using:
+    > sudo su - ndnsec -c ndnop-process-requests
 
