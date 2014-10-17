@@ -112,8 +112,11 @@ Section 2:
   Add it to ndnmap (http://ndnmap.arl.wustl.edu/)
 
   Add it to ndndiag status page (http://www.arl.wustl.edu/~jdd/ndnstatus/ndn_diag/diag.html)
+    Add a crontab entry for generating diagnostic data replacing <node_name> with something appropriate:
+      15 * * * * /home/ndnops/ndn-ops/NOC/bin/ndnops_diag.sh <node_name>
 
   Notify the folks at Memphis so they can add it to their routing status page (http://netlab.cs.memphis.edu/script/htm/ndn-status/status.htm)
+
 
   Generate a node key and cert.
     > sudo adduser ndnsec
