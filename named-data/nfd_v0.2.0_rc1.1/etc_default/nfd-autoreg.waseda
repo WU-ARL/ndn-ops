@@ -1,7 +1,7 @@
 # nfd-autoreg defaults
 
 # Blacklisted networks
-BLACKLIST="133.9.73.66 202.120.188.176 162.105.146.26"
+BLACKLIST="114.247.165.44 202.120.188.176 128.196.203.36 161.105.195.18"
 
 # Whitelisted networks
 WHITELIST=""
@@ -10,7 +10,7 @@ WHITELIST=""
 ALL_FACES_PREFIXES="/ndn/broadcast"
 
 # Prefixes to register just on on-demand faces:
-ON_DEMAND_FACES_PREFIXES="/ndn/cn/edu/bupt"
+ON_DEMAND_FACES_PREFIXES="/ndn/jp/waseda"
 
 # Flags
 FLAGS=""
