@@ -56,7 +56,8 @@ sudo apt-get -y install python-pip
 
 sudo pip install requests
 
-git clone https://github.com/cawka/PyNDN2
+#git clone https://github.com/cawka/PyNDN2
+git clone https://github.com/named-data/PyNDN2
 cd PyNDN2
 sudo python setup.py install
 
