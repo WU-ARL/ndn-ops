@@ -13,7 +13,7 @@ To use this repo on a freshly installed node, do this:
 
 > cd ../named-data/running_versions/
 
-> ./git_and_install.sh
+> cat README
 
 
 
