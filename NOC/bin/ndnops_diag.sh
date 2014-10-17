@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export LC_ALL=en_US.utf-8
+
 if [ $# -eq 1 ]
 then
   NAME=$1
