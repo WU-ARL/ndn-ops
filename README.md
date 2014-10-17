@@ -15,7 +15,7 @@ To use this repo on a freshly installed node, do this:
 
 > ./ubuntu_installs.sh
 
-> cd ../named-data/running_versions/
+> cd ../named-data/running_version/
 
 > cat README
 
