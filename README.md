@@ -19,5 +19,5 @@ To use this repo on a freshly installed node, do this:
 
 > cat README
 
-
+Then follow the directions in that README.
 
