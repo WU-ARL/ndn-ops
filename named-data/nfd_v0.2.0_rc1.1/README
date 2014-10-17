@@ -36,11 +36,11 @@ Section 2:
   files below have a <name> in them. This <name> should be replace with the name associated
   with the individual node. e.g. wu for Washington University, caida for CAIDA, ucla for UCLA, remap for REMAP, ...
   Right now (10/17/14), there are 7 such files. Here are the caida files:
-      NFD_conf_files/nfd-init.sh.caida
+      NFD_conf_files/nfd-init.sh.caida (requires changes to all nfd-init.sh files because of ndnrtc strategy config)
       NLSR_key_scripts/caida.sh
       etc_default/ndn-tlv-ping.caida
-      etc_default/nfd-autoreg.caida
-      NLSR_conf_files/nlsr_caida.conf
+      etc_default/nfd-autoreg.caida  (requires changes to neighbors nfd-autoreg files also)
+      NLSR_conf_files/nlsr_caida.conf  (requires changes to neighbors NLSR conf files also)
       REPO_NG_conf_files/repo-ng.conf.caida
       etc_default/ndnxmlstat_c.caida
   If you are adding a new node, these files will have to be replicated and modified as needed for that new node.
