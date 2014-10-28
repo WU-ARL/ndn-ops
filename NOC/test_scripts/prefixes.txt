@@ -14,3 +14,6 @@ ndn:/ndn/edu/ucla/remap
 ndn:/ndn/cn/edu/tongji
 ndn:/ndn/fr/lip6
 ndn:/ndn/com/orange
+ndn:/ndn/ch/unibas
+ndn:/ndn/es/urjc
+ndn:/ndn/jp/waseda
