@@ -13,4 +13,4 @@ ndn:/ndn/edu/memphis
 ndn:/ndn/edu/ucla/remap
 ndn:/ndn/cn/edu/tongji
 ndn:/ndn/fr/lip6
-ndn:/ndn/fr/orange1
+ndn:/ndn/com/orange
