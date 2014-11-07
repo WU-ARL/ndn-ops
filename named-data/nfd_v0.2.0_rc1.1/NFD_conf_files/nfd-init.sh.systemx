@@ -11,7 +11,7 @@ sleep 15
 /usr/bin/nfdc set-strategy /ndn/broadcast /localhost/nfd/strategy/broadcast
 
 
-nfdc set-strategy ndn:/ndn/edu/neu/ndnrtc ndn:/localhost/nfd/strategy/broadcast
+nfdc set-strategy ndn:/ndn/fr/systemx/ndnrtc ndn:/localhost/nfd/strategy/broadcast
 
 nfdc set-strategy ndn:/ndn/cn/edu/bupt/ndnrtc ndn:/localhost/nfd/strategy/best-route
 nfdc set-strategy ndn:/ndn/cn/edu/pku/ndnrtc ndn:/localhost/nfd/strategy/best-route
@@ -19,6 +19,7 @@ nfdc set-strategy ndn:/ndn/cn/edu/tongji/ndnrtc ndn:/localhost/nfd/strategy/best
 nfdc set-strategy ndn:/ndn/edu/arizona/ndnrtc  ndn:/localhost/nfd/strategy/best-route
 nfdc set-strategy ndn:/ndn/edu/colostate/ndnrtc ndn:/localhost/nfd/strategy/best-route
 nfdc set-strategy ndn:/ndn/edu/memphis/ndnrtc ndn:/localhost/nfd/strategy/best-route
+nfdc set-strategy ndn:/ndn/edu/neu/ndnrtc ndn:/localhost/nfd/strategy/best-route
 nfdc set-strategy ndn:/ndn/edu/uci/ndnrtc ndn:/localhost/nfd/strategy/best-route
 nfdc set-strategy ndn:/ndn/edu/ucla/ndnrtc ndn:/localhost/nfd/strategy/best-route
 nfdc set-strategy ndn:/ndn/edu/ucla/remap/ndnrtc ndn:/localhost/nfd/strategy/best-route
@@ -31,4 +32,3 @@ nfdc set-strategy ndn:/ndn/org/caida/ndnrtc ndn:/localhost/nfd/strategy/best-rou
 nfdc set-strategy ndn:/ndn/ch/unibas/ndnrtc ndn:/localhost/nfd/strategy/best-route
 nfdc set-strategy ndn:/ndn/es/urjc/ndnrtc ndn:/localhost/nfd/strategy/best-route
 nfdc set-strategy ndn:/ndn/jp/waseda/ndnrtc ndn:/localhost/nfd/strategy/best-route
-nfdc set-strategy ndn:/ndn/fr/systemx/ndnrtc ndn:/localhost/nfd/strategy/best-route
