@@ -59,7 +59,7 @@ Section 2:
   > pushd etc_default/
   > sudo cp ndn-tlv-ping.<name> /etc/default/ndn-tlv-ping 
   > sudo cp nfd-autoreg.<name>  /etc/default/nfd-autoreg
-  > sudo cp nfdxmlstat_c.<name>  /etc/default/nfdxmlstat_c
+  > sudo cp ndnxmlstat_c.<name>  /etc/default/ndnxmlstat_c
   > sudo cp nfd-status-http-server /etc/default/
   > popd
 
@@ -77,7 +77,6 @@ Section 2:
   > popd
 
   > pushd Upstart/
-  > sudo cp ndn-tlv-ping.conf /etc/init/ndn-tlv-ping.conf 
   > sudo cp nfd-autoreg.conf /etc/init/
   > sudo cp nfd.conf /etc/init/nfd.conf 
   > sudo cp nfd-status-http-server.conf /etc/init/
