@@ -1,6 +1,11 @@
 #!/bin/bash
 # point home to /var/lib/ndn/nlsr so keys will be stored there.
+
 sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/fr/systemx > ~nlsr/unsigned_site.cert'
+
+# seems that now we have to set a default identity:
+sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/fr/systemx/nlsr > ~nlsr/unsigned_nlsr.cert'
+sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-set-default -n /ndn/fr/systemx/nlsr'
 
 # this next step must take place on UCLA where the root cert is.
 # sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-cert-gen -S 201410080000 -E 201510080000 -N "SystemX" -s /ndn -p /ndn/fr/systemx -r /home/nlsr/systemx_unsigned_site.cert > /home/nlsr/systemx_site.cert'
