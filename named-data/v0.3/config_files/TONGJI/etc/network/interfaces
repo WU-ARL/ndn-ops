@@ -30,3 +30,11 @@ auto tongjitopku
 	pointopoint 10.0.13.1
 	up ifconfig tongjitopku multicast
 
+auto tongjitoucsd
+	iface tongjitoucsd inet static
+	address 10.0.7.2
+	netmask 255.255.255.252
+	pre-up iptunnel add tongjitoucsd  mode gre local 10.60.148.139 remote 192.172.226.248 ttl 255
+	pointopoint 10.0.7.1
+	up ifconfig tongjitoucsd multicast
+
