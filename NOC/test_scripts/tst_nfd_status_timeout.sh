@@ -19,5 +19,6 @@ do
   then
     exit 0
   fi
+  sleep 1
 
 done
