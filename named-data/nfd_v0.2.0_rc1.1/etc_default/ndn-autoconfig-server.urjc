@@ -1,0 +1,16 @@
+# ndn-autoconfig-server defaults
+
+# FaceURI of NDN hub announced to hosts
+FACE_URI="udp4://insula.gsyc.es"
+
+# Examples:
+# FACE_URI="udp://spurs.cs.ucla.edu"
+# FACE_URI="udp4://spurs.cs.ucla.edu"
+# FACE_URI="udp6://spurs.cs.ucla.edu"
+# FACE_URI="tcp://spurs.cs.ucla.edu"
+
+# Routable prefixes of the router
+ROUTABLE_PREFIXES=""
+
+# Examples:
+# ROUTABLE_PREFIXES="-p /ndn/edu/ucla"
