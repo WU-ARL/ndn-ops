@@ -38,4 +38,12 @@ auto ucsdtouci
 	pointopoint 10.0.6.1
 	up ifconfig ucsdtouci multicast
 
+auto ucsdtotongji
+	iface ucsdtotongji inet static
+	address 10.0.7.1
+	netmask 255.255.255.252
+	pre-up iptunnel add ucsdtotongji  mode gre local 192.172.226.248 remote 202.120.188.176 ttl 255
+	pointopoint 10.0.7.2
+	up ifconfig ucsdtotongji multicast
+
 
