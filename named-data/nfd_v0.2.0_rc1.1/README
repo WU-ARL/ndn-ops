@@ -42,7 +42,7 @@ Section 2:
       etc_default/nfd-autoreg.caida  (requires changes to neighbors nfd-autoreg files also)
       NLSR_conf_files/nlsr_caida.conf  (requires changes to neighbors NLSR conf files also)
       REPO_NG_conf_files/repo-ng.conf.caida
-      etc_default/ndnxmlstat_c.caida
+      etc_default/nfdstat_c.caida   (ndnxmlstat_c.* no longer used)
   If you are adding a new node, these files will have to be replicated and modified as needed for that new node.
 
   cd ndn-ops/named-data/nfd_v0.2.0_rc1.1
