@@ -1,7 +1,13 @@
 ; The general section contains settings of nfd process.
-; general
-; {
-; }
+general
+{
+  ; Specify a user and/or group for NFD to drop privileges to
+  ; when not performing privileged tasks. NFD does not drop
+  ; privileges by default.
+
+  ; user ndn
+  ; group ndn
+}
 
 log
 {
@@ -135,6 +141,16 @@ rib
       type any
     }
   }
+
+  ; The following localhop_security should be enabled when NFD runs on a hub,
+  ; which accepts all remote registrations and is a short-term solution.
+   localhop_security
+   {
+     trust-anchor
+     {
+       type any
+     }
+   }
 
   ; localhop_security should be enabled when NFD runs on a hub.
   ; "/localhop/nfd/fib" command prefix will be disabled when localhop_security section is missing.

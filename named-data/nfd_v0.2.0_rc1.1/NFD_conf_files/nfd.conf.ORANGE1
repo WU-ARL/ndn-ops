@@ -41,7 +41,7 @@ tables
 {
 
   ; ContentStore size limit in number of packets
-  ; default is 65536, about 500MB with 8KB packet size
+  ; default is 32768, about 500MB with 8KB packet size
   cs_max_packets 32768
 }
 
@@ -135,6 +135,16 @@ rib
       type any
     }
   }
+
+  ; The following localhop_security should be enabled when NFD runs on a hub,
+  ; which accepts all remote registrations and is a short-term solution.
+   localhop_security
+   {
+     trust-anchor
+     {
+       type any
+     }
+   }
 
   ; localhop_security should be enabled when NFD runs on a hub.
   ; "/localhop/nfd/fib" command prefix will be disabled when localhop_security section is missing.
