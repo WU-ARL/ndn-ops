@@ -20,6 +20,13 @@ fi
 
 DATE=`date -u` 
 
+RESTART_REQUIRED_TEXT=`grep "System restart required" /etc/motd`
+if [ -z "$RESTART_REQUIRED_TEXT" ]
+then
+  RESTART_REQUIRED="N"
+else
+  RESTART_REQUIRED="Y"
+fi
 
 NFD_VSIZE=`ps alx | sed -n '/\/usr\/bin\/nfd /s/ \+/ /gp' | cut -d ' ' -f 7`
 NFD_PID=`ps alx | sed -n '/\/usr\/bin\/nfd /s/ \+/ /gp' | cut -d ' ' -f 3`
@@ -50,4 +57,5 @@ echo "<td>$BOOT_DISK_SIZE</td>" >> $OUTPUT_FILE
 echo "<td>$BOOT_DISK_USED</td>" >> $OUTPUT_FILE
 echo "<td>$BOOT_DISK_AVAIL</td>" >> $OUTPUT_FILE
 echo "<td>$BOOT_DISK_AVAIL_PERCENT</td>" >> $OUTPUT_FILE
+echo "<td>$RESTART_REQUIRED</td>" >> $OUTPUT_FILE
 echo "</tr>" >> $OUTPUT_FILE
