@@ -1,0 +1,17 @@
+# nfd-autoreg defaults
+
+# Blacklisted networks
+BLACKLIST="72.36.112.82 161.105.195.18 193.147.51.186 192.43.193.111"
+
+# Whitelisted networks
+WHITELIST=""
+
+# Prefixes to register on All faces:
+ALL_FACES_PREFIXES="/ndn/broadcast"
+
+# Prefixes to register just on on-demand faces:
+ON_DEMAND_FACES_PREFIXES="/ndn/it/unipd"
+
+# Flags
+FLAGS=""
+
