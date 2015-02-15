@@ -4,33 +4,13 @@
 
 sleep 15
 
-# set default strategy to ncc
-/usr/bin/nfdc set-strategy ndn:/ ndn:/localhost/nfd/strategy/ncc
+# set default strategy to best-route (bestroute2)
+/usr/bin/nfdc set-strategy ndn:/ ndn:/localhost/nfd/strategy/best-route
 
 # set broadcast strategy
 /usr/bin/nfdc set-strategy /ndn/broadcast /localhost/nfd/strategy/broadcast
+/usr/bin/nfdc set-strategy /localhost     /localhost/nfd/strategy/broadcast
 
+# default local access strategy
+nfdc set-strategy ndn:/ndn/es/urjc ndn:/localhost/nfd/strategy/access
 
-nfdc set-strategy ndn:/ndn/ch/unibas/ndnrtc ndn:/localhost/nfd/strategy/best-route
-nfdc set-strategy ndn:/ndn/cn/edu/bupt/ndnrtc ndn:/localhost/nfd/strategy/best-route
-nfdc set-strategy ndn:/ndn/cn/edu/pku/ndnrtc ndn:/localhost/nfd/strategy/best-route
-nfdc set-strategy ndn:/ndn/cn/edu/tongji/ndnrtc ndn:/localhost/nfd/strategy/best-route
-nfdc set-strategy ndn:/ndn/com/orange/ndnrtc ndn:/localhost/nfd/strategy/best-route
-nfdc set-strategy ndn:/ndn/edu/arizona/ndnrtc  ndn:/localhost/nfd/strategy/best-route
-nfdc set-strategy ndn:/ndn/edu/byu/ndnrtc ndn:/localhost/nfd/strategy/best-route
-nfdc set-strategy ndn:/ndn/edu/colostate/ndnrtc ndn:/localhost/nfd/strategy/best-route
-nfdc set-strategy ndn:/ndn/edu/illinois/ndnrtc ndn:/localhost/nfd/strategy/best-route
-nfdc set-strategy ndn:/ndn/edu/memphis/ndnrtc ndn:/localhost/nfd/strategy/best-route
-nfdc set-strategy ndn:/ndn/edu/neu/ndnrtc ndn:/localhost/nfd/strategy/best-route
-nfdc set-strategy ndn:/ndn/edu/uci/ndnrtc ndn:/localhost/nfd/strategy/best-route
-nfdc set-strategy ndn:/ndn/edu/ucla/ndnrtc ndn:/localhost/nfd/strategy/best-route
-nfdc set-strategy ndn:/ndn/edu/ucla/remap/ndnrtc ndn:/localhost/nfd/strategy/best-route
-nfdc set-strategy ndn:/ndn/edu/umich/ndnrtc ndn:/localhost/nfd/strategy/best-route
-nfdc set-strategy ndn:/ndn/edu/wustl/ndnrtc ndn:/localhost/nfd/strategy/best-route
-nfdc set-strategy ndn:/ndn/es/urjc/ndnrtc ndn:/localhost/nfd/strategy/broadcast
-nfdc set-strategy ndn:/ndn/fr/lip6/ndnrtc ndn:/localhost/nfd/strategy/best-route
-nfdc set-strategy ndn:/ndn/fr/systemx/ndnrtc ndn:/localhost/nfd/strategy/best-route
-nfdc set-strategy ndn:/ndn/it/unipd//ndnrtc ndn:/localhost/nfd/strategy/best-route
-nfdc set-strategy ndn:/ndn/jp/waseda/ndnrtc ndn:/localhost/nfd/strategy/best-route
-nfdc set-strategy ndn:/ndn/kr/anyang/ndnrtc ndn:/localhost/nfd/strategy/best-route
-nfdc set-strategy ndn:/ndn/org/caida/ndnrtc ndn:/localhost/nfd/strategy/best-route

@@ -4,13 +4,14 @@
 
 sleep 15
 
-# set default strategy to ncc
+# set default strategy to best-route (bestroute2)
 /usr/bin/nfdc set-strategy ndn:/ ndn:/localhost/nfd/strategy/best-route
 
 # set broadcast strategy
 /usr/bin/nfdc set-strategy /ndn/broadcast /localhost/nfd/strategy/broadcast
 /usr/bin/nfdc set-strategy /localhost     /localhost/nfd/strategy/broadcast
 
+# default local access strategy
 nfdc set-strategy ndn:/ndn/edu/wustl ndn:/localhost/nfd/strategy/access
 
 # Set up route for ndnstatus to get to ndndemo:
