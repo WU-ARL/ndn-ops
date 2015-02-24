@@ -12,5 +12,5 @@ sleep 15
 /usr/bin/nfdc set-strategy /localhost     /localhost/nfd/strategy/broadcast
 
 # default local access strategy
-nfdc set-strategy ndn:/ndn/cn/ebu/bupt ndn:/localhost/nfd/strategy/access
+nfdc set-strategy ndn:/ndn/cn/edu/bupt ndn:/localhost/nfd/strategy/access
 
