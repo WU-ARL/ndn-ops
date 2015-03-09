@@ -129,6 +129,10 @@ Section 2:
 
     ndnsec> ndnsec-cert-intall -I -K -f  <URL from ndncert.named-data.net/>
     ndnsec> ndnsec-set-default -n <site-prefix>
+    ndnsec> ndnsec-cert-dump -i <site-prefix> >& default.ndncert
+
+    ndnops> cd /etc/ndn/keys
+    ndnops> sudo cp ~ndnsec/default.ndncert .
 
     Then the operator of the new site and users at that site can begin requesting certs.
     The site operator approves user certs with email address in the sites domain using:
