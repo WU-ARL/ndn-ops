@@ -81,6 +81,7 @@ Section 2:
   > sudo cp nfd.conf /etc/init/nfd.conf 
   > sudo cp nfd-status-http-server.conf /etc/init/
   > sudo cp nlsr.conf /etc/init/
+  > sudo cp nfdstat_c.conf /etc/init/
   > popd
 
 
