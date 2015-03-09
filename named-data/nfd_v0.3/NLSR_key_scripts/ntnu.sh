@@ -2,6 +2,10 @@
 # point home to /var/lib/ndn/nlsr so keys will be stored there.
 sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/no/ntnu > ~nlsr/unsigned_site.cert'
 
+# seems that now we have to set a default identity:
+sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/no/ntnu/nlsr > ~nlsr/unsigned_nlsr.cert'
+sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-set-default -n /ndn/no/ntnu/nlsr'
+
 # this next step must take place on UCLA where the root cert is.
 # sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-cert-gen -S 201410080000 -E 201510080000 -N "NTNU" -s /ndn -p /ndn/no/ntnu -r /home/nlsr/ntnu_unsigned_site.cert > /home/nlsr/ntnu_site.cert'
 
