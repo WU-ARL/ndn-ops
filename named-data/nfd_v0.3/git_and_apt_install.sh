@@ -13,6 +13,7 @@
 
 sudo add-apt-repository ppa:named-data/ppa
 sudo apt-get -y update
+sudo apt-get -y install ndn-all
 sudo apt-get -y install ndn-cxx nfd nlsr
 sudo apt-get -y install ndn-cxx-dev
 sudo apt-get -y install ndndump
