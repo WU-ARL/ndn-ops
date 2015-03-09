@@ -127,6 +127,9 @@ Section 2:
 
     Alex@UCLA will do his thing and I'll get email back with a cert to install with ndnsec-cert-install (as ndnsec user!)
 
+    ndnsec> ndnsec-cert-intall -I -K -f  <URL from ndncert.named-data.net/>
+    ndnsec> ndnsec-set-default -n <site-prefix>
+
     Then the operator of the new site and users at that site can begin requesting certs.
     The site operator approves user certs with email address in the sites domain using:
     > sudo su - ndnsec -c ndnop-process-requests
