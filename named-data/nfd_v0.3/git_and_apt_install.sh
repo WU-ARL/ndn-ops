@@ -22,7 +22,7 @@ sudo apt-get -y install repo-ng
 sudo apt-get -y install ndn-autoconfig-server
 
 git clone http://github.com/WU-ARL/ndnmap
-pushd ndnmap/DataCollection
+pushd ndnmap/nfdDataCollection
 ./waf configure
 ./waf
 sudo ./waf install
