@@ -10,7 +10,7 @@ WHITELIST=""
 ALL_FACES_PREFIXES="/ndn/broadcast"
 
 # Prefixes to register just on on-demand faces:
-ON_DEMAND_FACES_PREFIXES="/ndn/fr/systemx"
+ON_DEMAND_FACES_PREFIXES="/ndn/fr/irt-systemx"
 
 # Flags
 FLAGS=""
