@@ -35,14 +35,15 @@ Section 2:
   Some configuration files are customized to the individual nodes. The names of these
   files below have a <name> in them. This <name> should be replace with the name associated
   with the individual node. e.g. wu for Washington University, caida for CAIDA, ucla for UCLA, remap for REMAP, ...
-  Right now (10/17/14), there are 7 such files. Here are the caida files:
-      NFD_conf_files/nfd-init.sh.caida (requires changes to all nfd-init.sh files because of ndnrtc strategy config)
-      NLSR_key_scripts/caida.sh
-      etc_default/ndn-tlv-ping.caida
-      etc_default/nfd-autoreg.caida  (requires changes to neighbors nfd-autoreg files also)
-      NLSR_conf_files/nlsr_caida.conf  (requires changes to neighbors NLSR conf files also)
-      REPO_NG_conf_files/repo-ng.conf.caida
-      etc_default/nfdstat_c.caida   (ndnxmlstat_c.* no longer used)
+  Right now (4/1/15), there are 6 such files. Here are the <name> files:
+      NFD_conf_files/nfd-init.sh.<name> (requires changes to all nfd-init.sh files because of ndnrtc strategy config)
+      NLSR_key_scripts/<name>.sh
+      etc_default/ndn-autoconfig-server.<name>
+      etc_default/ndn-tlv-ping.<name>
+      etc_default/nfdstat_c.<name>
+      etc_default/nfd-autoreg.<name>  (requires changes to neighbors nfd-autoreg files also)
+      NLSR_conf_files/nlsr_<name>.conf  (requires changes to neighbors NLSR conf files also)
+      REPO_NG_conf_files/repo-ng.conf.<name>
   If you are adding a new node, these files will have to be replicated and modified as needed for that new node.
 
   cd ndn-ops/named-data/nfd_v0.2.0_rc1.1
@@ -59,7 +60,8 @@ Section 2:
   > pushd etc_default/
   > sudo cp ndn-tlv-ping.<name> /etc/default/ndn-tlv-ping 
   > sudo cp nfd-autoreg.<name>  /etc/default/nfd-autoreg
-  > sudo cp ndnxmlstat_c.<name>  /etc/default/ndnxmlstat_c
+  > sudo cp ndn-autoconfig-server.<name>  /etc/default/ndn-autoconfig-server
+  > sudo cp nfdstat_c.<name>  /etc/default/nfdstat_c
   > sudo cp nfd-status-http-server /etc/default/
   > popd
 
@@ -88,7 +90,7 @@ Section 2:
   Then do the NLSR_key_scripts stuff
   > pushd NLSR_key_scripts
   Follow directions in <name>.sh. Some commands are executed on the local machine and one has to be
-  executed on the root node, UCLA (spurs).
+  executed on the root node, UCLA (spurs). DO NOT TRY TO JUST EXECUTE THIS SCRIPT.
 
   Copy root.cert from UCLA (spurs) to /etc/ndn/nlsr/keys
 

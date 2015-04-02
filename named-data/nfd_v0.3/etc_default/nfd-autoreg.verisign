@@ -1,11 +1,10 @@
 # nfd-autoreg defaults
 
 # Blacklisted networks
-BLACKLIST="210.114.89.49 133.9.73.66 202.120.188.176 162.105.146.26"
-# ANYANG: 210.114.89.49
-# WASEDA: 133.9.73.66
-# PKU: 162.105.146.26
-# TONGJI: 202.120.188.176
+BLACKLIST="147.162.114.18 133.9.73.66 141.225.11.173 132.227.62.163 192.43.193.111 193.147.51.186"
+# WU: 128.252.153.194
+# MEMPHIS: 141.225.11.173
+# MICHIGAN: 141.212.108.18
 
 # Whitelisted networks
 WHITELIST=""
@@ -14,7 +13,7 @@ WHITELIST=""
 ALL_FACES_PREFIXES="/ndn/broadcast"
 
 # Prefixes to register just on on-demand faces:
-ON_DEMAND_FACES_PREFIXES="/ndn/cn/edu/bupt"
+ON_DEMAND_FACES_PREFIXES="/ndn/com/verisignlabs"
 
 # Flags
 FLAGS=""
