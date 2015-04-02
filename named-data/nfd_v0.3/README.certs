@@ -1,3 +1,6 @@
+NOTE: This has change slightly to now use the 'nlsr' user as the home for these operations.
+      Please use this README only as a general guideline and rely on the specific files
+      in NLSR_key_scripts for the exact details for each node.
 
 NLSR Certificate Generation 
 ---------------------------
