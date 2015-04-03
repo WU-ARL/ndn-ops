@@ -65,28 +65,6 @@
   chown anything that needs it.
   > sudo chown -R nlsr.nlsr  /etc/ndn/nlsr/keys
 
-  Then start nfd:
-  sudo initctl start nfd
-
-  Then wait a few seconds and check the upstart log directory to make sure nothing is going crazy:
-  ls -ltr /var/log/upstart
-
-  Then restart nfd on new nodes neighbors
-
-  Verify that the new node has faces and routes:
-  > nfd-status
-
-  Add it to the NDN Testbed Status page (http://www.arl.wustl.edu/~jdd/ndnstatus/ndn_prefix/tbs_ndnx.html)
-
-  Add it to ndnmap (http://ndnmap.arl.wustl.edu/)
-
-  Add it to ndndiag status page (http://www.arl.wustl.edu/~jdd/ndnstatus/ndn_diag/diag.html)
-    Add a crontab entry for generating diagnostic data replacing <node_name> with something appropriate:
-      15 * * * * /home/ndnops/ndn-ops/NOC/bin/ndnops_diag.sh <node_name>
-
-  Notify the folks at Memphis so they can add it to their routing status page (http://netlab.cs.memphis.edu/script/htm/ndn-status/status.htm)
-
-
   Generate a node key and cert.
     > sudo adduser ndnsec
     > sudo su - ndnsec
@@ -106,7 +84,32 @@
     ndnops> cd /etc/ndn/keys
     ndnops> sudo cp ~ndnsec/default.ndncert .
 
-    Then the operator of the new site and users at that site can begin requesting certs.
+    Then the operator of the new site and users at that site can begin requesting certs
+    whenever they want.
     The site operator approves user certs with email address in the sites domain using:
     > sudo su - ndnsec -c ndnop-process-requests
+
+
+  Then start nfd:
+  sudo initctl start nfd
+
+  Then wait a few seconds and check the upstart log directory to make sure nothing is going crazy:
+  ls -ltr /var/log/upstart
+ 
+  John DeHart: Then restart nfd on new nodes neighbors
+
+  Verify that the new node has faces and routes:
+  > nfd-status
+
+This next set of stuff is for John DeHart to do:
+  Add it to the NDN Testbed Status page (http://www.arl.wustl.edu/~jdd/ndnstatus/ndn_prefix/tbs_ndnx.html)
+
+  Add it to ndnmap (http://ndnmap.arl.wustl.edu/)
+
+  Add it to ndndiag status page (http://www.arl.wustl.edu/~jdd/ndnstatus/ndn_diag/diag.html)
+    Add a crontab entry for generating diagnostic data replacing <node_name> with something appropriate:
+      15 * * * * /home/ndnops/ndn-ops/NOC/bin/ndnops_diag.sh <node_name>
+
+  Notify the folks at Memphis so they can add it to their routing status page (http://netlab.cs.memphis.edu/script/htm/ndn-status/status.htm)
+
 
