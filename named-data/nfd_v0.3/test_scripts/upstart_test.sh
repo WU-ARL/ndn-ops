@@ -1,6 +1,7 @@
 #!/bin/bash
 
 
+echo "you may see some 'initctl: Unknown instace:' messages. That is ok"
 initctl stop nfd
 initctl stop nlsr
 initctl stop ndn-tlv-ping
