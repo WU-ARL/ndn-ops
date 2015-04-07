@@ -1,10 +1,12 @@
 #!/bin/bash
 
 
+initctl stop nfd
 cp /var/log/syslog /tmp/syslog.pre
 PRE_LOG_PRIORITY=`initctl log-priority`
+echo "saved old priority: $PRE_LOG_PRIORITY"
 initctl log-priority debug
-initctl restart nfd
+initctl start nfd
 sleep 20
 initctl log-priority $PRE_LOG_PRIORITY
 cp /var/log/syslog /tmp/syslog.post
