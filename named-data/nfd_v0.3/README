@@ -51,6 +51,7 @@
   > sudo cp nfd-status-http-server.conf /etc/init/
   > sudo cp nlsr.conf /etc/init/
   > sudo cp nfdstat_c.conf /etc/init/
+  > sudo cp ndn-autoconfig-server.conf /etc/init/
   > popd
 
 
