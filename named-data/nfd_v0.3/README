@@ -65,8 +65,10 @@
 
   chown anything that needs it.
   > sudo chown -R nlsr.nlsr  /etc/ndn/nlsr/keys
+  > sudo chown -R ndn.ndn  /var/lib/ndn/
 
   Generate a node key and cert.
+    > sudo mkdir /etc/ndn/keys
     > sudo adduser ndnsec
     > sudo su - ndnsec
     ndnsec> ndnsec-key-gen -n <site-prefix>
