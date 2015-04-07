@@ -4,7 +4,7 @@
 FACE_URI=""
 
 #FACE_URI="udp4://labs-ndn3.verisignlabs.com
-FACE_URI="udp4://72.13.58.118
+FACE_URI="udp4://72.13.58.118"
 # Examples:
 # FACE_URI="udp://spurs.cs.ucla.edu"
 # FACE_URI="udp4://spurs.cs.ucla.edu"
