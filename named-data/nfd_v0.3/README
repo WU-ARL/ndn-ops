@@ -1,41 +1,8 @@
-Section 1:
- This section is for cleaning up an old version of ndnx. Skip this section if you
- are installing nfd/nlsr on a new machine.
-    cd ../running_version/start_scripts/
-    ./stopAllDaemons.sh
-    sudo vi /etc/rc.local
-    and comment out the startAllDaemons.sh line
-
-    Check for any ndn packages:
-    dpkg -l | grep ndn
-    
-    Remove them if they exist
-    sudo apt-get remove ndn-cxx
-
-    Then purge them
-    sudo apt-get purge ndn-cxx
-
-    Then go into ndn-ops/named-data/nfd_v0.2.0_rc1.1 and go through the spurs.rms
-
-
-    Check for any ndn related packages and remove them:
-    > dpkg -l | grep ndn
-    ii  ndn.cxx                              0.2.1-1ppa1~1precise1               C++ API for NDN (dev branch)
-    ii  ndn.cxx-dev                          0.2.1-1ppa1~1precise1               C++ API for NDN (dev branch)
-    ii  ndn.cxx-security-tools               0.2~rc2-ppa1~precise1               Tools to work with public, private keys and NDN certificates
-    ii  python-ndn-exp                       0.2~rc1-ppa1~precise1               Python bindings for NDN (experimental branch)
-    > sudo apt-get remove ndn.cxx ndn.cxx-dev ndn.cxx-security-tools python-ndn-exp
-
-    Then Check again for any ndn related packages and purge what is left
-    > dpkg -l | grep ndn
-    > sudo apt-get purge ndn.cxx 
-
-Section 2:
  Now add the new stuff for nfd and nlsr
   Some configuration files are customized to the individual nodes. The names of these
-  files below have a <name> in them. This <name> should be replace with the name associated
+  files below have a <name> in them. This <name> should be replaced with the name associated
   with the individual node. e.g. wu for Washington University, caida for CAIDA, ucla for UCLA, remap for REMAP, ...
-  Right now (4/1/15), there are 6 such files. Here are the <name> files:
+  Right now (4/1/15), there are 8 such files. Here are the <name> files:
       NFD_conf_files/nfd-init.sh.<name> (requires changes to all nfd-init.sh files because of ndnrtc strategy config)
       NLSR_key_scripts/<name>.sh
       etc_default/ndn-autoconfig-server.<name>
@@ -44,9 +11,8 @@ Section 2:
       etc_default/nfd-autoreg.<name>  (requires changes to neighbors nfd-autoreg files also)
       NLSR_conf_files/nlsr_<name>.conf  (requires changes to neighbors NLSR conf files also)
       REPO_NG_conf_files/repo-ng.conf.<name>
-  If you are adding a new node, these files will have to be replicated and modified as needed for that new node.
 
-  cd ndn-ops/named-data/nfd_v0.2.0_rc1.1
+  cd ndn-ops/named-data/running_version
 
   Add an nlsr user
   > sudo adduser nlsr
@@ -54,7 +20,7 @@ Section 2:
   Add all the packages we need:
   > ./git_and_apt_install.sh 
 
-  # the above will install nfd an automatically start it. stop it so we can reconfigure.
+  # the above will install nfd and automatically start it. stop it so we can reconfigure.
   > sudo initctl stop nfd
 
   > pushd etc_default/
@@ -76,6 +42,7 @@ Section 2:
 
   > pushd NLSR_conf_files/
   > sudo cp nlsr_<name>.conf /etc/ndn/nlsr/nlsr.conf
+  > sudo cp log4cxx.conf /etc/ndn/nlsr/
   > popd
 
   > pushd Upstart/
@@ -84,6 +51,7 @@ Section 2:
   > sudo cp nfd-status-http-server.conf /etc/init/
   > sudo cp nlsr.conf /etc/init/
   > sudo cp nfdstat_c.conf /etc/init/
+  > sudo cp ndn-autoconfig-server.conf /etc/init/
   > popd
 
 
@@ -97,30 +65,10 @@ Section 2:
 
   chown anything that needs it.
   > sudo chown -R nlsr.nlsr  /etc/ndn/nlsr/keys
-
-  Then start nfd:
-  sudo initctl start nfd
-
-  Then wait a few seconds and check the upstart log directory to make sure nothing is going crazy:
-  ls -ltr /var/log/upstart
-
-  Then restart nfd on new nodes neighbors
-
-  Verify that the new node has faces and routes:
-  > nfd-status
-
-  Add it to the NDN Testbed Status page (http://www.arl.wustl.edu/~jdd/ndnstatus/ndn_prefix/tbs_ndnx.html)
-
-  Add it to ndnmap (http://ndnmap.arl.wustl.edu/)
-
-  Add it to ndndiag status page (http://www.arl.wustl.edu/~jdd/ndnstatus/ndn_diag/diag.html)
-    Add a crontab entry for generating diagnostic data replacing <node_name> with something appropriate:
-      15 * * * * /home/ndnops/ndn-ops/NOC/bin/ndnops_diag.sh <node_name>
-
-  Notify the folks at Memphis so they can add it to their routing status page (http://netlab.cs.memphis.edu/script/htm/ndn-status/status.htm)
-
+  > sudo chown -R ndn.ndn  /var/lib/ndn/
 
   Generate a node key and cert.
+    > sudo mkdir /etc/ndn/keys
     > sudo adduser ndnsec
     > sudo su - ndnsec
     ndnsec> ndnsec-key-gen -n <site-prefix>
@@ -132,11 +80,39 @@ Section 2:
     ndnsec> ndnsec-cert-intall -I -K -f  <URL from ndncert.named-data.net/>
     ndnsec> ndnsec-set-default -n <site-prefix>
     ndnsec> ndnsec-cert-dump -i <site-prefix> >& default.ndncert
+    ndnsec> exit
+
+    now we are back to ndnops user
 
     ndnops> cd /etc/ndn/keys
     ndnops> sudo cp ~ndnsec/default.ndncert .
 
-    Then the operator of the new site and users at that site can begin requesting certs.
+    Then the operator of the new site and users at that site can begin requesting certs
+    whenever they want.
     The site operator approves user certs with email address in the sites domain using:
     > sudo su - ndnsec -c ndnop-process-requests
+
+
+  Then start nfd:
+  sudo initctl start nfd
+
+  Then wait a few seconds and check the upstart log directory to make sure nothing is going crazy:
+  ls -ltr /var/log/upstart
+ 
+  John DeHart: Then restart nfd on new nodes neighbors
+
+  Verify that the new node has faces and routes:
+  > nfd-status
+
+This next set of stuff is for John DeHart to do:
+  Add it to the NDN Testbed Status page (http://www.arl.wustl.edu/~jdd/ndnstatus/ndn_prefix/tbs_ndnx.html)
+
+  Add it to ndnmap (http://ndnmap.arl.wustl.edu/)
+
+  Add it to ndndiag status page (http://www.arl.wustl.edu/~jdd/ndnstatus/ndn_diag/diag.html)
+    Add a crontab entry for generating diagnostic data replacing <node_name> with something appropriate:
+      15 * * * * /home/ndnops/ndn-ops/NOC/bin/ndnops_diag.sh <node_name>
+
+  Notify the folks at Memphis so they can add it to their routing status page (http://netlab.cs.memphis.edu/script/htm/ndn-status/status.htm)
+
 
