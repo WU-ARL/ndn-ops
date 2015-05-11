@@ -1,7 +1,7 @@
 # nfd-autoreg defaults
 
 # Blacklisted networks
-BLACKLIST="128.196.203.36 141.225.11.173 72.36.112.82 193.147.51.186"
+BLACKLIST="128.196.203.36 141.225.11.173 72.36.112.82 193.147.51.186 72.13.58.118"
 
 # Whitelisted networks
 WHITELIST=""
