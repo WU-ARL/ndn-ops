@@ -36,13 +36,14 @@ done
 filename="node_list.txt"
 while read -a LINE ;
 do
-  echo "${LINE[0]} ${LINE[1]}"
+  #echo "${LINE[0]} ${LINE[1]}"
   NODENAME=${LINE[0]}
   HOST=${LINE[1]}
   #echo "NODENAME=$NODENAME"
   #echo "HOST=$HOST"
 
   echo ""
+  echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
   echo ""
   echo "$THISNODE pinging $NODENAME $COUNT times with QUIET=$QUIET"
   if [ $QUIET -eq 1 ]

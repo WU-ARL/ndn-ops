@@ -1,0 +1,361 @@
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MEMPHIS pinging PKU 10 times with QUIET=0
+PING 162.105.146.26 (162.105.146.26) 56(84) bytes of data.
+64 bytes from 162.105.146.26: icmp_req=1 ttl=41 time=211 ms
+64 bytes from 162.105.146.26: icmp_req=2 ttl=41 time=211 ms
+64 bytes from 162.105.146.26: icmp_req=3 ttl=41 time=211 ms
+64 bytes from 162.105.146.26: icmp_req=4 ttl=41 time=211 ms
+64 bytes from 162.105.146.26: icmp_req=5 ttl=41 time=211 ms
+64 bytes from 162.105.146.26: icmp_req=6 ttl=41 time=211 ms
+64 bytes from 162.105.146.26: icmp_req=7 ttl=41 time=211 ms
+64 bytes from 162.105.146.26: icmp_req=8 ttl=41 time=211 ms
+64 bytes from 162.105.146.26: icmp_req=9 ttl=41 time=211 ms
+64 bytes from 162.105.146.26: icmp_req=10 ttl=41 time=211 ms
+
+--- 162.105.146.26 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9001ms
+rtt min/avg/max/mdev = 211.159/211.468/211.940/0.553 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MEMPHIS pinging BUPT 10 times with QUIET=0
+PING 114.247.165.44 (114.247.165.44) 56(84) bytes of data.
+64 bytes from 114.247.165.44: icmp_req=1 ttl=42 time=244 ms
+64 bytes from 114.247.165.44: icmp_req=2 ttl=42 time=243 ms
+64 bytes from 114.247.165.44: icmp_req=3 ttl=42 time=244 ms
+64 bytes from 114.247.165.44: icmp_req=4 ttl=42 time=243 ms
+64 bytes from 114.247.165.44: icmp_req=5 ttl=42 time=243 ms
+64 bytes from 114.247.165.44: icmp_req=6 ttl=42 time=244 ms
+64 bytes from 114.247.165.44: icmp_req=7 ttl=42 time=244 ms
+64 bytes from 114.247.165.44: icmp_req=8 ttl=42 time=244 ms
+64 bytes from 114.247.165.44: icmp_req=9 ttl=42 time=243 ms
+64 bytes from 114.247.165.44: icmp_req=10 ttl=42 time=243 ms
+
+--- 114.247.165.44 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9011ms
+rtt min/avg/max/mdev = 243.391/244.027/244.772/0.793 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MEMPHIS pinging ANYANG 10 times with QUIET=0
+PING 210.114.89.49 (210.114.89.49) 56(84) bytes of data.
+64 bytes from 210.114.89.49: icmp_req=1 ttl=51 time=231 ms
+64 bytes from 210.114.89.49: icmp_req=2 ttl=51 time=231 ms
+64 bytes from 210.114.89.49: icmp_req=3 ttl=51 time=232 ms
+64 bytes from 210.114.89.49: icmp_req=4 ttl=51 time=232 ms
+64 bytes from 210.114.89.49: icmp_req=5 ttl=51 time=231 ms
+64 bytes from 210.114.89.49: icmp_req=6 ttl=51 time=232 ms
+64 bytes from 210.114.89.49: icmp_req=7 ttl=51 time=232 ms
+64 bytes from 210.114.89.49: icmp_req=8 ttl=51 time=232 ms
+64 bytes from 210.114.89.49: icmp_req=9 ttl=51 time=231 ms
+64 bytes from 210.114.89.49: icmp_req=10 ttl=51 time=231 ms
+
+--- 210.114.89.49 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9010ms
+rtt min/avg/max/mdev = 231.850/232.038/232.240/0.256 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MEMPHIS pinging TONGJI 10 times with QUIET=0
+PING cnlab.tongji.edu.cn (202.120.188.176) 56(84) bytes of data.
+
+--- cnlab.tongji.edu.cn ping statistics ---
+10 packets transmitted, 0 received, 100% packet loss, time 9071ms
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MEMPHIS pinging WASEDA 10 times with QUIET=0
+PING 133.9.73.66 (133.9.73.66) 56(84) bytes of data.
+64 bytes from 133.9.73.66: icmp_req=1 ttl=49 time=204 ms
+64 bytes from 133.9.73.66: icmp_req=2 ttl=49 time=204 ms
+64 bytes from 133.9.73.66: icmp_req=3 ttl=49 time=204 ms
+64 bytes from 133.9.73.66: icmp_req=4 ttl=49 time=204 ms
+64 bytes from 133.9.73.66: icmp_req=5 ttl=49 time=204 ms
+64 bytes from 133.9.73.66: icmp_req=6 ttl=49 time=204 ms
+64 bytes from 133.9.73.66: icmp_req=7 ttl=49 time=204 ms
+64 bytes from 133.9.73.66: icmp_req=8 ttl=49 time=204 ms
+64 bytes from 133.9.73.66: icmp_req=9 ttl=49 time=204 ms
+64 bytes from 133.9.73.66: icmp_req=10 ttl=49 time=204 ms
+
+--- 133.9.73.66 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9013ms
+rtt min/avg/max/mdev = 204.205/204.593/204.812/0.634 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MEMPHIS pinging UCLA 10 times with QUIET=0
+PING spurs.cs.ucla.edu (131.179.196.46) 56(84) bytes of data.
+
+--- spurs.cs.ucla.edu ping statistics ---
+10 packets transmitted, 0 received, 100% packet loss, time 9072ms
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MEMPHIS pinging CAIDA 10 times with QUIET=0
+PING click.caida.org (192.172.226.248) 56(84) bytes of data.
+64 bytes from click.caida.org (192.172.226.248): icmp_req=1 ttl=52 time=78.0 ms
+64 bytes from click.caida.org (192.172.226.248): icmp_req=2 ttl=52 time=77.9 ms
+64 bytes from click.caida.org (192.172.226.248): icmp_req=3 ttl=52 time=78.3 ms
+64 bytes from click.caida.org (192.172.226.248): icmp_req=4 ttl=52 time=78.0 ms
+64 bytes from click.caida.org (192.172.226.248): icmp_req=5 ttl=52 time=78.0 ms
+64 bytes from click.caida.org (192.172.226.248): icmp_req=6 ttl=52 time=78.1 ms
+64 bytes from click.caida.org (192.172.226.248): icmp_req=7 ttl=52 time=78.4 ms
+64 bytes from click.caida.org (192.172.226.248): icmp_req=8 ttl=52 time=78.1 ms
+64 bytes from click.caida.org (192.172.226.248): icmp_req=9 ttl=52 time=77.9 ms
+64 bytes from click.caida.org (192.172.226.248): icmp_req=10 ttl=52 time=78.1 ms
+
+--- click.caida.org ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9014ms
+rtt min/avg/max/mdev = 77.907/78.131/78.471/0.409 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MEMPHIS pinging UCI 10 times with QUIET=0
+PING ndnhub.ics.uci.edu (128.195.4.36) 56(84) bytes of data.
+64 bytes from ndnhub.ics.uci.edu (128.195.4.36): icmp_req=1 ttl=50 time=84.9 ms
+64 bytes from ndnhub.ics.uci.edu (128.195.4.36): icmp_req=2 ttl=50 time=85.2 ms
+64 bytes from ndnhub.ics.uci.edu (128.195.4.36): icmp_req=3 ttl=50 time=85.1 ms
+64 bytes from ndnhub.ics.uci.edu (128.195.4.36): icmp_req=4 ttl=50 time=84.9 ms
+64 bytes from ndnhub.ics.uci.edu (128.195.4.36): icmp_req=5 ttl=50 time=85.2 ms
+64 bytes from ndnhub.ics.uci.edu (128.195.4.36): icmp_req=6 ttl=50 time=84.8 ms
+64 bytes from ndnhub.ics.uci.edu (128.195.4.36): icmp_req=7 ttl=50 time=84.9 ms
+64 bytes from ndnhub.ics.uci.edu (128.195.4.36): icmp_req=8 ttl=50 time=85.1 ms
+64 bytes from ndnhub.ics.uci.edu (128.195.4.36): icmp_req=9 ttl=50 time=85.4 ms
+64 bytes from ndnhub.ics.uci.edu (128.195.4.36): icmp_req=10 ttl=50 time=84.9 ms
+
+--- ndnhub.ics.uci.edu ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9009ms
+rtt min/avg/max/mdev = 84.820/85.080/85.414/0.259 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MEMPHIS pinging REMAP 10 times with QUIET=0
+PING aleph.ndn.ucla.edu (128.97.98.7) 56(84) bytes of data.
+64 bytes from ndn-remap-p05.it.ucla.edu (128.97.98.7): icmp_req=1 ttl=49 time=76.9 ms
+64 bytes from ndn-remap-p05.it.ucla.edu (128.97.98.7): icmp_req=2 ttl=49 time=76.4 ms
+64 bytes from ndn-remap-p05.it.ucla.edu (128.97.98.7): icmp_req=3 ttl=49 time=76.5 ms
+64 bytes from ndn-remap-p05.it.ucla.edu (128.97.98.7): icmp_req=4 ttl=49 time=76.9 ms
+64 bytes from ndn-remap-p05.it.ucla.edu (128.97.98.7): icmp_req=5 ttl=49 time=76.5 ms
+64 bytes from ndn-remap-p05.it.ucla.edu (128.97.98.7): icmp_req=6 ttl=49 time=77.0 ms
+64 bytes from ndn-remap-p05.it.ucla.edu (128.97.98.7): icmp_req=7 ttl=49 time=76.3 ms
+64 bytes from ndn-remap-p05.it.ucla.edu (128.97.98.7): icmp_req=8 ttl=49 time=76.8 ms
+64 bytes from ndn-remap-p05.it.ucla.edu (128.97.98.7): icmp_req=9 ttl=49 time=76.6 ms
+64 bytes from ndn-remap-p05.it.ucla.edu (128.97.98.7): icmp_req=10 ttl=49 time=76.4 ms
+
+--- aleph.ndn.ucla.edu ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9013ms
+rtt min/avg/max/mdev = 76.367/76.680/77.064/0.336 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MEMPHIS pinging BYU 10 times with QUIET=0
+PING rigatoni.cs.byu.edu (128.187.81.12) 56(84) bytes of data.
+From 140.197.253.26 icmp_seq=2 Packet filtered
+From 140.197.253.26 icmp_seq=4 Packet filtered
+From 140.197.253.26 icmp_seq=7 Packet filtered
+
+--- rigatoni.cs.byu.edu ping statistics ---
+10 packets transmitted, 0 received, +3 errors, 100% packet loss, time 9044ms
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MEMPHIS pinging CSU 10 times with QUIET=0
+PING mccoy.netsec.colostate.edu (129.82.138.48) 56(84) bytes of data.
+64 bytes from mccoy.netsec.colostate.edu (129.82.138.48): icmp_req=1 ttl=52 time=41.4 ms
+64 bytes from mccoy.netsec.colostate.edu (129.82.138.48): icmp_req=2 ttl=52 time=41.3 ms
+64 bytes from mccoy.netsec.colostate.edu (129.82.138.48): icmp_req=3 ttl=52 time=41.5 ms
+64 bytes from mccoy.netsec.colostate.edu (129.82.138.48): icmp_req=4 ttl=52 time=41.3 ms
+64 bytes from mccoy.netsec.colostate.edu (129.82.138.48): icmp_req=5 ttl=52 time=41.5 ms
+64 bytes from mccoy.netsec.colostate.edu (129.82.138.48): icmp_req=6 ttl=52 time=41.3 ms
+64 bytes from mccoy.netsec.colostate.edu (129.82.138.48): icmp_req=7 ttl=52 time=41.5 ms
+64 bytes from mccoy.netsec.colostate.edu (129.82.138.48): icmp_req=8 ttl=52 time=41.4 ms
+64 bytes from mccoy.netsec.colostate.edu (129.82.138.48): icmp_req=9 ttl=52 time=41.4 ms
+64 bytes from mccoy.netsec.colostate.edu (129.82.138.48): icmp_req=10 ttl=52 time=41.5 ms
+
+--- mccoy.netsec.colostate.edu ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9011ms
+rtt min/avg/max/mdev = 41.319/41.442/41.591/0.257 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MEMPHIS pinging UA 10 times with QUIET=0
+PING hobo.cs.arizona.edu (128.196.203.36) 56(84) bytes of data.
+
+--- hobo.cs.arizona.edu ping statistics ---
+10 packets transmitted, 0 received, 100% packet loss, time 9071ms
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MEMPHIS pinging WU 10 times with QUIET=0
+PING wundngw.arl.wustl.edu (128.252.153.194) 56(84) bytes of data.
+64 bytes from wundngw.arl.wustl.edu (128.252.153.194): icmp_req=1 ttl=52 time=31.8 ms
+64 bytes from wundngw.arl.wustl.edu (128.252.153.194): icmp_req=2 ttl=52 time=31.9 ms
+64 bytes from wundngw.arl.wustl.edu (128.252.153.194): icmp_req=3 ttl=52 time=32.0 ms
+64 bytes from wundngw.arl.wustl.edu (128.252.153.194): icmp_req=4 ttl=52 time=31.9 ms
+64 bytes from wundngw.arl.wustl.edu (128.252.153.194): icmp_req=5 ttl=52 time=32.6 ms
+64 bytes from wundngw.arl.wustl.edu (128.252.153.194): icmp_req=6 ttl=52 time=32.0 ms
+64 bytes from wundngw.arl.wustl.edu (128.252.153.194): icmp_req=7 ttl=52 time=32.2 ms
+64 bytes from wundngw.arl.wustl.edu (128.252.153.194): icmp_req=8 ttl=52 time=31.9 ms
+64 bytes from wundngw.arl.wustl.edu (128.252.153.194): icmp_req=9 ttl=52 time=32.1 ms
+64 bytes from wundngw.arl.wustl.edu (128.252.153.194): icmp_req=10 ttl=52 time=31.9 ms
+
+--- wundngw.arl.wustl.edu ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9015ms
+rtt min/avg/max/mdev = 31.888/32.073/32.646/0.292 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MEMPHIS pinging UIUC 10 times with QUIET=0
+PING ndnx.cs.illinois.edu (72.36.112.82) 56(84) bytes of data.
+64 bytes from ndnx.cs.illinois.edu (72.36.112.82): icmp_req=1 ttl=52 time=20.3 ms
+64 bytes from ndnx.cs.illinois.edu (72.36.112.82): icmp_req=2 ttl=52 time=20.0 ms
+64 bytes from ndnx.cs.illinois.edu (72.36.112.82): icmp_req=3 ttl=52 time=20.0 ms
+64 bytes from ndnx.cs.illinois.edu (72.36.112.82): icmp_req=4 ttl=52 time=20.2 ms
+64 bytes from ndnx.cs.illinois.edu (72.36.112.82): icmp_req=5 ttl=52 time=20.1 ms
+64 bytes from ndnx.cs.illinois.edu (72.36.112.82): icmp_req=6 ttl=52 time=20.0 ms
+64 bytes from ndnx.cs.illinois.edu (72.36.112.82): icmp_req=7 ttl=52 time=20.1 ms
+64 bytes from ndnx.cs.illinois.edu (72.36.112.82): icmp_req=8 ttl=52 time=20.1 ms
+64 bytes from ndnx.cs.illinois.edu (72.36.112.82): icmp_req=9 ttl=52 time=19.9 ms
+64 bytes from ndnx.cs.illinois.edu (72.36.112.82): icmp_req=10 ttl=52 time=20.1 ms
+
+--- ndnx.cs.illinois.edu ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9013ms
+rtt min/avg/max/mdev = 19.999/20.139/20.374/0.206 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MEMPHIS pinging MICH 10 times with QUIET=0
+PING ndn0.eecs.umich.edu (141.212.108.18) 56(84) bytes of data.
+64 bytes from ndn0.eecs.umich.edu (141.212.108.18): icmp_req=1 ttl=54 time=22.9 ms
+64 bytes from ndn0.eecs.umich.edu (141.212.108.18): icmp_req=2 ttl=54 time=22.7 ms
+64 bytes from ndn0.eecs.umich.edu (141.212.108.18): icmp_req=3 ttl=54 time=22.8 ms
+64 bytes from ndn0.eecs.umich.edu (141.212.108.18): icmp_req=4 ttl=54 time=22.9 ms
+64 bytes from ndn0.eecs.umich.edu (141.212.108.18): icmp_req=5 ttl=54 time=22.9 ms
+64 bytes from ndn0.eecs.umich.edu (141.212.108.18): icmp_req=6 ttl=54 time=22.9 ms
+64 bytes from ndn0.eecs.umich.edu (141.212.108.18): icmp_req=7 ttl=54 time=22.8 ms
+64 bytes from ndn0.eecs.umich.edu (141.212.108.18): icmp_req=8 ttl=54 time=22.9 ms
+64 bytes from ndn0.eecs.umich.edu (141.212.108.18): icmp_req=9 ttl=54 time=22.9 ms
+64 bytes from ndn0.eecs.umich.edu (141.212.108.18): icmp_req=10 ttl=54 time=22.9 ms
+
+--- ndn0.eecs.umich.edu ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9015ms
+rtt min/avg/max/mdev = 22.752/22.917/22.992/0.189 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MEMPHIS pinging UM 10 times with QUIET=0
+PING titan.cs.memphis.edu (127.0.1.1) 56(84) bytes of data.
+64 bytes from titan.cs.memphis.edu (127.0.1.1): icmp_req=1 ttl=64 time=0.033 ms
+64 bytes from titan.cs.memphis.edu (127.0.1.1): icmp_req=2 ttl=64 time=0.032 ms
+64 bytes from titan.cs.memphis.edu (127.0.1.1): icmp_req=3 ttl=64 time=0.031 ms
+64 bytes from titan.cs.memphis.edu (127.0.1.1): icmp_req=4 ttl=64 time=0.026 ms
+64 bytes from titan.cs.memphis.edu (127.0.1.1): icmp_req=5 ttl=64 time=0.030 ms
+64 bytes from titan.cs.memphis.edu (127.0.1.1): icmp_req=6 ttl=64 time=0.028 ms
+64 bytes from titan.cs.memphis.edu (127.0.1.1): icmp_req=7 ttl=64 time=0.031 ms
+64 bytes from titan.cs.memphis.edu (127.0.1.1): icmp_req=8 ttl=64 time=0.030 ms
+64 bytes from titan.cs.memphis.edu (127.0.1.1): icmp_req=9 ttl=64 time=0.032 ms
+64 bytes from titan.cs.memphis.edu (127.0.1.1): icmp_req=10 ttl=64 time=0.029 ms
+
+--- titan.cs.memphis.edu ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 8998ms
+rtt min/avg/max/mdev = 0.026/0.030/0.033/0.004 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MEMPHIS pinging NEU 10 times with QUIET=0
+PING 129.10.52.193 (129.10.52.193) 56(84) bytes of data.
+64 bytes from 129.10.52.193: icmp_req=1 ttl=52 time=40.6 ms
+64 bytes from 129.10.52.193: icmp_req=2 ttl=52 time=40.5 ms
+64 bytes from 129.10.52.193: icmp_req=3 ttl=52 time=40.6 ms
+64 bytes from 129.10.52.193: icmp_req=4 ttl=52 time=40.7 ms
+64 bytes from 129.10.52.193: icmp_req=5 ttl=52 time=40.4 ms
+64 bytes from 129.10.52.193: icmp_req=6 ttl=52 time=40.8 ms
+64 bytes from 129.10.52.193: icmp_req=7 ttl=52 time=40.4 ms
+64 bytes from 129.10.52.193: icmp_req=8 ttl=52 time=40.8 ms
+64 bytes from 129.10.52.193: icmp_req=9 ttl=52 time=40.8 ms
+64 bytes from 129.10.52.193: icmp_req=10 ttl=52 time=40.8 ms
+
+--- 129.10.52.193 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9015ms
+rtt min/avg/max/mdev = 40.439/40.700/40.898/0.234 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MEMPHIS pinging URJC 10 times with QUIET=0
+PING insula.gsyc.es (193.147.51.186) 56(84) bytes of data.
+
+--- insula.gsyc.es ping statistics ---
+10 packets transmitted, 0 received, 100% packet loss, time 9072ms
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MEMPHIS pinging BASEL 10 times with QUIET=0
+PING cs-ndn-testbed1.cs.unibas.ch (192.43.193.111) 56(84) bytes of data.
+64 bytes from cs-ndn-testbed1.cs.unibas.ch (192.43.193.111): icmp_req=1 ttl=49 time=141 ms
+64 bytes from cs-ndn-testbed1.cs.unibas.ch (192.43.193.111): icmp_req=2 ttl=49 time=141 ms
+64 bytes from cs-ndn-testbed1.cs.unibas.ch (192.43.193.111): icmp_req=3 ttl=49 time=141 ms
+64 bytes from cs-ndn-testbed1.cs.unibas.ch (192.43.193.111): icmp_req=4 ttl=49 time=141 ms
+64 bytes from cs-ndn-testbed1.cs.unibas.ch (192.43.193.111): icmp_req=5 ttl=49 time=141 ms
+64 bytes from cs-ndn-testbed1.cs.unibas.ch (192.43.193.111): icmp_req=6 ttl=49 time=141 ms
+64 bytes from cs-ndn-testbed1.cs.unibas.ch (192.43.193.111): icmp_req=7 ttl=49 time=141 ms
+64 bytes from cs-ndn-testbed1.cs.unibas.ch (192.43.193.111): icmp_req=8 ttl=49 time=141 ms
+64 bytes from cs-ndn-testbed1.cs.unibas.ch (192.43.193.111): icmp_req=9 ttl=49 time=141 ms
+64 bytes from cs-ndn-testbed1.cs.unibas.ch (192.43.193.111): icmp_req=10 ttl=49 time=141 ms
+
+--- cs-ndn-testbed1.cs.unibas.ch ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9012ms
+rtt min/avg/max/mdev = 141.236/141.541/141.774/0.496 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MEMPHIS pinging LIP6 10 times with QUIET=0
+PING ndnhub.ipv6.lip6.fr (132.227.62.163) 56(84) bytes of data.
+64 bytes from ndnhub.ipv6.lip6.fr (132.227.62.163): icmp_req=1 ttl=47 time=131 ms
+64 bytes from ndnhub.ipv6.lip6.fr (132.227.62.163): icmp_req=2 ttl=47 time=130 ms
+64 bytes from ndnhub.ipv6.lip6.fr (132.227.62.163): icmp_req=3 ttl=47 time=131 ms
+64 bytes from ndnhub.ipv6.lip6.fr (132.227.62.163): icmp_req=4 ttl=47 time=131 ms
+64 bytes from ndnhub.ipv6.lip6.fr (132.227.62.163): icmp_req=5 ttl=47 time=130 ms
+64 bytes from ndnhub.ipv6.lip6.fr (132.227.62.163): icmp_req=6 ttl=47 time=130 ms
+64 bytes from ndnhub.ipv6.lip6.fr (132.227.62.163): icmp_req=7 ttl=47 time=131 ms
+64 bytes from ndnhub.ipv6.lip6.fr (132.227.62.163): icmp_req=8 ttl=47 time=130 ms
+64 bytes from ndnhub.ipv6.lip6.fr (132.227.62.163): icmp_req=9 ttl=47 time=131 ms
+64 bytes from ndnhub.ipv6.lip6.fr (132.227.62.163): icmp_req=10 ttl=47 time=131 ms
+
+--- ndnhub.ipv6.lip6.fr ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9012ms
+rtt min/avg/max/mdev = 130.062/131.016/131.477/0.569 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MEMPHIS pinging Orange1 10 times with QUIET=0
+PING 161.105.195.18 (161.105.195.18) 56(84) bytes of data.
+
+--- 161.105.195.18 ping statistics ---
+10 packets transmitted, 0 received, 100% packet loss, time 9071ms
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+MEMPHIS pinging SystemX 10 times with QUIET=0
+PING systemx-ndn-1.enst.fr (137.194.54.81) 56(84) bytes of data.
+64 bytes from systemx-ndn-1.enst.fr (137.194.54.81): icmp_req=1 ttl=46 time=138 ms
+64 bytes from systemx-ndn-1.enst.fr (137.194.54.81): icmp_req=2 ttl=46 time=138 ms
+64 bytes from systemx-ndn-1.enst.fr (137.194.54.81): icmp_req=3 ttl=46 time=138 ms
+64 bytes from systemx-ndn-1.enst.fr (137.194.54.81): icmp_req=4 ttl=46 time=138 ms
+64 bytes from systemx-ndn-1.enst.fr (137.194.54.81): icmp_req=5 ttl=46 time=138 ms
+64 bytes from systemx-ndn-1.enst.fr (137.194.54.81): icmp_req=6 ttl=46 time=138 ms
+64 bytes from systemx-ndn-1.enst.fr (137.194.54.81): icmp_req=7 ttl=46 time=138 ms
+64 bytes from systemx-ndn-1.enst.fr (137.194.54.81): icmp_req=8 ttl=46 time=138 ms
+64 bytes from systemx-ndn-1.enst.fr (137.194.54.81): icmp_req=9 ttl=46 time=138 ms
+64 bytes from systemx-ndn-1.enst.fr (137.194.54.81): icmp_req=10 ttl=46 time=138 ms
+
+--- systemx-ndn-1.enst.fr ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9011ms
+rtt min/avg/max/mdev = 138.305/138.480/138.721/0.323 ms
