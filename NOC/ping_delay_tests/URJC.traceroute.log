@@ -1,0 +1,500 @@
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+URJC traceroute to  PKU hopcount: 40 
+traceroute to 162.105.146.26 (162.105.146.26), 40 hops max, 60 byte packets
+ 1  193.147.15.1 (193.147.15.1)  1.069 ms  1.072 ms *
+ 2  * * *
+ 3  * * *
+ 4  * * *
+ 5  * * *
+ 6  * rediris.mx1.mad.es.geant.net (62.40.124.73)  3.488 ms  3.363 ms
+ 7  ae3.mx1.par.fr.geant.net (62.40.98.65)  43.382 ms  43.363 ms  43.368 ms
+ 8  ae1.mx1.lon.uk.geant.net (62.40.98.76)  32.325 ms  32.308 ms  32.316 ms
+ 9  orientplus.mx1.lon.uk.geant.net (62.40.125.102)  204.900 ms  204.880 ms  204.892 ms
+10  210.25.189.17 (210.25.189.17)  207.889 ms  207.869 ms  207.874 ms
+11  210.25.189.69 (210.25.189.69)  205.847 ms  205.852 ms  205.008 ms
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * 202.112.41.178 (202.112.41.178)  205.554 ms
+17  * * *
+18  * 162.105.252.133 (162.105.252.133)  206.189 ms *
+19  * * *
+20  * * *
+21  * * *
+22  * 162.105.146.26 (162.105.146.26)  206.366 ms  206.323 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+URJC traceroute to  BUPT hopcount: 40 
+traceroute to 114.247.165.44 (114.247.165.44), 40 hops max, 60 byte packets
+ 1  193.147.15.1 (193.147.15.1)  0.745 ms  0.743 ms *
+ 2  * * *
+ 3  * * *
+ 4  * * *
+ 5  * * *
+ 6  * 213.242.113.77 (213.242.113.77)  23.194 ms  23.059 ms
+ 7  * ae-1-60.edge2.Washington4.Level3.net (4.69.149.16)  98.187 ms *
+ 8  * * *
+ 9  * * *
+10  * * *
+11  * * *
+12  144.232.6.112 (144.232.6.112)  136.236 ms * 144.232.13.195 (144.232.13.195)  116.183 ms
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * 219.158.101.73 (219.158.101.73)  390.078 ms
+18  219.158.103.1 (219.158.103.1)  390.257 ms * *
+19  124.65.194.142 (124.65.194.142)  388.021 ms 219.158.101.73 (219.158.101.73)  390.025 ms *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  124.65.218.54 (124.65.218.54)  398.618 ms  398.887 ms *
+25  114.247.165.44 (114.247.165.44)  256.905 ms  258.267 ms  257.267 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+URJC traceroute to  ANYANG hopcount: 40 
+traceroute to 210.114.89.49 (210.114.89.49), 40 hops max, 60 byte packets
+ 1  * * *
+ 2  192.168.255.1 (192.168.255.1)  2.055 ms  2.063 ms  2.072 ms
+ 3  192.168.255.18 (192.168.255.18)  2.227 ms  2.224 ms  2.202 ms
+ 4  r01-te3-1.net.redimadrid.es (193.145.14.18)  3.107 ms  3.114 ms  3.151 ms
+ 5  GE6-0-0-102.telmad.rt4.mad.red.rediris.es (130.206.215.97)  3.565 ms  3.541 ms  3.550 ms
+ 6  rediris.mx1.mad.es.geant.net (62.40.124.73)  3.548 ms  3.712 ms  3.674 ms
+ 7  mb-so-02-v4.bb.tein3.net (202.179.249.117)  115.122 ms  114.997 ms  114.995 ms
+ 8  sg-so-04-v4.bb.tein3.net (202.179.249.53)  173.111 ms  172.656 ms  172.620 ms
+ 9  hk-xe-03-v4.bb.tein3.net (202.179.241.101)  204.947 ms  204.730 ms  204.735 ms
+10  kr-pr-v4.bb.tein3.net (202.179.241.106)  241.405 ms  241.407 ms  241.170 ms
+11  eos2-seoul-rtr-te9-3.koren.kr (61.252.63.22)  241.054 ms  240.916 ms  240.956 ms
+12  210.114.89.49 (210.114.89.49)  241.262 ms  241.275 ms  241.264 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+URJC traceroute to  TONGJI hopcount: 40 
+traceroute to cnlab.tongji.edu.cn (202.120.188.176), 40 hops max, 60 byte packets
+ 1  * * *
+ 2  192.168.255.1 (192.168.255.1)  20.599 ms  20.605 ms  1.987 ms
+ 3  192.168.255.18 (192.168.255.18)  17.409 ms  17.390 ms  20.640 ms
+ 4  r01-te3-1.net.redimadrid.es (193.145.14.18)  21.442 ms  21.386 ms  22.574 ms
+ 5  GE6-0-0-102.telmad.rt4.mad.red.rediris.es (130.206.215.97)  18.666 ms  23.158 ms  21.976 ms
+ 6  rediris.mx1.mad.es.geant.net (62.40.124.73)  21.981 ms  20.010 ms  4.185 ms
+ 7  ae3.mx1.par.fr.geant.net (62.40.98.65)  29.140 ms  27.877 ms  26.560 ms
+ 8  ae1.mx1.lon.uk.geant.net (62.40.98.76)  32.178 ms  32.177 ms  32.017 ms
+ 9  orientplus.mx1.lon.uk.geant.net (62.40.125.102)  205.068 ms  204.895 ms  204.580 ms
+10  210.25.189.17 (210.25.189.17)  208.833 ms  208.832 ms  208.303 ms
+11  210.25.189.69 (210.25.189.69)  206.092 ms  204.978 ms  204.969 ms
+12  202.112.53.5 (202.112.53.5)  209.742 ms  207.841 ms  207.806 ms
+13  101.4.116.146 (101.4.116.146)  210.197 ms  205.160 ms  205.149 ms
+14  101.4.112.70 (101.4.112.70)  238.914 ms  236.227 ms  234.626 ms
+15  101.4.116.117 (101.4.116.117)  233.421 ms  233.394 ms  236.571 ms
+16  101.4.117.29 (101.4.117.29)  231.839 ms  231.247 ms  231.658 ms
+17  101.4.115.173 (101.4.115.173)  231.647 ms  231.765 ms  231.459 ms
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  202.120.188.176 (202.120.188.176)  233.095 ms  233.397 ms  233.042 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+URJC traceroute to  WASEDA hopcount: 40 
+traceroute to 133.9.73.66 (133.9.73.66), 40 hops max, 60 byte packets
+ 1  * * *
+ 2  192.168.255.1 (192.168.255.1)  2.291 ms  2.301 ms  2.292 ms
+ 3  192.168.255.18 (192.168.255.18)  2.865 ms  2.877 ms  2.866 ms
+ 4  r01-te3-1.net.redimadrid.es (193.145.14.18)  8.204 ms  8.474 ms  8.385 ms
+ 5  GE6-0-0-102.telmad.rt4.mad.red.rediris.es (130.206.215.97)  4.122 ms  4.104 ms  3.806 ms
+ 6  rediris.mx1.mad.es.geant.net (62.40.124.73)  4.105 ms  3.309 ms  3.363 ms
+ 7  ae3.mx1.par.fr.geant.net (62.40.98.65)  26.380 ms  26.240 ms  26.205 ms
+ 8  ae1.mx1.lon.uk.geant.net (62.40.98.76)  32.370 ms  32.087 ms  32.074 ms
+ 9  ae0.mx1.ams.nl.geant.net (62.40.98.81)  39.802 ms  39.773 ms  39.552 ms
+10  NYC-dc-GM1-XE-1-1-0-207.s4.sinet.ad.jp (150.99.188.201)  313.442 ms  310.934 ms  310.739 ms
+11  tokyo-dc-gm1-xe4-3-0-vlan10.s4.sinet.ad.jp (150.99.2.73)  307.926 ms  295.012 ms  295.071 ms
+12  tokyo-dc-rm-ae3-vlan10.s4.sinet.ad.jp (150.99.2.49)  295.223 ms  307.337 ms  295.077 ms
+13  waseda.gw.sinet.ad.jp (150.99.187.70)  307.574 ms  295.706 ms  307.660 ms
+14  133.9.0.244 (133.9.0.244)  295.922 ms  295.872 ms  296.160 ms
+15  133.9.255.186 (133.9.255.186)  296.208 ms  296.180 ms  295.749 ms
+16  133.9.255.124 (133.9.255.124)  296.024 ms  296.145 ms  295.847 ms
+17  133.9.187.231 (133.9.187.231)  308.320 ms  295.953 ms  295.800 ms
+18  133.9.73.66 (133.9.73.66)  296.054 ms  308.542 ms  296.132 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+URJC traceroute to  UCLA hopcount: 40 
+traceroute to spurs.cs.ucla.edu (131.179.196.46), 40 hops max, 60 byte packets
+ 1  193.147.15.1 (193.147.15.1)  0.744 ms  0.740 ms *
+ 2  * * *
+ 3  * * *
+ 4  * * *
+ 5  * * *
+ 6  * rediris.mx1.mad.es.geant.net (62.40.124.73)  3.474 ms  3.848 ms
+ 7  ae3.mx1.par.fr.geant.net (62.40.98.65)  26.936 ms  26.941 ms  26.932 ms
+ 8  ae1.mx1.lon.uk.geant.net (62.40.98.76)  32.842 ms  32.846 ms  32.842 ms
+ 9  nordunet.mx1.cop.dk.geant.net (62.40.124.45)  107.911 ms  107.892 ms  107.897 ms
+10  et-5-0-0.104.rtr.atla.net.internet2.edu (198.71.45.6)  120.787 ms  120.779 ms  120.761 ms
+11  et-10-2-0.105.rtr.hous.net.internet2.edu (198.71.45.13)  144.585 ms  144.591 ms  143.820 ms
+12  et-5-0-0.111.rtr.losa.net.internet2.edu (198.71.45.21)  176.579 ms  176.528 ms  176.495 ms
+13  137.164.26.200 (137.164.26.200)  176.775 ms *  176.453 ms
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * spurs.cs.ucla.edu (131.179.196.46)  180.280 ms  180.160 ms
+19  spurs.cs.ucla.edu (131.179.196.46)  179.203 ms  179.279 ms  179.226 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+URJC traceroute to  CAIDA hopcount: 40 
+traceroute to click.caida.org (192.172.226.248), 40 hops max, 60 byte packets
+ 1  193.147.15.1 (193.147.15.1)  79.757 ms  79.776 ms *
+ 2  192.168.255.1 (192.168.255.1)  2.024 ms  2.005 ms  2.637 ms
+ 3  192.168.255.18 (192.168.255.18)  2.651 ms  2.623 ms  2.605 ms
+ 4  r01-te3-1.net.redimadrid.es (193.145.14.18)  3.517 ms  3.404 ms  3.625 ms
+ 5  GE6-0-0-102.telmad.rt4.mad.red.rediris.es (130.206.215.97)  3.972 ms  3.963 ms  3.963 ms
+ 6  rediris.mx1.mad.es.geant.net (62.40.124.73)  3.940 ms  3.310 ms  3.442 ms
+ 7  ae3.mx1.par.fr.geant.net (62.40.98.65)  26.398 ms  26.380 ms  26.350 ms
+ 8  ae1.mx1.lon.uk.geant.net (62.40.98.76)  32.798 ms  32.074 ms  33.929 ms
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  * * 137.164.26.200 (137.164.26.200)  177.268 ms
+14  hpr-sdsc-10ge--lax-hpr.cenic.net (137.164.26.34)  179.477 ms * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  click.caida.org (192.172.226.248)  179.177 ms  178.923 ms  178.997 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+URJC traceroute to  UCI hopcount: 40 
+traceroute to ndnhub.ics.uci.edu (128.195.4.36), 40 hops max, 60 byte packets
+ 1  193.147.15.1 (193.147.15.1)  0.621 ms  0.689 ms *
+ 2  * * *
+ 3  * * *
+ 4  * * *
+ 5  * * *
+ 6  * rediris.mx1.mad.es.geant.net (62.40.124.73)  3.516 ms  4.036 ms
+ 7  ae3.mx1.par.fr.geant.net (62.40.98.65)  27.584 ms  26.954 ms  27.560 ms
+ 8  ae1.mx1.lon.uk.geant.net (62.40.98.76)  33.262 ms  32.737 ms  33.263 ms
+ 9  nordunet.mx1.cop.dk.geant.net (62.40.124.45)  107.461 ms  107.968 ms  107.955 ms
+10  et-5-0-0.104.rtr.atla.net.internet2.edu (198.71.45.6)  121.277 ms  121.484 ms  121.463 ms
+11  et-10-2-0.105.rtr.hous.net.internet2.edu (198.71.45.13)  145.501 ms  145.148 ms  144.188 ms
+12  et-5-0-0.111.rtr.losa.net.internet2.edu (198.71.45.21)  176.611 ms  176.388 ms  176.262 ms
+13  137.164.26.200 (137.164.26.200)  176.719 ms  176.602 ms *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * 302--cs1-core.ucinet.uci.edu (128.195.249.242)  186.084 ms  185.693 ms
+19  ndnhub.ics.uci.edu (128.195.4.36)  185.956 ms  185.976 ms  185.981 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+URJC traceroute to  REMAP hopcount: 40 
+traceroute to aleph.ndn.ucla.edu (128.97.98.7), 40 hops max, 60 byte packets
+ 1  193.147.15.1 (193.147.15.1)  90.362 ms  90.386 ms *
+ 2  192.168.255.1 (192.168.255.1)  2.066 ms  2.047 ms  2.070 ms
+ 3  192.168.255.18 (192.168.255.18)  2.067 ms  2.066 ms  2.058 ms
+ 4  r01-te3-1.net.redimadrid.es (193.145.14.18)  2.904 ms  2.935 ms  3.116 ms
+ 5  GE6-0-0-102.telmad.rt4.mad.red.rediris.es (130.206.215.97)  3.431 ms  3.412 ms  3.424 ms
+ 6  rediris.mx1.mad.es.geant.net (62.40.124.73)  3.416 ms  3.717 ms  3.708 ms
+ 7  ae3.mx1.par.fr.geant.net (62.40.98.65)  26.643 ms  26.704 ms  26.652 ms
+ 8  ae1.mx1.lon.uk.geant.net (62.40.98.76)  33.607 ms  32.827 ms  32.808 ms
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  * * 137.164.26.200 (137.164.26.200)  176.520 ms
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  164.67.203.252 (164.67.203.252)  176.966 ms * *
+19  * ndn-remap-p05.it.ucla.edu (128.97.98.7)  178.386 ms  177.737 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+URJC traceroute to  BYU hopcount: 40 
+traceroute to pasta10.cs.byu.edu (128.187.81.12), 40 hops max, 60 byte packets
+ 1  * * *
+ 2  192.168.255.1 (192.168.255.1)  2.197 ms  2.205 ms  2.203 ms
+ 3  192.168.255.18 (192.168.255.18)  2.273 ms  2.269 ms  2.258 ms
+ 4  r01-te3-1.net.redimadrid.es (193.145.14.18)  3.164 ms  3.230 ms  3.353 ms
+ 5  GE6-0-0-102.telmad.rt4.mad.red.rediris.es (130.206.215.97)  3.738 ms  3.729 ms  3.709 ms
+ 6  rediris.mx1.mad.es.geant.net (62.40.124.73)  3.960 ms  3.729 ms  3.699 ms
+ 7  ae3.mx1.par.fr.geant.net (62.40.98.65)  26.654 ms  26.627 ms  26.791 ms
+ 8  ae1.mx1.lon.uk.geant.net (62.40.98.76)  32.560 ms  32.085 ms  32.051 ms
+ 9  nordunet.mx1.cop.dk.geant.net (62.40.124.45)  106.755 ms  106.791 ms  106.781 ms
+10  et-9-0-0.115.rtr.chic.net.internet2.edu (198.71.45.56)  124.046 ms  123.893 ms  124.375 ms
+11  et-10-0-0.106.rtr.kans.net.internet2.edu (198.71.45.15)  135.631 ms  135.132 ms  135.121 ms
+12  et-4-0-0.110.rtr.salt.net.internet2.edu (198.71.45.19)  155.381 ms  155.426 ms  155.105 ms
+13  198.71.45.231 (198.71.45.231)  157.104 ms  157.644 ms  157.209 ms
+14  140.197.253.1 (140.197.253.1)  156.070 ms  156.155 ms  156.299 ms
+15  140.197.253.26 (140.197.253.26)  156.491 ms  156.166 ms  156.630 ms
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  rigatoni.cs.byu.edu (128.187.81.12)  157.616 ms  176.138 ms  157.644 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+URJC traceroute to  CSU hopcount: 40 
+traceroute to ndn.netsec.colostate.edu (129.82.138.48), 40 hops max, 60 byte packets
+ 1  193.147.15.1 (193.147.15.1)  69.245 ms  69.233 ms  69.210 ms
+ 2  192.168.255.1 (192.168.255.1)  1.971 ms  1.981 ms  1.973 ms
+ 3  192.168.255.18 (192.168.255.18)  2.068 ms  2.068 ms  2.066 ms
+ 4  r01-te3-1.net.redimadrid.es (193.145.14.18)  3.007 ms  2.929 ms  3.135 ms
+ 5  GE6-0-0-102.telmad.rt4.mad.red.rediris.es (130.206.215.97)  3.507 ms  3.513 ms  4.030 ms
+ 6  rediris.mx1.mad.es.geant.net (62.40.124.73)  33.038 ms  31.088 ms  31.069 ms
+ 7  ae3.mx1.par.fr.geant.net (62.40.98.65)  26.341 ms  26.294 ms  26.269 ms
+ 8  ae1.mx1.lon.uk.geant.net (62.40.98.76)  32.024 ms  32.085 ms  32.026 ms
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  ensb1-border1.colostate.edu (129.82.2.1)  151.134 ms  151.105 ms  165.487 ms
+15  129.82.10.129 (129.82.10.129)  166.896 ms  166.887 ms  166.853 ms
+16  129.82.10.38 (129.82.10.38)  154.064 ms  150.153 ms  153.976 ms
+17  mccoy.netsec.colostate.edu (129.82.138.48)  151.230 ms  148.797 ms *
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+URJC traceroute to  UA hopcount: 40 
+traceroute to hobo.cs.arizona.edu (128.196.203.36), 40 hops max, 60 byte packets
+ 1  * * *
+ 2  192.168.255.1 (192.168.255.1)  2.011 ms  2.020 ms  2.016 ms
+ 3  192.168.255.18 (192.168.255.18)  2.096 ms  2.101 ms  2.073 ms
+ 4  r01-te3-1.net.redimadrid.es (193.145.14.18)  3.128 ms  2.996 ms  3.202 ms
+ 5  GE6-0-0-102.telmad.rt4.mad.red.rediris.es (130.206.215.97)  4.284 ms  4.125 ms  4.261 ms
+ 6  rediris.mx1.mad.es.geant.net (62.40.124.73)  3.966 ms  3.350 ms  3.296 ms
+ 7  ae3.mx1.par.fr.geant.net (62.40.98.65)  26.363 ms  26.336 ms  26.336 ms
+ 8  ae1.mx1.lon.uk.geant.net (62.40.98.76)  32.048 ms  32.001 ms  31.989 ms
+ 9  nordunet.mx1.cop.dk.geant.net (62.40.124.45)  106.760 ms  107.181 ms  107.046 ms
+10  et-5-0-0.104.rtr.atla.net.internet2.edu (198.71.45.6)  120.495 ms  120.484 ms  120.116 ms
+11  et-10-2-0.105.rtr.hous.net.internet2.edu (198.71.45.13)  144.063 ms  143.953 ms  143.942 ms
+12  198.71.46.75 (198.71.46.75)  204.378 ms  203.955 ms  203.525 ms
+13  206.207.226.170 (206.207.226.170)  203.411 ms  203.790 ms  203.274 ms
+14  tuco.telcom.arizona.edu (192.80.43.33)  203.502 ms  203.862 ms  203.850 ms
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  hobo.cs.arizona.edu (128.196.203.36)  204.638 ms  204.656 ms  204.596 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+URJC traceroute to  WU hopcount: 40 
+traceroute to wundngw.arl.wustl.edu (128.252.153.194), 40 hops max, 60 byte packets
+ 1  * * *
+ 2  192.168.255.1 (192.168.255.1)  1.982 ms  1.979 ms  1.957 ms
+ 3  192.168.255.18 (192.168.255.18)  2.409 ms  2.530 ms  2.537 ms
+ 4  r01-te3-1.net.redimadrid.es (193.145.14.18)  3.559 ms  3.730 ms  3.561 ms
+ 5  GE6-0-0-102.telmad.rt4.mad.red.rediris.es (130.206.215.97)  3.648 ms  3.827 ms  3.828 ms
+ 6  rediris.mx1.mad.es.geant.net (62.40.124.73)  3.955 ms  3.767 ms  4.271 ms
+ 7  ae3.mx1.par.fr.geant.net (62.40.98.65)  27.218 ms  26.430 ms  26.694 ms
+ 8  ae1.mx1.lon.uk.geant.net (62.40.98.76)  32.545 ms  32.413 ms  32.438 ms
+ 9  nordunet.mx1.cop.dk.geant.net (62.40.124.45)  107.234 ms  107.171 ms  107.130 ms
+10  et-9-0-0.115.rtr.chic.net.internet2.edu (198.71.45.56)  124.499 ms  124.379 ms  123.892 ms
+11  ae-1.2063.rtr.ictc.indiana.gigapop.net (149.165.254.185)  128.491 ms  128.474 ms  128.360 ms
+12  et-3-0-0.1.rtr.ll.indiana.gigapop.net (149.165.255.194)  128.449 ms  128.612 ms  128.417 ms
+13  149.165.254.142 (149.165.254.142)  138.254 ms  138.087 ms  138.206 ms
+14  eth7-1-commodity-core.nts.wustl.edu (128.252.100.158)  138.203 ms  138.193 ms  138.200 ms
+15  eth7-2-eps-core.nts.wustl.edu (128.252.100.125)  139.330 ms  139.008 ms  139.090 ms
+16  eng-epscore-p2p.nts.wustl.edu (128.252.1.50)  139.709 ms  139.625 ms  139.193 ms
+17  wundngw.arl.wustl.edu (128.252.153.194)  139.071 ms  138.918 ms  139.034 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+URJC traceroute to  UIUC hopcount: 40 
+traceroute to ndnx.cs.illinois.edu (72.36.112.82), 40 hops max, 60 byte packets
+ 1  * * *
+ 2  192.168.255.1 (192.168.255.1)  1.930 ms  1.939 ms  1.936 ms
+ 3  192.168.255.18 (192.168.255.18)  1.987 ms  1.977 ms  2.139 ms
+ 4  r01-te3-1.net.redimadrid.es (193.145.14.18)  2.896 ms  3.003 ms  3.107 ms
+ 5  GE6-0-0-102.telmad.rt4.mad.red.rediris.es (130.206.215.97)  3.336 ms  3.236 ms  3.341 ms
+ 6  rediris.mx1.mad.es.geant.net (62.40.124.73)  3.390 ms  3.328 ms  3.305 ms
+ 7  ae3.mx1.par.fr.geant.net (62.40.98.65)  26.368 ms  26.353 ms  26.329 ms
+ 8  ae1.mx1.lon.uk.geant.net (62.40.98.76)  31.980 ms  32.154 ms  32.074 ms
+ 9  nordunet.mx1.cop.dk.geant.net (62.40.124.45)  106.838 ms  106.713 ms  106.677 ms
+10  et-9-0-0.115.rtr.chic.net.internet2.edu (198.71.45.56)  123.913 ms  124.042 ms  124.615 ms
+11  710rtr-internet2.ex.ui-iccn.org (72.36.127.157)  124.154 ms  124.146 ms  124.620 ms
+12  72.36.126.101 (72.36.126.101)  127.670 ms 72.36.127.86 (72.36.127.86)  127.002 ms  126.891 ms
+13  iccn-ur1rtr-uiuc1.gw.uiuc.edu (72.36.127.2)  126.880 ms  126.933 ms  126.915 ms
+14  iccn-ur1rtr-uiuc1.gw.uiuc.edu (72.36.127.2)  126.899 ms *  126.795 ms
+15  * * *
+16  * * *
+17  ndnx.cs.illinois.edu (72.36.112.82)  127.291 ms  126.945 ms  126.953 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+URJC traceroute to  MICH hopcount: 40 
+traceroute to ndn0.eecs.umich.edu (141.212.108.18), 40 hops max, 60 byte packets
+ 1  193.147.15.1 (193.147.15.1)  0.888 ms  0.887 ms *
+ 2  * * *
+ 3  * * *
+ 4  * * *
+ 5  * * *
+ 6  * rediris.mx1.mad.es.geant.net (62.40.124.73)  3.445 ms  3.341 ms
+ 7  ae3.mx1.par.fr.geant.net (62.40.98.65)  26.317 ms  26.387 ms  26.374 ms
+ 8  ae1.mx1.lon.uk.geant.net (62.40.98.76)  32.181 ms  32.168 ms  32.172 ms
+ 9  nordunet.mx1.cop.dk.geant.net (62.40.124.45)  106.843 ms  106.852 ms  106.845 ms
+10  et-5-0-0.103.rtr.clev.net.internet2.edu (198.71.45.4)  115.940 ms  115.924 ms  115.933 ms
+11  198.71.45.248 (198.71.45.248)  130.565 ms  130.569 ms *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * ndn0.eecs.umich.edu (141.212.108.18)  130.248 ms  130.149 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+URJC traceroute to  UM hopcount: 40 
+traceroute to titan.cs.memphis.edu (141.225.11.173), 40 hops max, 60 byte packets
+ 1  * * *
+ 2  192.168.255.1 (192.168.255.1)  1.919 ms  1.926 ms  1.923 ms
+ 3  192.168.255.18 (192.168.255.18)  1.982 ms  1.973 ms  2.387 ms
+ 4  r01-te3-1.net.redimadrid.es (193.145.14.18)  3.070 ms  2.822 ms  3.088 ms
+ 5  GE6-0-0-102.telmad.rt4.mad.red.rediris.es (130.206.215.97)  3.960 ms  3.942 ms  3.952 ms
+ 6  rediris.mx1.mad.es.geant.net (62.40.124.73)  5.347 ms  3.448 ms  3.416 ms
+ 7  ae3.mx1.par.fr.geant.net (62.40.98.65)  26.322 ms  26.308 ms  26.283 ms
+ 8  ae1.mx1.lon.uk.geant.net (62.40.98.76)  32.132 ms  31.972 ms  32.004 ms
+ 9  nordunet.mx1.cop.dk.geant.net (62.40.124.45)  106.716 ms  106.763 ms  106.752 ms
+10  et-9-0-0.115.rtr.chic.net.internet2.edu (198.71.45.56)  124.032 ms  124.001 ms  123.965 ms
+11  uomemtn-chic.memphis.edu (141.225.250.25)  140.162 ms  140.125 ms  140.090 ms
+12  jo100-s3.memphis.edu (141.225.244.2)  140.321 ms  155.859 ms  155.588 ms
+13  * * *
+14  jo100-nx2.memphis.edu (141.225.1.22)  141.148 ms  140.915 ms  141.034 ms
+15  * * *
+16  titan.cs.memphis.edu (141.225.11.173)  140.562 ms  140.567 ms  140.666 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+URJC traceroute to  NEU hopcount: 40 
+traceroute to 129.10.52.193 (129.10.52.193), 40 hops max, 60 byte packets
+ 1  * * *
+ 2  192.168.255.1 (192.168.255.1)  1.995 ms  2.005 ms  1.996 ms
+ 3  192.168.255.18 (192.168.255.18)  1.997 ms  1.993 ms  1.984 ms
+ 4  r01-te3-1.net.redimadrid.es (193.145.14.18)  2.996 ms  3.129 ms  2.881 ms
+ 5  GE6-0-0-102.telmad.rt4.mad.red.rediris.es (130.206.215.97)  3.374 ms  3.377 ms  3.369 ms
+ 6  rediris.mx1.mad.es.geant.net (62.40.124.73)  3.368 ms  3.338 ms  3.328 ms
+ 7  ae3.mx1.par.fr.geant.net (62.40.98.65)  26.285 ms  26.285 ms  26.275 ms
+ 8  ae1.mx1.lon.uk.geant.net (62.40.98.76)  32.083 ms  32.055 ms  31.963 ms
+ 9  ae0.mx1.ams.nl.geant.net (62.40.98.81)  39.610 ms  39.461 ms  39.491 ms
+10  et-10-0-0.3003.rtr.newy32aoa.net.internet2.edu (198.71.45.236)  114.101 ms  126.203 ms  126.104 ms
+11  nox300gw1-vl-110-nox-i2.nox.org (192.5.89.221)  119.565 ms  119.854 ms  119.844 ms
+12  192.5.89.22 (192.5.89.22)  144.064 ms  144.161 ms  132.000 ms
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  stat-193-52.ece.neu.edu (129.10.52.193)  132.029 ms  120.127 ms  119.912 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+URJC traceroute to  URJC hopcount: 40 
+traceroute to insula.gsyc.es (193.147.51.186), 40 hops max, 60 byte packets
+ 1  insula.local (193.147.51.186)  0.024 ms  0.007 ms  0.005 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+URJC traceroute to  BASEL hopcount: 40 
+traceroute to ndn.cs.unibas.ch (192.43.193.111), 40 hops max, 60 byte packets
+ 1  * * *
+ 2  192.168.255.1 (192.168.255.1)  2.025 ms  2.058 ms  2.056 ms
+ 3  192.168.255.18 (192.168.255.18)  2.745 ms  2.751 ms  2.751 ms
+ 4  r01-te3-1.net.redimadrid.es (193.145.14.18)  3.630 ms  3.637 ms  3.724 ms
+ 5  GE6-0-0-102.telmad.rt4.mad.red.rediris.es (130.206.215.97)  4.006 ms  3.978 ms  3.999 ms
+ 6  rediris.mx1.mad.es.geant.net (62.40.124.73)  5.361 ms  5.351 ms  5.318 ms
+ 7  ae7.mx1.gen.ch.geant.net (62.40.98.67)  23.376 ms  23.218 ms  23.206 ms
+ 8  swiCE1-100GE-0-3-0-1.switch.ch (62.40.124.22)  25.573 ms  25.070 ms  25.058 ms
+ 9  swiEZ3-100GE-0-1-0-0.switch.ch (130.59.36.94)  29.125 ms  29.534 ms  29.525 ms
+10  swiEZ1-P3.switch.ch (130.59.36.33)  43.610 ms  42.282 ms  40.280 ms
+11  swiBA2-10GE-1-4.switch.ch (130.59.37.106)  30.007 ms  29.937 ms  29.872 ms
+12  swiBA1-10GE-3-1.switch.ch (130.59.37.101)  30.127 ms  29.934 ms  29.996 ms
+13  uniir-te-2-1-2.urz.unibas.ch (192.43.192.205)  30.157 ms  30.032 ms  30.277 ms
+14  unibiy-fa-0-1.urz.p.unibas.ch (192.43.192.5)  30.706 ms  30.603 ms  31.154 ms
+15  cs-ndn-testbed1.cs.unibas.ch (192.43.193.111)  30.632 ms  30.555 ms  30.376 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+URJC traceroute to  LIP6 hopcount: 40 
+traceroute to ndnhub.ipv6.lip6.fr (132.227.62.163), 40 hops max, 60 byte packets
+ 1  * * *
+ 2  192.168.255.1 (192.168.255.1)  13.657 ms  13.638 ms  13.649 ms
+ 3  192.168.255.18 (192.168.255.18)  17.155 ms  20.353 ms  20.360 ms
+ 4  r01-te3-1.net.redimadrid.es (193.145.14.18)  21.207 ms  20.800 ms  21.246 ms
+ 5  GE6-0-0-102.telmad.rt4.mad.red.rediris.es (130.206.215.97)  21.964 ms  21.954 ms  21.936 ms
+ 6  rediris.mx1.mad.es.geant.net (62.40.124.73)  21.961 ms  9.262 ms  9.252 ms
+ 7  ae3.mx1.par.fr.geant.net (62.40.98.65)  32.288 ms  28.797 ms  26.325 ms
+ 8  renater-LB1-gw.mx1.par.fr.geant.net (62.40.124.70)  28.713 ms  30.911 ms  30.511 ms
+ 9  te2-1-paris1-rtr-021.noc.renater.fr (193.51.177.27)  27.551 ms  26.826 ms  26.808 ms
+10  te1-1-jussieu-rtr-021.noc.renater.fr (193.51.177.116)  37.396 ms  37.403 ms  36.494 ms
+11  rap-vl165-te3-2-jussieu-rtr-021.noc.renater.fr (193.51.181.101)  26.794 ms  26.844 ms  27.168 ms
+12  site-6.01-jussieu.rap.prd.fr (195.221.127.182)  27.226 ms  27.863 ms  27.382 ms
+13  r-upmc1.reseau.jussieu.fr (134.157.254.10)  28.335 ms r-upmc2.reseau.jussieu.fr (134.157.254.11)  28.555 ms r-upmc1.reseau.jussieu.fr (134.157.254.10)  27.710 ms
+14  lip6-routeur.reseau.jussieu.fr (134.157.167.10)  28.179 ms  28.173 ms  28.744 ms
+15  * * *
+16  ndnhub.ipv6.lip6.fr (132.227.62.163)  29.247 ms  29.198 ms  29.206 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+URJC traceroute to  Orange1 hopcount: 40 
+traceroute to 161.105.195.18 (161.105.195.18), 40 hops max, 60 byte packets
+ 1  * * *
+ 2  192.168.255.1 (192.168.255.1)  1.942 ms  1.922 ms  1.932 ms
+ 3  192.168.255.18 (192.168.255.18)  2.046 ms  2.013 ms  2.019 ms
+ 4  r01-te3-1.net.redimadrid.es (193.145.14.18)  2.929 ms  3.172 ms  3.008 ms
+ 5  GE6-0-0-102.telmad.rt4.mad.red.rediris.es (130.206.215.97)  4.080 ms  3.398 ms  4.081 ms
+ 6  213.242.113.77 (213.242.113.77)  4.104 ms  3.264 ms  3.253 ms
+ 7  ae-13-13.bar2.Madrid2.Level3.net (4.69.158.166)  3.468 ms ae-14-14.bar2.Madrid2.Level3.net (4.69.158.170)  3.409 ms ae-0-11.bar2.Madrid2.Level3.net (4.69.141.46)  3.428 ms
+ 8  * * *
+ 9  tengige0-1-0-0.auvtr4.Aubervilliers.opentransit.net (193.251.243.57)  24.111 ms tengige0-6-0-4.auvtr4.Aubervilliers.opentransit.net (193.251.133.30)  21.638 ms tengige0-1-0-5.auvtr4.Aubervilliers.opentransit.net (193.251.128.165)  23.161 ms
+10  gigabitethernet6-0-0.auvcr3.Aubervilliers.opentransit.net (193.251.128.215)  22.407 ms  22.410 ms  21.530 ms
+11  ftrd-expe-ipv4.GW.opentransit.net (193.251.150.210)  21.518 ms  21.310 ms  21.314 ms
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  161.105.195.18 (161.105.195.18)  22.434 ms  22.421 ms  22.392 ms
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+URJC traceroute to  SystemX hopcount: 40 
+traceroute to systemx-ndn-1.enst.fr (137.194.54.81), 40 hops max, 60 byte packets
+ 1  * * *
+ 2  192.168.255.1 (192.168.255.1)  1.920 ms  1.931 ms  1.922 ms
+ 3  192.168.255.18 (192.168.255.18)  2.072 ms  2.069 ms  2.053 ms
+ 4  r01-te3-1.net.redimadrid.es (193.145.14.18)  2.849 ms  2.905 ms  3.360 ms
+ 5  GE6-0-0-102.telmad.rt4.mad.red.rediris.es (130.206.215.97)  3.897 ms  3.906 ms  3.898 ms
+ 6  rediris.mx1.mad.es.geant.net (62.40.124.73)  3.991 ms  3.408 ms  3.398 ms
+ 7  ae3.mx1.par.fr.geant.net (62.40.98.65)  26.427 ms  26.339 ms  26.687 ms
+ 8  renater-LB1-gw.mx1.par.fr.geant.net (62.40.124.70)  83.903 ms  28.858 ms  120.986 ms
+ 9  te1-1-paris1-rtr-021.noc.renater.fr (193.51.177.25)  27.280 ms  26.743 ms  26.724 ms
+10  rap-vl260-te4-4-paris1-rtr-021.noc.renater.fr (193.51.186.101)  26.712 ms  26.683 ms  26.531 ms
+11  site-G06-odeon.rap.prd.fr (195.221.127.186)  26.788 ms  26.748 ms  26.748 ms
+12  systemx-ndn-1.enst.fr (137.194.54.81)  27.415 ms  27.845 ms  27.909 ms
