@@ -3,82 +3,82 @@
 
 CAIDA traceroute to  PKU hopcount: 40 
 traceroute to 162.105.146.26 (162.105.146.26), 40 hops max, 60 byte packets
- 1  sdsc-rtr.caida.org (192.172.226.252)  0.227 ms  0.169 ms  0.183 ms
- 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.248 ms  0.303 ms  0.232 ms
- 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.628 ms  2.580 ms  2.647 ms
- 4  transpac-1-lo-jmb-702.lsanca.pacificwave.net (207.231.240.136)  2.809 ms  2.805 ms  2.832 ms
- 5  210.25.189.137 (210.25.189.137)  7.053 ms  7.058 ms  7.049 ms
- 6  210.25.189.49 (210.25.189.49)  149.494 ms  149.479 ms  149.368 ms
- 7  210.25.189.17 (210.25.189.17)  152.870 ms  152.368 ms  152.316 ms
- 8  210.25.189.69 (210.25.189.69)  149.876 ms  149.456 ms  149.653 ms
- 9  202.112.53.5 (202.112.53.5)  151.001 ms  150.783 ms  150.756 ms
-10  101.4.116.133 (101.4.116.133)  149.507 ms  149.644 ms  149.568 ms
-11  101.4.112.90 (101.4.112.90)  149.967 ms  151.028 ms  150.984 ms
-12  101.4.117.81 (101.4.117.81)  151.205 ms  151.348 ms  151.224 ms
-13  * * *
-14  202.112.41.182 (202.112.41.182)  150.425 ms  150.450 ms  150.264 ms
-15  162.105.252.133 (162.105.252.133)  150.343 ms  150.295 ms  150.277 ms
+ 1  sdsc-rtr.caida.org (192.172.226.252)  0.259 ms  0.186 ms  0.225 ms
+ 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.272 ms  0.254 ms  0.389 ms
+ 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.606 ms  2.600 ms  2.621 ms
+ 4  transpac-1-lo-jmb-702.lsanca.pacificwave.net (207.231.240.136)  2.859 ms  2.851 ms  2.693 ms
+ 5  210.25.189.137 (210.25.189.137)  6.682 ms  6.677 ms  6.662 ms
+ 6  210.25.189.49 (210.25.189.49)  149.495 ms  149.345 ms  149.371 ms
+ 7  210.25.189.17 (210.25.189.17)  168.089 ms  168.067 ms  153.818 ms
+ 8  210.25.189.69 (210.25.189.69)  230.669 ms  214.035 ms  214.064 ms
+ 9  202.112.53.5 (202.112.53.5)  150.067 ms  150.045 ms  153.799 ms
+10  101.4.116.133 (101.4.116.133)  149.801 ms  149.823 ms  149.854 ms
+11  101.4.112.90 (101.4.112.90)  157.764 ms  157.777 ms  150.494 ms
+12  101.4.117.81 (101.4.117.81)  150.478 ms  151.638 ms  151.609 ms
+13  202.112.41.178 (202.112.41.178)  149.913 ms  149.936 ms  150.038 ms
+14  202.112.41.182 (202.112.41.182)  150.436 ms  150.468 ms  150.198 ms
+15  162.105.252.133 (162.105.252.133)  150.302 ms  150.557 ms  150.345 ms
 16  * * *
-17  162.105.146.26 (162.105.146.26)  542.967 ms  392.042 ms  392.016 ms
+17  162.105.146.26 (162.105.146.26)  150.442 ms  151.282 ms  151.060 ms
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 CAIDA traceroute to  BUPT hopcount: 40 
 traceroute to 114.247.165.44 (114.247.165.44), 40 hops max, 60 byte packets
- 1  sdsc-rtr.caida.org (192.172.226.252)  0.195 ms  0.188 ms  0.163 ms
- 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.213 ms  0.264 ms  0.257 ms
- 3  dc-sdg-agg4--sdsc-1.cenic.net (137.164.23.129)  0.673 ms dc-sdg-agg4--sdsc-10g-2.cenic.net (137.164.23.181)  0.708 ms dc-sdg-agg4--sdsc-1.cenic.net (137.164.23.129)  0.743 ms
- 4  dc-riv-agg4--sdg-agg4-10ge.cenic.net (137.164.47.110)  8.504 ms dc-riv-agg4--sdg-agg4-10ge-2.cenic.net (137.164.47.14)  8.541 ms  8.597 ms
- 5  dc-lax-agg6--riv-agg4-100ge.cenic.net (137.164.11.2)  13.269 ms  14.656 ms  14.651 ms
+ 1  sdsc-rtr.caida.org (192.172.226.252)  48.337 ms  1.533 ms  1.557 ms
+ 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.280 ms  0.282 ms  0.236 ms
+ 3  dc-sdg-agg4--sdsc-1.cenic.net (137.164.23.129)  0.744 ms  0.777 ms dc-sdg-agg4--sdsc-10g-2.cenic.net (137.164.23.181)  0.830 ms
+ 4  dc-riv-agg4--sdg-agg4-10ge-2.cenic.net (137.164.47.14)  8.672 ms  8.724 ms dc-riv-agg4--sdg-agg4-10ge.cenic.net (137.164.47.110)  8.792 ms
+ 5  dc-lax-agg6--riv-agg4-100ge.cenic.net (137.164.11.2)  13.114 ms  13.154 ms  13.195 ms
  6  * * *
- 7  ae-1-60.edge1.LosAngeles9.Level3.net (4.69.144.10)  48.163 ms  47.671 ms ae-2-70.edge1.LosAngeles9.Level3.net (4.69.144.74)  23.032 ms
- 8  Sprint-Level3-30G.LosAngeles9.Level3.net (4.68.111.90)  14.478 ms  16.929 ms  13.810 ms
- 9  144.232.24.41 (144.232.24.41)  14.446 ms 144.232.24.43 (144.232.24.43)  16.340 ms  24.756 ms
-10  144.232.19.24 (144.232.19.24)  21.715 ms 144.232.6.43 (144.232.6.43)  13.693 ms 144.232.6.106 (144.232.6.106)  13.590 ms
-11  sl-china32-411208-0.sprintlink.net (144.228.17.98)  57.494 ms  57.422 ms  57.448 ms
-12  219.158.103.1 (219.158.103.1)  288.902 ms  285.035 ms  288.862 ms
-13  * 219.158.101.61 (219.158.101.61)  287.939 ms  284.997 ms
-14  * 219.158.101.45 (219.158.101.45)  286.541 ms *
-15  124.65.194.142 (124.65.194.142)  270.192 ms * *
-16  124.65.62.186 (124.65.62.186)  341.439 ms  272.218 ms  270.945 ms
-17  * * *
-18  124.65.218.54 (124.65.218.54)  220.485 ms  218.953 ms  193.096 ms
-19  172.16.1.34 (172.16.1.34)  154.696 ms  154.506 ms  154.576 ms
-20  * * 192.168.100.254 (192.168.100.254)  155.488 ms
-21  192.168.101.2 (192.168.101.2)  154.740 ms  154.675 ms *
-22  114.247.165.44 (114.247.165.44)  156.001 ms  156.808 ms  155.565 ms
+ 7  ae-3-80.edge1.LosAngeles9.Level3.net (4.69.144.138)  12.701 ms  12.722 ms ae-4-90.edge1.LosAngeles9.Level3.net (4.69.144.202)  12.899 ms
+ 8  Sprint-Level3-30G.LosAngeles9.Level3.net (4.68.111.90)  15.774 ms  15.214 ms  15.197 ms
+ 9  144.232.24.41 (144.232.24.41)  16.566 ms  16.520 ms  16.448 ms
+10  144.232.9.192 (144.232.9.192)  13.698 ms 144.232.19.24 (144.232.19.24)  13.596 ms 144.232.6.104 (144.232.6.104)  13.614 ms
+11  sl-china32-411208-0.sprintlink.net (144.228.17.98)  126.257 ms  126.059 ms  125.850 ms
+12  219.158.103.1 (219.158.103.1)  267.809 ms  271.402 ms  267.741 ms
+13  219.158.101.61 (219.158.101.61)  267.988 ms  267.948 ms  267.934 ms
+14  219.158.101.45 (219.158.101.45)  267.589 ms  271.487 ms  267.536 ms
+15  124.65.194.142 (124.65.194.142)  270.149 ms * *
+16  124.65.62.186 (124.65.62.186)  280.335 ms  281.659 ms  277.749 ms
+17  bt-227-222.bta.net.cn (202.106.227.222)  270.883 ms  267.446 ms  267.805 ms
+18  124.65.218.54 (124.65.218.54)  270.263 ms  270.412 ms  271.413 ms
+19  172.16.1.34 (172.16.1.34)  154.672 ms  155.913 ms  154.537 ms
+20  192.168.100.254 (192.168.100.254)  155.071 ms  155.325 ms  164.354 ms
+21  192.168.101.2 (192.168.101.2)  154.735 ms  155.951 ms  154.705 ms
+22  114.247.165.44 (114.247.165.44)  156.208 ms  158.940 ms  157.960 ms
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 CAIDA traceroute to  ANYANG hopcount: 40 
 traceroute to 210.114.89.49 (210.114.89.49), 40 hops max, 60 byte packets
- 1  sdsc-rtr.caida.org (192.172.226.252)  0.210 ms  0.217 ms  0.208 ms
- 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.270 ms  0.431 ms  0.253 ms
- 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.634 ms  2.581 ms  2.640 ms
- 4  transpac-1-lo-jmb-702.lsanca.pacificwave.net (207.231.240.136)  2.798 ms  2.952 ms  2.779 ms
- 5  tokyo-losa-tp2.transpac.org (192.203.116.146)  118.579 ms  118.388 ms  118.442 ms
- 6  koren-v139.jp.apan.net (203.181.248.185)  159.160 ms  159.181 ms  159.152 ms
- 7  eos2-seoul-rtr-te9-3.koren.kr (61.252.63.22)  158.986 ms  158.939 ms  158.765 ms
- 8  210.114.89.49 (210.114.89.49)  159.313 ms  159.013 ms  159.101 ms
+ 1  sdsc-rtr.caida.org (192.172.226.252)  0.217 ms  0.204 ms  0.195 ms
+ 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.250 ms  0.244 ms  0.235 ms
+ 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.616 ms  2.657 ms  2.571 ms
+ 4  transpac-1-lo-jmb-702.lsanca.pacificwave.net (207.231.240.136)  2.697 ms  2.695 ms  2.680 ms
+ 5  tokyo-losa-tp2.transpac.org (192.203.116.146)  118.520 ms  118.316 ms  118.325 ms
+ 6  koren-v139.jp.apan.net (203.181.248.185)  159.033 ms  160.378 ms  160.322 ms
+ 7  eos2-seoul-rtr-te9-3.koren.kr (61.252.63.22)  158.703 ms  158.895 ms  158.699 ms
+ 8  210.114.89.49 (210.114.89.49)  159.207 ms  159.176 ms  158.939 ms
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 CAIDA traceroute to  TONGJI hopcount: 40 
 traceroute to cnlab.tongji.edu.cn (202.120.188.176), 40 hops max, 60 byte packets
- 1  sdsc-rtr.caida.org (192.172.226.252)  0.154 ms  0.191 ms  0.182 ms
- 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.271 ms  0.254 ms  0.252 ms
- 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.596 ms  2.622 ms  2.643 ms
- 4  transpac-1-lo-jmb-702.lsanca.pacificwave.net (207.231.240.136)  2.698 ms  2.720 ms  2.885 ms
- 5  210.25.189.137 (210.25.189.137)  4.934 ms  4.951 ms  4.904 ms
- 6  210.25.189.49 (210.25.189.49)  149.326 ms  149.360 ms  149.436 ms
- 7  210.25.189.17 (210.25.189.17)  152.446 ms  152.429 ms  151.918 ms
- 8  210.25.189.69 (210.25.189.69)  149.545 ms  149.468 ms  149.547 ms
- 9  202.112.53.5 (202.112.53.5)  152.399 ms  152.032 ms  151.997 ms
-10  101.4.116.133 (101.4.116.133)  149.600 ms  149.639 ms  149.619 ms
-11  101.4.112.70 (101.4.112.70)  176.396 ms  176.046 ms  175.962 ms
-12  101.4.116.117 (101.4.116.117)  181.441 ms  180.734 ms  179.074 ms
+ 1  sdsc-rtr.caida.org (192.172.226.252)  0.182 ms  21.996 ms  21.991 ms
+ 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.318 ms  0.313 ms  0.225 ms
+ 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.599 ms  2.597 ms  2.614 ms
+ 4  transpac-1-lo-jmb-702.lsanca.pacificwave.net (207.231.240.136)  2.950 ms  2.930 ms  2.948 ms
+ 5  210.25.189.137 (210.25.189.137)  7.050 ms  7.001 ms  7.000 ms
+ 6  210.25.189.49 (210.25.189.49)  149.467 ms  149.285 ms  149.340 ms
+ 7  210.25.189.17 (210.25.189.17)  151.301 ms  151.338 ms  151.495 ms
+ 8  210.25.189.69 (210.25.189.69)  149.539 ms  149.634 ms  149.472 ms
+ 9  202.112.53.5 (202.112.53.5)  149.768 ms  153.712 ms  153.645 ms
+10  101.4.116.133 (101.4.116.133)  149.925 ms  149.908 ms  149.779 ms
+11  101.4.112.70 (101.4.112.70)  176.893 ms  178.813 ms  178.798 ms
+12  101.4.116.117 (101.4.116.117)  176.442 ms  182.115 ms  182.077 ms
 13  * * *
-14  101.4.115.173 (101.4.115.173)  176.016 ms  177.077 ms  176.162 ms
+14  101.4.115.173 (101.4.115.173)  176.463 ms  176.315 ms  176.433 ms
 15  * * *
 16  * * *
 17  * * *
@@ -89,351 +89,327 @@ traceroute to cnlab.tongji.edu.cn (202.120.188.176), 40 hops max, 60 byte packet
 22  * * *
 23  * * *
 24  * * *
-25  cnlab.tongji.edu.cn (202.120.188.176)  177.686 ms  177.689 ms  177.669 ms
+25  cnlab.tongji.edu.cn (202.120.188.176)  177.641 ms  177.654 ms  177.675 ms
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 CAIDA traceroute to  WASEDA hopcount: 40 
 traceroute to 133.9.73.66 (133.9.73.66), 40 hops max, 60 byte packets
- 1  sdsc-rtr.caida.org (192.172.226.252)  0.181 ms  0.198 ms  0.188 ms
- 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.308 ms  0.228 ms  0.286 ms
- 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.638 ms  2.639 ms  2.645 ms
- 4  sinet-1-lo-jmb-702.lsanca.pacificwave.net (207.231.240.135)  2.759 ms  2.825 ms  2.868 ms
- 5  tokyo-dc-gm2-xe5-3-2-vlan10.s4.sinet.ad.jp (150.99.2.81)  102.898 ms  102.909 ms  102.902 ms
- 6  tokyo-dc-rm-ae4-vlan10.s4.sinet.ad.jp (150.99.2.53)  121.330 ms  120.116 ms  120.100 ms
- 7  waseda.gw.sinet.ad.jp (150.99.187.70)  103.427 ms  103.356 ms  103.372 ms
- 8  133.9.0.244 (133.9.0.244)  103.440 ms  103.693 ms  103.656 ms
- 9  133.9.255.186 (133.9.255.186)  103.623 ms  103.561 ms  103.463 ms
-10  133.9.255.124 (133.9.255.124)  103.714 ms  103.788 ms  103.775 ms
-11  133.9.187.231 (133.9.187.231)  103.813 ms  104.057 ms  103.838 ms
-12  133.9.73.66 (133.9.73.66)  104.199 ms  104.147 ms  104.070 ms
+ 1  sdsc-rtr.caida.org (192.172.226.252)  0.240 ms  0.192 ms  0.204 ms
+ 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.233 ms  0.242 ms  0.215 ms
+ 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.723 ms  2.651 ms  2.593 ms
+ 4  sinet-1-lo-jmb-702.lsanca.pacificwave.net (207.231.240.135)  2.742 ms  2.724 ms  2.764 ms
+ 5  tokyo-dc-gm2-xe5-3-2-vlan10.s4.sinet.ad.jp (150.99.2.81)  102.850 ms  102.849 ms  102.851 ms
+ 6  tokyo-dc-rm-ae4-vlan10.s4.sinet.ad.jp (150.99.2.53)  102.816 ms  102.821 ms  102.861 ms
+ 7  waseda.gw.sinet.ad.jp (150.99.187.70)  103.228 ms  103.213 ms  103.244 ms
+ 8  133.9.0.244 (133.9.0.244)  103.446 ms  103.500 ms  103.425 ms
+ 9  133.9.255.186 (133.9.255.186)  103.329 ms  103.548 ms  103.447 ms
+10  133.9.255.124 (133.9.255.124)  103.522 ms  103.801 ms  103.647 ms
+11  133.9.187.231 (133.9.187.231)  103.480 ms  103.480 ms  103.484 ms
+12  133.9.73.66 (133.9.73.66)  103.780 ms  103.822 ms  103.640 ms
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 CAIDA traceroute to  UCLA hopcount: 40 
 traceroute to spurs.cs.ucla.edu (131.179.196.46), 40 hops max, 60 byte packets
- 1  sdsc-rtr.caida.org (192.172.226.252)  0.162 ms  0.191 ms  0.210 ms
- 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.656 ms  0.265 ms  0.259 ms
- 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.582 ms  2.612 ms  2.661 ms
+ 1  sdsc-rtr.caida.org (192.172.226.252)  0.177 ms  0.179 ms  0.201 ms
+ 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.245 ms  0.241 ms  0.227 ms
+ 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.625 ms  2.603 ms  2.642 ms
  4  * * *
- 5  bd11f1.anderson--cr01f1.anderson.ucla.net (169.232.4.6)  3.370 ms bd11f1.anderson--cr01f2.csb1.ucla.net (169.232.4.4)  3.367 ms  3.379 ms
- 6  cr01f1.anderson--dr01f2.csb1.ucla.net (169.232.4.55)  3.334 ms  3.348 ms cr01f2.csb1--dr01f2.csb1.ucla.net (169.232.4.53)  3.334 ms
+ 5  bd11f1.anderson--cr01f1.anderson.ucla.net (169.232.4.6)  3.333 ms bd11f1.anderson--cr01f2.csb1.ucla.net (169.232.4.4)  3.285 ms bd11f1.anderson--cr01f1.anderson.ucla.net (169.232.4.6)  3.296 ms
+ 6  cr01f2.csb1--dr01f2.csb1.ucla.net (169.232.4.53)  3.357 ms  3.311 ms  3.304 ms
  7  * * *
- 8  spurs.cs.ucla.edu (131.179.196.46)  6.543 ms  9.197 ms  9.163 ms
- 9  spurs.cs.ucla.edu (131.179.196.46)  4.190 ms  3.948 ms  3.932 ms
+ 8  spurs.cs.ucla.edu (131.179.196.46)  5.728 ms  4.451 ms  5.786 ms
+ 9  spurs.cs.ucla.edu (131.179.196.46)  3.899 ms  3.679 ms  3.661 ms
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 CAIDA traceroute to  CAIDA hopcount: 40 
 traceroute to click.caida.org (192.172.226.248), 40 hops max, 60 byte packets
- 1  click.caida.org (192.172.226.248)  0.034 ms  0.011 ms  0.010 ms
+ 1  click.caida.org (192.172.226.248)  0.031 ms  0.011 ms  0.010 ms
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 CAIDA traceroute to  UCI hopcount: 40 
 traceroute to ndnhub.ics.uci.edu (128.195.4.36), 40 hops max, 60 byte packets
- 1  sdsc-rtr.caida.org (192.172.226.252)  0.212 ms  0.199 ms  0.197 ms
- 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  1.201 ms  14.538 ms  1.190 ms
- 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.610 ms  2.659 ms  2.666 ms
- 4  hpr-riv-hpr2--lax-hpr2-10ge-2.cenic.net (137.164.25.54)  10.321 ms  10.490 ms riv-hpr2--lax-hpr2-10g.cenic.net (137.164.25.34)  10.397 ms
- 5  uci-uci1--hpr-riv-hpr2-ge.cenic.net (137.164.27.34)  11.745 ms  11.911 ms  11.816 ms
- 6  cpl-core--cs1-core-kazad-dum-hsrp.ucinet.uci.edu (128.200.2.194)  12.454 ms  12.107 ms  11.849 ms
- 7  cs1-core--cpl-core.ucinet.uci.edu (128.195.248.226)  11.902 ms  11.881 ms  11.947 ms
- 8  302--cs1-core.ucinet.uci.edu (128.195.249.242)  11.993 ms  11.960 ms  12.022 ms
- 9  ndnhub.ics.uci.edu (128.195.4.36)  11.912 ms  11.916 ms  11.893 ms
+ 1  sdsc-rtr.caida.org (192.172.226.252)  0.176 ms  0.174 ms  0.165 ms
+ 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.266 ms  0.207 ms  0.245 ms
+ 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.660 ms  2.615 ms  2.613 ms
+ 4  riv-hpr2--lax-hpr2-10g.cenic.net (137.164.25.34)  7.322 ms hpr-riv-hpr2--lax-hpr2-10ge-2.cenic.net (137.164.25.54)  7.419 ms  7.502 ms
+ 5  uci-uci1--hpr-riv-hpr2-ge.cenic.net (137.164.27.34)  13.546 ms  13.591 ms  13.683 ms
+ 6  cpl-core--cs1-core-kazad-dum-hsrp.ucinet.uci.edu (128.200.2.194)  11.832 ms  12.647 ms  12.634 ms
+ 7  cs1-core--cpl-core.ucinet.uci.edu (128.195.248.226)  11.876 ms  11.883 ms  11.833 ms
+ 8  302--cs1-core.ucinet.uci.edu (128.195.249.242)  11.918 ms  11.899 ms  11.910 ms
+ 9  ndnhub.ics.uci.edu (128.195.4.36)  11.963 ms  11.928 ms  11.931 ms
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 CAIDA traceroute to  REMAP hopcount: 40 
 traceroute to aleph.ndn.ucla.edu (128.97.98.7), 40 hops max, 60 byte packets
- 1  sdsc-rtr.caida.org (192.172.226.252)  0.251 ms  0.210 ms  0.211 ms
- 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.231 ms  0.917 ms  0.896 ms
- 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.598 ms  2.595 ms  2.612 ms
+ 1  sdsc-rtr.caida.org (192.172.226.252)  0.168 ms  0.177 ms  0.169 ms
+ 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.557 ms  0.268 ms  0.263 ms
+ 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.611 ms  2.654 ms  2.674 ms
  4  * * *
- 5  bd11f1.anderson--cr01f1.anderson.ucla.net (169.232.4.6)  3.308 ms  3.390 ms  3.330 ms
- 6  cr01f2.csb1--dr01f2.csb1.ucla.net (169.232.4.53)  3.393 ms cr01f1.anderson--dr01f2.csb1.ucla.net (169.232.4.55)  3.327 ms  3.340 ms
+ 5  bd11f1.anderson--cr01f2.csb1.ucla.net (169.232.4.4)  3.344 ms  3.376 ms  3.395 ms
+ 6  cr01f1.anderson--dr01f2.csb1.ucla.net (169.232.4.55)  3.339 ms  3.326 ms  3.315 ms
  7  * * *
- 8  164.67.203.252 (164.67.203.252)  3.401 ms  3.395 ms  3.444 ms
- 9  ndn-remap-p05.it.ucla.edu (128.97.98.7)  3.692 ms  3.542 ms  3.529 ms
+ 8  164.67.203.252 (164.67.203.252)  3.377 ms  3.369 ms  3.396 ms
+ 9  ndn-remap-p05.it.ucla.edu (128.97.98.7)  3.864 ms  3.693 ms  3.731 ms
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 CAIDA traceroute to  BYU hopcount: 40 
 traceroute to pasta10.cs.byu.edu (128.187.81.12), 40 hops max, 60 byte packets
- 1  sdsc-rtr.caida.org (192.172.226.252)  21.432 ms  0.181 ms  21.432 ms
- 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  17.711 ms  0.257 ms  0.256 ms
- 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.577 ms  2.574 ms  2.592 ms
- 4  137.164.26.201 (137.164.26.201)  2.928 ms  2.925 ms  2.917 ms
- 5  140.197.253.143 (140.197.253.143)  16.200 ms  16.473 ms  16.588 ms
- 6  140.197.253.1 (140.197.253.1)  16.603 ms  16.533 ms  16.535 ms
- 7  140.197.253.26 (140.197.253.26)  16.871 ms  16.580 ms *
- 8  * * 10.33.32.2 (10.33.32.2)  17.189 ms
- 9  10.33.38.9 (10.33.38.9)  248.554 ms  235.303 ms  235.029 ms
-10  10.33.1.41 (10.33.1.41)  17.026 ms  16.980 ms  16.964 ms
-11  10.33.1.78 (10.33.1.78)  17.328 ms  17.203 ms  17.124 ms
-12  10.3.1.198 (10.3.1.198)  17.367 ms  17.341 ms  17.676 ms
+ 1  sdsc-rtr.caida.org (192.172.226.252)  0.164 ms  12.906 ms  0.185 ms
+ 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.289 ms  0.270 ms  0.267 ms
+ 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.618 ms  2.647 ms  2.670 ms
+ 4  137.164.26.201 (137.164.26.201)  3.140 ms  2.777 ms  3.183 ms
+ 5  140.197.253.143 (140.197.253.143)  17.386 ms  17.366 ms  17.358 ms
+ 6  140.197.253.1 (140.197.253.1)  16.135 ms  16.431 ms  16.392 ms
+ 7  140.197.253.26 (140.197.253.26)  16.559 ms  16.617 ms *
+ 8  * * 10.33.32.2 (10.33.32.2)  74.181 ms
+ 9  10.33.38.9 (10.33.38.9)  18.701 ms  21.426 ms  34.372 ms
+10  10.33.1.41 (10.33.1.41)  17.205 ms  24.325 ms  17.672 ms
+11  10.33.1.78 (10.33.1.78)  30.530 ms  44.385 ms  30.475 ms
+12  10.3.1.198 (10.3.1.198)  17.372 ms  17.344 ms  17.110 ms
 13  * * *
-14  rigatoni.cs.byu.edu (128.187.81.12)  17.500 ms  17.501 ms  17.433 ms
+14  rigatoni.cs.byu.edu (128.187.81.12)  24.461 ms  106.763 ms  17.930 ms
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 CAIDA traceroute to  CSU hopcount: 40 
 traceroute to ndn.netsec.colostate.edu (129.82.138.48), 40 hops max, 60 byte packets
- 1  sdsc-rtr.caida.org (192.172.226.252)  0.198 ms  0.187 ms  0.178 ms
- 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.378 ms  0.641 ms  0.362 ms
- 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.570 ms  2.600 ms  3.063 ms
- 4  137.164.26.201 (137.164.26.201)  2.950 ms  2.943 ms  2.964 ms
- 5  et-10-0-0.114.rtr.seat.net.internet2.edu (198.71.45.27)  27.109 ms  27.084 ms  27.083 ms
- 6  198.71.46.246 (198.71.46.246)  52.763 ms  52.353 ms  52.315 ms
- 7  159.238.0.10 (159.238.0.10)  52.749 ms  52.825 ms  52.800 ms
- 8  border1-i2_b.colostate.edu (129.82.2.33)  54.657 ms  54.485 ms  54.433 ms
- 9  ensb1-border1.colostate.edu (129.82.2.1)  55.139 ms  55.109 ms  55.090 ms
-10  129.82.10.129 (129.82.10.129)  55.258 ms  54.955 ms  55.608 ms
-11  129.82.10.38 (129.82.10.38)  58.457 ms  57.122 ms  57.082 ms
-12  mccoy.netsec.colostate.edu (129.82.138.48)  54.573 ms  54.918 ms  55.012 ms
+ 1  sdsc-rtr.caida.org (192.172.226.252)  0.173 ms  0.214 ms  0.205 ms
+ 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.255 ms  0.236 ms  0.236 ms
+ 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.614 ms  2.651 ms  2.600 ms
+ 4  137.164.26.201 (137.164.26.201)  3.548 ms  3.541 ms  3.515 ms
+ 5  et-10-0-0.114.rtr.seat.net.internet2.edu (198.71.45.27)  27.386 ms  27.352 ms  27.277 ms
+ 6  198.71.46.246 (198.71.46.246)  52.645 ms  52.527 ms  52.487 ms
+ 7  159.238.0.10 (159.238.0.10)  52.849 ms  52.658 ms  52.672 ms
+ 8  border1-i2_b.colostate.edu (129.82.2.33)  54.586 ms  54.927 ms  54.901 ms
+ 9  ensb1-border1.colostate.edu (129.82.2.1)  55.044 ms  54.760 ms  54.706 ms
+10  129.82.10.129 (129.82.10.129)  55.084 ms  55.092 ms  61.522 ms
+11  129.82.10.38 (129.82.10.38)  56.556 ms  57.016 ms  56.974 ms
+12  mccoy.netsec.colostate.edu (129.82.138.48)  54.999 ms  54.988 ms  54.834 ms
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 CAIDA traceroute to  UA hopcount: 40 
 traceroute to hobo.cs.arizona.edu (128.196.203.36), 40 hops max, 60 byte packets
- 1  sdsc-rtr.caida.org (192.172.226.252)  0.165 ms  0.171 ms  0.163 ms
- 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.277 ms  0.274 ms  0.259 ms
- 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  3.215 ms  3.507 ms  2.587 ms
- 4  137.164.26.201 (137.164.26.201)  2.994 ms  2.997 ms  2.981 ms
- 5  198.71.46.160 (198.71.46.160)  13.631 ms  13.232 ms  13.495 ms
- 6  206.207.226.178 (206.207.226.178)  15.698 ms  15.169 ms  15.557 ms
- 7  206.207.226.170 (206.207.226.170)  14.628 ms  14.762 ms  14.736 ms
- 8  tuco.telcom.arizona.edu (192.80.43.33)  15.157 ms  14.784 ms  16.806 ms
- 9  172.17.9.140 (172.17.9.140)  15.200 ms  15.150 ms  15.029 ms
-10  172.17.9.209 (172.17.9.209)  15.060 ms  15.301 ms  15.075 ms
-11  172.17.14.66 (172.17.14.66)  15.199 ms  15.339 ms  15.249 ms
-12  172.17.32.26 (172.17.32.26)  15.401 ms  15.380 ms  15.493 ms
-13  172.17.4.57 (172.17.4.57)  14.991 ms  15.047 ms  15.060 ms
-14  172.17.128.42 (172.17.128.42)  15.788 ms  16.202 ms  16.688 ms
-15  hobo.cs.arizona.edu (128.196.203.36)  15.182 ms  15.148 ms  15.113 ms
+ 1  sdsc-rtr.caida.org (192.172.226.252)  23.061 ms  0.157 ms  0.170 ms
+ 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.229 ms  0.269 ms  0.263 ms
+ 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.612 ms  2.642 ms  2.635 ms
+ 4  137.164.26.201 (137.164.26.201)  3.153 ms  3.150 ms  3.143 ms
+ 5  198.71.46.160 (198.71.46.160)  12.741 ms  13.053 ms  13.018 ms
+ 6  hu-0-0-0-0.100.wilma.scorridor.org (206.207.226.178)  15.539 ms  15.723 ms  15.788 ms
+ 7  206.207.226.170 (206.207.226.170)  14.677 ms  14.660 ms  14.641 ms
+ 8  tuco.telcom.arizona.edu (192.80.43.33)  15.097 ms  15.147 ms  15.197 ms
+ 9  172.17.9.140 (172.17.9.140)  15.287 ms  15.382 ms  15.246 ms
+10  172.17.9.209 (172.17.9.209)  15.071 ms  15.327 ms  15.307 ms
+11  172.17.14.66 (172.17.14.66)  15.270 ms  15.286 ms  15.371 ms
+12  172.17.32.26 (172.17.32.26)  15.553 ms  15.359 ms  15.364 ms
+13  172.17.4.57 (172.17.4.57)  15.070 ms  15.127 ms  15.148 ms
+14  172.17.128.42 (172.17.128.42)  15.663 ms  16.102 ms  16.472 ms
+15  hobo.cs.arizona.edu (128.196.203.36)  15.293 ms  15.127 ms  15.088 ms
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 CAIDA traceroute to  WU hopcount: 40 
 traceroute to wundngw.arl.wustl.edu (128.252.153.194), 40 hops max, 60 byte packets
- 1  sdsc-rtr.caida.org (192.172.226.252)  0.206 ms  0.190 ms  0.190 ms
- 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.253 ms  0.247 ms  0.239 ms
- 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.609 ms  2.609 ms  2.634 ms
- 4  137.164.26.201 (137.164.26.201)  2.991 ms  2.971 ms  2.965 ms
- 5  et-1-0-0.111.rtr.hous.net.internet2.edu (198.71.45.20)  35.382 ms  35.609 ms  35.349 ms
- 6  et-5-0-0.109.rtr.kans.net.internet2.edu (198.71.45.17)  50.036 ms  50.064 ms  50.025 ms
- 7  et-9-0-0.106.rtr.chic.net.internet2.edu (198.71.45.14)  61.251 ms  61.460 ms  61.416 ms
- 8  ae-1.2063.rtr.ictc.indiana.gigapop.net (149.165.254.185)  65.741 ms  66.097 ms  66.053 ms
- 9  et-3-0-0.1.rtr.ll.indiana.gigapop.net (149.165.255.194)  66.208 ms  66.179 ms  66.142 ms
-10  149.165.254.142 (149.165.254.142)  75.102 ms  75.211 ms  75.046 ms
-11  eth7-1-commodity-core.nts.wustl.edu (128.252.100.158)  75.093 ms  75.030 ms  75.191 ms
-12  eth7-2-eps-core.nts.wustl.edu (128.252.100.125)  76.323 ms  76.695 ms  76.663 ms
-13  eng-epscore-p2p.nts.wustl.edu (128.252.1.50)  76.000 ms  76.243 ms  76.117 ms
-14  wundngw.arl.wustl.edu (128.252.153.194)  76.429 ms  76.416 ms  76.736 ms
+ 1  sdsc-rtr.caida.org (192.172.226.252)  0.208 ms  0.196 ms  0.187 ms
+ 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.626 ms  0.623 ms  0.613 ms
+ 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  3.186 ms  3.215 ms  2.590 ms
+ 4  137.164.26.201 (137.164.26.201)  3.084 ms  3.086 ms  3.070 ms
+ 5  et-1-0-0.111.rtr.hous.net.internet2.edu (198.71.45.20)  35.454 ms  35.452 ms  35.462 ms
+ 6  et-5-0-0.109.rtr.kans.net.internet2.edu (198.71.45.17)  50.266 ms  50.083 ms  50.515 ms
+ 7  et-9-0-0.106.rtr.chic.net.internet2.edu (198.71.45.14)  61.273 ms  61.504 ms  61.187 ms
+ 8  ae-1.2063.rtr.ictc.indiana.gigapop.net (149.165.254.185)  66.053 ms  65.999 ms  66.071 ms
+ 9  et-3-0-0.1.rtr.ll.indiana.gigapop.net (149.165.255.194)  66.080 ms  66.162 ms  76.971 ms
+10  149.165.254.142 (149.165.254.142)  75.297 ms  75.385 ms  75.460 ms
+11  eth7-1-commodity-core.nts.wustl.edu (128.252.100.158)  75.318 ms  75.306 ms  75.154 ms
+12  eth7-2-eps-core.nts.wustl.edu (128.252.100.125)  76.363 ms  76.582 ms  76.751 ms
+13  eng-epscore-p2p.nts.wustl.edu (128.252.1.50)  76.165 ms  75.943 ms  75.968 ms
+14  wundngw.arl.wustl.edu (128.252.153.194)  76.107 ms  76.755 ms  76.716 ms
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 CAIDA traceroute to  UIUC hopcount: 40 
 traceroute to ndnx.cs.illinois.edu (72.36.112.82), 40 hops max, 60 byte packets
- 1  sdsc-rtr.caida.org (192.172.226.252)  0.191 ms  0.158 ms  0.168 ms
- 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.277 ms  0.271 ms  0.263 ms
- 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.633 ms  2.638 ms  2.622 ms
- 4  137.164.26.201 (137.164.26.201)  2.894 ms  2.889 ms  2.927 ms
- 5  et-1-0-0.111.rtr.hous.net.internet2.edu (198.71.45.20)  35.339 ms  35.344 ms  35.451 ms
- 6  et-5-0-0.109.rtr.kans.net.internet2.edu (198.71.45.17)  50.116 ms  50.248 ms  50.509 ms
- 7  et-9-0-0.106.rtr.chic.net.internet2.edu (198.71.45.14)  61.187 ms  61.423 ms  61.283 ms
- 8  710rtr-internet2.ex.ui-iccn.org (72.36.127.157)  61.358 ms  61.729 ms  61.707 ms
- 9  72.36.126.101 (72.36.126.101)  64.437 ms 72.36.127.86 (72.36.127.86)  64.243 ms 72.36.126.101 (72.36.126.101)  64.205 ms
-10  t-ur1rtr.ix.ui-iccn.org (72.36.126.65)  64.092 ms  64.087 ms iccn-ur1rtr-uiuc1.gw.uiuc.edu (72.36.127.2)  64.105 ms
-11  172.19.89.41 (172.19.89.41)  64.364 ms  64.796 ms  64.370 ms
-12  172.19.89.41 (172.19.89.41)  64.499 ms  64.529 ms 172.20.24.14 (172.20.24.14)  64.663 ms
-13  172.20.24.14 (172.20.24.14)  64.723 ms 172.20.24.94 (172.20.24.94)  64.557 ms 172.20.24.14 (172.20.24.14)  64.506 ms
-14  ndnx.cs.illinois.edu (72.36.112.82)  64.336 ms  64.518 ms  64.496 ms
+ 1  sdsc-rtr.caida.org (192.172.226.252)  0.174 ms  0.188 ms  0.169 ms
+ 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.265 ms  0.248 ms  0.244 ms
+ 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.658 ms  2.600 ms  2.669 ms
+ 4  137.164.26.201 (137.164.26.201)  3.173 ms  3.076 ms  3.071 ms
+ 5  et-1-0-0.111.rtr.hous.net.internet2.edu (198.71.45.20)  35.571 ms  35.641 ms  35.329 ms
+ 6  et-5-0-0.109.rtr.kans.net.internet2.edu (198.71.45.17)  51.416 ms  50.880 ms  50.853 ms
+ 7  et-9-0-0.106.rtr.chic.net.internet2.edu (198.71.45.14)  61.275 ms  61.361 ms  61.497 ms
+ 8  710rtr-internet2.ex.ui-iccn.org (72.36.127.157)  61.703 ms  61.417 ms  61.355 ms
+ 9  72.36.126.101 (72.36.126.101)  70.360 ms  70.338 ms 72.36.127.86 (72.36.127.86)  64.370 ms
+10  t-ur1rtr.ix.ui-iccn.org (72.36.126.65)  64.446 ms iccn-ur1rtr-uiuc1.gw.uiuc.edu (72.36.127.2)  309.030 ms t-ur1rtr.ix.ui-iccn.org (72.36.126.65)  64.425 ms
+11  iccn-ur1rtr-uiuc1.gw.uiuc.edu (72.36.127.2)  308.326 ms  292.629 ms  292.554 ms
+12  172.19.89.41 (172.19.89.41)  64.468 ms 172.20.24.14 (172.20.24.14)  67.274 ms 172.19.89.41 (172.19.89.41)  64.292 ms
+13  172.20.24.14 (172.20.24.14)  67.193 ms  64.962 ms 172.20.24.94 (172.20.24.94)  65.557 ms
+14  172.20.24.94 (172.20.24.94)  65.031 ms  65.653 ms  64.937 ms
+15  ndnx.cs.illinois.edu (72.36.112.82)  64.378 ms  64.380 ms  64.308 ms
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 CAIDA traceroute to  MICH hopcount: 40 
 traceroute to ndn0.eecs.umich.edu (141.212.108.18), 40 hops max, 60 byte packets
- 1  sdsc-rtr.caida.org (192.172.226.252)  0.176 ms  28.601 ms  28.598 ms
- 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.273 ms  0.252 ms  0.247 ms
- 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.595 ms  2.622 ms  2.644 ms
- 4  137.164.26.201 (137.164.26.201)  3.234 ms  3.275 ms  3.271 ms
- 5  et-1-0-0.111.rtr.hous.net.internet2.edu (198.71.45.20)  35.668 ms  35.632 ms  35.605 ms
- 6  et-5-0-0.109.rtr.kans.net.internet2.edu (198.71.45.17)  50.167 ms  50.227 ms  50.186 ms
- 7  et-9-0-0.106.rtr.chic.net.internet2.edu (198.71.45.14)  61.322 ms  61.306 ms  61.077 ms
- 8  198.71.45.232 (198.71.45.232)  66.987 ms  66.495 ms  66.559 ms
- 9  l3-barb-bcath.r-bin-arbl.umnet.umich.edu (192.12.80.12)  67.347 ms  67.406 ms  67.247 ms
-10  l3-caen-bin-arb.r-engin.umnet.umich.edu (192.12.80.176)  67.593 ms  67.754 ms  67.046 ms
-11  core-cse.e-cse-1.umnet.umich.edu (141.213.127.135)  67.329 ms  67.239 ms  67.287 ms
-12  ndn0.eecs.umich.edu (141.212.108.18)  66.981 ms  66.788 ms  66.841 ms
+ 1  sdsc-rtr.caida.org (192.172.226.252)  0.193 ms  0.180 ms  0.184 ms
+ 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.271 ms  0.220 ms  0.253 ms
+ 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.647 ms  2.685 ms  2.603 ms
+ 4  137.164.26.201 (137.164.26.201)  3.099 ms  3.092 ms  3.062 ms
+ 5  et-1-0-0.111.rtr.hous.net.internet2.edu (198.71.45.20)  35.670 ms  35.667 ms  35.480 ms
+ 6  et-5-0-0.109.rtr.kans.net.internet2.edu (198.71.45.17)  50.360 ms  50.068 ms  50.079 ms
+ 7  et-9-0-0.106.rtr.chic.net.internet2.edu (198.71.45.14)  61.705 ms  61.691 ms  61.239 ms
+ 8  198.71.45.232 (198.71.45.232)  66.960 ms  66.879 ms  66.753 ms
+ 9  l3-barb-bcath.r-bin-arbl.umnet.umich.edu (192.12.80.12)  66.633 ms  66.673 ms  66.642 ms
+10  l3-caen-bin-arb.r-engin.umnet.umich.edu (192.12.80.176)  67.135 ms  67.377 ms  66.956 ms
+11  core-cse.e-cse-1.umnet.umich.edu (141.213.127.135)  69.322 ms  73.977 ms  74.148 ms
+12  ndn0.eecs.umich.edu (141.212.108.18)  67.005 ms  67.007 ms  67.294 ms
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 CAIDA traceroute to  UM hopcount: 40 
 traceroute to titan.cs.memphis.edu (141.225.11.173), 40 hops max, 60 byte packets
- 1  sdsc-rtr.caida.org (192.172.226.252)  0.176 ms  0.162 ms  25.922 ms
- 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.275 ms  0.217 ms  0.257 ms
- 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.636 ms  2.586 ms  3.097 ms
- 4  137.164.26.201 (137.164.26.201)  3.019 ms  3.081 ms  3.051 ms
- 5  et-1-0-0.111.rtr.hous.net.internet2.edu (198.71.45.20)  35.637 ms  35.383 ms  35.588 ms
- 6  et-5-0-0.109.rtr.kans.net.internet2.edu (198.71.45.17)  49.965 ms  50.071 ms  50.202 ms
- 7  et-9-0-0.106.rtr.chic.net.internet2.edu (198.71.45.14)  61.192 ms  61.177 ms  61.212 ms
- 8  uomemtn-chic.memphis.edu (141.225.250.25)  77.086 ms  77.070 ms  77.590 ms
- 9  jo100-s3.memphis.edu (141.225.244.2)  92.612 ms  92.676 ms  92.722 ms
-10  10.0.244.11 (10.0.244.11)  78.006 ms  78.150 ms  78.000 ms
-11  jo100-nx1.memphis.edu (141.225.1.21)  78.373 ms  78.193 ms  78.466 ms
-12  10.0.8.6 (10.0.8.6)  78.290 ms  78.423 ms  78.548 ms
-13  titan.cs.memphis.edu (141.225.11.173)  78.259 ms  77.922 ms  78.424 ms
+ 1  sdsc-rtr.caida.org (192.172.226.252)  0.220 ms  0.185 ms  0.196 ms
+ 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.214 ms  0.255 ms  0.248 ms
+ 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.605 ms  2.619 ms  2.633 ms
+ 4  137.164.26.201 (137.164.26.201)  14.551 ms  14.605 ms  14.536 ms
+ 5  et-1-0-0.111.rtr.hous.net.internet2.edu (198.71.45.20)  35.609 ms  35.606 ms  35.598 ms
+ 6  et-5-0-0.109.rtr.kans.net.internet2.edu (198.71.45.17)  50.007 ms  49.964 ms  50.118 ms
+ 7  et-9-0-0.106.rtr.chic.net.internet2.edu (198.71.45.14)  61.360 ms  61.592 ms  61.559 ms
+ 8  uomemtn-chic.memphis.edu (141.225.250.25)  77.475 ms  77.607 ms  77.384 ms
+ 9  jo100-s3.memphis.edu (141.225.244.2)  77.320 ms  77.302 ms  77.358 ms
+10  10.0.244.11 (10.0.244.11)  78.043 ms  77.779 ms  77.896 ms
+11  jo100-nx1.memphis.edu (141.225.1.21)  78.485 ms  79.029 ms  78.981 ms
+12  10.0.8.6 (10.0.8.6)  78.199 ms  78.126 ms  78.123 ms
+13  titan.cs.memphis.edu (141.225.11.173)  78.137 ms  78.046 ms  78.004 ms
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 CAIDA traceroute to  NEU hopcount: 40 
 traceroute to 129.10.52.193 (129.10.52.193), 40 hops max, 60 byte packets
- 1  sdsc-rtr.caida.org (192.172.226.252)  0.217 ms  0.170 ms  0.195 ms
- 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.277 ms  0.268 ms  0.248 ms
- 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.639 ms  2.669 ms  2.628 ms
- 4  137.164.26.201 (137.164.26.201)  2.866 ms  2.860 ms  2.923 ms
- 5  et-1-0-0.111.rtr.hous.net.internet2.edu (198.71.45.20)  35.450 ms  35.403 ms  35.378 ms
- 6  et-10-0-0.105.rtr.atla.net.internet2.edu (198.71.45.12)  59.148 ms  59.373 ms  59.241 ms
- 7  et-10-0-0.118.rtr.newy32aoa.net.internet2.edu (198.71.46.175)  78.076 ms  78.045 ms  77.861 ms
- 8  nox300gw1-vl-110-nox-i2.nox.org (192.5.89.221)  83.159 ms  83.573 ms  83.537 ms
- 9  192.5.89.22 (192.5.89.22)  83.489 ms  83.352 ms  83.309 ms
+ 1  sdsc-rtr.caida.org (192.172.226.252)  0.194 ms  0.184 ms  0.176 ms
+ 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.250 ms  0.243 ms  0.234 ms
+ 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.609 ms  2.645 ms  2.637 ms
+ 4  137.164.26.201 (137.164.26.201)  2.983 ms  2.966 ms  2.878 ms
+ 5  et-1-0-0.111.rtr.hous.net.internet2.edu (198.71.45.20)  35.509 ms  35.603 ms  35.594 ms
+ 6  et-10-0-0.105.rtr.atla.net.internet2.edu (198.71.45.12)  59.294 ms  59.073 ms  59.357 ms
+ 7  et-10-0-0.118.rtr.newy32aoa.net.internet2.edu (198.71.46.175)  78.341 ms  78.125 ms  78.088 ms
+ 8  nox300gw1-vl-110-nox-i2.nox.org (192.5.89.221)  83.500 ms  83.573 ms  83.535 ms
+ 9  192.5.89.22 (192.5.89.22)  83.799 ms  83.927 ms  83.829 ms
 10  * * *
 11  * * *
 12  * * *
 13  * * *
 14  * * *
 15  * * *
-16  stat-193-52.ece.neu.edu (129.10.52.193)  83.419 ms  83.383 ms  83.347 ms
+16  stat-193-52.ece.neu.edu (129.10.52.193)  83.741 ms  85.949 ms  83.916 ms
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 CAIDA traceroute to  URJC hopcount: 40 
 traceroute to insula.gsyc.es (193.147.51.186), 40 hops max, 60 byte packets
- 1  sdsc-rtr.caida.org (192.172.226.252)  0.214 ms  0.210 ms  0.184 ms
- 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.282 ms  0.277 ms  0.344 ms
- 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  10.281 ms  10.154 ms  2.596 ms
- 4  137.164.26.201 (137.164.26.201)  3.170 ms  2.932 ms  2.970 ms
- 5  et-1-0-0.111.rtr.hous.net.internet2.edu (198.71.45.20)  35.470 ms  35.527 ms  35.336 ms
- 6  et-10-0-0.105.rtr.atla.net.internet2.edu (198.71.45.12)  59.321 ms  59.196 ms  59.315 ms
- 7  et-9-0-0.104.rtr.wash.net.internet2.edu (198.71.45.7)  72.534 ms  72.353 ms  72.442 ms
- 8  abilene-wash.mx1.fra.de.geant.net (62.40.125.17)  181.676 ms  174.028 ms  172.687 ms
- 9  ae1.mx1.gen.ch.geant.net (62.40.98.108)  190.125 ms  190.190 ms  181.020 ms
-10  ae2.mx1.mad.es.geant.net (62.40.98.66)  193.098 ms  185.305 ms  192.963 ms
-11  rediris-gw.mx1.mad.es.geant.net (62.40.124.74)  184.184 ms  185.350 ms  183.791 ms
-12  redimadrid-backup-router.red.rediris.es (130.206.215.98)  193.610 ms  185.921 ms  184.113 ms
-13  urjc.net.redimadrid.es (193.145.14.17)  186.587 ms  185.317 ms  184.981 ms
+ 1  sdsc-rtr.caida.org (192.172.226.252)  0.184 ms  0.188 ms  0.180 ms
+ 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.272 ms  0.266 ms  0.257 ms
+ 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.676 ms  2.630 ms  2.687 ms
+ 4  137.164.26.201 (137.164.26.201)  3.108 ms  3.091 ms  3.088 ms
+ 5  et-1-0-0.111.rtr.hous.net.internet2.edu (198.71.45.20)  35.493 ms  35.461 ms  35.437 ms
+ 6  et-10-0-0.105.rtr.atla.net.internet2.edu (198.71.45.12)  59.664 ms  59.522 ms  59.250 ms
+ 7  et-9-0-0.104.rtr.wash.net.internet2.edu (198.71.45.7)  72.850 ms  72.664 ms  72.712 ms
+ 8  62.40.124.44 (62.40.124.44)  147.318 ms  147.193 ms  147.395 ms
+ 9  ae0.mx1.par.fr.geant.net (62.40.98.77)  152.837 ms  152.815 ms  152.947 ms
+10  ae1.mx1.mad.es.geant.net (62.40.98.64)  175.822 ms  175.710 ms  175.669 ms
+11  rediris-gw.mx1.mad.es.geant.net (62.40.124.74)  177.734 ms  176.071 ms  176.043 ms
+12  redimadrid-backup-router.red.rediris.es (130.206.215.98)  176.360 ms  176.478 ms  176.534 ms
+13  urjc.net.redimadrid.es (193.145.14.17)  177.245 ms  177.275 ms  177.434 ms
 14  * * *
 15  * * *
-16  * * *
-17  * * *
-18  * * *
-19  * * *
-20  * * *
-21  * * *
-22  * * *
-23  * * *
-24  * * *
-25  * * *
-26  * * *
-27  * * *
-28  * * *
-29  * * *
-30  * * *
-31  * * *
-32  * * *
-33  * * *
-34  * * *
-35  * * *
-36  * * *
-37  * * *
-38  * * *
-39  * * *
-40  * * *
+16  193.147.51.186 (193.147.51.186)  178.998 ms  179.632 ms  179.547 ms
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 CAIDA traceroute to  BASEL hopcount: 40 
 traceroute to ndn.cs.unibas.ch (192.43.193.111), 40 hops max, 60 byte packets
- 1  sdsc-rtr.caida.org (192.172.226.252)  0.264 ms  0.253 ms  0.253 ms
- 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.246 ms  0.279 ms  0.272 ms
- 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  3.278 ms  3.385 ms  2.616 ms
- 4  137.164.26.201 (137.164.26.201)  3.007 ms  2.983 ms  2.979 ms
- 5  et-1-0-0.111.rtr.hous.net.internet2.edu (198.71.45.20)  35.472 ms  35.465 ms  35.439 ms
- 6  et-10-0-0.105.rtr.atla.net.internet2.edu (198.71.45.12)  59.197 ms  59.165 ms  59.238 ms
- 7  et-9-0-0.104.rtr.wash.net.internet2.edu (198.71.45.7)  72.427 ms  72.687 ms  72.450 ms
- 8  abilene-wash.mx1.fra.de.geant.net (62.40.125.17)  174.038 ms  174.066 ms  172.548 ms
- 9  ae1.mx1.gen.ch.geant.net (62.40.98.108)  190.087 ms  182.639 ms  182.536 ms
-10  swiCE1-100GE-0-3-0-1.switch.ch (62.40.124.22)  175.343 ms  174.017 ms  173.779 ms
-11  swiEZ3-100GE-0-1-0-0.switch.ch (130.59.36.94)  195.107 ms  186.070 ms  194.994 ms
-12  swiEZ1-P3.switch.ch (130.59.36.33)  177.857 ms  186.897 ms  179.264 ms
-13  swiBA2-10GE-1-4.switch.ch (130.59.37.106)  178.628 ms  177.202 ms  178.702 ms
-14  swiBA1-10GE-3-1.switch.ch (130.59.37.101)  186.468 ms  177.413 ms  178.907 ms
-15  uniir-te-2-1-2.urz.unibas.ch (192.43.192.205)  188.339 ms  180.845 ms  180.740 ms
-16  unibiy-fa-0-1.urz.p.unibas.ch (192.43.192.5)  187.540 ms  178.241 ms  180.215 ms
-17  cs-ndn-testbed1.cs.unibas.ch (192.43.193.111)  181.543 ms  187.363 ms  189.459 ms
+ 1  sdsc-rtr.caida.org (192.172.226.252)  0.175 ms  0.159 ms  0.181 ms
+ 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.204 ms  0.262 ms  0.257 ms
+ 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.604 ms  2.601 ms  2.620 ms
+ 4  137.164.26.201 (137.164.26.201)  2.955 ms  2.870 ms  3.154 ms
+ 5  et-1-0-0.111.rtr.hous.net.internet2.edu (198.71.45.20)  35.587 ms  35.246 ms  35.371 ms
+ 6  et-10-0-0.105.rtr.atla.net.internet2.edu (198.71.45.12)  59.311 ms  59.148 ms  59.112 ms
+ 7  et-9-0-0.104.rtr.wash.net.internet2.edu (198.71.45.7)  72.647 ms  72.716 ms  72.667 ms
+ 8  62.40.124.44 (62.40.124.44)  147.334 ms  147.386 ms  147.408 ms
+ 9  ae0.mx1.par.fr.geant.net (62.40.98.77)  152.927 ms  153.284 ms  153.147 ms
+10  ae2.mx1.gen.ch.geant.net (62.40.98.153)  167.538 ms  167.625 ms  167.505 ms
+11  swiCE1-100GE-0-3-0-1.switch.ch (62.40.124.22)  167.930 ms  166.599 ms  166.460 ms
+12  swiEZ3-100GE-0-1-0-0.switch.ch (130.59.36.94)  180.936 ms  181.359 ms  180.772 ms
+13  swiEZ1-P3.switch.ch (130.59.36.33)  172.853 ms  173.034 ms  172.805 ms
+14  swiBA2-10GE-1-4.switch.ch (130.59.37.106)  172.361 ms  172.171 ms  172.366 ms
+15  swiBA1-10GE-3-1.switch.ch (130.59.37.101)  172.407 ms  172.528 ms  172.408 ms
+16  uniir-te-2-1-2.urz.unibas.ch (192.43.192.205)  175.032 ms  174.466 ms  174.613 ms
+17  unibiy-fa-0-1.urz.p.unibas.ch (192.43.192.5)  173.183 ms  173.735 ms  174.023 ms
+18  cs-ndn-testbed1.cs.unibas.ch (192.43.193.111)  182.718 ms  182.462 ms  174.999 ms
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 CAIDA traceroute to  LIP6 hopcount: 40 
 traceroute to ndnhub.ipv6.lip6.fr (132.227.62.163), 40 hops max, 60 byte packets
- 1  sdsc-rtr.caida.org (192.172.226.252)  0.189 ms  0.185 ms  0.199 ms
- 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.255 ms  0.249 ms  0.258 ms
- 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.586 ms  2.663 ms  2.669 ms
- 4  137.164.26.201 (137.164.26.201)  2.854 ms  2.872 ms  2.931 ms
- 5  et-1-0-0.111.rtr.hous.net.internet2.edu (198.71.45.20)  35.440 ms  35.417 ms  35.377 ms
- 6  et-10-0-0.105.rtr.atla.net.internet2.edu (198.71.45.12)  59.178 ms  59.379 ms  59.194 ms
- 7  et-9-0-0.104.rtr.wash.net.internet2.edu (198.71.45.7)  73.559 ms  73.128 ms  73.092 ms
- 8  abilene-wash.mx1.fra.de.geant.net (62.40.125.17)  174.288 ms  181.953 ms  172.540 ms
- 9  ae1.mx1.gen.ch.geant.net (62.40.98.108)  182.411 ms  190.023 ms  180.916 ms
-10  renater-gw.mx1.gen.ch.geant.net (62.40.124.62)  185.969 ms  178.055 ms  177.615 ms
-11  te0-6-0-2-paris1-rtr-001.noc.renater.fr (193.51.177.218)  168.373 ms  168.903 ms  176.474 ms
-12  te1-1-paris1-rtr-021.noc.renater.fr (193.51.177.25)  175.703 ms  175.606 ms  168.053 ms
-13  te1-1-jussieu-rtr-021.noc.renater.fr (193.51.177.116)  175.866 ms  166.572 ms  168.224 ms
-14  rap-vl165-te3-2-jussieu-rtr-021.noc.renater.fr (193.51.181.101)  166.501 ms  175.793 ms  166.654 ms
-15  site-6.01-jussieu.rap.prd.fr (195.221.127.182)  176.074 ms  168.582 ms  168.257 ms
-16  r-upmc1.reseau.jussieu.fr (134.157.254.10)  177.082 ms  167.471 ms r-upmc2.reseau.jussieu.fr (134.157.254.11)  167.366 ms
-17  lip6-routeur.reseau.jussieu.fr (134.157.167.10)  169.351 ms  176.805 ms  176.769 ms
-18  * * *
-19  ndnhub.ipv6.lip6.fr (132.227.62.163)  179.291 ms  179.144 ms  169.262 ms
+ 1  sdsc-rtr.caida.org (192.172.226.252)  0.219 ms  12.245 ms  12.261 ms
+ 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.234 ms  1.096 ms  1.095 ms
+ 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.661 ms  2.601 ms  2.582 ms
+ 4  137.164.26.201 (137.164.26.201)  2.919 ms  2.998 ms  3.149 ms
+ 5  et-1-0-0.111.rtr.hous.net.internet2.edu (198.71.45.20)  35.319 ms  35.346 ms  35.573 ms
+ 6  et-10-0-0.105.rtr.atla.net.internet2.edu (198.71.45.12)  59.492 ms  59.408 ms  59.426 ms
+ 7  et-9-0-0.104.rtr.wash.net.internet2.edu (198.71.45.7)  72.554 ms  72.559 ms  72.487 ms
+ 8  62.40.124.44 (62.40.124.44)  147.156 ms  147.010 ms  147.078 ms
+ 9  ae0.mx1.par.fr.geant.net (62.40.98.77)  152.926 ms  152.794 ms  152.809 ms
+10  renater-LB1-gw.mx1.par.fr.geant.net (62.40.124.70)  153.331 ms  155.228 ms  154.389 ms
+11  te1-1-paris1-rtr-021.noc.renater.fr (193.51.177.25)  153.016 ms  153.063 ms  153.203 ms
+12  te1-1-jussieu-rtr-021.noc.renater.fr (193.51.177.116)  153.402 ms  153.699 ms  153.843 ms
+13  rap-vl165-te3-2-jussieu-rtr-021.noc.renater.fr (193.51.181.101)  153.417 ms  153.157 ms  153.142 ms
+14  site-6.01-jussieu.rap.prd.fr (195.221.127.182)  153.371 ms  153.370 ms  153.592 ms
+15  r-upmc1.reseau.jussieu.fr (134.157.254.10)  153.986 ms r-upmc2.reseau.jussieu.fr (134.157.254.11)  154.245 ms r-upmc1.reseau.jussieu.fr (134.157.254.10)  154.405 ms
+16  lip6-routeur.reseau.jussieu.fr (134.157.167.10)  154.802 ms  155.478 ms  155.418 ms
+17  * * *
+18  ndnhub.ipv6.lip6.fr (132.227.62.163)  193.628 ms  157.871 ms  157.830 ms
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 CAIDA traceroute to  Orange1 hopcount: 40 
 traceroute to 161.105.195.18 (161.105.195.18), 40 hops max, 60 byte packets
- 1  sdsc-rtr.caida.org (192.172.226.252)  0.220 ms  0.202 ms  0.191 ms
- 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  3.821 ms  3.836 ms  3.830 ms
- 3  dc-sdg-agg4--sdsc-1.cenic.net (137.164.23.129)  0.742 ms  0.769 ms  0.808 ms
- 4  dc-riv-agg4--sdg-agg4-10ge.cenic.net (137.164.47.110)  8.646 ms  8.662 ms dc-riv-agg4--sdg-agg4-10ge-2.cenic.net (137.164.47.14)  8.694 ms
- 5  dc-lax-agg6--riv-agg4-100ge.cenic.net (137.164.11.2)  13.071 ms  13.101 ms  13.143 ms
- 6  8-1-1-90.ear1.LosAngeles1.Level3.net (4.35.156.65)  13.102 ms  13.051 ms  13.345 ms
- 7  ae-2-70.edge1.LosAngeles9.Level3.net (4.69.144.74)  12.771 ms * *
- 8  bundle-ether3.loatr1.LosAngeles.opentransit.net (193.251.252.255)  14.164 ms  15.641 ms  15.603 ms
+ 1  sdsc-rtr.caida.org (192.172.226.252)  0.187 ms  0.184 ms  0.177 ms
+ 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.299 ms  0.296 ms  0.280 ms
+ 3  dc-sdg-agg4--sdsc-10g-2.cenic.net (137.164.23.181)  0.721 ms dc-sdg-agg4--sdsc-1.cenic.net (137.164.23.129)  2.134 ms  2.129 ms
+ 4  dc-riv-agg4--sdg-agg4-10ge.cenic.net (137.164.47.110)  8.505 ms  8.695 ms  8.739 ms
+ 5  dc-lax-agg6--riv-agg4-100ge.cenic.net (137.164.11.2)  13.103 ms  13.157 ms  13.202 ms
+ 6  * * *
+ 7  * ae-1-60.edge1.LosAngeles9.Level3.net (4.69.144.10)  12.805 ms ae-2-70.edge1.LosAngeles9.Level3.net (4.69.144.74)  12.746 ms
+ 8  bundle-ether3.loatr1.LosAngeles.opentransit.net (193.251.252.255)  13.564 ms  13.200 ms  16.708 ms
  9  * * *
 10  * * *
 11  * * *
-12  gigabitethernet5-0-2.auvcr3.Aubervilliers.opentransit.net (193.251.128.201)  169.416 ms  169.219 ms  169.105 ms
-13  ftrd-expe-ipv4.GW.opentransit.net (193.251.150.210)  166.914 ms  166.979 ms  166.689 ms
+12  gigabitethernet5-0-2.auvcr3.Aubervilliers.opentransit.net (193.251.128.201)  168.613 ms  166.864 ms  166.712 ms
+13  ftrd-expe-ipv4.GW.opentransit.net (193.251.150.210)  167.593 ms  167.531 ms  167.520 ms
 14  * * *
 15  * * *
-16  161.105.195.18 (161.105.195.18)  170.261 ms  168.411 ms  169.563 ms
+16  161.105.195.18 (161.105.195.18)  168.627 ms  167.272 ms  169.080 ms
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 CAIDA traceroute to  SystemX hopcount: 40 
 traceroute to systemx-ndn-1.enst.fr (137.194.54.81), 40 hops max, 60 byte packets
- 1  sdsc-rtr.caida.org (192.172.226.252)  2.551 ms  2.533 ms  2.544 ms
- 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.299 ms  0.304 ms  0.297 ms
- 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  2.588 ms  2.635 ms  2.656 ms
- 4  137.164.26.201 (137.164.26.201)  3.010 ms  3.130 ms  3.250 ms
- 5  et-1-0-0.111.rtr.hous.net.internet2.edu (198.71.45.20)  35.414 ms  35.391 ms  35.415 ms
- 6  et-10-0-0.105.rtr.atla.net.internet2.edu (198.71.45.12)  59.203 ms  59.325 ms  59.248 ms
- 7  et-9-0-0.104.rtr.wash.net.internet2.edu (198.71.45.7)  72.511 ms  72.473 ms  72.557 ms
- 8  abilene-wash.mx1.fra.de.geant.net (62.40.125.17)  174.077 ms  181.825 ms  174.236 ms
- 9  ae1.mx1.gen.ch.geant.net (62.40.98.108)  180.978 ms  190.099 ms  180.793 ms
-10  renater-gw.mx1.gen.ch.geant.net (62.40.124.62)  188.792 ms  185.716 ms  181.306 ms
-11  te0-0-0-6-paris1-rtr-001.noc.renater.fr (193.51.177.38)  178.439 ms  170.249 ms  170.455 ms
-12  te2-1-paris1-rtr-021.noc.renater.fr (193.51.177.27)  166.496 ms  166.846 ms  166.497 ms
-13  rap-vl260-te4-4-paris1-rtr-021.noc.renater.fr (193.51.186.101)  175.742 ms  166.568 ms  167.977 ms
-14  site-G06-odeon.rap.prd.fr (195.221.127.186)  168.890 ms  167.427 ms  168.843 ms
-15  systemx-ndn-1.enst.fr (137.194.54.81)  167.160 ms  169.906 ms  176.432 ms
+ 1  sdsc-rtr.caida.org (192.172.226.252)  0.216 ms  0.201 ms  0.197 ms
+ 2  mx0-ae7--thor-ae0.sdsc.edu (192.12.207.61)  0.270 ms  0.253 ms  0.248 ms
+ 3  hpr-lax-hpr--sdsc-10ge.cenic.net (137.164.26.33)  6.389 ms  6.447 ms  3.521 ms
+ 4  137.164.26.201 (137.164.26.201)  2.987 ms  2.983 ms  2.836 ms
+ 5  et-1-0-0.111.rtr.hous.net.internet2.edu (198.71.45.20)  35.527 ms  35.504 ms  35.507 ms
+ 6  et-10-0-0.105.rtr.atla.net.internet2.edu (198.71.45.12)  59.153 ms  59.344 ms  59.310 ms
+ 7  et-9-0-0.104.rtr.wash.net.internet2.edu (198.71.45.7)  72.489 ms  72.472 ms  72.670 ms
+ 8  62.40.124.44 (62.40.124.44)  147.471 ms  147.352 ms  147.233 ms
+ 9  ae0.mx1.par.fr.geant.net (62.40.98.77)  153.091 ms  152.903 ms  153.034 ms
+10  renater-LB1-gw.mx1.par.fr.geant.net (62.40.124.70)  157.776 ms  156.838 ms  156.317 ms
+11  te2-1-paris1-rtr-021.noc.renater.fr (193.51.177.27)  153.368 ms  153.234 ms  153.105 ms
+12  rap-vl260-te4-4-paris1-rtr-021.noc.renater.fr (193.51.186.101)  154.078 ms  153.154 ms  153.106 ms
+13  site-G06-odeon.rap.prd.fr (195.221.127.186)  153.216 ms  153.296 ms  153.263 ms
+14  systemx-ndn-1.enst.fr (137.194.54.81)  154.819 ms  154.987 ms  153.759 ms
