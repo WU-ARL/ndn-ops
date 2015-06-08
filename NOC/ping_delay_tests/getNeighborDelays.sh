@@ -54,7 +54,7 @@ do
     #echo "ping failed, try traceroute"
     #TRESULT=`traceroute  -m $TCOUNT -T -p 6363 $l | tail -1 | sed -e '/ \!H/s///g'`
     TRESULT=`traceroute  -m $TCOUNT -T -p 6363 $l | tail -1 `
-    echo "$TRESULT" | grep " \![HSPXVC]" 
+    echo "$TRESULT" | grep " \![HSPXVC]"  >& /dev/null
     if [ $? -eq 0 ]
     then
       echo "ping and traceroute failed, giving up on $THISNODE: NEIGHBOR $l"
