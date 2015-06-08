@@ -83,14 +83,14 @@ do
     fi
 
     #echo "NEIGHBOR $l: AVG: $AVG ($TP1 $TP2 $TP3)"
-    echo "NEIGHBOR $l: MIN: $TMIN AVG: $TAVG MAX: $TMAX "
+    echo "$THISNODE NEIGHBOR $l: MIN: $TMIN AVG: $TAVG MAX: $TMAX "
   else
     PMIN=`echo $PRESULT | cut -d '/' -f 4-7 | cut -d ' ' -f 3 | cut -d '/' -f 1`
     PAVG=`echo $PRESULT | cut -d '/' -f 4-7 | cut -d ' ' -f 3 | cut -d '/' -f 2`
     PMAX=`echo $PRESULT | cut -d '/' -f 4-7 | cut -d ' ' -f 3 | cut -d '/' -f 3`
     PMDEV=`echo $PRESULT | cut -d '/' -f 4-7 | cut -d ' ' -f 3 | cut -d '/' -f 4`
     #echo "NEIGHBOR $l: MIN: $PMIN AVG: $PAVG MAX: $PMAX MDEV: $PMDEV"
-    echo "NEIGHBOR $l: MIN: $PMIN AVG: $PAVG MAX: $PMAX "
+    echo "$THISNODE NEIGHBOR $l: MIN: $PMIN AVG: $PAVG MAX: $PMAX "
   fi
   echo ""
 
