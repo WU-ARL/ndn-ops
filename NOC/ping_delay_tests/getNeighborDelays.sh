@@ -52,38 +52,45 @@ do
   if [ $? -eq 1 ]
   then
     #echo "ping failed, try traceroute"
-    TRESULT=`traceroute  -m $TCOUNT -T -p 6363 $l | tail -1`
-    #echo $TRESULT
-    TP1=`echo $TRESULT | cut -d ' ' -f 4`
-    TP2=`echo $TRESULT | cut -d ' ' -f 6`
-    TP3=`echo $TRESULT | cut -d ' ' -f 8`
-    TAVG=`echo "scale=3;($TP1 + $TP2 + $TP3)/3.0" | bc -l`
-    TMIN=$TP1
-    #echo "TMIN: $TMIN TP1: $TP1 TP2: $TP2 TP3: $TP3"
-    BC_RESULT=`echo "$TMIN > $TP2" | bc -l`
-    if [ $? -eq 1 ]
+    #TRESULT=`traceroute  -m $TCOUNT -T -p 6363 $l | tail -1 | sed -e '/ \!H/s///g'`
+    TRESULT=`traceroute  -m $TCOUNT -T -p 6363 $l | tail -1 `
+    #echo "$TRESULT" | grep " \![HSPXVC]" 
+    if [ $? -eq 0 ]
     then
-      TMIN=$TP2
+      echo "ping and traceroute failed, giving up on $THISNODE: NEIGHBOR $l"
+    else
+      #echo $TRESULT
+      TP1=`echo $TRESULT | cut -d ' ' -f 4`
+      TP2=`echo $TRESULT | cut -d ' ' -f 6`
+      TP3=`echo $TRESULT | cut -d ' ' -f 8`
+      TAVG=`echo "scale=3;($TP1 + $TP2 + $TP3)/3.0" | bc -l`
+      TMIN=$TP1
+      #echo "TMIN: $TMIN TP1: $TP1 TP2: $TP2 TP3: $TP3"
+      BC_RESULT=`echo "$TMIN > $TP2" | bc -l`
+      if [ $? -eq 1 ]
+      then
+        TMIN=$TP2
+      fi
+      BC_RESULT=`echo "$TMIN > $TP3" | bc -l`
+      if  [ $BC_RESULT -eq 1 ]
+      then
+        TMIN=$TP3
+      fi
+      TMAX=$TP1
+      BC_RESULT=`echo "$TMAX < $TP2" | bc -l`
+      if  [ $? -eq 1 ]
+      then
+        TMAX=$TP2
+      fi
+      BC_RESULT=`echo "$TMAX < $TP3" | bc -l`
+      if  [ $BC_RESULT -eq 1 ]
+      then
+        TMAX=$TP3
+      fi
+  
+      #echo "NEIGHBOR $l: AVG: $AVG ($TP1 $TP2 $TP3)"
+      echo "$THISNODE NEIGHBOR $l: MIN: $TMIN AVG: $TAVG MAX: $TMAX "
     fi
-    BC_RESULT=`echo "$TMIN > $TP3" | bc -l`
-    if  [ $BC_RESULT -eq 1 ]
-    then
-      TMIN=$TP3
-    fi
-    TMAX=$TP1
-    BC_RESULT=`echo "$TMAX < $TP2" | bc -l`
-    if  [ $? -eq 1 ]
-    then
-      TMAX=$TP2
-    fi
-    BC_RESULT=`echo "$TMAX < $TP3" | bc -l`
-    if  [ $BC_RESULT -eq 1 ]
-    then
-      TMAX=$TP3
-    fi
-
-    #echo "NEIGHBOR $l: AVG: $AVG ($TP1 $TP2 $TP3)"
-    echo "$THISNODE NEIGHBOR $l: MIN: $TMIN AVG: $TAVG MAX: $TMAX "
   else
     PMIN=`echo $PRESULT | cut -d '/' -f 4-7 | cut -d ' ' -f 3 | cut -d '/' -f 1`
     PAVG=`echo $PRESULT | cut -d '/' -f 4-7 | cut -d ' ' -f 3 | cut -d '/' -f 2`
