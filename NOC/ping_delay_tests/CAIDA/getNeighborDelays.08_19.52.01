@@ -1,0 +1,13 @@
+Testing Link delays from node CAIDA
+ ----------------------------------
+CAIDA NEIGHBOR 131.179.196.46: MIN: 3.622 AVG: 3.715 MAX: 3.821 
+
+ ----------------------------------
+CAIDA NEIGHBOR ndnhub.ics.uci.edu: MIN: 11.917 AVG: 11.938 MAX: 11.993 
+
+ ----------------------------------
+CAIDA NEIGHBOR hobo.cs.arizona.edu: MIN: 15.280 AVG: 15.233 MAX: 15.347 
+
+ ----------------------------------
+CAIDA NEIGHBOR cnlab.tongji.edu.cn: MIN: 177.605 AVG:  MAX: 177.605 
+
