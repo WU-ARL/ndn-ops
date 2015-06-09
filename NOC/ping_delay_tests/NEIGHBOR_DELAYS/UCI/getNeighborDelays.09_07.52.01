@@ -1,0 +1,10 @@
+Testing Link delays from node UCI
+ ----------------------------------
+UCI NEIGHBOR 131.179.196.46: MIN: 10.853 AVG: 10.918 MAX: 10.958 
+
+ ----------------------------------
+UCI NEIGHBOR aleph.ndn.ucla.edu: MIN: 10.287 AVG: 10.377 MAX: 10.517 
+
+ ----------------------------------
+UCI NEIGHBOR click.caida.org: MIN: 11.904 AVG: 11.936 MAX: 11.964 
+
