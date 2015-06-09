@@ -6,8 +6,6 @@ TCOUNT=40
 QUIET=0
 THISNODE="WU"
 
-DATE=`date +%d_%H.%M.%S`
-LOGFILE="getTestbedDelays.$DATE"
 
 while [ $# -ge 1 ]
 do
@@ -41,6 +39,9 @@ do
   fi
 done
 
+DATE=`date +%d_%H.%M.%S`
+LOGFILE="TESTBED_DELAYS/$THISNODE/getTestbedDelays.$DATE"
+mkdir -p TESTBED_DELAYS/$THISNODE
 
 echo "Testing Link delays from node $THISNODE" >& $LOGFILE
 
