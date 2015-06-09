@@ -1,0 +1,76 @@
+Testing Link delays from node SYSTEMX
+ ----------------------------------
+SYSTEMX to remote PKU/162.105.146.26: MIN: 180.290 AVG: 212.343 MAX: 358.166 
+
+ ----------------------------------
+SYSTEMX to remote BUPT/114.247.165.44: MIN: 229.350 AVG: 230.074 MAX: 232.117 
+
+ ----------------------------------
+SYSTEMX to remote ANYANG/210.114.89.49: MIN: 283.208 AVG: 283.381 MAX: 283.735 
+
+ ----------------------------------
+SYSTEMX to remote TONGJI/cnlab.tongji.edu.cn: MIN: 207.930 AVG: 217.022 MAX: 221.472 
+
+ ----------------------------------
+SYSTEMX to remote WASEDA/133.9.73.66: MIN: 271.865 AVG: 272.531 MAX: 273.093 
+
+ ----------------------------------
+SYSTEMX to remote UCLA/spurs.cs.ucla.edu: MIN: 147.405 AVG: 147.989 MAX: 148.184 
+
+ ----------------------------------
+SYSTEMX to remote CAIDA/click.caida.org: MIN: 154.387 AVG: 154.624 MAX: 155.077 
+
+ ----------------------------------
+SYSTEMX to remote UCI/ndnhub.ics.uci.edu: MIN: 152.040 AVG: 152.517 MAX: 152.787 
+
+ ----------------------------------
+SYSTEMX to remote REMAP/aleph.ndn.ucla.edu: MIN: 148.448 AVG: 148.655 MAX: 149.090 
+
+ ----------------------------------
+SYSTEMX to remote BYU/pasta10.cs.byu.edu: MIN: 129.020 AVG: 133.509 MAX: 142.450 
+
+ ----------------------------------
+SYSTEMX to remote CSU/ndn.netsec.colostate.edu: MIN: 120.432 AVG: 120.724 MAX: 121.379 
+
+ ----------------------------------
+SYSTEMX to remote UA/hobo.cs.arizona.edu: MIN: 139.447 AVG: 139.445 MAX: 139.487 
+
+ ----------------------------------
+SYSTEMX to remote WU/wundngw.arl.wustl.edu: MIN: 115.061 AVG: 115.222 MAX: 115.754 
+
+ ----------------------------------
+SYSTEMX to remote UIUC/ndnx.cs.illinois.edu: MIN: 106.210 AVG: 106.493 MAX: 107.104 
+
+ ----------------------------------
+SYSTEMX to remote MICH/ndn0.eecs.umich.edu: MIN: 106.416 AVG: 106.759 MAX: 107.001 
+
+ ----------------------------------
+SYSTEMX to remote UM/titan.cs.memphis.edu: MIN: 124.430 AVG: 124.599 MAX: 125.401 
+
+ ----------------------------------
+SYSTEMX to remote NEU/129.10.52.193: MIN: 104.187 AVG: 104.565 MAX: 105.047 
+
+ ----------------------------------
+SYSTEMX to remote URJC/insula.gsyc.es: MIN: 27.369 AVG: 27.534 MAX: 27.899 
+
+ ----------------------------------
+SYSTEMX to remote BASEL/ndn.cs.unibas.ch: MIN: 14.683 AVG: 14.949 MAX: 15.098 
+
+ ----------------------------------
+SYSTEMX to remote LIP6/ndnhub.ipv6.lip6.fr: MIN: 2.551 AVG: 3.152 MAX: 4.053 
+
+ ----------------------------------
+SYSTEMX to remote Orange1/161.105.195.18: MIN: 3.031 AVG: 3.228 MAX: 3.407 
+
+ ----------------------------------
+SYSTEMX to remote SystemX/systemx-ndn-1.enst.fr: MIN: 0.019 AVG: 0.020 MAX: 0.021 
+
+ ----------------------------------
+SYSTEMX to remote NTNU/129.241.208.115: MIN: 48.741 AVG: 48.878 MAX: 49.065 
+
+ ----------------------------------
+SYSTEMX to remote PADUA/ndnnode.math.unipd.it: MIN: 20.967 AVG: 21.309 MAX: 21.089 
+
+ ----------------------------------
+SYSTEMX to remote VERISIGN/72.13.58.118: MIN: 83.229 AVG: 83.422 MAX: 83.549 
+
