@@ -1,0 +1,76 @@
+Testing Link delays from node PKU
+ ----------------------------------
+PKU to remote PKU/162.105.146.26: MIN: 0.010 AVG: 0.014 MAX: 0.028 
+
+ ----------------------------------
+PKU to remote BUPT/114.247.165.44: MIN: 28.362 AVG: 28.454 MAX: 28.669 
+
+ ----------------------------------
+PKU to remote ANYANG/210.114.89.49: MIN: 75.945 AVG: 82.069 MAX: 91.583 
+
+ ----------------------------------
+PKU to remote TONGJI/cnlab.tongji.edu.cn: MIN: 29.396 AVG: 29.407 MAX: 29.453 
+
+ ----------------------------------
+PKU to remote WASEDA/133.9.73.66: MIN: 90.307 AVG: 94.289 MAX: 100.753 
+
+ ----------------------------------
+PKU to remote UCLA/spurs.cs.ucla.edu: MIN: 149.079 AVG: 149.201 MAX: 149.262 
+
+ ----------------------------------
+PKU to remote CAIDA/click.caida.org: MIN: 150.000 AVG: 153.058 MAX: 158.963 
+
+ ----------------------------------
+PKU to remote UCI/ndnhub.ics.uci.edu: MIN: 157.836 AVG: 164.723 MAX: 172.393 
+
+ ----------------------------------
+PKU to remote REMAP/aleph.ndn.ucla.edu: MIN: 148.432 AVG: 153.541 MAX: 159.593 
+
+ ----------------------------------
+PKU to remote BYU/pasta10.cs.byu.edu: MIN: 172.798 AVG: 173.696 MAX: 174.176 
+
+ ----------------------------------
+PKU to remote CSU/ndn.netsec.colostate.edu: MIN: 198.933 AVG: 199.260 MAX: 199.557 
+
+ ----------------------------------
+PKU to remote UA/hobo.cs.arizona.edu: MIN: 159.757 AVG: 159.947 MAX: 160.067 
+
+ ----------------------------------
+PKU to remote WU/wundngw.arl.wustl.edu: MIN: 220.617 AVG: 225.417 MAX: 230.446 
+
+ ----------------------------------
+PKU to remote UIUC/ndnx.cs.illinois.edu: MIN: 208.900 AVG: 343.122 MAX: 624.999 
+
+ ----------------------------------
+PKU to remote MICH/ndn0.eecs.umich.edu: MIN: 211.413 AVG: 221.837 MAX: 240.308 
+
+ ----------------------------------
+PKU to remote UM/titan.cs.memphis.edu: MIN: 222.530 AVG: 223.487 MAX: 225.511 
+
+ ----------------------------------
+PKU to remote NEU/129.10.52.193: MIN: 228.046 AVG: 228.449 MAX: 229.571 
+
+ ----------------------------------
+PKU to remote URJC/insula.gsyc.es: MIN: 205.474 AVG: 207.683 MAX: 225.881 
+
+ ----------------------------------
+PKU to remote BASEL/ndn.cs.unibas.ch: MIN: 192.997 AVG: 193.108 MAX: 193.279 
+
+ ----------------------------------
+PKU to remote LIP6/ndnhub.ipv6.lip6.fr: MIN: 181.712 AVG: 182.449 MAX: 184.584 
+
+ ----------------------------------
+PKU to remote Orange1/161.105.195.18: MIN: 305.318 AVG: 316.839 MAX: 342.752 
+
+ ----------------------------------
+PKU to remote SystemX/systemx-ndn-1.enst.fr: MIN: 180.348 AVG: 180.421 MAX: 180.506 
+
+ ----------------------------------
+PKU to remote NTNU/129.241.208.115: MIN: 215.358 AVG: 215.539 MAX: 215.773 
+
+ ----------------------------------
+PKU to remote PADUA/ndnnode.math.unipd.it: MIN: 210.531 AVG: 223.207 MAX: 249.365 
+
+ ----------------------------------
+PKU to remote VERISIGN/72.13.58.118: MIN: 265.353 AVG: 271.026 MAX: 282.338 
+
