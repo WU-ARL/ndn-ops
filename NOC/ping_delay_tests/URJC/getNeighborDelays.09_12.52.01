@@ -1,0 +1,19 @@
+Testing Link delays from node URJC
+ ----------------------------------
+URJC NEIGHBOR ndnnode.math.unipd.it: MIN: 35.455 AVG: 35.706 MAX: 36.080 
+
+ ----------------------------------
+URJC NEIGHBOR ndn.cs.unibas.ch: MIN: 29.659 AVG: 29.827 MAX: 30.334 
+
+ ----------------------------------
+URJC NEIGHBOR wundngw.arl.wustl.edu: MIN: 139.081 AVG: 139.361 MAX: 140.500 
+
+ ----------------------------------
+URJC NEIGHBOR ndnhub.ipv6.lip6.fr: MIN: 28.708 AVG: 29.283 MAX: 30.070 
+
+ ----------------------------------
+URJC NEIGHBOR 132.227.62.163: MIN: 28.695 AVG: 29.711 MAX: 36.130 
+
+ ----------------------------------
+URJC NEIGHBOR 161.105.195.18: MIN: 22.638 AVG: 22.657 MAX: 22.657 
+
