@@ -1,0 +1,76 @@
+Testing Link delays from node MICHIGAN
+ ----------------------------------
+MICHIGAN to remote PKU/162.105.146.26: MIN: 262.252 AVG: 392.225 MAX: 684.067 
+
+ ----------------------------------
+MICHIGAN to remote BUPT/114.247.165.44: MIN: 228.259 AVG: 233.756 MAX: 241.302 
+
+ ----------------------------------
+MICHIGAN to remote ANYANG/210.114.89.49: MIN: 220.508 AVG: 220.759 MAX: 220.854 
+
+ ----------------------------------
+MICHIGAN to remote TONGJI/cnlab.tongji.edu.cn: MIN: 261.328 AVG: 255.330 MAX: 264.406 
+
+ ----------------------------------
+MICHIGAN to remote WASEDA/133.9.73.66: MIN: 192.832 AVG: 192.993 MAX: 193.496 
+
+ ----------------------------------
+MICHIGAN to remote UCLA/spurs.cs.ucla.edu: MIN: 66.134 AVG: 66.157 MAX: 66.160 
+
+ ----------------------------------
+MICHIGAN to remote CAIDA/click.caida.org: MIN: 66.747 AVG: 66.901 MAX: 67.051 
+
+ ----------------------------------
+MICHIGAN to remote UCI/ndnhub.ics.uci.edu: MIN: 73.637 AVG: 73.846 MAX: 74.023 
+
+ ----------------------------------
+MICHIGAN to remote REMAP/aleph.ndn.ucla.edu: MIN: 65.093 AVG: 65.335 MAX: 65.516 
+
+ ----------------------------------
+MICHIGAN to remote BYU/pasta10.cs.byu.edu: MIN: 39.070 AVG: 39.114 MAX: 39.078 
+
+ ----------------------------------
+MICHIGAN to remote CSU/ndn.netsec.colostate.edu: MIN: 30.122 AVG: 30.244 MAX: 30.472 
+
+ ----------------------------------
+MICHIGAN to remote UA/hobo.cs.arizona.edu: MIN: 53.600 AVG: 53.608 MAX: 53.625 
+
+ ----------------------------------
+MICHIGAN to remote WU/wundngw.arl.wustl.edu: MIN: 22.813 AVG: 22.837 MAX: 22.865 
+
+ ----------------------------------
+MICHIGAN to remote UIUC/ndnx.cs.illinois.edu: MIN: 10.677 AVG: 10.790 MAX: 11.224 
+
+ ----------------------------------
+MICHIGAN to remote MICH/ndn0.eecs.umich.edu: MIN: 0.011 AVG: 0.016 MAX: 0.018 
+
+ ----------------------------------
+MICHIGAN to remote UM/titan.cs.memphis.edu: MIN: 22.761 AVG: 22.878 MAX: 23.186 
+
+ ----------------------------------
+MICHIGAN to remote NEU/129.10.52.193: MIN: 28.777 AVG: 28.954 MAX: 29.183 
+
+ ----------------------------------
+MICHIGAN to remote URJC/insula.gsyc.es: MIN: 130.574 AVG: 130.736 MAX: 130.995 
+
+ ----------------------------------
+MICHIGAN to remote BASEL/ndn.cs.unibas.ch: MIN: 132.737 AVG: 132.913 MAX: 133.262 
+
+ ----------------------------------
+MICHIGAN to remote LIP6/ndnhub.ipv6.lip6.fr: MIN: 106.635 AVG: 107.356 MAX: 108.041 
+
+ ----------------------------------
+MICHIGAN to remote Orange1/161.105.195.18: MIN: 110.690 AVG: 110.687 MAX: 110.694 
+
+ ----------------------------------
+MICHIGAN to remote SystemX/systemx-ndn-1.enst.fr: MIN: 106.490 AVG: 106.665 MAX: 106.959 
+
+ ----------------------------------
+MICHIGAN to remote NTNU/129.241.208.115: MIN: 147.289 AVG: 147.651 MAX: 147.957 
+
+ ----------------------------------
+MICHIGAN to remote PADUA/ndnnode.math.unipd.it: MIN: 130.120 AVG: 130.806 MAX: 130.794 
+
+ ----------------------------------
+MICHIGAN to remote VERISIGN/72.13.58.118: MIN: 30.659 AVG: 30.726 MAX: 30.866 
+
