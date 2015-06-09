@@ -1,0 +1,16 @@
+Testing Link delays from node NTNU
+ ----------------------------------
+NTNU NEIGHBOR 162.105.146.26: MIN: 299.004 AVG: 342.870 MAX: 628.454 
+
+ ----------------------------------
+NTNU NEIGHBOR 129.10.52.193: MIN: 123.383 AVG: 123.657 MAX: 124.024 
+
+ ----------------------------------
+NTNU NEIGHBOR systemx-ndn-1.enst.fr: MIN: 48.800 AVG: 48.913 MAX: 48.960 
+
+ ----------------------------------
+NTNU NEIGHBOR ndn.cs.unibas.ch: MIN: 61.299 AVG: 61.370 MAX: 61.448 
+
+ ----------------------------------
+NTNU NEIGHBOR 132.227.62.163: MIN: 50.355 AVG: 51.610 MAX: 54.505 
+
