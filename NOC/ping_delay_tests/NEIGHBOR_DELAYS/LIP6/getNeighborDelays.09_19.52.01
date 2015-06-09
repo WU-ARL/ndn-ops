@@ -1,0 +1,19 @@
+Testing Link delays from node LIP6
+ ----------------------------------
+LIP6 NEIGHBOR 129.241.208.115: MIN: 50.272 AVG: 51.077 MAX: 51.858 
+
+ ----------------------------------
+LIP6 NEIGHBOR systemx-ndn-1.enst.fr: MIN: 3.105 AVG: 3.656 MAX: 4.644 
+
+ ----------------------------------
+LIP6 NEIGHBOR ndn.cs.unibas.ch: MIN: 15.617 AVG: 16.963 MAX: 19.918 
+
+ ----------------------------------
+LIP6 NEIGHBOR insula.gsyc.es: MIN: 28.643 AVG: 29.436 MAX: 30.212 
+
+ ----------------------------------
+LIP6 NEIGHBOR ndn0.eecs.umich.edu: MIN: 106.524 AVG: 107.243 MAX: 108.962 
+
+ ----------------------------------
+LIP6 NEIGHBOR 161.105.195.18: MIN: 5.579 AVG: 5.676 MAX: 5.717 
+
