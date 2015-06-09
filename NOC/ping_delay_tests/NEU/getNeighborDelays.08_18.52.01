@@ -1,0 +1,13 @@
+Testing Link delays from node NEU
+ ----------------------------------
+NEU NEIGHBOR 129.241.208.115: MIN: 114.662 AVG: 114.938 MAX: 115.487 
+
+ ----------------------------------
+NEU NEIGHBOR ndn0.eecs.umich.edu: MIN: 28.754 AVG: 28.912 MAX: 29.177 
+
+ ----------------------------------
+NEU NEIGHBOR titan.cs.memphis.edu: MIN: 40.147 AVG: 40.445 MAX: 40.881 
+
+ ----------------------------------
+NEU NEIGHBOR 162.105.146.26: MIN: 228.048 AVG: 228.283 MAX: 228.547 
+
