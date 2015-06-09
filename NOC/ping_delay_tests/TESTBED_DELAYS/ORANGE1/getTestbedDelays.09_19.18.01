@@ -1,0 +1,76 @@
+Testing Link delays from node ORANGE1
+ ----------------------------------
+ORANGE1 to remote PKU/162.105.146.26: MIN: 294.382 AVG: 331.598 MAX: 664.657 
+
+ ----------------------------------
+ORANGE1 to remote BUPT/114.247.165.44: MIN: 293.679 AVG: 294.070 MAX: 295.499 
+
+ ----------------------------------
+ORANGE1 to remote ANYANG/210.114.89.49: MIN: 294.993 AVG: 295.634 MAX: 296.393 
+
+ ----------------------------------
+ORANGE1 to remote TONGJI/cnlab.tongji.edu.cn: MIN: 320.323 AVG: 320.680 MAX: 321.471 
+
+ ----------------------------------
+ORANGE1 to remote WASEDA/133.9.73.66: MIN: 261.244 AVG: 261.404 MAX: 261.514 
+
+ ----------------------------------
+ORANGE1 to remote UCLA/spurs.cs.ucla.edu: MIN: 141.226 AVG: 141.785 MAX: 142.061 
+
+ ----------------------------------
+ORANGE1 to remote CAIDA/click.caida.org: MIN: 168.552 AVG: 168.674 MAX: 168.739 
+
+ ----------------------------------
+ORANGE1 to remote UCI/ndnhub.ics.uci.edu: MIN: 141.837 AVG: 141.984 MAX: 142.171 
+
+ ----------------------------------
+ORANGE1 to remote REMAP/aleph.ndn.ucla.edu: MIN: 146.963 AVG: 147.173 MAX: 147.402 
+
+ ----------------------------------
+ORANGE1 to remote BYU/pasta10.cs.byu.edu: MIN: 156.815 AVG: 157.820 MAX: 159.336 
+
+ ----------------------------------
+ORANGE1 to remote CSU/ndn.netsec.colostate.edu: MIN: 149.697 AVG: 149.877 MAX: 150.123 
+
+ ----------------------------------
+ORANGE1 to remote UA/hobo.cs.arizona.edu: MIN: 158.354 AVG: 158.449 MAX: 158.499 
+
+ ----------------------------------
+ORANGE1 to remote WU/wundngw.arl.wustl.edu: MIN: 113.940 AVG: 114.091 MAX: 114.208 
+
+ ----------------------------------
+ORANGE1 to remote UIUC/ndnx.cs.illinois.edu: MIN: 109.674 AVG: 112.610 MAX: 116.626 
+
+ ----------------------------------
+ORANGE1 to remote MICH/ndn0.eecs.umich.edu: MIN: 110.478 AVG: 112.235 MAX: 114.435 
+
+ ----------------------------------
+ORANGE1 to remote UM/titan.cs.memphis.edu: MIN: 131.365 AVG: 131.759 MAX: 132.907 
+
+ ----------------------------------
+ORANGE1 to remote NEU/129.10.52.193: MIN: 89.682 AVG: 89.937 MAX: 90.384 
+
+ ----------------------------------
+ORANGE1 to remote URJC/insula.gsyc.es: MIN: 22.301 AVG: 24.911 MAX: 47.592 
+
+ ----------------------------------
+ORANGE1 to remote BASEL/ndn.cs.unibas.ch: MIN: 37.106 AVG: 37.730 MAX: 38.397 
+
+ ----------------------------------
+ORANGE1 to remote LIP6/ndnhub.ipv6.lip6.fr: MIN: 4.758 AVG: 5.456 MAX: 6.083 
+
+ ----------------------------------
+ORANGE1 to remote Orange1/161.105.195.18: MIN: 0.037 AVG: 0.054 MAX: 0.067 
+
+ ----------------------------------
+ORANGE1 to remote SystemX/systemx-ndn-1.enst.fr: MIN: 3.198 AVG: 3.309 MAX: 3.339 
+
+ ----------------------------------
+ORANGE1 to remote NTNU/129.241.208.115: MIN: 58.911 AVG: 59.302 MAX: 59.616 
+
+ ----------------------------------
+ORANGE1 to remote PADUA/ndnnode.math.unipd.it: MIN: 51.921 AVG: 53.590 MAX: 56.924 
+
+ ----------------------------------
+ORANGE1 to remote VERISIGN/72.13.58.118: MIN: 85.535 AVG: 85.652 MAX: 85.711 
+
