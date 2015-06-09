@@ -7,8 +7,6 @@ TCOUNT=40
 QUIET=0
 THISNODE="WU"
 
-DATE=`date +%d_%H.%M.%S`
-LOGFILE="getNeighborDelays.$DATE"
 
 while [ $# -ge 1 ]
 do
@@ -43,6 +41,9 @@ do
 done
 
 #echo "LINKS = $LINKS"
+DATE=`date +%d_%H.%M.%S`
+LOGFILE="NEIGHBOR_DELAYS/$THISNODE/getNeighborDelays.$DATE"
+mkdir -p NEIGHBOR_DELAYS/$THISNODE
 
 echo "Testing Link delays from node $THISNODE" >& $LOGFILE
 
