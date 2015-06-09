@@ -1,0 +1,16 @@
+Testing Link delays from node UCLA
+ ----------------------------------
+UCLA NEIGHBOR aleph.ndn.ucla.edu: MIN: 0.760 AVG: 0.840 MAX: 1.116 
+
+ ----------------------------------
+UCLA NEIGHBOR ndn.netsec.colostate.edu: MIN: 52.938 AVG: 53.144 MAX: 53.447 
+
+ ----------------------------------
+UCLA NEIGHBOR click.caida.org: MIN: 3.624 AVG: 3.670 MAX: 3.793 
+
+ ----------------------------------
+UCLA NEIGHBOR ndnhub.ics.uci.edu: MIN: 10.531 AVG: 10.573 MAX: 10.707 
+
+ ----------------------------------
+UCLA NEIGHBOR 162.105.146.26: MIN: 148.581 AVG: 148.797 MAX: 148.977 
+
