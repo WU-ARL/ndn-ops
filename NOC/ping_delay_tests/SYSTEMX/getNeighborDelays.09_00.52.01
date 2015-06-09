@@ -1,0 +1,13 @@
+Testing Link delays from node SYSTEMX
+ ----------------------------------
+SYSTEMX NEIGHBOR 129.241.208.115: MIN: 48.675 AVG: 48.920 MAX: 49.301 
+
+ ----------------------------------
+SYSTEMX NEIGHBOR ndnhub.ipv6.lip6.fr: MIN: 2.660 AVG: 3.046 MAX: 3.653 
+
+ ----------------------------------
+SYSTEMX NEIGHBOR ndn.cs.unibas.ch: MIN: 14.792 AVG: 14.906 MAX: 15.053 
+
+ ----------------------------------
+SYSTEMX NEIGHBOR 161.105.195.18: MIN: 3.048 AVG: 3.218 MAX: 3.351 
+
