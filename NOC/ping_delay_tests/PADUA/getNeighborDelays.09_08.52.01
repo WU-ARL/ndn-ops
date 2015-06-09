@@ -1,0 +1,17 @@
+Testing Link delays from node PADUA
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR insula.gsyc.es
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.825 ms !H  0.821 ms !H  0.819 ms !H
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR ndnx.cs.illinois.edu
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.740 ms !H  0.850 ms !H  0.848 ms !H
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR ndn.cs.unibas.ch
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.680 ms !H  0.813 ms !H  0.818 ms !H
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR 161.105.195.18
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.834 ms !H  0.832 ms !H  0.836 ms !H
+
