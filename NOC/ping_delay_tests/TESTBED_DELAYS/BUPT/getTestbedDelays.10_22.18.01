@@ -1,0 +1,76 @@
+Testing Link delays from node BUPT
+ ----------------------------------
+BUPT to remote PKU/162.105.146.26: MIN: 28.587 AVG: 131.411 MAX: 570.502 
+
+ ----------------------------------
+BUPT to remote BUPT/114.247.165.44: MIN: 0.021 AVG: 0.032 MAX: 0.055 
+
+ ----------------------------------
+BUPT to remote ANYANG/210.114.89.49: MIN: 132.182 AVG: 132.312 MAX: 132.256 
+
+ ----------------------------------
+BUPT to remote TONGJI/cnlab.tongji.edu.cn: MIN: BASEL.traceroute.log AVG:  MAX: BASEL.traceroute.log 
+
+ ----------------------------------
+BUPT to remote WASEDA/133.9.73.66: MIN: 160.125 AVG: 161.459 MAX: 164.219 
+
+ ----------------------------------
+BUPT to remote UCLA/spurs.cs.ucla.edu: MIN: 237.620 AVG: 703.492 MAX: 1635.465 
+
+ ----------------------------------
+BUPT to remote CAIDA/click.caida.org: MIN: 174.068 AVG: 176.139 MAX: 178.011 
+
+ ----------------------------------
+BUPT to remote UCI/ndnhub.ics.uci.edu: MIN: 176.455 AVG: 179.379 MAX: 183.023 
+
+ ----------------------------------
+BUPT to remote REMAP/aleph.ndn.ucla.edu: MIN: 229.604 AVG: 235.867 MAX: 243.289 
+
+ ----------------------------------
+BUPT to remote BYU/pasta10.cs.byu.edu: MIN: 403.617 AVG: 406.290 MAX: 411.582 
+
+ ----------------------------------
+BUPT to remote CSU/ndn.netsec.colostate.edu: MIN: 213.600 AVG: 218.978 MAX: 225.294 
+
+ ----------------------------------
+BUPT to remote UA/hobo.cs.arizona.edu: MIN: 274.033 AVG: 274.016 MAX: 274.051 
+
+ ----------------------------------
+BUPT to remote WU/wundngw.arl.wustl.edu: MIN: 356.918 AVG: 371.794 MAX: 387.061 
+
+ ----------------------------------
+BUPT to remote UIUC/ndnx.cs.illinois.edu: MIN: 355.930 AVG: 376.169 MAX: 416.189 
+
+ ----------------------------------
+BUPT to remote MICH/ndn0.eecs.umich.edu: MIN: 505.690 AVG: 518.676 MAX: 527.615 
+
+ ----------------------------------
+BUPT to remote UM/titan.cs.memphis.edu: MIN: 445.693 AVG: 461.573 MAX: 483.257 
+
+ ----------------------------------
+BUPT to remote NEU/129.10.52.193: MIN: 245.803 AVG: 315.215 MAX: 351.533 
+
+ ----------------------------------
+BUPT to remote URJC/insula.gsyc.es: MIN: 277.267 AVG: 282.190 MAX: 303.307 
+
+ ----------------------------------
+BUPT to remote BASEL/ndn.cs.unibas.ch: MIN: 377.516 AVG: 388.688 MAX: 403.679 
+
+ ----------------------------------
+BUPT to remote LIP6/ndnhub.ipv6.lip6.fr: MIN: 386.110 AVG: 389.778 MAX: 393.531 
+
+ ----------------------------------
+BUPT to remote Orange1/161.105.195.18: MIN: 509.668 AVG: 498.315 MAX: 509.676 
+
+ ----------------------------------
+BUPT to remote SystemX/systemx-ndn-1.enst.fr: MIN: 350.972 AVG: 379.563 MAX: 389.262 
+
+ ----------------------------------
+BUPT to remote NTNU/129.241.208.115: MIN: 327.414 AVG: 331.634 MAX: 335.636 
+
+ ----------------------------------
+BUPT to remote PADUA/ndnnode.math.unipd.it: MIN: 516.308 AVG: 547.692 MAX: 570.724 
+
+ ----------------------------------
+BUPT to remote VERISIGN/72.13.58.118: MIN: 342.025 AVG: 344.065 MAX: 350.746 
+
