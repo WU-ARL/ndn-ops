@@ -1,0 +1,76 @@
+Testing Link delays from node BYU
+ ----------------------------------
+BYU to remote PKU/162.105.146.26: MIN: 180.581 AVG: 249.251 MAX: 606.411 
+
+ ----------------------------------
+BYU to remote BUPT/114.247.165.44: MIN: 292.212 AVG: 299.788 MAX: 304.094 
+
+ ----------------------------------
+BYU to remote ANYANG/210.114.89.49: MIN: 189.782 AVG: 190.187 MAX: 190.579 
+
+ ----------------------------------
+BYU to remote TONGJI/cnlab.tongji.edu.cn: MIN: BASEL.traceroute.log AVG:  MAX: BASEL.traceroute.log 
+
+ ----------------------------------
+BYU to remote WASEDA/133.9.73.66: MIN: 142.579 AVG: 143.033 MAX: 144.903 
+
+ ----------------------------------
+BYU to remote UCLA/spurs.cs.ucla.edu: MIN: 34.979 AVG: 38.963 MAX: 35.146 
+
+ ----------------------------------
+BYU to remote CAIDA/click.caida.org: MIN: 39.336 AVG: 46.926 MAX: 56.893 
+
+ ----------------------------------
+BYU to remote UCI/ndnhub.ics.uci.edu: MIN: 43.104 AVG: 58.935 MAX: 86.706 
+
+ ----------------------------------
+BYU to remote REMAP/aleph.ndn.ucla.edu: MIN: 34.444 AVG: 40.328 MAX: 55.712 
+
+ ----------------------------------
+BYU to remote BYU/pasta10.cs.byu.edu: MIN: 0.017 AVG: 0.019 MAX: 0.020 
+
+ ----------------------------------
+BYU to remote CSU/ndn.netsec.colostate.edu: MIN: 45.288 AVG: 48.126 MAX: 58.430 
+
+ ----------------------------------
+BYU to remote UA/hobo.cs.arizona.edu: MIN: 47.811 AVG: 47.794 MAX: 47.815 
+
+ ----------------------------------
+BYU to remote WU/wundngw.arl.wustl.edu: MIN: 48.333 AVG: 48.582 MAX: 48.727 
+
+ ----------------------------------
+BYU to remote UIUC/ndnx.cs.illinois.edu: MIN: 36.392 AVG: 36.659 MAX: 37.272 
+
+ ----------------------------------
+BYU to remote MICH/ndn0.eecs.umich.edu: MIN: 39.160 AVG: 49.763 MAX: 71.220 
+
+ ----------------------------------
+BYU to remote UM/titan.cs.memphis.edu: MIN: 50.144 AVG: 68.846 MAX: 99.961 
+
+ ----------------------------------
+BYU to remote NEU/129.10.52.193: MIN: 56.763 AVG: 56.950 MAX: 57.242 
+
+ ----------------------------------
+BYU to remote URJC/insula.gsyc.es: MIN: 157.286 AVG: 157.809 MAX: 159.744 
+
+ ----------------------------------
+BYU to remote BASEL/ndn.cs.unibas.ch: MIN: 159.670 AVG: 159.932 MAX: 160.468 
+
+ ----------------------------------
+BYU to remote LIP6/ndnhub.ipv6.lip6.fr: MIN: 133.131 AVG: 134.080 MAX: 135.529 
+
+ ----------------------------------
+BYU to remote Orange1/161.105.195.18: MIN: 157.118 AVG: 159.109 MAX: 162.677 
+
+ ----------------------------------
+BYU to remote SystemX/systemx-ndn-1.enst.fr: MIN: 129.271 AVG: 129.448 MAX: 129.686 
+
+ ----------------------------------
+BYU to remote NTNU/129.241.208.115: MIN: 183.775 AVG: 187.284 MAX: 200.003 
+
+ ----------------------------------
+BYU to remote PADUA/ndnnode.math.unipd.it: MIN: 162.726 AVG: 177.246 MAX: 170.179 
+
+ ----------------------------------
+BYU to remote VERISIGN/72.13.58.118: MIN: 76.773 AVG: 81.322 MAX: 93.577 
+
