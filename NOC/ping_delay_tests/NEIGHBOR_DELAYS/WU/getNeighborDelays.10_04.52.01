@@ -1,0 +1,16 @@
+Testing Link delays from node WU
+ ----------------------------------
+WU NEIGHBOR 72.13.58.118: MIN: 28.309 AVG: 29.851 MAX: 30.791 
+
+ ----------------------------------
+WU NEIGHBOR insula.gsyc.es: MIN: 148.471 AVG: 148.707 MAX: 149.039 
+
+ ----------------------------------
+WU NEIGHBOR hobo.cs.arizona.edu: MIN: 62.900 AVG: 62.931 MAX: 62.958 
+
+ ----------------------------------
+WU NEIGHBOR titan.cs.memphis.edu: MIN: 31.790 AVG: 31.967 MAX: 32.145 
+
+ ----------------------------------
+WU NEIGHBOR ndnx.cs.illinois.edu: MIN: 18.158 AVG: 18.260 MAX: 18.445 
+
