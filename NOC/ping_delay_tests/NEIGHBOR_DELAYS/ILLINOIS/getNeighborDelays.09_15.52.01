@@ -1,0 +1,13 @@
+Testing Link delays from node ILLINOIS
+ ----------------------------------
+ILLINOIS NEIGHBOR ndnnode.math.unipd.it: MIN: BASEL.traceroute.log AVG:  MAX: BASEL.traceroute.log 
+
+ ----------------------------------
+ILLINOIS NEIGHBOR ndn.netsec.colostate.edu: MIN: 27.406 AVG: 27.552 MAX: 27.730 
+
+ ----------------------------------
+ILLINOIS NEIGHBOR wundngw.arl.wustl.edu: MIN: 18.170 AVG: 18.294 MAX: 18.392 
+
+ ----------------------------------
+ILLINOIS NEIGHBOR ndn0.eecs.umich.edu: MIN: 10.663 AVG: 10.711 MAX: 10.740 
+

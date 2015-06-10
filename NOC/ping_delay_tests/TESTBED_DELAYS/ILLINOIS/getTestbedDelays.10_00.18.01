@@ -1,0 +1,76 @@
+Testing Link delays from node ILLINOIS
+ ----------------------------------
+ILLINOIS to remote PKU/162.105.146.26: MIN: 228.448 AVG: 232.395 MAX: 235.125 
+
+ ----------------------------------
+ILLINOIS to remote BUPT/114.247.165.44: MIN: 284.822 AVG: 292.833 MAX: 307.703 
+
+ ----------------------------------
+ILLINOIS to remote ANYANG/210.114.89.49: MIN: 217.897 AVG: 218.049 MAX: 218.195 
+
+ ----------------------------------
+ILLINOIS to remote TONGJI/cnlab.tongji.edu.cn: MIN: 270.695 AVG:  MAX: 270.695 
+
+ ----------------------------------
+ILLINOIS to remote WASEDA/133.9.73.66: MIN: 190.291 AVG: 190.520 MAX: 190.771 
+
+ ----------------------------------
+ILLINOIS to remote UCLA/spurs.cs.ucla.edu: MIN: 64.377 AVG: 63.945 MAX: 64.423 
+
+ ----------------------------------
+ILLINOIS to remote CAIDA/click.caida.org: MIN: 63.993 AVG: 64.247 MAX: 64.521 
+
+ ----------------------------------
+ILLINOIS to remote UCI/ndnhub.ics.uci.edu: MIN: 71.015 AVG: 71.241 MAX: 71.549 
+
+ ----------------------------------
+ILLINOIS to remote REMAP/aleph.ndn.ucla.edu: MIN: 62.351 AVG: 63.028 MAX: 65.197 
+
+ ----------------------------------
+ILLINOIS to remote BYU/pasta10.cs.byu.edu: MIN: 37.790 AVG:  MAX: 37.790 
+
+ ----------------------------------
+ILLINOIS to remote CSU/ndn.netsec.colostate.edu: MIN: 27.516 AVG: 27.640 MAX: 27.757 
+
+ ----------------------------------
+ILLINOIS to remote UA/hobo.cs.arizona.edu: MIN: 51.014 AVG:  MAX: 51.014 
+
+ ----------------------------------
+ILLINOIS to remote WU/wundngw.arl.wustl.edu: MIN: 18.161 AVG: 18.214 MAX: 18.325 
+
+ ----------------------------------
+ILLINOIS to remote UIUC/ndnx.cs.illinois.edu: MIN: 0.013 AVG: 0.020 MAX: 0.026 
+
+ ----------------------------------
+ILLINOIS to remote MICH/ndn0.eecs.umich.edu: MIN: 10.702 AVG: 10.714 MAX: 10.732 
+
+ ----------------------------------
+ILLINOIS to remote UM/titan.cs.memphis.edu: MIN: 19.973 AVG: 20.089 MAX: 20.270 
+
+ ----------------------------------
+ILLINOIS to remote NEU/129.10.52.193: MIN: 26.508 AVG: 26.673 MAX: 26.884 
+
+ ----------------------------------
+ILLINOIS to remote URJC/insula.gsyc.es: MIN: 126.997 AVG: 127.209 MAX: 127.696 
+
+ ----------------------------------
+ILLINOIS to remote BASEL/ndn.cs.unibas.ch: MIN: 121.840 AVG: 122.013 MAX: 122.139 
+
+ ----------------------------------
+ILLINOIS to remote LIP6/ndnhub.ipv6.lip6.fr: MIN: 102.710 AVG: 103.358 MAX: 103.763 
+
+ ----------------------------------
+ILLINOIS to remote Orange1/161.105.195.18: MIN: BASEL.traceroute.log AVG:  MAX: BASEL.traceroute.log 
+
+ ----------------------------------
+ILLINOIS to remote SystemX/systemx-ndn-1.enst.fr: MIN: 106.498 AVG: 106.582 MAX: 106.680 
+
+ ----------------------------------
+ILLINOIS to remote NTNU/129.241.208.115: MIN: 144.852 AVG: 145.033 MAX: 145.396 
+
+ ----------------------------------
+ILLINOIS to remote PADUA/ndnnode.math.unipd.it: MIN: BASEL.traceroute.log AVG:  MAX: BASEL.traceroute.log 
+
+ ----------------------------------
+ILLINOIS to remote VERISIGN/72.13.58.118: MIN: 28.170 AVG: 28.377 MAX: 28.593 
+
