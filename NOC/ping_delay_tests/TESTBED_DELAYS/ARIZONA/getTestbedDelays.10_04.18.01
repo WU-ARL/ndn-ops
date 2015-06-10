@@ -1,0 +1,76 @@
+Testing Link delays from node ARIZONA
+ ----------------------------------
+ARIZONA to remote PKU/162.105.146.26: MIN: 159.659 AVG: 211.171 MAX: 516.488 
+
+ ----------------------------------
+ARIZONA to remote BUPT/114.247.165.44: MIN: 257.894 AVG: 259.560 MAX: 262.198 
+
+ ----------------------------------
+ARIZONA to remote ANYANG/210.114.89.49: MIN: 168.854 AVG: 168.943 MAX: 169.062 
+
+ ----------------------------------
+ARIZONA to remote TONGJI/cnlab.tongji.edu.cn: MIN: 196.279 AVG: 196.291 MAX: 196.308 
+
+ ----------------------------------
+ARIZONA to remote WASEDA/133.9.73.66: MIN: 121.537 AVG: 121.731 MAX: 122.232 
+
+ ----------------------------------
+ARIZONA to remote UCLA/spurs.cs.ucla.edu: MIN: 13.902 AVG: 13.904 MAX: 13.908 
+
+ ----------------------------------
+ARIZONA to remote CAIDA/click.caida.org: MIN: 15.021 AVG: 15.145 MAX: 15.265 
+
+ ----------------------------------
+ARIZONA to remote UCI/ndnhub.ics.uci.edu: MIN: 21.821 AVG: 22.089 MAX: 22.754 
+
+ ----------------------------------
+ARIZONA to remote REMAP/aleph.ndn.ucla.edu: MIN: 13.385 AVG: 13.625 MAX: 13.959 
+
+ ----------------------------------
+ARIZONA to remote BYU/pasta10.cs.byu.edu: MIN: 58.619 AVG: 78.552 MAX: 73.217 
+
+ ----------------------------------
+ARIZONA to remote CSU/ndn.netsec.colostate.edu: MIN: 63.782 AVG: 63.856 MAX: 63.961 
+
+ ----------------------------------
+ARIZONA to remote UA/hobo.cs.arizona.edu: MIN: 0.011 AVG: 0.017 MAX: 0.031 
+
+ ----------------------------------
+ARIZONA to remote WU/wundngw.arl.wustl.edu: MIN: 62.790 AVG: 62.945 MAX: 63.388 
+
+ ----------------------------------
+ARIZONA to remote UIUC/ndnx.cs.illinois.edu: MIN: 50.985 AVG: 51.147 MAX: 51.388 
+
+ ----------------------------------
+ARIZONA to remote MICH/ndn0.eecs.umich.edu: MIN: 53.487 AVG: 53.753 MAX: 54.137 
+
+ ----------------------------------
+ARIZONA to remote UM/titan.cs.memphis.edu: MIN: 64.694 AVG: 64.909 MAX: 65.313 
+
+ ----------------------------------
+ARIZONA to remote NEU/129.10.52.193: MIN: 70.287 AVG: 70.545 MAX: 70.870 
+
+ ----------------------------------
+ARIZONA to remote URJC/insula.gsyc.es: MIN: 173.761 AVG: 173.903 MAX: 174.079 
+
+ ----------------------------------
+ARIZONA to remote BASEL/ndn.cs.unibas.ch: MIN: 175.602 AVG: 175.844 MAX: 176.189 
+
+ ----------------------------------
+ARIZONA to remote LIP6/ndnhub.ipv6.lip6.fr: MIN: 164.533 AVG: 166.182 MAX: 174.012 
+
+ ----------------------------------
+ARIZONA to remote Orange1/161.105.195.18: MIN: 158.194 AVG: 158.218 MAX: 158.222 
+
+ ----------------------------------
+ARIZONA to remote SystemX/systemx-ndn-1.enst.fr: MIN: 153.914 AVG: 154.029 MAX: 154.209 
+
+ ----------------------------------
+ARIZONA to remote NTNU/129.241.208.115: MIN: 173.596 AVG: 173.793 MAX: 174.027 
+
+ ----------------------------------
+ARIZONA to remote PADUA/ndnnode.math.unipd.it: MIN: 176.057 AVG: 180.286 MAX: 177.490 
+
+ ----------------------------------
+ARIZONA to remote VERISIGN/72.13.58.118: MIN: 77.624 AVG: 77.694 MAX: 77.831 
+
