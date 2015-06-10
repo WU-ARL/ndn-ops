@@ -1,0 +1,22 @@
+Testing Link delays from node ORANGE1
+ ----------------------------------
+ORANGE1 NEIGHBOR ndnnode.math.unipd.it: MIN: 51.677 AVG: 53.425 MAX: 56.677 
+
+ ----------------------------------
+ORANGE1 NEIGHBOR systemx-ndn-1.enst.fr: MIN: 3.066 AVG: 3.253 MAX: 3.334 
+
+ ----------------------------------
+ORANGE1 NEIGHBOR 133.9.73.66: MIN: 261.335 AVG: 261.491 MAX: 261.547 
+
+ ----------------------------------
+ORANGE1 NEIGHBOR ndn.cs.unibas.ch: MIN: 36.593 AVG: 36.732 MAX: 36.863 
+
+ ----------------------------------
+ORANGE1 NEIGHBOR insula.gsyc.es: MIN: 22.313 AVG: 22.394 MAX: 22.847 
+
+ ----------------------------------
+ORANGE1 NEIGHBOR titan.cs.memphis.edu: MIN: 130.957 AVG: 131.252 MAX: 131.478 
+
+ ----------------------------------
+ORANGE1 NEIGHBOR 132.227.62.163: MIN: 4.850 AVG: 5.300 MAX: 5.858 
+
