@@ -1,0 +1,10 @@
+Testing Link delays from node BYU
+ ----------------------------------
+BYU NEIGHBOR aleph.ndn.ucla.edu: MIN: 20.835 AVG: 21.156 MAX: 21.487 
+
+ ----------------------------------
+BYU NEIGHBOR hobo.cs.arizona.edu: MIN: 31.935 AVG: 32.040 MAX: 32.119 
+
+ ----------------------------------
+BYU NEIGHBOR ndn.netsec.colostate.edu: MIN: 45.483 AVG: 45.701 MAX: 45.904 
+
