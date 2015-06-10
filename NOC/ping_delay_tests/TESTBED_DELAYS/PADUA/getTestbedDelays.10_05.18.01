@@ -1,0 +1,100 @@
+Testing Link delays from node PADUA
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR 162.105.146.26
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  1.051 ms !H  1.048 ms !H  1.045 ms !H
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR 114.247.165.44
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.729 ms !H  0.725 ms !H  0.855 ms !H
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR 210.114.89.49
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.763 ms !H  0.894 ms !H  0.891 ms !H
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR cnlab.tongji.edu.cn
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.670 ms !H  0.782 ms !H  0.780 ms !H
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR 133.9.73.66
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.699 ms !H  0.811 ms !H  0.807 ms !H
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR spurs.cs.ucla.edu
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.704 ms !H  0.823 ms !H  0.820 ms !H
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR click.caida.org
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.739 ms !H  0.848 ms !H  0.846 ms !H
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR ndnhub.ics.uci.edu
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  1.032 ms !H  1.031 ms !H  1.028 ms !H
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR aleph.ndn.ucla.edu
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.750 ms !H  0.871 ms !H  0.879 ms !H
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR pasta10.cs.byu.edu
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.678 ms !H  0.795 ms !H  0.793 ms !H
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR ndn.netsec.colostate.edu
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.838 ms !H  0.950 ms !H  0.952 ms !H
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR hobo.cs.arizona.edu
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.839 ms !H  0.931 ms !H  0.941 ms !H
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR wundngw.arl.wustl.edu
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.809 ms !H  0.805 ms !H  0.809 ms !H
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR ndnx.cs.illinois.edu
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.657 ms !H  0.811 ms !H  0.807 ms !H
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR ndn0.eecs.umich.edu
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.978 ms !H  0.973 ms !H  0.975 ms !H
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR titan.cs.memphis.edu
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.823 ms !H  0.821 ms !H  0.824 ms !H
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR 129.10.52.193
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.691 ms !H  0.806 ms !H  0.805 ms !H
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR insula.gsyc.es
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.689 ms !H  0.802 ms !H  0.801 ms !H
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR ndn.cs.unibas.ch
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.725 ms !H  0.724 ms !H  0.870 ms !H
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR ndnhub.ipv6.lip6.fr
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.948 ms !H  0.945 ms !H  0.941 ms !H
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR 161.105.195.18
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.850 ms !H  0.846 ms !H  0.850 ms !H
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR systemx-ndn-1.enst.fr
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.864 ms !H  0.860 ms !H  0.859 ms !H
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR 129.241.208.115
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.873 ms !H  0.871 ms !H  0.868 ms !H
+
+ ----------------------------------
+PADUA to remote PADUA/ndnnode.math.unipd.it: MIN: 0.162 AVG: 0.215 MAX: 0.284 
+
+ ----------------------------------
+ping and traceroute failed, giving up on PADUA: NEIGHBOR 72.13.58.118
+ 3  ip-254.114.162.147.in-addr.arpa (147.162.114.254)  0.760 ms !H  0.758 ms !H  0.764 ms !H
+
