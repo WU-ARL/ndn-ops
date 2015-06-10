@@ -1,0 +1,76 @@
+Testing Link delays from node ANYANG
+ ----------------------------------
+ANYANG to remote PKU/162.105.146.26: MIN: 85.480 AVG: 109.969 MAX: 268.810 
+
+ ----------------------------------
+ANYANG to remote BUPT/114.247.165.44: MIN: 140.051 AVG: 148.990 MAX: 160.173 
+
+ ----------------------------------
+ANYANG to remote ANYANG/210.114.89.49: MIN: 0.010 AVG: 0.017 MAX: 0.027 
+
+ ----------------------------------
+ANYANG to remote TONGJI/cnlab.tongji.edu.cn: MIN: 125.896 AVG: 145.228 MAX: 183.937 
+
+ ----------------------------------
+ANYANG to remote WASEDA/133.9.73.66: MIN: 42.162 AVG: 42.225 MAX: 42.263 
+
+ ----------------------------------
+ANYANG to remote UCLA/spurs.cs.ucla.edu: MIN: 157.752 AVG: 157.778 MAX: 157.802 
+
+ ----------------------------------
+ANYANG to remote CAIDA/click.caida.org: MIN: 159.064 AVG: 159.158 MAX: 159.319 
+
+ ----------------------------------
+ANYANG to remote UCI/ndnhub.ics.uci.edu: MIN: 165.839 AVG: 165.918 MAX: 166.080 
+
+ ----------------------------------
+ANYANG to remote REMAP/aleph.ndn.ucla.edu: MIN: 157.472 AVG: 157.586 MAX: 157.795 
+
+ ----------------------------------
+ANYANG to remote BYU/pasta10.cs.byu.edu: MIN: 177.441 AVG: 177.443 MAX: 177.443 
+
+ ----------------------------------
+ANYANG to remote CSU/ndn.netsec.colostate.edu: MIN: 208.275 AVG: 209.058 MAX: 210.629 
+
+ ----------------------------------
+ANYANG to remote UA/hobo.cs.arizona.edu: MIN: ANYANG.traceroute.log AVG:  MAX: ANYANG.traceroute.log 
+
+ ----------------------------------
+ANYANG to remote WU/wundngw.arl.wustl.edu: MIN: 229.893 AVG: 230.180 MAX: 230.571 
+
+ ----------------------------------
+ANYANG to remote UIUC/ndnx.cs.illinois.edu: MIN: 218.002 AVG: 218.157 MAX: 218.382 
+
+ ----------------------------------
+ANYANG to remote MICH/ndn0.eecs.umich.edu: MIN: 220.632 AVG: 220.874 MAX: 221.131 
+
+ ----------------------------------
+ANYANG to remote UM/titan.cs.memphis.edu: MIN: 231.555 AVG: 231.890 MAX: 232.306 
+
+ ----------------------------------
+ANYANG to remote NEU/129.10.52.193: MIN: 237.230 AVG: 237.452 MAX: 237.891 
+
+ ----------------------------------
+ANYANG to remote URJC/insula.gsyc.es: MIN: 265.797 AVG: 266.503 MAX: 269.690 
+
+ ----------------------------------
+ANYANG to remote BASEL/ndn.cs.unibas.ch: MIN: 288.867 AVG: 289.584 MAX: 291.842 
+
+ ----------------------------------
+ANYANG to remote LIP6/ndnhub.ipv6.lip6.fr: MIN: 288.476 AVG: 290.471 MAX: 297.419 
+
+ ----------------------------------
+ANYANG to remote Orange1/161.105.195.18: MIN: 336.828 AVG: 339.268 MAX: 341.356 
+
+ ----------------------------------
+ANYANG to remote SystemX/systemx-ndn-1.enst.fr: MIN: 286.551 AVG: 286.620 MAX: 286.726 
+
+ ----------------------------------
+ANYANG to remote NTNU/129.241.208.115: MIN: 332.998 AVG: 333.113 MAX: 333.230 
+
+ ----------------------------------
+ANYANG to remote PADUA/ndnnode.math.unipd.it: MIN: ANYANG.traceroute.log AVG:  MAX: ANYANG.traceroute.log 
+
+ ----------------------------------
+ANYANG to remote VERISIGN/72.13.58.118: MIN: 478.003 AVG: 508.280 MAX: 542.884 
+
