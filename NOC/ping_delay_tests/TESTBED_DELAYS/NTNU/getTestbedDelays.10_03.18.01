@@ -1,0 +1,76 @@
+Testing Link delays from node NTNU
+ ----------------------------------
+NTNU to remote PKU/162.105.146.26: MIN: 305.794 AVG: 314.670 MAX: 318.556 
+
+ ----------------------------------
+NTNU to remote BUPT/114.247.165.44: MIN: 352.543 AVG: 369.626 MAX: 385.202 
+
+ ----------------------------------
+NTNU to remote ANYANG/210.114.89.49: MIN: 333.149 AVG: 333.198 MAX: 333.284 
+
+ ----------------------------------
+NTNU to remote TONGJI/cnlab.tongji.edu.cn: MIN:  AVG:  MAX:  
+
+ ----------------------------------
+NTNU to remote WASEDA/133.9.73.66: MIN: 285.657 AVG: 285.808 MAX: 285.899 
+
+ ----------------------------------
+NTNU to remote UCLA/spurs.cs.ucla.edu: MIN:  AVG:  MAX:  
+
+ ----------------------------------
+NTNU to remote CAIDA/click.caida.org: MIN: 191.946 AVG: 192.314 MAX: 192.669 
+
+ ----------------------------------
+NTNU to remote UCI/ndnhub.ics.uci.edu: MIN: 193.433 AVG: 193.667 MAX: 194.280 
+
+ ----------------------------------
+NTNU to remote REMAP/aleph.ndn.ucla.edu: MIN: 199.086 AVG: 199.450 MAX: 199.892 
+
+ ----------------------------------
+NTNU to remote BYU/pasta10.cs.byu.edu: MIN:  AVG:  MAX:  
+
+ ----------------------------------
+NTNU to remote CSU/ndn.netsec.colostate.edu: MIN: 169.288 AVG: 169.643 MAX: 170.144 
+
+ ----------------------------------
+NTNU to remote UA/hobo.cs.arizona.edu: MIN:  AVG:  MAX:  
+
+ ----------------------------------
+NTNU to remote WU/wundngw.arl.wustl.edu: MIN: 160.030 AVG: 160.459 MAX: 160.851 
+
+ ----------------------------------
+NTNU to remote UIUC/ndnx.cs.illinois.edu: MIN: 144.791 AVG: 145.161 MAX: 145.326 
+
+ ----------------------------------
+NTNU to remote MICH/ndn0.eecs.umich.edu: MIN: 147.043 AVG: 147.347 MAX: 147.566 
+
+ ----------------------------------
+NTNU to remote UM/titan.cs.memphis.edu: MIN: 161.985 AVG: 162.167 MAX: 162.404 
+
+ ----------------------------------
+NTNU to remote NEU/129.10.52.193: MIN: 123.280 AVG: 123.528 MAX: 123.818 
+
+ ----------------------------------
+NTNU to remote URJC/insula.gsyc.es: MIN: 73.978 AVG: 74.084 MAX: 74.366 
+
+ ----------------------------------
+NTNU to remote BASEL/ndn.cs.unibas.ch: MIN: 61.252 AVG: 61.370 MAX: 61.445 
+
+ ----------------------------------
+NTNU to remote LIP6/ndnhub.ipv6.lip6.fr: MIN: 51.384 AVG: 54.587 MAX: 58.420 
+
+ ----------------------------------
+NTNU to remote Orange1/161.105.195.18: MIN:  AVG:  MAX:  
+
+ ----------------------------------
+NTNU to remote SystemX/systemx-ndn-1.enst.fr: MIN: 48.865 AVG: 48.899 MAX: 48.930 
+
+ ----------------------------------
+NTNU to remote NTNU/129.241.208.115: MIN: 0.031 AVG: 0.033 MAX: 0.045 
+
+ ----------------------------------
+NTNU to remote PADUA/ndnnode.math.unipd.it: MIN:  AVG:  MAX:  
+
+ ----------------------------------
+NTNU to remote VERISIGN/72.13.58.118: MIN: 120.318 AVG: 120.482 MAX: 120.654 
+
