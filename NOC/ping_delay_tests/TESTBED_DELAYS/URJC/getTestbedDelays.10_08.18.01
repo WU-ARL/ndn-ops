@@ -1,0 +1,76 @@
+Testing Link delays from node URJC
+ ----------------------------------
+URJC to remote PKU/162.105.146.26: MIN: 205.539 AVG: 239.981 MAX: 546.149 
+
+ ----------------------------------
+URJC to remote BUPT/114.247.165.44: MIN: 258.581 AVG: 265.463 MAX: 276.072 
+
+ ----------------------------------
+URJC to remote ANYANG/210.114.89.49: MIN: 265.903 AVG: 265.990 MAX: 266.259 
+
+ ----------------------------------
+URJC to remote TONGJI/cnlab.tongji.edu.cn: MIN: 304.135 AVG: 304.138 MAX: 304.189 
+
+ ----------------------------------
+URJC to remote WASEDA/133.9.73.66: MIN: 296.340 AVG: 300.430 MAX: 316.855 
+
+ ----------------------------------
+URJC to remote UCLA/spurs.cs.ucla.edu: MIN: 177.751 AVG: 190.631 MAX: 216.715 
+
+ ----------------------------------
+URJC to remote CAIDA/click.caida.org: MIN: 179.003 AVG: 188.338 MAX: 234.670 
+
+ ----------------------------------
+URJC to remote UCI/ndnhub.ics.uci.edu: MIN: 185.802 AVG: 186.077 MAX: 186.652 
+
+ ----------------------------------
+URJC to remote REMAP/aleph.ndn.ucla.edu: MIN: 177.530 AVG: 178.771 MAX: 187.084 
+
+ ----------------------------------
+URJC to remote BYU/pasta10.cs.byu.edu: MIN: 157.917 AVG: 164.238 MAX: 176.339 
+
+ ----------------------------------
+URJC to remote CSU/ndn.netsec.colostate.edu: MIN: 148.291 AVG: 148.443 MAX: 148.777 
+
+ ----------------------------------
+URJC to remote UA/hobo.cs.arizona.edu: MIN: 166.031 AVG: 166.033 MAX: 166.056 
+
+ ----------------------------------
+URJC to remote WU/wundngw.arl.wustl.edu: MIN: 138.954 AVG: 139.228 MAX: 139.563 
+
+ ----------------------------------
+URJC to remote UIUC/ndnx.cs.illinois.edu: MIN: 126.985 AVG: 127.120 MAX: 127.397 
+
+ ----------------------------------
+URJC to remote MICH/ndn0.eecs.umich.edu: MIN: 130.373 AVG: 130.939 MAX: 132.992 
+
+ ----------------------------------
+URJC to remote UM/titan.cs.memphis.edu: MIN: 148.272 AVG: 148.496 MAX: 148.624 
+
+ ----------------------------------
+URJC to remote NEU/129.10.52.193: MIN: 144.207 AVG: 144.379 MAX: 144.713 
+
+ ----------------------------------
+URJC to remote URJC/insula.gsyc.es: MIN: 0.015 AVG: 0.016 MAX: 0.017 
+
+ ----------------------------------
+URJC to remote BASEL/ndn.cs.unibas.ch: MIN: 29.528 AVG: 29.636 MAX: 29.805 
+
+ ----------------------------------
+URJC to remote LIP6/ndnhub.ipv6.lip6.fr: MIN: 28.730 AVG: 29.311 MAX: 31.012 
+
+ ----------------------------------
+URJC to remote Orange1/161.105.195.18: MIN: 22.419 AVG: 22.435 MAX: 22.443 
+
+ ----------------------------------
+URJC to remote SystemX/systemx-ndn-1.enst.fr: MIN: 27.377 AVG: 27.521 MAX: 27.723 
+
+ ----------------------------------
+URJC to remote NTNU/129.241.208.115: MIN: 73.950 AVG: 74.174 MAX: 74.928 
+
+ ----------------------------------
+URJC to remote PADUA/ndnnode.math.unipd.it: MIN: 40.630 AVG: 52.695 MAX: 76.317 
+
+ ----------------------------------
+URJC to remote VERISIGN/72.13.58.118: MIN: 111.715 AVG: 111.799 MAX: 112.056 
+
