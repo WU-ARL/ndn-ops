@@ -1,0 +1,76 @@
+Testing Link delays from node LIP6
+ ----------------------------------
+LIP6 to remote PKU/162.105.146.26: MIN: 181.372 AVG: 220.070 MAX: 552.013 
+
+ ----------------------------------
+LIP6 to remote BUPT/114.247.165.44: MIN: 277.752 AVG: 290.426 MAX: 301.484 
+
+ ----------------------------------
+LIP6 to remote ANYANG/210.114.89.49: MIN: 284.719 AVG: 285.252 MAX: 286.066 
+
+ ----------------------------------
+LIP6 to remote TONGJI/cnlab.tongji.edu.cn: MIN: 210.234 AVG: 210.238 MAX: 210.243 
+
+ ----------------------------------
+LIP6 to remote WASEDA/133.9.73.66: MIN: 261.339 AVG: 261.707 MAX: 262.534 
+
+ ----------------------------------
+LIP6 to remote UCLA/spurs.cs.ucla.edu: MIN: 154.202 AVG: 154.209 MAX: 154.218 
+
+ ----------------------------------
+LIP6 to remote CAIDA/click.caida.org: MIN: 154.631 AVG: 155.529 MAX: 157.428 
+
+ ----------------------------------
+LIP6 to remote UCI/ndnhub.ics.uci.edu: MIN: 161.893 AVG: 162.430 MAX: 163.009 
+
+ ----------------------------------
+LIP6 to remote REMAP/aleph.ndn.ucla.edu: MIN: 154.162 AVG: 154.636 MAX: 155.164 
+
+ ----------------------------------
+LIP6 to remote BYU/pasta10.cs.byu.edu: MIN: 134.321 AVG: 134.815 MAX: 134.332 
+
+ ----------------------------------
+LIP6 to remote CSU/ndn.netsec.colostate.edu: MIN: 124.099 AVG: 124.757 MAX: 125.494 
+
+ ----------------------------------
+LIP6 to remote UA/hobo.cs.arizona.edu: MIN: 142.350 AVG: 142.352 MAX: 142.355 
+
+ ----------------------------------
+LIP6 to remote WU/wundngw.arl.wustl.edu: MIN: 115.138 AVG: 115.948 MAX: 117.086 
+
+ ----------------------------------
+LIP6 to remote UIUC/ndnx.cs.illinois.edu: MIN: 103.114 AVG: 103.566 MAX: 104.047 
+
+ ----------------------------------
+LIP6 to remote MICH/ndn0.eecs.umich.edu: MIN: 106.675 AVG: 107.007 MAX: 107.452 
+
+ ----------------------------------
+LIP6 to remote UM/titan.cs.memphis.edu: MIN: 116.887 AVG: 117.286 MAX: 117.659 
+
+ ----------------------------------
+LIP6 to remote NEU/129.10.52.193: MIN: 108.194 AVG: 108.466 MAX: 108.944 
+
+ ----------------------------------
+LIP6 to remote URJC/insula.gsyc.es: MIN: 28.686 AVG: 29.357 MAX: 30.021 
+
+ ----------------------------------
+LIP6 to remote BASEL/ndn.cs.unibas.ch: MIN: 15.979 AVG: 16.428 MAX: 16.735 
+
+ ----------------------------------
+LIP6 to remote LIP6/ndnhub.ipv6.lip6.fr: MIN: 0.009 AVG: 0.011 MAX: 0.017 
+
+ ----------------------------------
+LIP6 to remote Orange1/161.105.195.18: MIN: 5.471 AVG: 5.324 MAX: 5.650 
+
+ ----------------------------------
+LIP6 to remote SystemX/systemx-ndn-1.enst.fr: MIN: 3.196 AVG: 3.775 MAX: 4.866 
+
+ ----------------------------------
+LIP6 to remote NTNU/129.241.208.115: MIN: 49.732 AVG: 50.452 MAX: 51.236 
+
+ ----------------------------------
+LIP6 to remote PADUA/ndnnode.math.unipd.it: MIN: 21.347 AVG: 21.837 MAX: 22.073 
+
+ ----------------------------------
+LIP6 to remote VERISIGN/72.13.58.118: MIN: 84.191 AVG: 84.694 MAX: 85.391 
+
