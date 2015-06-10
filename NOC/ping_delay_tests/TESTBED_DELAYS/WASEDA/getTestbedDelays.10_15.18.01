@@ -1,0 +1,76 @@
+Testing Link delays from node WASEDA
+ ----------------------------------
+WASEDA to remote PKU/162.105.146.26: MIN: 90.297 AVG: 90.896 MAX: 92.236 
+
+ ----------------------------------
+WASEDA to remote BUPT/114.247.165.44: MIN: 134.485 AVG: 139.591 MAX: 144.230 
+
+ ----------------------------------
+WASEDA to remote ANYANG/210.114.89.49: MIN: 42.172 AVG: 42.240 MAX: 42.298 
+
+ ----------------------------------
+WASEDA to remote TONGJI/cnlab.tongji.edu.cn: MIN: 161.827 AVG: 176.317 MAX: 161.858 
+
+ ----------------------------------
+WASEDA to remote WASEDA/133.9.73.66: MIN: 0.025 AVG: 0.027 MAX: 0.036 
+
+ ----------------------------------
+WASEDA to remote UCLA/spurs.cs.ucla.edu: MIN: 102.383 AVG: 102.487 MAX: 102.571 
+
+ ----------------------------------
+WASEDA to remote CAIDA/click.caida.org: MIN: 103.917 AVG: 103.992 MAX: 104.137 
+
+ ----------------------------------
+WASEDA to remote UCI/ndnhub.ics.uci.edu: MIN: 110.722 AVG: 110.884 MAX: 111.391 
+
+ ----------------------------------
+WASEDA to remote REMAP/aleph.ndn.ucla.edu: MIN: 102.308 AVG: 102.415 MAX: 102.541 
+
+ ----------------------------------
+WASEDA to remote BYU/pasta10.cs.byu.edu: MIN: 129.074 AVG: 143.275 MAX: 171.919 
+
+ ----------------------------------
+WASEDA to remote CSU/ndn.netsec.colostate.edu: MIN: 160.935 AVG: 161.182 MAX: 161.757 
+
+ ----------------------------------
+WASEDA to remote UA/hobo.cs.arizona.edu: MIN: 121.315 AVG: 121.547 MAX: 122.105 
+
+ ----------------------------------
+WASEDA to remote WU/wundngw.arl.wustl.edu: MIN: 202.285 AVG: 202.594 MAX: 202.802 
+
+ ----------------------------------
+WASEDA to remote UIUC/ndnx.cs.illinois.edu: MIN: 190.351 AVG: 191.658 MAX: 193.292 
+
+ ----------------------------------
+WASEDA to remote MICH/ndn0.eecs.umich.edu: MIN: 192.736 AVG: 193.063 MAX: 194.205 
+
+ ----------------------------------
+WASEDA to remote UM/titan.cs.memphis.edu: MIN: 180.170 AVG: 180.259 MAX: 180.420 
+
+ ----------------------------------
+WASEDA to remote NEU/129.10.52.193: MIN: 187.636 AVG: 188.028 MAX: 189.310 
+
+ ----------------------------------
+WASEDA to remote URJC/insula.gsyc.es: MIN: 296.376 AVG: 296.588 MAX: 297.686 
+
+ ----------------------------------
+WASEDA to remote BASEL/ndn.cs.unibas.ch: MIN: 267.411 AVG: 267.505 MAX: 267.646 
+
+ ----------------------------------
+WASEDA to remote LIP6/ndnhub.ipv6.lip6.fr: MIN: 261.858 AVG: 262.439 MAX: 262.879 
+
+ ----------------------------------
+WASEDA to remote Orange1/161.105.195.18: MIN: 263.688 AVG: 264.963 MAX: 273.291 
+
+ ----------------------------------
+WASEDA to remote SystemX/systemx-ndn-1.enst.fr: MIN: 272.421 AVG: 272.502 MAX: 272.586 
+
+ ----------------------------------
+WASEDA to remote NTNU/129.241.208.115: MIN: 294.188 AVG: 294.364 MAX: 294.565 
+
+ ----------------------------------
+WASEDA to remote PADUA/ndnnode.math.unipd.it: MIN: 278.947 AVG: 286.656 MAX: 290.576 
+
+ ----------------------------------
+WASEDA to remote VERISIGN/72.13.58.118: MIN: 200.865 AVG: 200.900 MAX: 200.949 
+
