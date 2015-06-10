@@ -1,0 +1,76 @@
+Testing Link delays from node WU
+ ----------------------------------
+WU to remote PKU/162.105.146.26: MIN: 220.590 AVG: 242.407 MAX: 437.414 
+
+ ----------------------------------
+WU to remote BUPT/114.247.165.44: MIN: 248.065 AVG: 249.234 MAX: 250.197 
+
+ ----------------------------------
+WU to remote ANYANG/210.114.89.49: MIN: 229.837 AVG: 230.162 MAX: 230.678 
+
+ ----------------------------------
+WU to remote TONGJI/cnlab.tongji.edu.cn: MIN: 248.260 AVG: 248.264 MAX: 248.266 
+
+ ----------------------------------
+WU to remote WASEDA/133.9.73.66: MIN: 202.190 AVG: 202.620 MAX: 202.994 
+
+ ----------------------------------
+WU to remote UCLA/spurs.cs.ucla.edu: MIN: 75.065 AVG: 75.072 MAX: 75.104 
+
+ ----------------------------------
+WU to remote CAIDA/click.caida.org: MIN: 76.004 AVG: 76.164 MAX: 76.346 
+
+ ----------------------------------
+WU to remote UCI/ndnhub.ics.uci.edu: MIN: 82.822 AVG: 83.014 MAX: 83.246 
+
+ ----------------------------------
+WU to remote REMAP/aleph.ndn.ucla.edu: MIN: 74.365 AVG: 74.590 MAX: 74.949 
+
+ ----------------------------------
+WU to remote BYU/pasta10.cs.byu.edu: MIN: 48.560 AVG: 48.674 MAX: 48.587 
+
+ ----------------------------------
+WU to remote CSU/ndn.netsec.colostate.edu: MIN: 39.298 AVG: 39.439 MAX: 39.586 
+
+ ----------------------------------
+WU to remote UA/hobo.cs.arizona.edu: MIN: 63.038 AVG: 63.102 MAX: 63.135 
+
+ ----------------------------------
+WU to remote WU/wundngw.arl.wustl.edu: MIN: 0.012 AVG: 0.022 MAX: 0.048 
+
+ ----------------------------------
+WU to remote UIUC/ndnx.cs.illinois.edu: MIN: 18.127 AVG: 18.166 MAX: 18.214 
+
+ ----------------------------------
+WU to remote MICH/ndn0.eecs.umich.edu: MIN: 22.834 AVG: 22.847 MAX: 22.858 
+
+ ----------------------------------
+WU to remote UM/titan.cs.memphis.edu: MIN: 31.836 AVG: 32.049 MAX: 32.523 
+
+ ----------------------------------
+WU to remote NEU/129.10.52.193: MIN: 38.383 AVG: 38.640 MAX: 38.875 
+
+ ----------------------------------
+WU to remote URJC/insula.gsyc.es: MIN: 139.015 AVG: 139.278 MAX: 140.291 
+
+ ----------------------------------
+WU to remote BASEL/ndn.cs.unibas.ch: MIN: 132.359 AVG: 132.471 MAX: 132.692 
+
+ ----------------------------------
+WU to remote LIP6/ndnhub.ipv6.lip6.fr: MIN: 114.966 AVG: 115.394 MAX: 116.243 
+
+ ----------------------------------
+WU to remote Orange1/161.105.195.18: MIN: 113.425 AVG: 113.783 MAX: 113.642 
+
+ ----------------------------------
+WU to remote SystemX/systemx-ndn-1.enst.fr: MIN: 115.083 AVG: 115.182 MAX: 115.284 
+
+ ----------------------------------
+WU to remote NTNU/129.241.208.115: MIN: 160.033 AVG: 160.244 MAX: 160.632 
+
+ ----------------------------------
+WU to remote PADUA/ndnnode.math.unipd.it: MIN: 139.878 AVG: 139.365 MAX: 139.924 
+
+ ----------------------------------
+WU to remote VERISIGN/72.13.58.118: MIN: 29.220 AVG: 30.305 MAX: 30.632 
+
