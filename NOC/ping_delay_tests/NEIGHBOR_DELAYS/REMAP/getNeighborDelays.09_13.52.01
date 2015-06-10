@@ -1,0 +1,16 @@
+Testing Link delays from node REMAP
+ ----------------------------------
+REMAP NEIGHBOR pasta10.cs.byu.edu: MIN: 21.563 AVG: 21.660 MAX: 21.880 
+
+ ----------------------------------
+REMAP NEIGHBOR 131.179.196.46: MIN: 0.769 AVG: .865 MAX: 0.991 
+
+ ----------------------------------
+REMAP NEIGHBOR ndn.netsec.colostate.edu: MIN: 53.202 AVG: 53.387 MAX: 53.612 
+
+ ----------------------------------
+REMAP NEIGHBOR hobo.cs.arizona.edu: MIN: 13.712 AVG: 13.703 MAX: 13.763 
+
+ ----------------------------------
+REMAP NEIGHBOR ndnhub.ics.uci.edu: MIN: 10.348 AVG: 10.426 MAX: 10.568 
+

@@ -1,0 +1,76 @@
+Testing Link delays from node REMAP
+ ----------------------------------
+REMAP to remote PKU/162.105.146.26: MIN: 148.472 AVG: 149.067 MAX: 150.620 
+
+ ----------------------------------
+REMAP to remote BUPT/114.247.165.44: MIN: 166.026 AVG: 169.808 MAX: 173.923 
+
+ ----------------------------------
+REMAP to remote ANYANG/210.114.89.49: MIN: 157.389 AVG: 158.128 MAX: 163.181 
+
+ ----------------------------------
+REMAP to remote TONGJI/cnlab.tongji.edu.cn: MIN: 176.272 AVG: 176.331 MAX: 176.396 
+
+ ----------------------------------
+REMAP to remote WASEDA/133.9.73.66: MIN: 102.289 AVG: 102.427 MAX: 102.554 
+
+ ----------------------------------
+REMAP to remote UCLA/spurs.cs.ucla.edu: MIN: 0.819 AVG: .880 MAX: 0.928 
+
+ ----------------------------------
+REMAP to remote CAIDA/click.caida.org: MIN: 3.384 AVG: 3.444 MAX: 3.629 
+
+ ----------------------------------
+REMAP to remote UCI/ndnhub.ics.uci.edu: MIN: 17.890 AVG: 18.378 MAX: 18.603 
+
+ ----------------------------------
+REMAP to remote REMAP/aleph.ndn.ucla.edu: MIN: 0.032 AVG: 0.048 MAX: 0.055 
+
+ ----------------------------------
+REMAP to remote BYU/pasta10.cs.byu.edu: MIN: 21.199 AVG: 21.218 MAX: 21.296 
+
+ ----------------------------------
+REMAP to remote CSU/ndn.netsec.colostate.edu: MIN: 52.904 AVG: 53.066 MAX: 53.218 
+
+ ----------------------------------
+REMAP to remote UA/hobo.cs.arizona.edu: MIN: 13.422 AVG: 13.407 MAX: 13.431 
+
+ ----------------------------------
+REMAP to remote WU/wundngw.arl.wustl.edu: MIN: 74.364 AVG: 74.589 MAX: 74.894 
+
+ ----------------------------------
+REMAP to remote UIUC/ndnx.cs.illinois.edu: MIN: 62.549 AVG: 62.692 MAX: 62.852 
+
+ ----------------------------------
+REMAP to remote MICH/ndn0.eecs.umich.edu: MIN: 65.110 AVG: 65.824 MAX: 70.871 
+
+ ----------------------------------
+REMAP to remote UM/titan.cs.memphis.edu: MIN: 76.081 AVG: 76.500 MAX: 76.791 
+
+ ----------------------------------
+REMAP to remote NEU/129.10.52.193: MIN: 81.908 AVG: 82.115 MAX: 82.447 
+
+ ----------------------------------
+REMAP to remote URJC/insula.gsyc.es: MIN: 194.588 AVG: 194.991 MAX: 196.100 
+
+ ----------------------------------
+REMAP to remote BASEL/ndn.cs.unibas.ch: MIN: 187.073 AVG: 187.402 MAX: 187.715 
+
+ ----------------------------------
+REMAP to remote LIP6/ndnhub.ipv6.lip6.fr: MIN: 200.545 AVG: 207.377 MAX: 215.152 
+
+ ----------------------------------
+REMAP to remote Orange1/161.105.195.18: MIN: 145.292 AVG: 146.473 MAX: 146.194 
+
+ ----------------------------------
+REMAP to remote SystemX/systemx-ndn-1.enst.fr: MIN: 160.911 AVG: 161.318 MAX: 162.510 
+
+ ----------------------------------
+REMAP to remote NTNU/129.241.208.115: MIN: 199.153 AVG: 199.440 MAX: 199.814 
+
+ ----------------------------------
+REMAP to remote PADUA/ndnnode.math.unipd.it: MIN: 199.037 AVG: 200.777 MAX: 206.000 
+
+ ----------------------------------
+REMAP to remote VERISIGN/72.13.58.118: MIN: 73.497 AVG: 73.559 MAX: 73.709 
+
