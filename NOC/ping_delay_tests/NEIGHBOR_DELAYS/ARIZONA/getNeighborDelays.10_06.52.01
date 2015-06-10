@@ -1,0 +1,22 @@
+Testing Link delays from node ARIZONA
+ ----------------------------------
+ARIZONA NEIGHBOR pasta10.cs.byu.edu: MIN: 31.975 AVG: 31.992 MAX: 32.086 
+
+ ----------------------------------
+ARIZONA NEIGHBOR 133.9.73.66: MIN: 121.491 AVG: 121.673 MAX: 122.073 
+
+ ----------------------------------
+ARIZONA NEIGHBOR click.caida.org: MIN: 15.063 AVG: 15.119 MAX: 15.187 
+
+ ----------------------------------
+ARIZONA NEIGHBOR aleph.ndn.ucla.edu: MIN: 13.401 AVG: 13.611 MAX: 13.760 
+
+ ----------------------------------
+ARIZONA NEIGHBOR ndn.netsec.colostate.edu: MIN: 63.784 AVG: 63.919 MAX: 64.129 
+
+ ----------------------------------
+ARIZONA NEIGHBOR wundngw.arl.wustl.edu: MIN: 62.806 AVG: 63.162 MAX: 63.481 
+
+ ----------------------------------
+ARIZONA NEIGHBOR titan.cs.memphis.edu: MIN: 64.629 AVG: 64.838 MAX: 65.114 
+
