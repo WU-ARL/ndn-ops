@@ -1,0 +1,76 @@
+Testing Link delays from node UCLA
+ ----------------------------------
+UCLA to remote PKU/162.105.146.26: MIN: 174.022 AVG: 179.197 MAX: 183.694 
+
+ ----------------------------------
+UCLA to remote BUPT/114.247.165.44: MIN: 233.127 AVG: 248.926 MAX: 275.840 
+
+ ----------------------------------
+UCLA to remote ANYANG/210.114.89.49: MIN: 157.632 AVG: 157.782 MAX: 157.964 
+
+ ----------------------------------
+UCLA to remote TONGJI/cnlab.tongji.edu.cn: MIN: 269.336 AVG:  MAX: 269.336 
+
+ ----------------------------------
+UCLA to remote WASEDA/133.9.73.66: MIN: 102.482 AVG: 102.573 MAX: 102.726 
+
+ ----------------------------------
+UCLA to remote UCLA/spurs.cs.ucla.edu: MIN: 0.018 AVG: 0.030 MAX: 0.038 
+
+ ----------------------------------
+UCLA to remote CAIDA/click.caida.org: MIN: 4.778 AVG: 10.718 MAX: 13.455 
+
+ ----------------------------------
+UCLA to remote UCI/ndnhub.ics.uci.edu: MIN: 11.687 AVG: 12.094 MAX: 12.648 
+
+ ----------------------------------
+UCLA to remote REMAP/aleph.ndn.ucla.edu: MIN: 0.717 AVG: 0.853 MAX: 1.115 
+
+ ----------------------------------
+UCLA to remote BYU/pasta10.cs.byu.edu: MIN: 21.645 AVG: 21.667 MAX: 21.656 
+
+ ----------------------------------
+UCLA to remote CSU/ndn.netsec.colostate.edu: MIN: 53.017 AVG: 53.385 MAX: 53.916 
+
+ ----------------------------------
+UCLA to remote UA/hobo.cs.arizona.edu: MIN: 14.160 AVG: 14.171 MAX: 14.160 
+
+ ----------------------------------
+UCLA to remote WU/wundngw.arl.wustl.edu: MIN: 74.829 AVG: 75.093 MAX: 75.425 
+
+ ----------------------------------
+UCLA to remote UIUC/ndnx.cs.illinois.edu: MIN: 62.779 AVG: 62.917 MAX: 63.157 
+
+ ----------------------------------
+UCLA to remote MICH/ndn0.eecs.umich.edu: MIN: 65.519 AVG: 65.719 MAX: 65.987 
+
+ ----------------------------------
+UCLA to remote UM/titan.cs.memphis.edu: MIN: 76.598 AVG: 76.901 MAX: 77.205 
+
+ ----------------------------------
+UCLA to remote NEU/129.10.52.193: MIN: 82.082 AVG: 82.343 MAX: 82.587 
+
+ ----------------------------------
+UCLA to remote URJC/insula.gsyc.es: MIN: 177.714 AVG: 177.863 MAX: 178.012 
+
+ ----------------------------------
+UCLA to remote BASEL/ndn.cs.unibas.ch: MIN: 170.932 AVG: 171.188 MAX: 171.450 
+
+ ----------------------------------
+UCLA to remote LIP6/ndnhub.ipv6.lip6.fr: MIN: 154.073 AVG: 154.789 MAX: 155.578 
+
+ ----------------------------------
+UCLA to remote Orange1/161.105.195.18: MIN: 141.455 AVG: 141.887 MAX: 141.963 
+
+ ----------------------------------
+UCLA to remote SystemX/systemx-ndn-1.enst.fr: MIN: 147.290 AVG: 147.405 MAX: 147.658 
+
+ ----------------------------------
+UCLA to remote NTNU/129.241.208.115: MIN: 193.723 AVG: 194.133 MAX: 194.481 
+
+ ----------------------------------
+UCLA to remote PADUA/ndnnode.math.unipd.it: MIN: 183.621 AVG: 186.231 MAX: 184.065 
+
+ ----------------------------------
+UCLA to remote VERISIGN/72.13.58.118: MIN: 74.075 AVG: 74.189 MAX: 74.321 
+
