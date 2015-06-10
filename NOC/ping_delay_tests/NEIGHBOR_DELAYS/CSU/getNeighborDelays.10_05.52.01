@@ -1,0 +1,19 @@
+Testing Link delays from node CSU
+ ----------------------------------
+CSU NEIGHBOR pasta10.cs.byu.edu: MIN: 45.448 AVG: 81.664 MAX: 154.016 
+
+ ----------------------------------
+CSU NEIGHBOR spurs.cs.ucla.edu: MIN: 53.747 AVG: 53.753 MAX: 53.758 
+
+ ----------------------------------
+CSU NEIGHBOR aleph.ndn.ucla.edu: MIN: 52.668 AVG: 52.981 MAX: 53.292 
+
+ ----------------------------------
+CSU NEIGHBOR hobo.cs.arizona.edu: MIN: 63.751 AVG: 63.767 MAX: 63.758 
+
+ ----------------------------------
+CSU NEIGHBOR ndnx.cs.illinois.edu: MIN: 27.424 AVG: 27.534 MAX: 27.700 
+
+ ----------------------------------
+CSU NEIGHBOR ndn0.eecs.umich.edu: MIN: 30.070 AVG: 30.164 MAX: 30.264 
+
