@@ -1,0 +1,76 @@
+Testing Link delays from node CAIDA
+ ----------------------------------
+CAIDA to remote PKU/162.105.146.26: MIN: 179.038 AVG: 183.059 MAX: 187.151 
+
+ ----------------------------------
+CAIDA to remote BUPT/114.247.165.44: MIN: 157.148 AVG: 165.444 MAX: 176.253 
+
+ ----------------------------------
+CAIDA to remote ANYANG/210.114.89.49: MIN: 159.021 AVG: 159.246 MAX: 159.394 
+
+ ----------------------------------
+CAIDA to remote TONGJI/cnlab.tongji.edu.cn: MIN: 177.592 AVG:  MAX: 177.592 
+
+ ----------------------------------
+CAIDA to remote WASEDA/133.9.73.66: MIN: 103.853 AVG: 103.984 MAX: 104.099 
+
+ ----------------------------------
+CAIDA to remote UCLA/spurs.cs.ucla.edu: MIN: 8.392 AVG: 8.409 MAX: 8.436 
+
+ ----------------------------------
+CAIDA to remote CAIDA/click.caida.org: MIN: 0.011 AVG: 0.017 MAX: 0.028 
+
+ ----------------------------------
+CAIDA to remote UCI/ndnhub.ics.uci.edu: MIN: 11.899 AVG: 11.940 MAX: 11.973 
+
+ ----------------------------------
+CAIDA to remote REMAP/aleph.ndn.ucla.edu: MIN: 3.403 AVG: 3.513 MAX: 3.715 
+
+ ----------------------------------
+CAIDA to remote BYU/pasta10.cs.byu.edu: MIN: 22.336 AVG: 22.373 MAX: 22.438 
+
+ ----------------------------------
+CAIDA to remote CSU/ndn.netsec.colostate.edu: MIN: 54.409 AVG: 54.682 MAX: 54.997 
+
+ ----------------------------------
+CAIDA to remote UA/hobo.cs.arizona.edu: MIN: 15.060 AVG: 15.085 MAX: 15.070 
+
+ ----------------------------------
+CAIDA to remote WU/wundngw.arl.wustl.edu: MIN: 76.143 AVG: 76.423 MAX: 76.987 
+
+ ----------------------------------
+CAIDA to remote UIUC/ndnx.cs.illinois.edu: MIN: 64.134 AVG: 64.422 MAX: 64.823 
+
+ ----------------------------------
+CAIDA to remote MICH/ndn0.eecs.umich.edu: MIN: 66.845 AVG: 67.067 MAX: 67.479 
+
+ ----------------------------------
+CAIDA to remote UM/titan.cs.memphis.edu: MIN: 77.824 AVG: 78.250 MAX: 78.895 
+
+ ----------------------------------
+CAIDA to remote NEU/129.10.52.193: MIN: 83.254 AVG: 83.577 MAX: 83.804 
+
+ ----------------------------------
+CAIDA to remote URJC/insula.gsyc.es: MIN: 188.563 AVG: 188.784 MAX: 189.355 
+
+ ----------------------------------
+CAIDA to remote BASEL/ndn.cs.unibas.ch: MIN: 188.788 AVG: 189.021 MAX: 189.344 
+
+ ----------------------------------
+CAIDA to remote LIP6/ndnhub.ipv6.lip6.fr: MIN: 168.018 AVG: 181.493 MAX: 191.220 
+
+ ----------------------------------
+CAIDA to remote Orange1/161.105.195.18: MIN: 168.876 AVG: 168.724 MAX: 168.964 
+
+ ----------------------------------
+CAIDA to remote SystemX/systemx-ndn-1.enst.fr: MIN: 168.368 AVG: 168.490 MAX: 168.913 
+
+ ----------------------------------
+CAIDA to remote NTNU/129.241.208.115: MIN: 200.859 AVG: 201.077 MAX: 201.396 
+
+ ----------------------------------
+CAIDA to remote PADUA/ndnnode.math.unipd.it: MIN: 198.675 AVG: 201.636 MAX: 207.497 
+
+ ----------------------------------
+CAIDA to remote VERISIGN/72.13.58.118: MIN: 84.625 AVG: 84.749 MAX: 84.949 
+
