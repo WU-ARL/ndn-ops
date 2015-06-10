@@ -1,0 +1,76 @@
+Testing Link delays from node TONGJI
+ ----------------------------------
+TONGJI to remote PKU/162.105.146.26: MIN: 28.510 AVG: 30.445 MAX: 46.471 
+
+ ----------------------------------
+TONGJI to remote BUPT/114.247.165.44: MIN: 27.116 AVG: 27.326 MAX: 27.836 
+
+ ----------------------------------
+TONGJI to remote ANYANG/210.114.89.49: MIN: 182.447 AVG: 193.234 MAX: 205.019 
+
+ ----------------------------------
+TONGJI to remote TONGJI/cnlab.tongji.edu.cn: MIN: 0.016 AVG: 0.023 MAX: 0.043 
+
+ ----------------------------------
+TONGJI to remote WASEDA/133.9.73.66: MIN: 137.220 AVG: 140.877 MAX: 143.059 
+
+ ----------------------------------
+TONGJI to remote UCLA/spurs.cs.ucla.edu: MIN: 199.924 AVG: 199.948 MAX: 199.967 
+
+ ----------------------------------
+TONGJI to remote CAIDA/click.caida.org: MIN: 177.589 AVG: 201.397 MAX: 236.297 
+
+ ----------------------------------
+TONGJI to remote UCI/ndnhub.ics.uci.edu: MIN: 245.081 AVG: 253.526 MAX: 270.149 
+
+ ----------------------------------
+TONGJI to remote REMAP/aleph.ndn.ucla.edu: MIN: 240.552 AVG: 256.505 MAX: 261.951 
+
+ ----------------------------------
+TONGJI to remote BYU/pasta10.cs.byu.edu: MIN: 237.476 AVG: 237.932 MAX: 238.686 
+
+ ----------------------------------
+TONGJI to remote CSU/ndn.netsec.colostate.edu: MIN: 293.541 AVG: 322.222 MAX: 328.913 
+
+ ----------------------------------
+TONGJI to remote UA/hobo.cs.arizona.edu: MIN: 186.925 AVG: 192.873 MAX: 204.753 
+
+ ----------------------------------
+TONGJI to remote WU/wundngw.arl.wustl.edu: MIN: 248.184 AVG: 248.370 MAX: 249.194 
+
+ ----------------------------------
+TONGJI to remote UIUC/ndnx.cs.illinois.edu: MIN: 236.026 AVG: 236.412 MAX: 237.022 
+
+ ----------------------------------
+TONGJI to remote MICH/ndn0.eecs.umich.edu: MIN: 238.725 AVG: 239.198 MAX: 240.498 
+
+ ----------------------------------
+TONGJI to remote UM/titan.cs.memphis.edu: MIN: 249.856 AVG: 250.183 MAX: 251.423 
+
+ ----------------------------------
+TONGJI to remote NEU/129.10.52.193: MIN: 255.344 AVG: 262.788 MAX: 274.326 
+
+ ----------------------------------
+TONGJI to remote URJC/insula.gsyc.es: MIN: 232.939 AVG: 233.139 MAX: 233.618 
+
+ ----------------------------------
+TONGJI to remote BASEL/ndn.cs.unibas.ch: MIN: 220.224 AVG: 220.329 MAX: 220.394 
+
+ ----------------------------------
+TONGJI to remote LIP6/ndnhub.ipv6.lip6.fr: MIN: 208.974 AVG: 209.479 MAX: 210.399 
+
+ ----------------------------------
+TONGJI to remote Orange1/161.105.195.18: MIN: 318.559 AVG: 318.867 MAX: 318.757 
+
+ ----------------------------------
+TONGJI to remote SystemX/systemx-ndn-1.enst.fr: MIN: 290.075 AVG: 295.811 MAX: 302.692 
+
+ ----------------------------------
+TONGJI to remote NTNU/129.241.208.115: MIN: 323.727 AVG: 331.312 MAX: 340.083 
+
+ ----------------------------------
+TONGJI to remote PADUA/ndnnode.math.unipd.it: MIN: 313.861 AVG: 313.974 MAX: 314.416 
+
+ ----------------------------------
+TONGJI to remote VERISIGN/72.13.58.118: MIN: 374.924 AVG: 378.925 MAX: 382.808 
+
