@@ -1,0 +1,76 @@
+Testing Link delays from node MEMPHIS
+ ----------------------------------
+MEMPHIS to remote PKU/162.105.146.26: MIN: 222.614 AVG: 272.524 MAX: 581.496 
+
+ ----------------------------------
+MEMPHIS to remote BUPT/114.247.165.44: MIN: 327.316 AVG: 330.663 MAX: 333.031 
+
+ ----------------------------------
+MEMPHIS to remote ANYANG/210.114.89.49: MIN: 231.626 AVG: 231.866 MAX: 232.150 
+
+ ----------------------------------
+MEMPHIS to remote TONGJI/cnlab.tongji.edu.cn: MIN: 250.437 AVG: 250.610 MAX: 251.060 
+
+ ----------------------------------
+MEMPHIS to remote WASEDA/133.9.73.66: MIN: 204.041 AVG: 204.294 MAX: 204.518 
+
+ ----------------------------------
+MEMPHIS to remote UCLA/spurs.cs.ucla.edu: MIN: 76.552 AVG: 76.511 MAX: 76.631 
+
+ ----------------------------------
+MEMPHIS to remote CAIDA/click.caida.org: MIN: 77.796 AVG: 78.144 MAX: 78.523 
+
+ ----------------------------------
+MEMPHIS to remote UCI/ndnhub.ics.uci.edu: MIN: 84.709 AVG: 84.868 MAX: 85.055 
+
+ ----------------------------------
+MEMPHIS to remote REMAP/aleph.ndn.ucla.edu: MIN: 76.254 AVG: 76.598 MAX: 76.758 
+
+ ----------------------------------
+MEMPHIS to remote BYU/pasta10.cs.byu.edu: MIN: 50.992 AVG: 72.275 MAX: 73.377 
+
+ ----------------------------------
+MEMPHIS to remote CSU/ndn.netsec.colostate.edu: MIN: 41.060 AVG: 41.244 MAX: 41.437 
+
+ ----------------------------------
+MEMPHIS to remote UA/hobo.cs.arizona.edu: MIN: 64.662 AVG: 64.679 MAX: 64.732 
+
+ ----------------------------------
+MEMPHIS to remote WU/wundngw.arl.wustl.edu: MIN: 31.828 AVG: 32.011 MAX: 32.332 
+
+ ----------------------------------
+MEMPHIS to remote UIUC/ndnx.cs.illinois.edu: MIN: 19.913 AVG: 20.046 MAX: 20.287 
+
+ ----------------------------------
+MEMPHIS to remote MICH/ndn0.eecs.umich.edu: MIN: 22.643 AVG: 22.802 MAX: 23.106 
+
+ ----------------------------------
+MEMPHIS to remote UM/titan.cs.memphis.edu: MIN: 0.015 AVG: 0.020 MAX: 0.033 
+
+ ----------------------------------
+MEMPHIS to remote NEU/129.10.52.193: MIN: 40.408 AVG: 40.671 MAX: 41.006 
+
+ ----------------------------------
+MEMPHIS to remote URJC/insula.gsyc.es: MIN: 157.991 AVG: 161.107 MAX: 187.150 
+
+ ----------------------------------
+MEMPHIS to remote BASEL/ndn.cs.unibas.ch: MIN: 141.251 AVG: 141.493 MAX: 141.917 
+
+ ----------------------------------
+MEMPHIS to remote LIP6/ndnhub.ipv6.lip6.fr: MIN: 129.687 AVG: 131.703 MAX: 133.842 
+
+ ----------------------------------
+MEMPHIS to remote Orange1/161.105.195.18: MIN: 130.947 AVG: 131.380 MAX: 131.907 
+
+ ----------------------------------
+MEMPHIS to remote SystemX/systemx-ndn-1.enst.fr: MIN: 137.420 AVG: 137.696 MAX: 138.191 
+
+ ----------------------------------
+MEMPHIS to remote NTNU/129.241.208.115: MIN: 161.823 AVG: 162.402 MAX: 162.701 
+
+ ----------------------------------
+MEMPHIS to remote PADUA/ndnnode.math.unipd.it: MIN: 152.167 AVG: 155.016 MAX: 160.566 
+
+ ----------------------------------
+MEMPHIS to remote VERISIGN/72.13.58.118: MIN: 35.651 AVG: 35.874 MAX: 36.142 
+

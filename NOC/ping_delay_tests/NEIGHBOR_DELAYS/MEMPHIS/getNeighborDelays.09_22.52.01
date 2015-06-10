@@ -1,0 +1,22 @@
+Testing Link delays from node MEMPHIS
+ ----------------------------------
+MEMPHIS NEIGHBOR labs-ndn3.verisignlabs.com: MIN: 35.307 AVG: 35.439 MAX: 35.746 
+
+ ----------------------------------
+MEMPHIS NEIGHBOR 72.13.58.118: MIN: 35.325 AVG: 35.410 MAX: 35.579 
+
+ ----------------------------------
+MEMPHIS NEIGHBOR hobo.cs.arizona.edu: MIN: 64.601 AVG: 64.724 MAX: 64.775 
+
+ ----------------------------------
+MEMPHIS NEIGHBOR wundngw.arl.wustl.edu: MIN: 31.852 AVG: 32.103 MAX: 32.264 
+
+ ----------------------------------
+MEMPHIS NEIGHBOR ndn0.eecs.umich.edu: MIN: 22.636 AVG: 22.817 MAX: 22.973 
+
+ ----------------------------------
+MEMPHIS NEIGHBOR 129.10.52.193: MIN: 40.313 AVG: 40.727 MAX: 42.063 
+
+ ----------------------------------
+MEMPHIS NEIGHBOR 161.105.195.18: MIN: 130.622 AVG: 130.807 MAX: 131.391 
+
