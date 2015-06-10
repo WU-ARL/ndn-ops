@@ -1,0 +1,76 @@
+Testing Link delays from node UCI
+ ----------------------------------
+UCI to remote PKU/162.105.146.26: MIN: 217.189 AVG: 271.289 MAX: 605.076 
+
+ ----------------------------------
+UCI to remote BUPT/114.247.165.44: MIN: 300.616 AVG: 310.752 MAX: 326.882 
+
+ ----------------------------------
+UCI to remote ANYANG/210.114.89.49: MIN: 165.866 AVG: 165.986 MAX: 166.426 
+
+ ----------------------------------
+UCI to remote TONGJI/cnlab.tongji.edu.cn: MIN: 204.260 AVG: 236.265 MAX: 252.277 
+
+ ----------------------------------
+UCI to remote WASEDA/133.9.73.66: MIN: 110.693 AVG: 110.768 MAX: 110.856 
+
+ ----------------------------------
+UCI to remote UCLA/spurs.cs.ucla.edu: MIN: 10.994 AVG: 11.036 MAX: 11.103 
+
+ ----------------------------------
+UCI to remote CAIDA/click.caida.org: MIN: 11.917 AVG: 11.943 MAX: 11.989 
+
+ ----------------------------------
+UCI to remote UCI/ndnhub.ics.uci.edu: MIN: 0.023 AVG: 0.024 MAX: 0.028 
+
+ ----------------------------------
+UCI to remote REMAP/aleph.ndn.ucla.edu: MIN: 10.334 AVG: 10.428 MAX: 10.753 
+
+ ----------------------------------
+UCI to remote BYU/pasta10.cs.byu.edu: MIN: 29.205 AVG: 47.618 MAX: 72.149 
+
+ ----------------------------------
+UCI to remote CSU/ndn.netsec.colostate.edu: MIN: 61.162 AVG: 61.505 MAX: 62.166 
+
+ ----------------------------------
+UCI to remote UA/hobo.cs.arizona.edu: MIN: 21.952 AVG: 22.028 MAX: 22.091 
+
+ ----------------------------------
+UCI to remote WU/wundngw.arl.wustl.edu: MIN: 82.945 AVG: 83.314 MAX: 83.753 
+
+ ----------------------------------
+UCI to remote UIUC/ndnx.cs.illinois.edu: MIN: 70.973 AVG: 71.232 MAX: 71.591 
+
+ ----------------------------------
+UCI to remote MICH/ndn0.eecs.umich.edu: MIN: 73.729 AVG: 73.874 MAX: 74.250 
+
+ ----------------------------------
+UCI to remote UM/titan.cs.memphis.edu: MIN: 84.710 AVG: 85.030 MAX: 85.284 
+
+ ----------------------------------
+UCI to remote NEU/129.10.52.193: MIN: 90.471 AVG: 90.708 MAX: 90.906 
+
+ ----------------------------------
+UCI to remote URJC/insula.gsyc.es: MIN: 185.831 AVG: 186.165 MAX: 186.568 
+
+ ----------------------------------
+UCI to remote BASEL/ndn.cs.unibas.ch: MIN: 180.495 AVG: 180.638 MAX: 180.763 
+
+ ----------------------------------
+UCI to remote LIP6/ndnhub.ipv6.lip6.fr: MIN: 162.246 AVG: 162.692 MAX: 163.167 
+
+ ----------------------------------
+UCI to remote Orange1/161.105.195.18: MIN: 141.464 AVG: 141.845 MAX: 142.052 
+
+ ----------------------------------
+UCI to remote SystemX/systemx-ndn-1.enst.fr: MIN: 151.782 AVG: 151.899 MAX: 152.070 
+
+ ----------------------------------
+UCI to remote NTNU/129.241.208.115: MIN: 193.420 AVG: 193.714 MAX: 194.304 
+
+ ----------------------------------
+UCI to remote PADUA/ndnnode.math.unipd.it: MIN: 190.379 AVG: 190.862 MAX: 191.739 
+
+ ----------------------------------
+UCI to remote VERISIGN/72.13.58.118: MIN: 74.617 AVG: 74.748 MAX: 74.974 
+
