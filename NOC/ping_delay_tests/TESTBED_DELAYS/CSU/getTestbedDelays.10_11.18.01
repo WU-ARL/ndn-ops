@@ -1,0 +1,76 @@
+Testing Link delays from node CSU
+ ----------------------------------
+CSU to remote PKU/162.105.146.26: MIN: 199.036 AVG: 288.925 MAX: 697.152 
+
+ ----------------------------------
+CSU to remote BUPT/114.247.165.44: MIN: 196.958 AVG: 197.325 MAX: 197.586 
+
+ ----------------------------------
+CSU to remote ANYANG/210.114.89.49: MIN: 208.202 AVG: 208.426 MAX: 208.607 
+
+ ----------------------------------
+CSU to remote TONGJI/cnlab.tongji.edu.cn: MIN: BASEL.traceroute.log AVG:  MAX: BASEL.traceroute.log 
+
+ ----------------------------------
+CSU to remote WASEDA/133.9.73.66: MIN: 160.893 AVG: 161.116 MAX: 161.599 
+
+ ----------------------------------
+CSU to remote UCLA/spurs.cs.ucla.edu: MIN: 53.223 AVG: 53.471 MAX: 53.750 
+
+ ----------------------------------
+CSU to remote CAIDA/click.caida.org: MIN: 54.400 AVG: 54.703 MAX: 55.107 
+
+ ----------------------------------
+CSU to remote UCI/ndnhub.ics.uci.edu: MIN: 61.187 AVG: 61.506 MAX: 61.862 
+
+ ----------------------------------
+CSU to remote REMAP/aleph.ndn.ucla.edu: MIN: 52.675 AVG: 53.117 MAX: 53.512 
+
+ ----------------------------------
+CSU to remote BYU/pasta10.cs.byu.edu: MIN: 45.694 AVG: 45.974 MAX: 46.376 
+
+ ----------------------------------
+CSU to remote CSU/ndn.netsec.colostate.edu: MIN: 0.015 AVG: 0.019 MAX: 0.036 
+
+ ----------------------------------
+CSU to remote UA/hobo.cs.arizona.edu: MIN: 63.847 AVG: 63.857 MAX: 63.861 
+
+ ----------------------------------
+CSU to remote WU/wundngw.arl.wustl.edu: MIN: 39.309 AVG: 39.479 MAX: 39.757 
+
+ ----------------------------------
+CSU to remote UIUC/ndnx.cs.illinois.edu: MIN: 27.484 AVG: 27.556 MAX: 27.649 
+
+ ----------------------------------
+CSU to remote MICH/ndn0.eecs.umich.edu: MIN: 30.113 AVG: 30.189 MAX: 30.279 
+
+ ----------------------------------
+CSU to remote UM/titan.cs.memphis.edu: MIN: 41.158 AVG: 41.373 MAX: 41.714 
+
+ ----------------------------------
+CSU to remote NEU/129.10.52.193: MIN: 47.774 AVG: 47.994 MAX: 48.221 
+
+ ----------------------------------
+CSU to remote URJC/insula.gsyc.es: MIN: 156.189 AVG: 156.398 MAX: 156.906 
+
+ ----------------------------------
+CSU to remote BASEL/ndn.cs.unibas.ch: MIN: 158.071 AVG: 158.338 MAX: 158.512 
+
+ ----------------------------------
+CSU to remote LIP6/ndnhub.ipv6.lip6.fr: MIN: 137.575 AVG: 138.551 MAX: 144.167 
+
+ ----------------------------------
+CSU to remote Orange1/161.105.195.18: MIN: 149.354 AVG: 149.603 MAX: 149.427 
+
+ ----------------------------------
+CSU to remote SystemX/systemx-ndn-1.enst.fr: MIN: 120.594 AVG: 120.704 MAX: 120.872 
+
+ ----------------------------------
+CSU to remote NTNU/129.241.208.115: MIN: 160.559 AVG: 160.961 MAX: 161.365 
+
+ ----------------------------------
+CSU to remote PADUA/ndnnode.math.unipd.it: MIN: 159.979 AVG: 165.502 MAX: 169.141 
+
+ ----------------------------------
+CSU to remote VERISIGN/72.13.58.118: MIN: 40.804 AVG: 40.999 MAX: 41.925 
+
