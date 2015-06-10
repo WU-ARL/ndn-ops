@@ -1,0 +1,76 @@
+Testing Link delays from node BASEL
+ ----------------------------------
+BASEL to remote PKU/162.105.146.26: MIN: 192.989 AVG: 235.925 MAX: 500.445 
+
+ ----------------------------------
+BASEL to remote BUPT/114.247.165.44: MIN: 311.206 AVG: 326.567 MAX: 341.100 
+
+ ----------------------------------
+BASEL to remote ANYANG/210.114.89.49: MIN: 285.346 AVG: 286.198 MAX: 289.850 
+
+ ----------------------------------
+BASEL to remote TONGJI/cnlab.tongji.edu.cn: MIN: 220.161 AVG:  MAX: 220.161 
+
+ ----------------------------------
+BASEL to remote WASEDA/133.9.73.66: MIN: 267.200 AVG: 267.519 MAX: 268.151 
+
+ ----------------------------------
+BASEL to remote UCLA/spurs.cs.ucla.edu: MIN: 170.636 AVG: 174.419 MAX: 172.146 
+
+ ----------------------------------
+BASEL to remote CAIDA/click.caida.org: MIN: 181.208 AVG: 181.488 MAX: 181.834 
+
+ ----------------------------------
+BASEL to remote UCI/ndnhub.ics.uci.edu: MIN: 180.194 AVG: 180.818 MAX: 181.323 
+
+ ----------------------------------
+BASEL to remote REMAP/aleph.ndn.ucla.edu: MIN: 179.416 AVG: 179.937 MAX: 180.587 
+
+ ----------------------------------
+BASEL to remote BYU/pasta10.cs.byu.edu: MIN: 151.365 AVG: 154.277 MAX: 160.004 
+
+ ----------------------------------
+BASEL to remote CSU/ndn.netsec.colostate.edu: MIN: 142.648 AVG: 143.253 MAX: 143.562 
+
+ ----------------------------------
+BASEL to remote UA/hobo.cs.arizona.edu: MIN: 160.815 AVG: 160.817 MAX: 160.869 
+
+ ----------------------------------
+BASEL to remote WU/wundngw.arl.wustl.edu: MIN: 131.775 AVG: 132.269 MAX: 132.656 
+
+ ----------------------------------
+BASEL to remote UIUC/ndnx.cs.illinois.edu: MIN: 121.529 AVG: 122.105 MAX: 122.751 
+
+ ----------------------------------
+BASEL to remote MICH/ndn0.eecs.umich.edu: MIN: 132.593 AVG: 132.969 MAX: 133.448 
+
+ ----------------------------------
+BASEL to remote UM/titan.cs.memphis.edu: MIN: 133.488 AVG: 133.988 MAX: 134.398 
+
+ ----------------------------------
+BASEL to remote NEU/129.10.52.193: MIN: 101.284 AVG: 101.820 MAX: 102.344 
+
+ ----------------------------------
+BASEL to remote URJC/insula.gsyc.es: MIN: 29.022 AVG: 29.730 MAX: 30.381 
+
+ ----------------------------------
+BASEL to remote BASEL/ndn.cs.unibas.ch: MIN: 0.014 AVG: 0.023 MAX: 0.039 
+
+ ----------------------------------
+BASEL to remote LIP6/ndnhub.ipv6.lip6.fr: MIN: 15.980 AVG: 16.777 MAX: 17.734 
+
+ ----------------------------------
+BASEL to remote Orange1/161.105.195.18: MIN: 37.012 AVG: 37.648 MAX: 38.130 
+
+ ----------------------------------
+BASEL to remote SystemX/systemx-ndn-1.enst.fr: MIN: 14.635 AVG: 14.990 MAX: 15.607 
+
+ ----------------------------------
+BASEL to remote NTNU/129.241.208.115: MIN: 61.222 AVG: 61.648 MAX: 62.082 
+
+ ----------------------------------
+BASEL to remote PADUA/ndnnode.math.unipd.it: MIN: 19.217 AVG: 21.329 MAX: 22.712 
+
+ ----------------------------------
+BASEL to remote VERISIGN/72.13.58.118: MIN: 106.168 AVG: 106.501 MAX: 106.854 
+
