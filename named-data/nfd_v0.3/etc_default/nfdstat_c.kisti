@@ -1,6 +1,6 @@
 # defaults for nfdstat_c client
 
 # Local Prefix for Interests
-PREFIX="/ndn/kr/kisti/ndnmap/stats"
+PREFIX="/ndn/kr/re/kisti/ndnmap/stats"
 
 FLAGS=""
