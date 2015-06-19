@@ -50,8 +50,10 @@ sudo mkdir -p /etc/ndn/nlsr/keys
 sudo mkdir -p /var/lib/ndn/nlsr
 sudo mkdir -p /var/log/ndn/nlsr
 sudo mkdir -p /var/lib/ndn/nfd-autoreg
+sudo mkdir -p /var/lib/ndn/nfdstat_c
 sudo chown -R nlsr.nlsr /var/lib/ndn/nlsr /var/log/ndn/nlsr  /etc/ndn/nlsr
 sudo chown -R ndn.ndn /var/lib/ndn/nfd-autoreg
+sudo chown -R ndn.ndn /var/lib/ndn/nfdstat_c
 
 sudo apt-get -y install python-pip 
 
