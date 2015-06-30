@@ -10,7 +10,4 @@ FACE_URI="udp4://pasta10.cs.byu.edu"
 # FACE_URI="tcp://spurs.cs.ucla.edu"
 
 # Routable prefixes of the router
-#ROUTABLE_PREFIXES=""
-
-# Examples:
-# ROUTABLE_PREFIXES="-p /ndn/edu/ucla"
+ROUTABLE_PREFIXES="-p /ndn/edu/byu"

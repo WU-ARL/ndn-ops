@@ -10,7 +10,5 @@ FACE_URI="udp4://insula.gsyc.es"
 # FACE_URI="tcp://spurs.cs.ucla.edu"
 
 # Routable prefixes of the router
-ROUTABLE_PREFIXES=""
+ROUTABLE_PREFIXES="-p /ndn/es/urjc"
 
-# Examples:
-# ROUTABLE_PREFIXES="-p /ndn/edu/ucla"

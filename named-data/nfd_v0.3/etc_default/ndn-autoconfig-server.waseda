@@ -10,7 +10,5 @@ FACE_URI="udp4://133.9.73.66"
 # FACE_URI="tcp://spurs.cs.ucla.edu"
 
 # Routable prefixes of the router
-ROUTABLE_PREFIXES=""
+ROUTABLE_PREFIXES="-p /ndn/jp/waseda"
 
-# Examples:
-# ROUTABLE_PREFIXES="-p /ndn/edu/ucla"

@@ -10,7 +10,5 @@ FACE_URI="udp4://systemx-ndn-1.enst.fr"
 # FACE_URI="tcp://spurs.cs.ucla.edu"
 
 # Routable prefixes of the router
-ROUTABLE_PREFIXES=""
+ROUTABLE_PREFIXES="-p /ndn/fr/irt-systemx"
 
-# Examples:
-# ROUTABLE_PREFIXES="-p /ndn/edu/ucla"
