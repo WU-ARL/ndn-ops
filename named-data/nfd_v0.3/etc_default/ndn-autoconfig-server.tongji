@@ -3,7 +3,8 @@
 # FaceURI of NDN hub announced to hosts
 FACE_URI=""
 
-FACE_URI="udp4://cnlab.tongji.edu.cn"
+#FACE_URI="udp4://cnlab.tongji.edu.cn"
+FACE_URI="udp4://10.0.2.2"
 # Examples:
 # FACE_URI="udp://spurs.cs.ucla.edu"
 # FACE_URI="udp4://spurs.cs.ucla.edu"
