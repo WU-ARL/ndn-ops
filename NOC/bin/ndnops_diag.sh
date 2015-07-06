@@ -20,6 +20,7 @@ fi
 
 DATE=`date -u` 
 
+OS_VERSION=`grep "VERSION=" /etc/os-release  | cut -d'"' -f 2 | cut -d ',' -f 1`
 RESTART_REQUIRED_TEXT=`grep "System restart required" /etc/motd`
 if [ -z "$RESTART_REQUIRED_TEXT" ]
 then
@@ -45,6 +46,7 @@ NUM_NFD_STATUS_PROCS=`ps auxwww | grep "nfd-status -x" | grep -v grep  | wc -l`
 echo "<tr>" > $OUTPUT_FILE
 echo "<td width = 80px;>$NAME</td>" >> $OUTPUT_FILE
 echo "<td>$DATE</td>" >> $OUTPUT_FILE
+echo "<td>$OS_VERSION</td>" >> $OUTPUT_FILE
 echo "<td>$NFD_PID</td>" >> $OUTPUT_FILE
 echo "<td>$NFD_VSIZE</td>" >> $OUTPUT_FILE
 echo "<td>$NFD_LOGFILE_SIZE</td>" >> $OUTPUT_FILE
