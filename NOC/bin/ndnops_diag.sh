@@ -51,6 +51,7 @@ echo "<td>$DATE</td>" >> $OUTPUT_FILE
 echo "<td>$OS_VERSION</td>" >> $OUTPUT_FILE
 echo "<td>$KERNEL</td>" >> $OUTPUT_FILE
 echo "<td>$UPTIME</td>" >> $OUTPUT_FILE
+echo "<td>$RESTART_REQUIRED</td>" >> $OUTPUT_FILE
 echo "<td>$NFD_PID</td>" >> $OUTPUT_FILE
 echo "<td>$NFD_VSIZE</td>" >> $OUTPUT_FILE
 echo "<td>$NFD_LOGFILE_SIZE</td>" >> $OUTPUT_FILE
@@ -63,5 +64,4 @@ echo "<td>$BOOT_DISK_SIZE</td>" >> $OUTPUT_FILE
 echo "<td>$BOOT_DISK_USED</td>" >> $OUTPUT_FILE
 echo "<td>$BOOT_DISK_AVAIL</td>" >> $OUTPUT_FILE
 echo "<td>$BOOT_DISK_AVAIL_PERCENT</td>" >> $OUTPUT_FILE
-echo "<td>$RESTART_REQUIRED</td>" >> $OUTPUT_FILE
 echo "</tr>" >> $OUTPUT_FILE
