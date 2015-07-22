@@ -1,7 +1,7 @@
 # nfd-autoreg defaults
 
 # Blacklisted networks
-BLACKLIST="147.162.114.18 128.252.153.194 129.82.138.48 141.212.108.18"
+BLACKLIST="-b 147.162.114.18/32 -b 128.252.153.194/32 -b 129.82.138.48/32 -b 141.212.108.18/32"
 # PADUA: 147.162.114.18
 # WU: 128.252.153.194
 # MICHIGAN: 141.212.108.18
@@ -11,10 +11,10 @@ BLACKLIST="147.162.114.18 128.252.153.194 129.82.138.48 141.212.108.18"
 WHITELIST=""
 
 # Prefixes to register on All faces:
-ALL_FACES_PREFIXES="/ndn/broadcast"
+ALL_FACES_PREFIXES="--all-faces-prefix /ndn/broadcast"
 
 # Prefixes to register just on on-demand faces:
-ON_DEMAND_FACES_PREFIXES="/ndn/edu/uiuc /ndn/edu/illinois"
+ON_DEMAND_FACES_PREFIXES="--prefix /ndn/edu/uiuc --prefix /ndn/edu/illinois"
 
 # Flags
 FLAGS=""

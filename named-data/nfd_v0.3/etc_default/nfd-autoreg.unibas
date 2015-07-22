@@ -1,7 +1,7 @@
 # nfd-autoreg defaults
 
 # Blacklisted networks
-BLACKLIST="137.194.54.81 147.162.114.18 129.241.208.115 161.105.195.18 132.227.62.163 193.147.51.186 162.105.146.26"
+BLACKLIST="-b 137.194.54.81/32 -b 147.162.114.18/32 -b 129.241.208.115/32 -b 161.105.195.18/32 -b 132.227.62.163/32 -b 193.147.51.186/32 -b 162.105.146.26/32"
 # NTNU: 129.241.208.115
 # PADUA: 147.162.114.18
 # PKU: 162.105.146.26
@@ -14,10 +14,10 @@ BLACKLIST="137.194.54.81 147.162.114.18 129.241.208.115 161.105.195.18 132.227.6
 WHITELIST=""
 
 # Prefixes to register on All faces:
-ALL_FACES_PREFIXES="/ndn/broadcast"
+ALL_FACES_PREFIXES="--all-faces-prefix /ndn/broadcast"
 
 # Prefixes to register just on on-demand faces:
-ON_DEMAND_FACES_PREFIXES="/ndn/ch/unibas"
+ON_DEMAND_FACES_PREFIXES="--prefix /ndn/ch/unibas"
 
 # Flags
 FLAGS=""

@@ -1,17 +1,17 @@
 # nfd-autoreg defaults
 
 # Blacklisted networks
-BLACKLIST="210.114.89.49 133.9.73.66 192.172.226.248 162.105.146.26 114.247.165.44"
+BLACKLIST="-b 210.114.89.49/32 -b 133.9.73.66/32 -b 192.172.226.248/32 -b 162.105.146.26/32 -b 114.247.165.44/32"
 # ANYANG: 210.114.89.49
 
 # Whitelisted networks
 WHITELIST=""
 
 # Prefixes to register on All faces:
-ALL_FACES_PREFIXES="/ndn/broadcast"
+ALL_FACES_PREFIXES="--all-faces-prefix /ndn/broadcast"
 
 # Prefixes to register just on on-demand faces:
-ON_DEMAND_FACES_PREFIXES="/ndn/cn/edu/tongji"
+ON_DEMAND_FACES_PREFIXES="--prefix /ndn/cn/edu/tongji"
 
 # Flags
 FLAGS=""

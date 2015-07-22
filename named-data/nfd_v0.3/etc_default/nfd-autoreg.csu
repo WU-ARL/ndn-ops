@@ -1,7 +1,7 @@
 # nfd-autoreg defaults
 
 # Blacklisted networks
-BLACKLIST="128.187.81.12 128.196.203.36 141.212.108.18 72.36.112.82 131.179.196.46 128.97.98.7"
+BLACKLIST="-b 128.187.81.12/32 -b 128.196.203.36/32 -b 141.212.108.18/32 -b 72.36.112.82/32 -b 131.179.196.46/32 -b 128.97.98.7/32"
 # UCLA: 131.179.196.46
 # BYU: 128.187.81.12
 
@@ -11,10 +11,10 @@ BLACKLIST="128.187.81.12 128.196.203.36 141.212.108.18 72.36.112.82 131.179.196.
 WHITELIST=""
 
 # Prefixes to register on All faces:
-ALL_FACES_PREFIXES="/ndn/broadcast"
+ALL_FACES_PREFIXES="--all-faces-prefix /ndn/broadcast"
 
 # Prefixes to register just on on-demand faces:
-ON_DEMAND_FACES_PREFIXES="/ndn/edu/colostate"
+ON_DEMAND_FACES_PREFIXES="--prefix /ndn/edu/colostate"
 
 # Flags
 FLAGS=""
