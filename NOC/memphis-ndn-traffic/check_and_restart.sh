@@ -16,10 +16,12 @@ then
   then
     #echo "WU"
     ndn-traffic-server -q ndn-traffic-server.conf.WU >& $LOGFILE &
-  else
-    #echo "Not WU"
+  elif [ "$HOSTNAME" = "cs-ndn-testbed1.cs.unibas.ch" ]
+    then
+      #echo "BASEL"
+      ndn-traffic-server -q ndn-traffic-server.conf.BASEL >& $LOGFILE &
   fi
-else
+#else
   #echo "ndn-traffic-server still running, PID=$SERVER_PID"
 fi
 
