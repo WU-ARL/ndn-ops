@@ -60,7 +60,7 @@ Name=/ndn/edu/wustl/memphis/download/7kB
 FreshnessPeriod=1
 ContentBytes=7168
 ##########
-Name=/ndn/edu/wustl/memphis/download/max
+Name=/ndn/edu/wustl/memphis/download/8kB
 FreshnessPeriod=1
 ContentBytes=8192
 ##########

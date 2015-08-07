@@ -15,7 +15,7 @@ then
   if [ "$HOSTNAME" = "wundngw" ]
   then
     echo "WU"
-    #ndn-traffic-server -q ndn-traffic-server.conf.WU >& $LOGFILE &
+    ndn-traffic-server -q ndn-traffic-server.conf.WU >& $LOGFILE &
   else
     echo "Not WU"
   fi
