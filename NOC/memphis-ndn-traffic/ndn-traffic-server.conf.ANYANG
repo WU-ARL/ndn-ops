@@ -1,0 +1,66 @@
+#
+#THIS IS A SAMPLE SERVER DATA TRAFFIC CONFIGURATION FILE
+#
+# * TO BE USED TO CONFIGURE RESPONSE TO INTERESTS
+# * MULTIPLE SERVER PREFIXES CAN BE CONFIGURED FOR BEING HANDLED
+# * EVERY INIVIDUAL PATTERN DESCRIPTION MUST BE SEPARATED BY ONE
+#   OR MORE '#' CHARACTERS FOR THE TOOL TO DISTINGUISH THEM
+#   INDIVIUDALLY
+# * THE FOLLOWING PARAMETERS MAY BE ADDED FOR EVERY TRAFFIC PATTERN
+# * (Mandatory) NEXT TO A PARAMETER MEANS EVERY PATTERN SHOULD HAVE
+#   IT FOR BEING CONSIDERED VALID
+#   (Optional) MEANS OTHERWISE
+# * ALSO PROVIDED ARE VALID VALUES POSSIBLE FOR EACH PARAMETER
+# * NNI STANDS FOR NON-NEGATIVE INTEGER
+# * RANGE OF POSSIBLE VALUES IS SPECIFIED IN [] 
+#
+#
+#(Mandatory)
+#Name=NDN Name
+#
+#
+#(Optional)
+#ContentType=NNI [>=0]
+#FreshnessPeriod=NNI [Milliseconds]
+#ContentBytes=NNI [>0]
+#Content=String
+#ContentDelay=NNI [Milliseconds]
+#
+#
+##########
+Name=/ndn/kr/anyang/memphis/download/500B
+FreshnessPeriod=1
+ContentBytes=500
+##########
+Name=/ndn/kr/anyang/memphis/download/1kB
+FreshnessPeriod=1
+ContentBytes=1024
+##########
+Name=/ndn/kr/anyang/memphis/download/2kB
+FreshnessPeriod=1
+ContentBytes=2048
+##########
+Name=/ndn/kr/anyang/memphis/download/3kB
+FreshnessPeriod=1
+ContentBytes=3072
+##########
+Name=/ndn/kr/anyang/memphis/download/4kB
+FreshnessPeriod=1
+ContentBytes=4096
+##########
+Name=/ndn/kr/anyang/memphis/download/5kB
+FreshnessPeriod=1
+ContentBytes=5120
+##########
+Name=/ndn/kr/anyang/memphis/download/6kB
+FreshnessPeriod=1
+ContentBytes=6144
+##########
+Name=/ndn/kr/anyang/memphis/download/7kB
+FreshnessPeriod=1
+ContentBytes=7168
+##########
+Name=/ndn/kr/anyang/memphis/download/8kB
+FreshnessPeriod=1
+ContentBytes=8192
+##########
