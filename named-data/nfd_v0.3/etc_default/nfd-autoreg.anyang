@@ -11,7 +11,7 @@ BLACKLIST="-b 133.9.73.66/32 -b 162.105.146.26/32 -b 114.247.165.44/32 -b 202.12
 WHITELIST=""
 
 # Prefixes to register on All faces:
-ALL_FACES_PREFIXES="--all-faces-prefix /ndn/broadcast"
+ALL_FACES_PREFIXES="--all-faces-prefix /ndn/broadcast --all-faces-prefix /ndn/multicast"
 
 # Prefixes to register just on on-demand faces:
 ON_DEMAND_FACES_PREFIXES="--prefix /ndn/kr/anyang"

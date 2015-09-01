@@ -8,7 +8,7 @@ BLACKLIST="-b 210.114.89.49/32 -b 133.9.73.66/32 -b 192.172.226.248/32 -b 162.10
 WHITELIST=""
 
 # Prefixes to register on All faces:
-ALL_FACES_PREFIXES="--all-faces-prefix /ndn/broadcast"
+ALL_FACES_PREFIXES="--all-faces-prefix /ndn/broadcast --all-faces-prefix /ndn/multicast"
 
 # Prefixes to register just on on-demand faces:
 ON_DEMAND_FACES_PREFIXES="--prefix /ndn/cn/edu/tongji"

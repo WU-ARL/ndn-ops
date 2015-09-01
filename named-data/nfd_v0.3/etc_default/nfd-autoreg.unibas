@@ -14,7 +14,7 @@ BLACKLIST="-b 137.194.54.81/32 -b 147.162.114.18/32 -b 129.241.208.115/32 -b 161
 WHITELIST=""
 
 # Prefixes to register on All faces:
-ALL_FACES_PREFIXES="--all-faces-prefix /ndn/broadcast"
+ALL_FACES_PREFIXES="--all-faces-prefix /ndn/broadcast --all-faces-prefix /ndn/multicast"
 
 # Prefixes to register just on on-demand faces:
 ON_DEMAND_FACES_PREFIXES="--prefix /ndn/ch/unibas"

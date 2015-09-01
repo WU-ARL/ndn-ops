@@ -10,7 +10,7 @@ BLACKLIST="-b 128.252.153.194/32 -b 141.225.11.173/32 -b 141.212.108.18/32"
 WHITELIST=""
 
 # Prefixes to register on All faces:
-ALL_FACES_PREFIXES="--all-faces-prefix /ndn/broadcast"
+ALL_FACES_PREFIXES="--all-faces-prefix /ndn/broadcast --all-faces-prefix /ndn/multicast"
 
 # Prefixes to register just on on-demand faces:
 ON_DEMAND_FACES_PREFIXES="--prefix /ndn/com/verisign"

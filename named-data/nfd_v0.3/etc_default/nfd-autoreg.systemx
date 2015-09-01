@@ -8,7 +8,7 @@ BLACKLIST="-b 129.241.208.115/32 -b 161.105.195.18/32 -b 192.43.193.111/32 -b 13
 WHITELIST=""
 
 # Prefixes to register on All faces:
-ALL_FACES_PREFIXES="--all-faces-prefix /ndn/broadcast"
+ALL_FACES_PREFIXES="--all-faces-prefix /ndn/broadcast --all-faces-prefix /ndn/multicast"
 
 # Prefixes to register just on on-demand faces:
 ON_DEMAND_FACES_PREFIXES="--prefix /ndn/fr/irt-systemx"

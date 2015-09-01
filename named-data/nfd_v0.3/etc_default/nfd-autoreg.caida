@@ -7,7 +7,7 @@ BLACKLIST="-b 131.179.196.46/32 -b 128.195.4.36/32 -b 128.196.203.36/32 -b 202.1
 WHITELIST=""
 
 # Prefixes to register on All faces:
-ALL_FACES_PREFIXES="--all-faces-prefix /ndn/broadcast"
+ALL_FACES_PREFIXES="--all-faces-prefix /ndn/broadcast --all-faces-prefix /ndn/multicast"
 
 # Prefixes to register just on on-demand faces:
 ON_DEMAND_FACES_PREFIXES="--prefix /ndn/org/caida"

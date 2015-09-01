@@ -12,7 +12,7 @@ BLACKLIST="-b 147.162.114.18/32 -b 161.105.195.18/32 -b 132.227.62.163/32 -b 128
 WHITELIST=""
 
 # Prefixes to register on All faces:
-ALL_FACES_PREFIXES="--all-faces-prefix /ndn/broadcast"
+ALL_FACES_PREFIXES="--all-faces-prefix /ndn/broadcast --all-faces-prefix /ndn/multicast"
 
 # Prefixes to register just on on-demand faces:
 ON_DEMAND_FACES_PREFIXES="--prefix /ndn/es/urjc"
