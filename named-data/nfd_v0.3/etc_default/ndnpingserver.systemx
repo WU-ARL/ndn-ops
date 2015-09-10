@@ -1,6 +1,6 @@
 # defaults for ndnpingserver
 
 # Prefix should be set to a valid value
-PREFIX="/ndn/fr/systemx"
+PREFIX="/ndn/fr/irt-systemx"
 
 FLAGS=""
