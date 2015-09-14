@@ -8,8 +8,8 @@ sleep 15
 /usr/bin/nfdc set-strategy ndn:/ ndn:/localhost/nfd/strategy/best-route
 
 # set broadcast strategy
-/usr/bin/nfdc set-strategy /ndn/broadcast /localhost/nfd/strategy/broadcast
-/usr/bin/nfdc set-strategy /localhost     /localhost/nfd/strategy/broadcast
+/usr/bin/nfdc set-strategy /ndn/broadcast /localhost/nfd/strategy/multicast
+/usr/bin/nfdc set-strategy /localhost     /localhost/nfd/strategy/multicast
 
 # default local access strategy
 nfdc set-strategy ndn:/ndn/jp/waseda ndn:/localhost/nfd/strategy/access
