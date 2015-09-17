@@ -14,3 +14,6 @@ sleep 15
 # default local access strategy
 nfdc set-strategy ndn:/ndn/cn/edu/bupt ndn:/localhost/nfd/strategy/access
 
+# Configure connectivity to CIN node at BUPT:
+nfdc create udp4://211.68.70.171/:6363
+nfdc register -o 255 /ndn/cn/edu/bupt/cin udp4://211.68.70.171:6363
