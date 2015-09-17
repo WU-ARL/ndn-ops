@@ -11,14 +11,20 @@ else
 fi
 NODENAME=`grep "Node:" $LOGFILE | cut -d':' -f 2`
 
-PREFIXES=(`grep "Ping Statistics For " $LOGFILE | cut -d' ' -f 6`)
+#PREFIXES=(`grep "Ping Statistics For " $LOGFILE | cut -d' ' -f 6`)
+PREFIXES=(`grep "ping statistics" ndnping.log.export  | cut -d ' ' -f 2`)
 
-PACKET_LOSS=(`grep "Packet Loss" $LOGFILE | cut -d',' -f 3 | cut -d'=' -f 2 | cut -d'%' -f 1`)
+#PACKET_LOSS=(`grep "packet loss" $LOGFILE | cut -d',' -f 3 | cut -d'=' -f 2 | cut -d'%' -f 1`)
+PACKET_LOSS=(`grep "packet loss" $LOGFILE | cut -d',' -f 3 | cut -d'%' -f 1`)
 
-MIN=(`grep "Min" $LOGFILE | cut -d'(' -f 3 | cut -d')' -f 1 | cut -d'/' -f 1`)
-MAX=(`grep "Min" $LOGFILE | cut -d'(' -f 3 | cut -d')' -f 1 | cut -d'/' -f 2`)
-AVG=(`grep "Min" $LOGFILE | cut -d'(' -f 3 | cut -d')' -f 1 | cut -d'/' -f 3`)
-MDEV=(`grep "Min" $LOGFILE | cut -d'(' -f 3 | cut -d')' -f 1 | cut -d'/' -f 4`)
+#MIN=(`grep "min" $LOGFILE | cut -d'(' -f 3 | cut -d')' -f 1 | cut -d'/' -f 1`)
+#MAX=(`grep "min" $LOGFILE | cut -d'(' -f 3 | cut -d')' -f 1 | cut -d'/' -f 2`)
+#AVG=(`grep "min" $LOGFILE | cut -d'(' -f 3 | cut -d')' -f 1 | cut -d'/' -f 3`)
+#MDEV=(`grep "min" $LOGFILE | cut -d'(' -f 3 | cut -d')' -f 1 | cut -d'/' -f 4`)
+MIN=(`grep "min" $LOGFILE | cut -d' ' -f 4 | cut -d'/' -f 1`)
+MAX=(`grep "min" $LOGFILE | cut -d' ' -f 4 | cut -d'/' -f 2`)
+AVG=(`grep "min" $LOGFILE | cut -d' ' -f 4 | cut -d'/' -f 3`)
+MDEV=(`grep "min" $LOGFILE | cut -d' ' -f 4 | cut -d'/' -f 4`)
 
 echo "NODENAME $NODENAME"
 #echo "PREFIXES: $PREFIXES"
