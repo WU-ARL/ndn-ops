@@ -3,11 +3,11 @@
 # FaceURI of NDN hub announced to hosts
 FACE_URI=""
 
-FACE_URI="udp4://wundngw.arl.wustl.edu"
+FACE_URI="udp4://193.137.75.171"
 # Examples:
 # FACE_URI="udp://spurs.cs.ucla.edu"
 # FACE_URI="udp4://spurs.cs.ucla.edu"
 # FACE_URI="udp6://spurs.cs.ucla.edu"
 # FACE_URI="tcp://spurs.cs.ucla.edu"
 
-ROUTABLE_PREFIXES="-p /ndn/edu/wustl"
+ROUTABLE_PREFIXES="-p /ndn/pt/ulusofona/copelabs"
