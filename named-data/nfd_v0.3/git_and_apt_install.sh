@@ -28,8 +28,8 @@ pushd ndnmap/nfdDataCollection
 ./waf
 sudo ./waf install
 popd
-sudo mkdir -p /var/lib/ndn/ndnxmlstat_c
-sudo chown ndn.ndn /var/lib/ndn/ndnxmlstat_c
+#sudo mkdir -p /var/lib/ndn/ndnxmlstat_c
+#sudo chown ndn.ndn /var/lib/ndn/ndnxmlstat_c
 
 # set stuff up for NLSR
 # We need 
