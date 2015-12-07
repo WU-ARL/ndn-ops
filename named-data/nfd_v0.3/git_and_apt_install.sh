@@ -3,7 +3,7 @@
 # What we need for a Gateway Node:
 #    ndn-cxx
 #    nfd
-#    ndn-tlv-ping
+#    ndnpingserver
 #    nlsr
 #      configuration files for nlsr
 #    repo-ng
