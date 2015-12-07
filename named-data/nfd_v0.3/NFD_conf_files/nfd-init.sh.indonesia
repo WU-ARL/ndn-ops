@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Some issues with startup time, we need to sleep to make sure nfd is fully up
+
+sleep 15
+
+# set default strategy to best-route (bestroute2)
+/usr/bin/nfdc set-strategy ndn:/ ndn:/localhost/nfd/strategy/best-route
+
+# set broadcast strategy
+/usr/bin/nfdc set-strategy /ndn/broadcast /localhost/nfd/strategy/multicast
+/usr/bin/nfdc set-strategy /localhost     /localhost/nfd/strategy/multicast
+
+# default local access strategy
+nfdc set-strategy ndn:/ndn/id/uindonesia ndn:/localhost/nfd/strategy/access
+
+

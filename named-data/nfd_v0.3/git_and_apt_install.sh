@@ -3,7 +3,7 @@
 # What we need for a Gateway Node:
 #    ndn-cxx
 #    nfd
-#    ndn-tlv-ping
+#    ndnpingserver
 #    nlsr
 #      configuration files for nlsr
 #    repo-ng
@@ -17,7 +17,8 @@ sudo apt-get -y install nfd-all
 sudo apt-get -y install ndn-cxx nfd nlsr
 sudo apt-get -y install ndn-cxx-dev
 sudo apt-get -y install ndndump
-sudo apt-get -y install ndn-tlv-ping
+#sudo apt-get -y install ndn-tlv-ping
+sudo apt-get -y install ndn-tools
 sudo apt-get -y install repo-ng
 sudo apt-get -y install ndn-autoconfig-server
 
@@ -27,8 +28,8 @@ pushd ndnmap/nfdDataCollection
 ./waf
 sudo ./waf install
 popd
-sudo mkdir -p /var/lib/ndn/ndnxmlstat_c
-sudo chown ndn.ndn /var/lib/ndn/ndnxmlstat_c
+#sudo mkdir -p /var/lib/ndn/ndnxmlstat_c
+#sudo chown ndn.ndn /var/lib/ndn/ndnxmlstat_c
 
 # set stuff up for NLSR
 # We need 
