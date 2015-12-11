@@ -41,7 +41,10 @@ sudo rm ndnpingserver.conf ndnping.conf
 cd ndn-ops/named-data/nfd_v0.3
 git pull
 
-cd etc_default
+cd NFD_conf_files
+sudo cp nfd.conf.0.4.0 /etc/ndn/nfd.conf
+
+cd ../etc_default
 sudo cp ndnping.verisign /etc/default/ndnping
 
 cd ../Upstart
