@@ -6,7 +6,7 @@
       NFD_conf_files/nfd-init.sh.<name> (requires changes to all nfd-init.sh files because of ndnrtc strategy config)
       NLSR_key_scripts/<name>.sh
       etc_default/ndn-autoconfig-server.<name>
-      etc_default/ndnpingserver.<name>
+      etc_default/ndnping.<name>
       etc_default/nfdstat_c.<name>
       etc_default/nfd-autoreg.<name>  (requires changes to neighbors nfd-autoreg files also)
       NLSR_conf_files/nlsr_<name>.conf  (requires changes to neighbors NLSR conf files also)
@@ -24,7 +24,7 @@
   > sudo initctl stop nfd
 
   > pushd etc_default/
-  > sudo cp ndnpingserver.<name> /etc/default/ndnping
+  > sudo cp ndnping.<name> /etc/default/ndnping
   > sudo cp nfd-autoreg.<name>  /etc/default/nfd-autoreg
   > sudo cp ndn-autoconfig-server.<name>  /etc/default/ndn-autoconfig-server
   > sudo cp nfdstat_c.<name>  /etc/default/nfdstat_c
