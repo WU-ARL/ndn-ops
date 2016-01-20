@@ -1,0 +1,93 @@
+
+# As part of the upgrade to nfd 0.4.0-beta2 we are also going to get 
+# rid of some vestiges of old installations if present. 
+# We will also clean up some configuration and init files and turn on 
+# some NDN status data collection tools
+
+
+# First lets stop everything nfd related:
+sudo initctl stop nfd
+
+# nfdstat_c and nfdDataCollector_c need to be recompiled. The old versions,
+# if present, will get stuck starting via Upstart and crashing and chew up a lot of CP.
+# just in case here are the commands to stop them if things go wrong:
+# sudo initctl stop nfdstat_c
+# sudo initctl stop nfdDataCollector_c
+
+# We are also going to change the way the ndnping server gets started.
+# Here are commands that stop the two variations, just in case.
+# sudo initctl stop ndnping
+# sudo initctl stop ndnpingserver
+
+# you may not have anything in /usr/local/bin that starts with 'ndn'
+# some older installations did. This is just getting it out of the
+# way, just in case. Later we will hopefully remove it.
+cd /usr/local/bin
+sudo mkdir NDN
+sudo mv ndn* NDN
+
+# upgrade
+sudo apt-get update
+sudo apt-get upgrade
+sudo initctl stop nfd
+sudo apt-get install ndn-tools
+
+cd /etc/default
+sudo rm ndnpingserver  ndnping
+cd ../init
+sudo rm ndnpingserver.conf ndnping.conf
+
+# Now in your ndn-ops repository.
+cd ndn-ops/named-data/nfd_v0.3
+git pull
+
+cd NFD_conf_files
+sudo cp nfd.conf.0.4.0 /etc/ndn/nfd.conf
+
+cd ../etc_default
+sudo cp ndnping.verisign /etc/default/ndnping
+
+cd ../Upstart
+sudo cp ndnping.conf /etc/init/
+sudo cp nfdstat_c.conf /etc/init
+sudo cp nfdDataCollector_c.conf /etc/init
+
+cd ..
+
+#if you already have an ndnmap directory:
+cd ndnmap
+git pull
+
+#if the ndnmap directory doesn't exist already then do this instead
+git clone http://github.com/WU-ARL/ndnmap
+cd ndnmap
+
+
+cd nfdDataCollection
+./waf clean
+./waf configure
+./waf
+sudo ./waf install
+
+# This is another use of the nfdDataCollection code:
+cd ../../../NOC/nfdDataCollection
+./waf clean
+./waf configure
+./waf
+
+# Now we try to start everything
+sudo initctl start nfd
+
+# Wait a couple of minutes and then check /var/log/upstart
+cd /var/log/upstart
+ls -ltr | tail -10
+sleep 10
+ls -ltr | tail -10
+
+# And see if there is anything nfd* or ndn* related that seems to be continually restarting.
+# if so, it means I missed something...
+
+
+
+#Then at the end if everything is working you can remove /usr/local/bin/NDN
+
