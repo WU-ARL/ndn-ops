@@ -1,0 +1,21 @@
+# nfd-autoreg defaults
+
+# Blacklisted networks (URJC, LIP6, PADUA)
+BLACKLIST="-b 193.147.51.186/32 -b 192.43.193.111/32 -b 147.162.114.18/32 -b 193.137.75.171/32"
+# URJC: 193.147.51.186
+# PADUA: 147.162.114.18
+# BASEL: 192.43.193.111
+# COPELABS: 193.137.75.171
+
+# Whitelisted networks
+WHITELIST=""
+
+# Prefixes to register on All faces:
+ALL_FACES_PREFIXES="--all-faces-prefix /ndn/broadcast --all-faces-prefix /ndn/multicast"
+
+# Prefixes to register just on on-demand faces:
+ON_DEMAND_FACES_PREFIXES="--prefix /ndn/pt/minho"
+
+# Flags
+FLAGS=""
+
