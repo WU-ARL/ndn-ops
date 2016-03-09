@@ -76,6 +76,8 @@
     go to http://ndncert.named-data.net and submit key with special email address:
          <site-prefix>@operators.named-data.net
 
+    ( or if we are just resigning an existing key, do this: ndnsec-sign-req /testbed/prefix  and then go to web site as above)
+
     Alex@UCLA will do his thing and I'll get email back with a cert to install with ndnsec-cert-install (as ndnsec user!)
 
     ndnsec> ndnsec-cert-intall -I -K -f  <URL from ndncert.named-data.net/>
