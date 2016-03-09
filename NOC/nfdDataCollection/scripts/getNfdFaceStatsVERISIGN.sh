@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FACE_IP="128.252.153.194"
+FACE_IP="72.13.58.118"
 
 FIELDS=`nfd-status -f | grep persistent | grep $FACE_IP | cut -d '=' -f 6,7 | cut -d '{' -f 2,3 | cut -d ' ' -f 1-6`
 FIELDS_IN=`echo $FIELDS | cut -d '}' -f 1`
