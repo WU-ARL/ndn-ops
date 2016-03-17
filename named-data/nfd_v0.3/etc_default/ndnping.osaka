@@ -1,6 +1,6 @@
 # defaults for ndnpingserver
 
 # Prefix should be set to a valid value
-PREFIX="/ndn/jp/osaka"
+PREFIX="/ndn/jp/ac/osaka-u"
 
 FLAGS=""

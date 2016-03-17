@@ -1,6 +1,6 @@
 # defaults for nfdstat_c client
 
 # Local Prefix for Interests
-PREFIX="/ndn/jp/osaka/ndnmap/stats"
+PREFIX="/ndn/jp/ac/osaka-u/ndnmap/stats"
 
 FLAGS=""
