@@ -1,6 +1,6 @@
 # defaults for ndnpingserver
 
 # Prefix should be set to a valid value
-PREFIX="/ndn/id/uindonesia"
+PREFIX="/ndn/id/ac/ui"
 
 FLAGS=""

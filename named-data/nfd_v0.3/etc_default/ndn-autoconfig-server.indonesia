@@ -10,4 +10,4 @@ FACE_URI="udp4://152.118.148.103"
 # FACE_URI="udp6://spurs.cs.ucla.edu"
 # FACE_URI="tcp://spurs.cs.ucla.edu"
 
-ROUTABLE_PREFIXES="-p /ndn/id/uindonesia"
+ROUTABLE_PREFIXES="-p /ndn/id/ac/ui"

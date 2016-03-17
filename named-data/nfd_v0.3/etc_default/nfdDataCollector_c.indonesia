@@ -1,6 +1,6 @@
 # defaults for nfdstat_c client
 
 # Local Prefix for Interests
-PREFIX="/ndn/id/uindonesia/script"
+PREFIX="/ndn/id/ac/ui/script"
 
 FLAGS=""

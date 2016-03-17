@@ -12,6 +12,6 @@ sleep 15
 /usr/bin/nfdc set-strategy /localhost     /localhost/nfd/strategy/multicast
 
 # default local access strategy
-nfdc set-strategy ndn:/ndn/id/uindonesia ndn:/localhost/nfd/strategy/access
+nfdc set-strategy ndn:/ndn/id/ac/ui ndn:/localhost/nfd/strategy/access
 
 
