@@ -1,0 +1,24 @@
+# nfd-autoreg defaults
+
+# Blacklisted networks
+BLACKLIST="-b 141.225.11.173/32 -b 128.196.203.36/32 -b 152.118.148.103/32 -b 193.137.75.171/32 "
+# UFPA neighbors:
+# MEMPHIS: 141.225.11.173
+# ARIZONA: 128.196.203.36
+# INDONESIA: 152.118.148.103
+# COPELABS: 193.137.75.171
+
+
+
+# Whitelisted networks
+WHITELIST=""
+
+# Prefixes to register on All faces:
+ALL_FACES_PREFIXES="--all-faces-prefix /ndn/broadcast --all-faces-prefix /ndn/multicast"
+
+# Prefixes to register just on on-demand faces:
+ON_DEMAND_FACES_PREFIXES="--prefix /ndn/br/ufpa"
+
+# Flags
+FLAGS=""
+
