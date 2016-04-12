@@ -51,15 +51,16 @@ for l in $LINKS
 do
 
   echo " ----------------------------------" >> $LOGFILE
-  #echo "testing link $l"
+  echo "testing link $l"
 
   PRESULT=`ping -A -q  -c $PCOUNT $l`
   #ping -A -q  -c $PCOUNT $l
 
   if [ $? -eq 1 ]
   then
-    #echo "ping failed, try traceroute"
+    echo "ping failed, try traceroute"
     #TRESULT=`traceroute  -m $TCOUNT -T -p 6363 $l | tail -1 | sed -e '/ \!H/s///g'`
+    echo "TRESULT=sudo traceroute  -m $TCOUNT -T -p 6363 $l | tail -1 "
     TRESULT=`sudo traceroute  -m $TCOUNT -T -p 6363 $l | tail -1 `
     echo "$TRESULT" | grep " \![HSPXVC]"  >& /dev/null
     if [ $? -eq 0 ]
@@ -67,13 +68,13 @@ do
       echo "ping and traceroute failed, giving up on $THISNODE: NEIGHBOR $l" >> $LOGFILE
       echo "$TRESULT" >> $LOGFILE
     else
-      #echo $TRESULT
+      echo $TRESULT
       TP1=`echo $TRESULT | cut -d ' ' -f 4`
       TP2=`echo $TRESULT | cut -d ' ' -f 6`
       TP3=`echo $TRESULT | cut -d ' ' -f 8`
       TAVG=`echo "scale=3;($TP1 + $TP2 + $TP3)/3.0" | bc -l`
       TMIN=$TP1
-      #echo "TMIN: $TMIN TP1: $TP1 TP2: $TP2 TP3: $TP3"
+      echo "TMIN: $TMIN TP1: $TP1 TP2: $TP2 TP3: $TP3"
       BC_RESULT=`echo "$TMIN > $TP2" | bc -l`
       if [ $? -eq 1 ]
       then
@@ -96,7 +97,7 @@ do
         TMAX=$TP3
       fi
   
-      #echo "NEIGHBOR $l: AVG: $AVG ($TP1 $TP2 $TP3)"
+      echo "NEIGHBOR $l: AVG: $AVG ($TP1 $TP2 $TP3)"
       echo "$THISNODE NEIGHBOR $l: MIN: $TMIN AVG: $TAVG MAX: $TMAX " >> $LOGFILE
     fi
   else
@@ -104,7 +105,7 @@ do
     PAVG=`echo $PRESULT | cut -d '/' -f 4-7 | cut -d ' ' -f 3 | cut -d '/' -f 2`
     PMAX=`echo $PRESULT | cut -d '/' -f 4-7 | cut -d ' ' -f 3 | cut -d '/' -f 3`
     PMDEV=`echo $PRESULT | cut -d '/' -f 4-7 | cut -d ' ' -f 3 | cut -d '/' -f 4`
-    #echo "NEIGHBOR $l: MIN: $PMIN AVG: $PAVG MAX: $PMAX MDEV: $PMDEV"
+    echo "NEIGHBOR $l: MIN: $PMIN AVG: $PAVG MAX: $PMAX MDEV: $PMDEV"
     echo "$THISNODE NEIGHBOR $l: MIN: $PMIN AVG: $PAVG MAX: $PMAX " >> $LOGFILE
   fi
   echo "" >> $LOGFILE
