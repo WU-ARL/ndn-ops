@@ -16,7 +16,7 @@ sudo apt-get -y update
 sudo apt-get -y install nfd-all
 sudo apt-get -y install ndn-cxx nfd nlsr
 sudo apt-get -y install ndn-cxx-dev
-sudo apt-get -y install ndndump
+#sudo apt-get -y install ndndump
 #sudo apt-get -y install ndn-tlv-ping
 sudo apt-get -y install ndn-tools
 sudo apt-get -y install repo-ng
