@@ -2,8 +2,9 @@
   Some configuration files are customized to the individual nodes. The names of these
   files below have a <name> in them. This <name> should be replaced with the name associated
   with the individual node. e.g. wu for Washington University, caida for CAIDA, ucla for UCLA, remap for REMAP, ...
-  Right now (4/1/15), there are 8 such files. Here are the <name> files:
+  ), there are many such files. Here are the <name> files:
       NFD_conf_files/nfd-init.sh.<name> (requires changes to all nfd-init.sh files because of ndnrtc strategy config)
+      NFD_conf_files/nfd.conf.<name> (nfd.conf files now contain a network_region clause that includes the nodes default prefix)
       NLSR_key_scripts/<name>.sh
       etc_default/ndn-autoconfig-server.<name>
       etc_default/ndnping.<name>
@@ -32,7 +33,7 @@
   > popd
 
   > pushd NFD_conf_files/
-  > sudo cp nfd.conf /etc/ndn/
+  > sudo cp nfd.conf.<name> /etc/ndn/nfd.conf
   > sudo cp nfd-init.sh.<name> /etc/ndn/nfd-init.sh
   > popd
 
@@ -47,7 +48,6 @@
 
   > pushd Upstart/
   > sudo cp nfd-autoreg.conf /etc/init/
-  > sudo cp nfd.conf /etc/init/nfd.conf 
   > sudo cp nfd-status-http-server.conf /etc/init/
   > sudo cp nlsr.conf /etc/init/
   > sudo cp nfdstat_c.conf /etc/init/
