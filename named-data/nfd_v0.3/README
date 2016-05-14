@@ -119,3 +119,20 @@ This next set of stuff is for John DeHart to do:
   Notify the folks at Memphis so they can add it to their routing status page (http://netlab.cs.memphis.edu/script/htm/ndn-status/status.htm)
 
 
+Set up the node for automatic updates. Here is a diff of before and after:
+/etc/apt/apt.conf.d$ diff save.50unattended-upgrades.save 50unattended-upgrades
+4c4
+< //	"${distro_id}:${distro_codename}-updates";
+---
+> 	"${distro_id}:${distro_codename}-updates";
+6a7,8
+> // NDN PPA
+>         "LP-PPA-named-data:${distro_codename}";
+38a41
+> Unattended-Upgrade::Mail "jdd@wustl.edu";
+46a50
+> Unattended-Upgrade::Remove-Unused-Dependencies "true";
+50c54
+< //Unattended-Upgrade::Automatic-Reboot "false";
+---
+> Unattended-Upgrade::Automatic-Reboot "false";
