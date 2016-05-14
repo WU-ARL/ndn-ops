@@ -10,17 +10,19 @@
 #    ndn-autoconfig-server
 #
 #    nfd-all covers a bunch of the above, just have to verify what exactly.
+#    NB: nfd-all is no longer appropriate for NDN Testbed gateways. It appears to
+#        include some stuff for client machines.
 
 sudo add-apt-repository ppa:named-data/ppa
 sudo apt-get -y update
-sudo apt-get -y install nfd-all
+#sudo apt-get -y install nfd-all
 sudo apt-get -y install ndn-cxx nfd nlsr
 sudo apt-get -y install ndn-cxx-dev
-#sudo apt-get -y install ndndump
+sudo apt-get -y install ndndump
 #sudo apt-get -y install ndn-tlv-ping
 sudo apt-get -y install ndn-tools
 sudo apt-get -y install repo-ng
-sudo apt-get -y install ndn-autoconfig-server
+sudo apt-get -y install ndn-autoconfig-server nfd-status-http-server nfd-autoreg
 
 git clone http://github.com/WU-ARL/ndnmap
 pushd ndnmap/nfdDataCollection
