@@ -10,7 +10,8 @@ WHITELIST=""
 ALL_FACES_PREFIXES="--all-faces-prefix /ndn/broadcast --all-faces-prefix /ndn/multicast"
 
 # Prefixes to register just on on-demand faces:
-ON_DEMAND_FACES_PREFIXES="--prefix /ndn/guest --prefix /ndn/edu/ucla"
+ON_DEMAND_FACES_PREFIXES="--prefix /ndn/guest "
+#ON_DEMAND_FACES_PREFIXES="--prefix /ndn/guest --prefix /ndn/edu/ucla"
 
 # Flags
 FLAGS=""

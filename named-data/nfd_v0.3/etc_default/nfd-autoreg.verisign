@@ -13,7 +13,8 @@ WHITELIST=""
 ALL_FACES_PREFIXES="--all-faces-prefix /ndn/broadcast --all-faces-prefix /ndn/multicast"
 
 # Prefixes to register just on on-demand faces:
-ON_DEMAND_FACES_PREFIXES="--prefix /ndn/com/verisign"
+ON_DEMAND_FACES_PREFIXES=""
+#ON_DEMAND_FACES_PREFIXES="--prefix /ndn/com/verisign"
 
 # Flags
 FLAGS=""
