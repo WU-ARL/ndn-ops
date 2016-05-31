@@ -1,0 +1,26 @@
+
+Before upgrade, save a copy of:
+/etc/sudoers
+/etc/apt/apt.conf.d/50unattended-upgrades
+
+Before upgrade, disable nfdstat_c and nfdDataCollection_c daemons:
+(we need to do this until we get these two daemons added to the PPA)
+sudo mv /etc/init/nfdstat_c.conf /etc/init/nfdstat_c.conf.disable
+sudo mv /etc/init/nfdDataCollection_c.conf /etc/init/nfdDataCollection_c.conf.disable
+
+
+--- UPGRADE TO 14.04 ---
+
+
+After upgrade, add NDN PPA back in:
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:named-data/ppa
+sudo apt-get update
+
+After upgrade, re-install NDN packages
+sudo apt-get -y update
+sudo apt-get -y install ndn-cxx nfd nlsr
+sudo apt-get -y install ndn-cxx-dev
+sudo apt-get -y install ndndump ndn-tools repo-ng ndn-autoconfig-server nfd-status-http-server nfd-autoreg
+
+
