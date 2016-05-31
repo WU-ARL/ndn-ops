@@ -1,7 +1,7 @@
 # ndn-autoconfig-server defaults
 
 # FaceURI of NDN hub announced to hosts
-FACE_URI="udp4://ndn.cs.unibas.ch"
+FACE_URI="udp4://dmi-ndn-testbed1.dmi.unibas.ch"
 
 # Examples:
 # FACE_URI="udp://spurs.cs.ucla.edu"

@@ -12,5 +12,5 @@ sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-set-default -n /ndn/ch
 sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/ch/unibas/%C1.Operator/ndnops > ~nlsr/unsigned_operator.cert'
 sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-set-default -n /ndn/ch/unibas/nlsr'
 sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-cert-gen -S 201507080000 -E 201810080000 -N "BASEL Operator" -s /ndn/ch/unibas -p /ndn/ch/unibas/%C1.Operator/ndnops -r ~nlsr/unsigned_operator.cert > /etc/ndn/nlsr/keys/operator.cert'
-sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/ch/unibas/%C1.Router/cs-ndn-testbed1 > ~nlsr/unsigned_router.cert'
-sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-cert-gen -S 201507080000 -E 201810080000 -N "BASEL Router cs-ndn-testbed1" -s /ndn/ch/unibas/%C1.Operator/ndnops -p /ndn/ch/unibas/%C1.Router/cs-ndn-testbed1 -r ~nlsr/unsigned_router.cert > /etc/ndn/nlsr/keys/router.cert'
+sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-key-gen -n /ndn/ch/unibas/%C1.Router/dmi-ndn-testbed1 > ~nlsr/unsigned_router.cert'
+sudo su - nlsr -c 'export HOME=/var/lib/ndn/nlsr/; ndnsec-cert-gen -S 201507080000 -E 201810080000 -N "BASEL Router dmi-ndn-testbed1" -s /ndn/ch/unibas/%C1.Operator/ndnops -p /ndn/ch/unibas/%C1.Router/dmi-ndn-testbed1 -r ~nlsr/unsigned_router.cert > /etc/ndn/nlsr/keys/router.cert'
