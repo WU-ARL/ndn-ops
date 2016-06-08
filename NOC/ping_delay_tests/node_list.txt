@@ -20,3 +20,6 @@ BASEL ndn.cs.unibas.ch
 LIP6 ndnhub.ipv6.lip6.fr
 Orange1 161.105.195.18
 SystemX systemx-ndn-1.enst.fr
+NTNU 129.241.208.115
+PADUA ndnnode.math.unipd.it
+VERISIGN 72.13.58.118
