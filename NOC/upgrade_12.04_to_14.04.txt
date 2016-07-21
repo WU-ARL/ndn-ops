@@ -1,0 +1,50 @@
+BEFORE UPGRADE
+  disable nfdstat_c
+    > cd /etc/init
+    > sudo mv nfdstat_c.conf nfdstat_c.conf.disable
+  
+  install ndnmap-data-collector
+    > sudo apt-get update
+    > sudo apt-get install ndnmap-data-collector
+    > sudo cp /etc/default/nfdstat_c /etc/default/ndnmap-data-collector
+    > sudo initctl restart ndnmap-data-collector
+  
+  make sure nfdDataCollector_c is disabled
+    > cd /etc/init
+    > sudo mv nfdDataCollector_c.conf nfdDataCollector_c.conf.disable
+  
+  make a copy of /etc/sudoers file
+    > cd /etc
+    > sudo cp suders sudoers.12.04
+  
+  make a copy of /etc/apt/apt.conf.d/50unattended-upgrades
+    > cd /etc/apt/apt-conf.d/
+    > sudo cp 50unattended-upgrades 50unattended-upgrades.12.04
+
+  check /usr/local for old installations of NDN
+
+
+UPGRADE
+
+  do a release upgrade
+    > sudo do-release-upgrade
+
+
+
+AFTER UPGRADE
+  re-enable NDN PPA
+    > sudo apt-get install software-properties-common
+    > sudo add-apt-repository ppa:named-data/ppa
+    > sudo apt-get update
+
+  re-install NDN packages
+    > sudo apt-get -y install ndn-cxx nfd nlsr
+    > sudo apt-get -y install ndn-cxx-dev
+    > sudo apt-get -y install ndndump
+    > sudo apt-get -y install ndn-tools
+    > sudo apt-get -y install repo-ng
+    > sudo apt-get -y install ndn-autoconfig-server nfd-status-http-server nfd-autoreg
+    > sudo apt-get -y install ndnmap-data-collector
+    > sudo cp /etc/default/nfdstat_c /etc/default/ndnmap-data-collector
+    > sudo initctl restart ndnmap-data-collector
+
