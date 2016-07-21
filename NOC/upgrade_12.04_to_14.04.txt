@@ -37,14 +37,27 @@ AFTER UPGRADE
     > sudo add-apt-repository ppa:named-data/ppa
     > sudo apt-get update
 
-  re-install NDN packages
-    > sudo apt-get -y install ndn-cxx nfd nlsr
-    > sudo apt-get -y install ndn-cxx-dev
-    > sudo apt-get -y install ndndump
-    > sudo apt-get -y install ndn-tools
-    > sudo apt-get -y install repo-ng
-    > sudo apt-get -y install ndn-autoconfig-server nfd-status-http-server nfd-autoreg
-    > sudo apt-get -y install ndnmap-data-collector
-    > sudo cp /etc/default/nfdstat_c /etc/default/ndnmap-data-collector
-    > sudo initctl restart ndnmap-data-collector
+    It actually took a series of updates and installs:
+      sudo apt-get install software-properties-common
+      sudo add-apt-repository ppa:named-data/ppa
+      sudo apt-get update
+      sudo apt-get upgrade
+      sudo apt-get update
+      sudo apt-get upgrade
+      sudo apt-get install ndn-cxx
+      sudo apt-get update
+      sudo apt-get upgrade
+      sudo apt-get install nlsr
+
+  DID NOT NEED THIS:
+    re-install NDN packages
+      > sudo apt-get -y install ndn-cxx nfd nlsr
+      > sudo apt-get -y install ndn-cxx-dev
+      > sudo apt-get -y install ndndump
+      > sudo apt-get -y install ndn-tools
+      > sudo apt-get -y install repo-ng
+      > sudo apt-get -y install ndn-autoconfig-server nfd-status-http-server nfd-autoreg
+      > sudo apt-get -y install ndnmap-data-collector
+      > sudo cp /etc/default/nfdstat_c /etc/default/ndnmap-data-collector
+      > sudo initctl restart ndnmap-data-collector
 
