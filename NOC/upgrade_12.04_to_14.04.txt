@@ -61,3 +61,15 @@ AFTER UPGRADE
       > sudo cp /etc/default/nfdstat_c /etc/default/ndnmap-data-collector
       > sudo initctl restart ndnmap-data-collector
 
+NOTES:
+
+If you get disconnected, do this:
+
+1. Log back in to machine
+2. Verify that there is a upgrade "screen" process still going
+   > sudo screen -list
+3. Attach to it:
+   > sudo screen -r
+4. Wait for it to let you know where it is at and then continue.
+
+
