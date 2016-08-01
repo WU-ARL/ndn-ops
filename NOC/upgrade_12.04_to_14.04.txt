@@ -36,6 +36,11 @@ AFTER UPGRADE
     > sudo apt-get install software-properties-common
     > sudo add-apt-repository ppa:named-data/ppa
     > sudo apt-get update
+    > sudo apt-get install ndn-cxx ndn-cxx-dev
+    > sudo apt-get update
+    > sudo apt-get upgrade
+    > sudo apt-get install nlsr
+    > sudo apt-get autoremove
 
     It actually took a series of updates and installs:
       sudo apt-get install software-properties-common
