@@ -28,7 +28,7 @@
   > sudo cp ndnping.<name> /etc/default/ndnping
   > sudo cp nfd-autoreg.<name>  /etc/default/nfd-autoreg
   > sudo cp ndn-autoconfig-server.<name>  /etc/default/ndn-autoconfig-server
-  > sudo cp nfdstat_c.<name>  /etc/default/ndnmap-data-collector
+  > sudo cp ndnmap-data-collector.<name>  /etc/default/ndnmap-data-collector
   > sudo cp nfd-status-http-server /etc/default/
   > popd
 
