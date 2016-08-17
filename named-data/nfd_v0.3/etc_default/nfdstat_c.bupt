@@ -1,6 +1,0 @@
-# defaults for nfdstat_c client
-
-# Local Prefix for Interests
-PREFIX="/ndn/cn/edu/bupt/ndnmap/stats"
-
-FLAGS=""
