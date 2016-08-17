@@ -1,0 +1,22 @@
+# nfd-autoreg defaults
+
+# Blacklisted networks
+BLACKLIST="-b 134.76.249.235/32 -b 132.227.62.163/32 -b 192.43.193.111/32"
+# TNO neighbors:
+# Goettingen: 134.76.249.235
+# LIP6: 132.227.62.163
+# Basel: 192.43.193.111
+
+# Whitelisted networks
+WHITELIST=""
+
+# Prefixes to register on All faces:
+ALL_FACES_PREFIXES="--all-faces-prefix /ndn/broadcast --all-faces-prefix /ndn/multicast"
+
+# Prefixes to register just on on-demand faces:
+ON_DEMAND_FACES_PREFIXES=""
+#ON_DEMAND_FACES_PREFIXES="--prefix /ndn/nl/tno"
+
+# Flags
+FLAGS=""
+
