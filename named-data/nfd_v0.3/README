@@ -42,7 +42,7 @@
   > popd
 
   > pushd NLSR_conf_files/
-  > sudo cp nlsr_<name>.conf /etc/ndn/nlsr/nlsr.conf
+  > sudo cp nlsr.conf.<name> /etc/ndn/nlsr/nlsr.conf
   > sudo cp log4cxx.conf /etc/ndn/nlsr/
   > popd
 
