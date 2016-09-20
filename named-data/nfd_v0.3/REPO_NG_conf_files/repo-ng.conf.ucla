@@ -4,9 +4,9 @@ repo
   ; Only 'prefix' option is allowed here, which can be repeated multiple times
   data
   {
-    prefix "/KEY"
-    prefix "/ndn/guest/KEY"
-    prefix "/ndn/KEY"
+    ;prefix "/KEY"
+    ;prefix "/ndn/guest/KEY"
+    ;prefix "/ndn/KEY"
     prefix "/ndn/edu/ucla/KEY"
     prefix "/ndn/edu/ucla/cs/KEY"
   }
