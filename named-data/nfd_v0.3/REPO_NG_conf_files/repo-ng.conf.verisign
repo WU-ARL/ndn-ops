@@ -27,7 +27,7 @@ repo
   ; If section is present, then TCP bulk insert is enabled (empty section enables
   ; TCP bulk insert to listen on "localhost:7376")
   tcp_bulk_insert {
-    host "localhost"  ; Set to listen on different IP address or hostname
+    host "127.0.0.1"  ; Set to listen on different IP address or hostname
     port 7376  ; Set to listen on different port number
   }
 

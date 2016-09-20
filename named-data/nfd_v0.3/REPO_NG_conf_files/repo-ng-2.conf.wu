@@ -4,14 +4,14 @@ repo
   ; Only 'prefix' option is allowed here, which can be repeated multiple times
   data
   {
-    prefix "ndn:/ndn/cn/edu/tongji/KEY"
+    prefix "ndn:/ndn/edu/wustl/test/static"
   }
 
   ; Section defining list of command prefixes (to insert or delete Data) to register.
   ; Only 'prefix' option is allowed here, which can be repeated multiple times
   command
   {
-    prefix "ndn:/localhost/repo-ng"
+    prefix "ndn:/localhost/repo-ng-2"
   }
 
   ; Section to specify where data should be stored
@@ -19,7 +19,7 @@ repo
   storage
   {
     method "sqlite"             ; Currently, only sqlite storage engine is supported
-    path "/var/lib/ndn/repo-ng"  ; path to repo-ng storage folder
+    path "/var/lib/ndn/repo-ng-2"  ; path to repo-ng storage folder
     max-packets 100000           ; Maximum number of Data packet repo will store
   }
 
@@ -28,7 +28,7 @@ repo
   ; TCP bulk insert to listen on "localhost:7376")
   tcp_bulk_insert {
     host "127.0.0.1"  ; Set to listen on different IP address or hostname
-    port 7376  ; Set to listen on different port number
+    port 7377  ; Set to listen on different port number
   }
 
   validator
