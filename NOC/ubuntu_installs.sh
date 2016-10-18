@@ -10,9 +10,15 @@ sudo apt-get -y install software-properties-common
 
 sudo apt-get -y install ntp
 
-sudo apt-get -y install python-pip python-apscheduler
-sudo pip install requests
-#sudo pip install requests --upgrade
+#sudo apt-get -y install python-pip python-apscheduler
+#sudo pip install requests
+##sudo pip install requests --upgrade
+
+# needed for pyndn installs
+aptitude install python3-dev python3-setuptools
+easy_install3 pip
+pip3 install requests
+
 sudo apt-get -y install autoconf libtool
 
 sudo apt-get -y install python-dev
