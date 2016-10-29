@@ -33,11 +33,130 @@ repo
     port 7377  ; Set to listen on different port number
   }
 
+  ;validator
+  ;{
+  ;  ; The following rule disables all security in the repo
+  ;  trust-anchor {
+  ;      type any
+  ;  }
+  ;}
+  ;validator
+  ;{
+  ;  rule
+  ;  {  
+  ;    id "repo-ng command Rule"
+  ;    for interest                         ; rule for Interests (to validate CommandInterests)
+  ;    filter
+  ;    {
+  ;      type name                          ; condition on interest name (w/o signature)
+  ;      name /ndn/edu/colostate/repo-ng-2
+  ;      relation is-prefix-of
+  ;    }
+  ;    checker
+  ;    {
+  ;      type hierarchical
+  ;      sig-type rsa-sha256
+  ;    }
+  ;    checker
+  ;    {
+  ;      type hierarchical
+  ;      sig-type sha256
+  ;    }
+  ;  }
+  ;  trust-anchor {
+  ;      type file
+  ;      ;file-name keys/default.ndncert
+  ;      file-name keys/ndn-testbed-root.ndncert.base64
+  ;  }
+  ;}
   validator
   {
-    ; The following rule disables all security in the repo
+    rule
+    {  
+      id "repo-ng command Rule"
+      for interest                         ; rule for Interests (to validate CommandInterests)
+      filter
+      {
+        type name                          
+        regex ^<ndn><edu><colostate><repo-ng-2>*<KEY>*
+        ;name /ndn/edu/colostate/repo-ng-2
+        ;relation is-prefix-of
+      }
+      checker
+      {
+        type customized
+        sig-type rsa-sha256
+        key-locator
+        {
+           type name                        ; key locator must be the certificate name of the
+                                            ; signing key
+           ;regex ^[^<KEY>]*<KEY><>*<ksk-.*><ID-CERT>$
+           regex <ndn><edu><colostate><KEY><>*<ksk-.*><ID-CERT>$
+        }
+      }
+    }
+    rule
+    {
+      id "NDN Testbed Hierarchy Rule"
+      for data                             ; rule for Data (to validate NDN certificates)
+      filter
+      {
+        type name                          ; condition on data name
+        regex ^[^<KEY>]*<KEY><>*<ksk-.*><ID-CERT><>$
+        ;regex ^<ndn><edu><colostate><KEY>*<>*<ksk-.*><ID-CERT><>$
+        ;name /ndn/edu/colostate/
+        ;relation is-prefix-of
+      }
+      checker
+      {
+        type customized
+        sig-type rsa-sha256
+        key-locator
+        {
+           type name                        ; key locator must be the certificate name of the
+                                            ; signing key
+           regex ^[^<KEY>]*<KEY><>*<ksk-.*><ID-CERT>$
+        }
+      }
+      checker
+      {
+        type hierarchical                  ; the certificate name of the signing key and
+                                           ; the data name must follow the hierarchical model
+        sig-type rsa-sha256                ; data must have a rsa-sha256 signature
+      }
+    }
+    rule
+    {
+      id "NDN Data Rule"
+      for data                             ; rule for Data (to validate NDN certificates)
+      filter
+      {
+        type name                          ; condition on data name
+        name /ndn/edu/colostate/
+        relation is-prefix-of
+      }
+      ;checker
+      ;{
+      ;  type customized
+      ;  sig-type rsa-sha256
+      ;  key-locator
+      ;  {
+      ;     type name                        ; key locator must be the certificate name of the
+      ;                                      ; signing key
+      ;     regex ^[^<KEY>]*<KEY><>*<ksk-.*><ID-CERT>$
+      ;  }
+      ;}
+      checker
+      {
+        type hierarchical                  ; the certificate name of the signing key and
+                                           ; the data name must follow the hierarchical model
+        sig-type rsa-sha256                ; data must have a rsa-sha256 signature
+      }
+    }
     trust-anchor {
-        type any
+        type file
+        ;file-name keys/default.ndncert
+        file-name keys/ndn-testbed-root.ndncert.base64
     }
   }
 }
