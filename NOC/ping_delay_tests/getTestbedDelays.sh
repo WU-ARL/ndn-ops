@@ -195,7 +195,7 @@ do
       #  TMAX=$TP3
       #fi
   
-      echo "$DATE: traceroute: $THISNODE to $NODENAME/$HOST ($COUNT results): MIN: $TMIN AVG: $TAVG MAX: $TMAX " >> $LOGFILE
+      echo "$DATE: traceroute: $THISNODE to $NODENAME/$HOST ($COUNT results, in ms): MIN: $TMIN AVG: $TAVG MAX: $TMAX " >> $LOGFILE
     fi
   #else
   #  PMIN=`echo $PRESULT | cut -d '/' -f 4-7 | cut -d ' ' -f 3 | cut -d '/' -f 1`
