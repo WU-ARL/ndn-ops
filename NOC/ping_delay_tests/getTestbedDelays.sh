@@ -32,10 +32,10 @@ do
     else
       echo "Usage: $0 [-q] [-p #] [-t #] [-n <nodename>]"
       echo "Example: $0 -n WU         : to do a test with default settings from node WU"
-      echo "Example: $0 -p 100        : to do a ping test with 100 pings per node pair and print out all ping results"
+      #echo "Example: $0 -p 100        : to do a ping test with 100 pings per node pair and print out all ping results"
       echo "Example: $0 -t 20         : to do a traceroute test with a hop count of 20"
-      echo "Example: $0 -q -p 100     : to do a test with 100 pings per node pair and print out just ping summary"
-      echo "Example: $0               : default is a test with 10 pings per node pair and print out all ping results"
+      #echo "Example: $0 -q -p 100     : to do a test with 100 pings per node pair and print out just ping summary"
+      #echo "Example: $0               : default is a test with 10 pings per node pair and print out all ping results"
       exit
   fi
 done
@@ -70,14 +70,26 @@ do
     echo "$TRESULT" | grep " \![HSPXVC]"  >& /dev/null
     if [ $? -eq 0 ]
     then
-      echo "ping and traceroute failed, giving up on $THISNODE: NEIGHBOR $HOST" >> $LOGFILE
-      echo "$TRESULT" >> $LOGFILE
+      #echo "ping and traceroute failed, giving up on $THISNODE: NEIGHBOR $HOST" >> $LOGFILE
+      echo "traceroute failed, giving up on $THISNODE: NEIGHBOR $NODENAME($HOST)" >> $LOGFILE
+      #echo "$TRESULT" >> $LOGFILE
+      continue
     else
       echo "TRESULT: $TRESULT"
       echo "$TRESULT" | grep " \*"  >& /dev/null
       if [ $? -eq 0 ]
       then
-        echo "   star found"
+        res="${TRESULT//[^*]}"
+        echo "res: $res"
+        echo "#res: ${#res}"
+        echo " ${#res}  star(s) found"
+        STAR_COUNT=${#res}
+        if [ $STAR_COUNT -eq 3 ]
+        then
+          echo "traceroute failed, giving up on $THISNODE: NEIGHBOR $NODENAME($HOST)" >> $LOGFILE
+          #echo "$TRESULT" >> $LOGFILE
+          continue
+        fi
         #echo ${TRESULT//'*'/10000 ms}
         #echo ${TRESULT//'*'/10000 ms}
         #TRESULT_SUB=${TRESULT//'*'/10000 ms}
