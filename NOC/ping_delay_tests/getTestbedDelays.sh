@@ -66,7 +66,7 @@ do
 
   #if [ $? -eq 1 ]
   #then
-    echo "trying traceroute: sudo traceroute -m $TCOUNT -f $TCOUNT -T -p 6363 $HOST | tail -1"
+    #echo "trying traceroute: sudo traceroute -m $TCOUNT -f $TCOUNT -T -p 6363 $HOST | tail -1"
     FULL_TRESULT=`sudo traceroute  -m $TCOUNT -f $TCOUNT -T -p 6363 $HOST | tail -1 `
     TRESULT=`echo "$FULL_TRESULT" | cut -d '(' -f 2`
     echo "$TRESULT" | grep " \![HSPXVC]"  >& /dev/null
