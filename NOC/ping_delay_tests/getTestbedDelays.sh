@@ -158,11 +158,11 @@ do
         then
           TMIN=$TP3
         fi
-        BC_RESULT=`echo "$TMAX < $TP2" | bc -l`
+        BC_RESULT=`echo "$TMAX < $TP3" | bc -l`
         echo "BC_RESULT: $BC_RESULT"
         if  [ $BC_RESULT -eq 1 ]
         then
-          TMAX=$TP2
+          TMAX=$TP3
         fi
       fi
       echo "TMIN: $TMIN"
