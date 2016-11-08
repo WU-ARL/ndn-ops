@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-PCOUNT=10
+#PCOUNT=10
 TCOUNT=40
 QUIET=0
 THISNODE="WU"
@@ -9,12 +9,13 @@ THISNODE="WU"
 
 while [ $# -ge 1 ]
 do
-  if [ $1 = "-p" ]
-  then
-    PCOUNT=$2
-    shift
-    shift
-  elif [ $1 = "-t" ]
+  #if [ $1 = "-p" ]
+  #then
+  #  PCOUNT=$2
+  #  shift
+  #  shift
+  #elif [ $1 = "-t" ]
+  if [ $1 = "-t" ]
     then
       TCOUNT=$2
       shift
@@ -39,8 +40,9 @@ do
   fi
 done
 
-DATE=`date +%d_%H.%M.%S`
+DATE=`date +%Y_%m_%d_%H.%M.%S`
 LOGFILE="TESTBED_DELAYS/$THISNODE/getTestbedDelays.$DATE"
+echo "LOGFILE: $LOGFILE"
 mkdir -p TESTBED_DELAYS/$THISNODE
 
 echo "Testing Link delays from node $THISNODE" >& $LOGFILE
@@ -51,58 +53,144 @@ do
   NODENAME=${LINE[0]}
   HOST=${LINE[1]}
 
+  if [ "$THISNODE" = "$NODENAME" ]
+  then
+    continue
+  fi
+
   echo " ----------------------------------" >> $LOGFILE
 
-  PRESULT=`ping -A -q  -c $PCOUNT $HOST`
+  #PRESULT=`ping -A -q  -c $PCOUNT $HOST`
 
-  if [ $? -eq 1 ]
-  then
-    TRESULT=`sudo traceroute  -m $TCOUNT -T -p 6363 $HOST | tail -1 `
+  #if [ $? -eq 1 ]
+  #then
+    echo "trying traceroute: sudo traceroute -m $TCOUNT -f $TCOUNT -T -p 6363 $HOST | tail -1"
+    FULL_TRESULT=`sudo traceroute  -m $TCOUNT -f $TCOUNT -T -p 6363 $HOST | tail -1 `
+    TRESULT=`echo "$FULL_TRESULT" | cut -d '(' -f 2`
     echo "$TRESULT" | grep " \![HSPXVC]"  >& /dev/null
     if [ $? -eq 0 ]
     then
       echo "ping and traceroute failed, giving up on $THISNODE: NEIGHBOR $HOST" >> $LOGFILE
       echo "$TRESULT" >> $LOGFILE
     else
-      #echo $TRESULT
-      TP1=`echo $TRESULT | cut -d ' ' -f 4`
-      TP2=`echo $TRESULT | cut -d ' ' -f 6`
-      TP3=`echo $TRESULT | cut -d ' ' -f 8`
-      TAVG=`echo "scale=3;($TP1 + $TP2 + $TP3)/3.0" | bc -l`
-      TMIN=$TP1
+      echo "TRESULT: $TRESULT"
+      echo "$TRESULT" | grep " \*"  >& /dev/null
+      if [ $? -eq 0 ]
+      then
+        echo "   star found"
+        #echo ${TRESULT//'*'/10000 ms}
+        #echo ${TRESULT//'*'/10000 ms}
+        #TRESULT_SUB=${TRESULT//'*'/10000 ms}
+        TRESULT_SUB=${TRESULT//'*'/}
+        TRESULT="$TRESULT_SUB"
+        echo "after substitution TRESULT: $TRESULT"
+        #TP1=`echo $TRESULT | cut -d ' ' -f 2`
+        #TP2=`echo $TRESULT | cut -d ' ' -f 4`
+        #TP3=`echo $TRESULT | cut -d ' ' -f 6`
+      else
+        echo "no star found"
+        #TP1=`echo $TRESULT | cut -d ' ' -f 2`
+        #TP2=`echo $TRESULT | cut -d ' ' -f 4`
+        #TP3=`echo $TRESULT | cut -d ' ' -f 6`
+      fi
+      TP1=`echo $TRESULT | cut -d ' ' -f 2`
+      TP2=`echo $TRESULT | cut -d ' ' -f 4`
+      TP3=`echo $TRESULT | cut -d ' ' -f 6`
+      #echo "TRESULT: $TRESULT"
+      echo "TP1: >$TP1<"
+      echo "TP2: >$TP2<"
+      echo "TP3: >$TP3<"
+      SUM_STRING="0"
+      COUNT=0
+      if [ -n "$TP1" ]
+      then
+        SUM_STRING="$SUM_STRING + $TP1"
+        COUNT=$(($COUNT+1))
+      fi
+      if [ -n "$TP2" ]
+      then
+        SUM_STRING="$SUM_STRING + $TP2"
+        COUNT=$(($COUNT+1))
+      fi
+      if [ -n "$TP3" ]
+      then
+        SUM_STRING="$SUM_STRING + $TP3"
+        COUNT=$(($COUNT+1))
+      fi
+      #TAVG=`echo "scale=3;($TP1 + $TP2 + $TP3)/3.0" | bc -l`
+      if [ $COUNT -gt 0 ]
+      then
+        echo "SUM_STRING: $SUM_STRING"
+        echo "COUNT: $COUNT"
+        TAVG=`echo "scale=3;($SUM_STRING)/$COUNT" | bc -l`
+        echo "TAVG: $TAVG"
+      else
+        echo "No samples found, exit"
+        exit
+      fi
+      TMIN=100000
+      TMAX=0
+      if [ -n "$TP1" ]
+      then
+        TMIN=$TP1
+        TMAX=$TP1
+      fi
       #echo "TMIN: $TMIN TP1: $TP1 TP2: $TP2 TP3: $TP3"
-      BC_RESULT=`echo "$TMIN > $TP2" | bc -l`
-      if [ $? -eq 1 ]
+      if [ -n "$TP2" ]
       then
-        TMIN=$TP2
+        BC_RESULT=`echo "$TMIN > $TP2" | bc -l`
+        if [ $? -eq 1 ]
+        then
+          TMIN=$TP2
+        fi
+        BC_RESULT=`echo "$TMAX < $TP2" | bc -l`
+        echo "BC_RESULT: $BC_RESULT"
+        if  [ $BC_RESULT -eq 1 ]
+        then
+          TMAX=$TP2
+        fi
       fi
-      BC_RESULT=`echo "$TMIN > $TP3" | bc -l`
-      if  [ $BC_RESULT -eq 1 ]
+      if [ -n "$TP3" ]
       then
-        TMIN=$TP3
+        BC_RESULT=`echo "$TMIN > $TP3" | bc -l`
+        echo "BC_RESULT: $BC_RESULT"
+        if  [ $BC_RESULT -eq 1 ]
+        then
+          TMIN=$TP3
+        fi
+        BC_RESULT=`echo "$TMAX < $TP2" | bc -l`
+        echo "BC_RESULT: $BC_RESULT"
+        if  [ $BC_RESULT -eq 1 ]
+        then
+          TMAX=$TP2
+        fi
       fi
-      TMAX=$TP1
-      BC_RESULT=`echo "$TMAX < $TP2" | bc -l`
-      if  [ $? -eq 1 ]
-      then
-        TMAX=$TP2
-      fi
-      BC_RESULT=`echo "$TMAX < $TP3" | bc -l`
-      if  [ $BC_RESULT -eq 1 ]
-      then
-        TMAX=$TP3
-      fi
-  
-      echo "$THISNODE to remote $NODENAME/$HOST: MIN: $TMIN AVG: $TAVG MAX: $TMAX " >> $LOGFILE
-    fi
-  else
-    PMIN=`echo $PRESULT | cut -d '/' -f 4-7 | cut -d ' ' -f 3 | cut -d '/' -f 1`
-    PAVG=`echo $PRESULT | cut -d '/' -f 4-7 | cut -d ' ' -f 3 | cut -d '/' -f 2`
-    PMAX=`echo $PRESULT | cut -d '/' -f 4-7 | cut -d ' ' -f 3 | cut -d '/' -f 3`
-    PMDEV=`echo $PRESULT | cut -d '/' -f 4-7 | cut -d ' ' -f 3 | cut -d '/' -f 4`
+      echo "TMIN: $TMIN"
+      echo "TMAX: $TMAX"
 
-    echo "$THISNODE to remote $NODENAME/$HOST: MIN: $PMIN AVG: $PAVG MAX: $PMAX " >> $LOGFILE
-  fi
+      #TMAX=$TP1
+      #BC_RESULT=`echo "$TMAX < $TP2" | bc -l`
+      #if  [ $? -eq 1 ]
+      #then
+      #  TMAX=$TP2
+      #fi
+      #BC_RESULT=`echo "$TMAX < $TP3" | bc -l`
+      #echo "BC_RESULT: $BC_RESULT"
+      #if  [ $BC_RESULT -eq 1 ]
+      #then
+      #  TMAX=$TP3
+      #fi
+  
+      echo "$DATE: traceroute: $THISNODE to remote $NODENAME/$HOST ($COUNT results): MIN: $TMIN AVG: $TAVG MAX: $TMAX " >> $LOGFILE
+    fi
+  #else
+  #  PMIN=`echo $PRESULT | cut -d '/' -f 4-7 | cut -d ' ' -f 3 | cut -d '/' -f 1`
+  #  PAVG=`echo $PRESULT | cut -d '/' -f 4-7 | cut -d ' ' -f 3 | cut -d '/' -f 2`
+  #  PMAX=`echo $PRESULT | cut -d '/' -f 4-7 | cut -d ' ' -f 3 | cut -d '/' -f 3`
+  #  PMDEV=`echo $PRESULT | cut -d '/' -f 4-7 | cut -d ' ' -f 3 | cut -d '/' -f 4`
+#
+#    echo "ping: $THISNODE to remote $NODENAME/$HOST: MIN: $PMIN AVG: $PAVG MAX: $PMAX " >> $LOGFILE
+#  fi
   echo "" >> $LOGFILE
 
 done < $filename
