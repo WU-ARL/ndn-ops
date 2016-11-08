@@ -42,7 +42,7 @@ done
 
 DATE=`date +%Y_%m_%d_%H.%M.%S`
 LOGFILE="TESTBED_DELAYS/$THISNODE/getTestbedDelays.$DATE"
-echo "LOGFILE: $LOGFILE"
+#echo "LOGFILE: $LOGFILE"
 mkdir -p TESTBED_DELAYS/$THISNODE
 
 echo "Testing Link delays from node $THISNODE" >& $LOGFILE
@@ -71,22 +71,24 @@ do
     if [ $? -eq 0 ]
     then
       #echo "ping and traceroute failed, giving up on $THISNODE: NEIGHBOR $HOST" >> $LOGFILE
-      echo "traceroute failed, giving up on $THISNODE: NEIGHBOR $NODENAME($HOST)" >> $LOGFILE
+      echo "$DATE: traceroute failed, giving up on $THISNODE to $NODENAME($HOST)" >> $LOGFILE
+      echo "" >> $LOGFILE
       #echo "$TRESULT" >> $LOGFILE
       continue
     else
-      echo "TRESULT: $TRESULT"
+      #echo "TRESULT: $TRESULT"
       echo "$TRESULT" | grep " \*"  >& /dev/null
       if [ $? -eq 0 ]
       then
         res="${TRESULT//[^*]}"
-        echo "res: $res"
-        echo "#res: ${#res}"
-        echo " ${#res}  star(s) found"
+        #echo "res: $res"
+        #echo "#res: ${#res}"
+        #echo " ${#res}  star(s) found"
         STAR_COUNT=${#res}
         if [ $STAR_COUNT -eq 3 ]
         then
-          echo "traceroute failed, giving up on $THISNODE: NEIGHBOR $NODENAME($HOST)" >> $LOGFILE
+          echo "$DATE: traceroute failed, giving up on $THISNODE to $NODENAME($HOST)" >> $LOGFILE
+          echo "" >> $LOGFILE
           #echo "$TRESULT" >> $LOGFILE
           continue
         fi
@@ -95,12 +97,12 @@ do
         #TRESULT_SUB=${TRESULT//'*'/10000 ms}
         TRESULT_SUB=${TRESULT//'*'/}
         TRESULT="$TRESULT_SUB"
-        echo "after substitution TRESULT: $TRESULT"
+        #echo "after substitution TRESULT: $TRESULT"
         #TP1=`echo $TRESULT | cut -d ' ' -f 2`
         #TP2=`echo $TRESULT | cut -d ' ' -f 4`
         #TP3=`echo $TRESULT | cut -d ' ' -f 6`
-      else
-        echo "no star found"
+      #else
+        #echo "no star found"
         #TP1=`echo $TRESULT | cut -d ' ' -f 2`
         #TP2=`echo $TRESULT | cut -d ' ' -f 4`
         #TP3=`echo $TRESULT | cut -d ' ' -f 6`
@@ -109,9 +111,9 @@ do
       TP2=`echo $TRESULT | cut -d ' ' -f 4`
       TP3=`echo $TRESULT | cut -d ' ' -f 6`
       #echo "TRESULT: $TRESULT"
-      echo "TP1: >$TP1<"
-      echo "TP2: >$TP2<"
-      echo "TP3: >$TP3<"
+      #echo "TP1: >$TP1<"
+      #echo "TP2: >$TP2<"
+      #echo "TP3: >$TP3<"
       SUM_STRING="0"
       COUNT=0
       if [ -n "$TP1" ]
@@ -132,10 +134,10 @@ do
       #TAVG=`echo "scale=3;($TP1 + $TP2 + $TP3)/3.0" | bc -l`
       if [ $COUNT -gt 0 ]
       then
-        echo "SUM_STRING: $SUM_STRING"
-        echo "COUNT: $COUNT"
+        #echo "SUM_STRING: $SUM_STRING"
+        #echo "COUNT: $COUNT"
         TAVG=`echo "scale=3;($SUM_STRING)/$COUNT" | bc -l`
-        echo "TAVG: $TAVG"
+        #echo "TAVG: $TAVG"
       else
         echo "No samples found, exit"
         exit
@@ -156,7 +158,7 @@ do
           TMIN=$TP2
         fi
         BC_RESULT=`echo "$TMAX < $TP2" | bc -l`
-        echo "BC_RESULT: $BC_RESULT"
+        #echo "BC_RESULT: $BC_RESULT"
         if  [ $BC_RESULT -eq 1 ]
         then
           TMAX=$TP2
@@ -165,20 +167,20 @@ do
       if [ -n "$TP3" ]
       then
         BC_RESULT=`echo "$TMIN > $TP3" | bc -l`
-        echo "BC_RESULT: $BC_RESULT"
+        #echo "BC_RESULT: $BC_RESULT"
         if  [ $BC_RESULT -eq 1 ]
         then
           TMIN=$TP3
         fi
         BC_RESULT=`echo "$TMAX < $TP3" | bc -l`
-        echo "BC_RESULT: $BC_RESULT"
+        #echo "BC_RESULT: $BC_RESULT"
         if  [ $BC_RESULT -eq 1 ]
         then
           TMAX=$TP3
         fi
       fi
-      echo "TMIN: $TMIN"
-      echo "TMAX: $TMAX"
+      #echo "TMIN: $TMIN"
+      #echo "TMAX: $TMAX"
 
       #TMAX=$TP1
       #BC_RESULT=`echo "$TMAX < $TP2" | bc -l`
@@ -193,7 +195,7 @@ do
       #  TMAX=$TP3
       #fi
   
-      echo "$DATE: traceroute: $THISNODE to remote $NODENAME/$HOST ($COUNT results): MIN: $TMIN AVG: $TAVG MAX: $TMAX " >> $LOGFILE
+      echo "$DATE: traceroute: $THISNODE to $NODENAME/$HOST ($COUNT results): MIN: $TMIN AVG: $TAVG MAX: $TMAX " >> $LOGFILE
     fi
   #else
   #  PMIN=`echo $PRESULT | cut -d '/' -f 4-7 | cut -d ' ' -f 3 | cut -d '/' -f 1`
