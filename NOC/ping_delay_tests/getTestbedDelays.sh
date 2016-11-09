@@ -40,7 +40,7 @@ do
   fi
 done
 
-DATE=`date +%Y_%m_%d`
+DATE=`date -u +%Y_%m_%d`
 #DATE_AND_TIME=`date +%Y_%m_%d_%H.%M.%S`
 DATE_AND_TIME_UTC=`date -u`
 LOGFILE="TESTBED_DELAYS/$THISNODE/getTestbedDelays.$DATE"
