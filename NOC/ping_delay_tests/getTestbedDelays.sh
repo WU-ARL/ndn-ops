@@ -41,13 +41,14 @@ do
 done
 
 DATE=`date +%Y_%m_%d`
-DATE_AND_TIME=`date +%Y_%m_%d_%H.%M.%S`
+#DATE_AND_TIME=`date +%Y_%m_%d_%H.%M.%S`
+DATE_AND_TIME_UTC=`date -u`
 LOGFILE="TESTBED_DELAYS/$THISNODE/getTestbedDelays.$DATE"
 #echo "LOGFILE: $LOGFILE"
 mkdir -p TESTBED_DELAYS/$THISNODE
 
 touch $LOGFILE
-echo "Testing Link delays from node $THISNODE at $DATE_AND_TIME" >> $LOGFILE
+echo "Testing Link delays from node $THISNODE at $DATE_AND_TIME_UTC" >> $LOGFILE
 
 filename="full_node_list.txt"
 while read -a LINE ;
@@ -73,7 +74,7 @@ do
     if [ $? -eq 0 ]
     then
       #echo "ping and traceroute failed, giving up on $THISNODE: NEIGHBOR $HOST" >> $LOGFILE
-      echo "$DATE_AND_TIME: traceroute failed, giving up on $THISNODE to $NODENAME($HOST)" >> $LOGFILE
+      echo "$DATE_AND_TIME_UTC: traceroute failed, giving up on $THISNODE to $NODENAME($HOST)" >> $LOGFILE
       echo "" >> $LOGFILE
       #echo "$TRESULT" >> $LOGFILE
       continue
@@ -89,7 +90,7 @@ do
         STAR_COUNT=${#res}
         if [ $STAR_COUNT -eq 3 ]
         then
-          echo "$DATE_AND_TIME: traceroute failed, giving up on $THISNODE to $NODENAME($HOST)" >> $LOGFILE
+          echo "$DATE_AND_TIME_UTC: traceroute failed, giving up on $THISNODE to $NODENAME($HOST)" >> $LOGFILE
           echo "" >> $LOGFILE
           #echo "$TRESULT" >> $LOGFILE
           continue
@@ -197,7 +198,7 @@ do
       #  TMAX=$TP3
       #fi
   
-      echo "$DATE_AND_TIME: traceroute: $THISNODE to $NODENAME/$HOST ($COUNT results, in ms): MIN: $TMIN AVG: $TAVG MAX: $TMAX " >> $LOGFILE
+      echo "$DATE_AND_TIME_UTC: traceroute: $THISNODE to $NODENAME/$HOST ($COUNT results, in ms): MIN: $TMIN AVG: $TAVG MAX: $TMAX " >> $LOGFILE
     fi
   #else
   #  PMIN=`echo $PRESULT | cut -d '/' -f 4-7 | cut -d ' ' -f 3 | cut -d '/' -f 1`
