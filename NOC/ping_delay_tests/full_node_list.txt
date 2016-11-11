@@ -5,7 +5,7 @@ TONGJI cnlab.tongji.edu.cn
 ORANGE 161.105.195.18
 GOETTINGEN 134.76.249.235
 ARIZONA hobo.cs.arizona.edu
-BYU pasta10.cs.byu.edu
+BYU 128.187.81.12
 CSU ndn.netsec.colostate.edu
 UIUC ndnx.cs.illinois.edu
 MEMPHIS titan.cs.memphis.edu
