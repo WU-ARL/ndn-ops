@@ -3,10 +3,10 @@ BASEL /ndn/ch/unibas
 BUPT /ndn/cn/edu/bupt
 TONGJI /ndn/cn/edu/tongji
 ORANGE /ndn/com/orange
-GOETTINGEN /ndn/edu/uni-goettingen
+GOETTINGEN /ndn/de/uni-goettingen
 ARIZONA /ndn/edu/arizona
 BYU /ndn/edu/byu
-CSU /ndn/edu/csu
+CSU /ndn/edu/colostate
 UIUC /ndn/edu/illinois
 MEMPHIS /ndn/edu/memphis
 NEU /ndn/edu/neu
