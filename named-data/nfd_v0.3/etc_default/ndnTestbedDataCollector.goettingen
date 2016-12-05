@@ -1,0 +1,6 @@
+# defaults for ndnTestbedDataCollector client
+
+# Local Prefix for Interests
+PREFIX="/ndn/de/uni-goettingen/script"
+
+FLAGS=""

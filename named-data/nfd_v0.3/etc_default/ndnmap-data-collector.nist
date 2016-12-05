@@ -1,0 +1,6 @@
+# defaults for ndnmap-data-collector client
+
+# Local Prefix for Interests
+PREFIX="/ndn/gov/nist/ndnmap/stats"
+
+FLAGS=""

@@ -23,6 +23,7 @@ sudo apt-get -y install ndndump
 sudo apt-get -y install ndn-tools
 sudo apt-get -y install repo-ng
 sudo apt-get -y install ndn-autoconfig-server nfd-status-http-server nfd-autoreg
+sudo apt-get -y install ndnmap-data-collector
 
 git clone http://github.com/WU-ARL/ndnmap
 pushd ndnmap/nfdDataCollection

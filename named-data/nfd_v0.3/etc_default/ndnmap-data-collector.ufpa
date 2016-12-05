@@ -1,0 +1,6 @@
+# defaults for ndnmap-data-collector client
+
+# Local Prefix for Interests
+PREFIX="/ndn/br/ufpa/ndnmap/stats"
+
+FLAGS=""

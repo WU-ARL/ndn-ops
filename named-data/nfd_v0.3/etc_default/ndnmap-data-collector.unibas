@@ -1,0 +1,6 @@
+# defaults for ndnmap-data-collector client
+
+# Local Prefix for Interests
+PREFIX="/ndn/ch/unibas/ndnmap/stats"
+
+FLAGS=""

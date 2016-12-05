@@ -8,7 +8,7 @@
       NLSR_key_scripts/<name>.sh
       etc_default/ndn-autoconfig-server.<name>
       etc_default/ndnping.<name>
-      etc_default/nfdstat_c.<name>
+      etc_default/ndnmap-data-collector.<name>
       etc_default/nfd-autoreg.<name>  (requires changes to neighbors nfd-autoreg files also)
       NLSR_conf_files/nlsr_<name>.conf  (requires changes to neighbors NLSR conf files also)
       REPO_NG_conf_files/repo-ng.conf.<name>
@@ -28,7 +28,7 @@
   > sudo cp ndnping.<name> /etc/default/ndnping
   > sudo cp nfd-autoreg.<name>  /etc/default/nfd-autoreg
   > sudo cp ndn-autoconfig-server.<name>  /etc/default/ndn-autoconfig-server
-  > sudo cp nfdstat_c.<name>  /etc/default/nfdstat_c
+  > sudo cp ndnmap-data-collector.<name>  /etc/default/ndnmap-data-collector
   > sudo cp nfd-status-http-server /etc/default/
   > popd
 
@@ -42,7 +42,7 @@
   > popd
 
   > pushd NLSR_conf_files/
-  > sudo cp nlsr_<name>.conf /etc/ndn/nlsr/nlsr.conf
+  > sudo cp nlsr.conf.<name> /etc/ndn/nlsr/nlsr.conf
   > sudo cp log4cxx.conf /etc/ndn/nlsr/
   > popd
 
@@ -50,7 +50,6 @@
   > sudo cp nfd-autoreg.conf /etc/init/
   > sudo cp nfd-status-http-server.conf /etc/init/
   > sudo cp nlsr.conf /etc/init/
-  > sudo cp nfdstat_c.conf /etc/init/
   > sudo cp ndn-autoconfig-server.conf /etc/init/
   > popd
 
