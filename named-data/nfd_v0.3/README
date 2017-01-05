@@ -79,7 +79,7 @@
 
     Alex@UCLA will do his thing and I'll get email back with a cert to install with ndnsec-cert-install (as ndnsec user!)
 
-    ndnsec> ndnsec-cert-intall -I -K -f  <URL from ndncert.named-data.net/>
+    ndnsec> ndnsec-cert-install -I -K -f  <URL from ndncert.named-data.net/>
     ndnsec> ndnsec-set-default -n <site-prefix>
     ndnsec> ndnsec-cert-dump -i <site-prefix> >& default.ndncert
     ndnsec> exit
