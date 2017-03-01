@@ -105,8 +105,8 @@ hyperbolic
                         ; to test hyperbolic routing and compare with link state routing.
 
 
-  radius   123.456      ; radius of the router in hyperbolic coordinate system
-  angle    1.45         ; angle of the router in hyperbolic coordinate system
+  radius   13.4257788268795      ; radius of the router in hyperbolic coordinate system
+  angle    2.97670405522002         ; angle of the router in hyperbolic coordinate system
 }
 
 
