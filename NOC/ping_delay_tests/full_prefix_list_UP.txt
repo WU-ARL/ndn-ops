@@ -1,6 +1,7 @@
 UFPA /ndn/br/ufpa
 BASEL /ndn/ch/unibas
 BUPT /ndn/cn/edu/bupt
+PKUSZ /ndn/cn/edu/pkusz
 TONGJI /ndn/cn/edu/tongji
 GOETTINGEN /ndn/de/uni-goettingen
 ARIZONA /ndn/edu/arizona
@@ -18,8 +19,10 @@ URJC /ndn/es/urjc
 SystemX /ndn/fr/irt-systemx
 LIP6 /ndn/fr/lip6
 NIST /ndn/gov/nist
+INDONESIA /ndn/id/ac/ui
 PADUA /ndn/it/unipd
 OSAKA /ndn/jp/ac/osaka-u
+WASEDA /ndn/jp/waseda
 ANYANG /ndn/kr/anyang
 KISTI /ndn/kr/re/kisti
 TNO /ndn/nl/tno
@@ -27,4 +30,5 @@ NTNU /ndn/no/ntnu
 CAIDA /ndn/org/caida
 COPELABS /ndn/pt/ulusofona/copelabs
 MINHO /ndn/pt/uminho
+MSU /ndn/th/ac/msu
 SRRU /ndn/th/ac/srru
