@@ -5,7 +5,8 @@
 sleep 15
 
 # set default strategy to best-route (bestroute2)
-/usr/bin/nfdc set-strategy ndn:/ ndn:/localhost/nfd/strategy/best-route
+#/usr/bin/nfdc set-strategy ndn:/ ndn:/localhost/nfd/strategy/best-route
+/usr/bin/nfdc set-strategy ndn:/ ndn:/localhost/nfd/strategy/asf
 
 # set broadcast strategy
 /usr/bin/nfdc set-strategy /ndn/broadcast /localhost/nfd/strategy/multicast
