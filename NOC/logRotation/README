@@ -1,0 +1,5 @@
+No longer controlled from here.
+rotateLogs.sh is now maintained in the Ansible repo tree
+and run from NOC/bin/rotateLogs.sh
+
+
