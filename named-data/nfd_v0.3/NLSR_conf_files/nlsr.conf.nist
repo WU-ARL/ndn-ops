@@ -72,14 +72,14 @@ neighbors
    {
        name /ndn/edu/neu/%C1.Router/ndnrtr        ; name prefix of the neighbor router consists
                                             ; of network, site-name and router-name
-       face-uri  udp4://129.10.52.193                 ; face id of the face connected to the neighbor
+       face-uri  udp4://129.10.224.42                 ; face id of the face connected to the neighbor
        link-cost  12                         ; cost of the connecting link to neighbor
    }
    neighbor   ; MICHIGAN
    {
        name /ndn/edu/umich/%C1.Router/ndn0        ; name prefix of the neighbor router consists
                                             ; of network, site-name and router-name
-       face-uri  udp4://ndn0.eecs.umich.edu                 ; face id of the face connected to the neighbor
+       face-uri  udp4://198.111.224.197     ; face id of the face connected to the neighbor
        link-cost  13                         ; cost of the connecting link to neighbor
    }
    neighbor   ; UIUC
